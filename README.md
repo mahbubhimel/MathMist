@@ -1,1 +1,9 @@
-# MathMist
+# MathMist: A Parallel Multilingual Benchmark Dataset for Mathematical Problem Solving and Reasoning
+
+_**Abstract:** Mathematical reasoning remains one of the most challenging domains for large language models (LLMs), requiring not only linguistic understanding but also structured logical deduction and numerical precision. While recent LLMs demonstrate strong general-purpose reasoning abilities, their mathematical competence across diverse languages remains underexplored. Existing benchmarks primarily focus on English or a narrow subset of high-resource languages, leaving significant gaps in assessing multilingual and cross-lingual mathematical reasoning. To address this, we introduce \textbf{{\dataname}}, a parallel multilingual benchmark for mathematical problem solving and reasoning. {{\dataname}} encompasses over 21K aligned question–answer pairs across seven languages, representing a balanced coverage of high-, medium-, and low-resource linguistic settings. The dataset captures linguistic variety, multiple types of problem settings, and solution synthesizing capabilities. We systematically evaluate a diverse suite of models, including open-source small and medium LLMs, proprietary systems, and multilingual-reasoning-focused models, under zero-shot, chain-of-thought (CoT), and code-switched CoT prompting paradigms. Our results reveal persistent deficiencies in LLMs’ ability to perform consistent and interpretable mathematical reasoning across languages, with pronounced degradation in low-resource settings._
+
+<p align="center">
+  <img src="Assets/methodology.png" alt="Methodology Diagram"/>
+</p>
+
+Fig: Overview of MathMist data creation and evaluation pipeline. **(Left)** Data Sourcing and corpus creation uses Gemini OCR on textbooks, stores data to JSONL, and applies human verification. **(Center)** Synthetic data generation encompasses Multiple Choice Question (MCQ) generation, Cross-Lingual Translation, and Solution Perturbation. **(Right)** The evaluation process tests various LLMs under different prompt settings.
