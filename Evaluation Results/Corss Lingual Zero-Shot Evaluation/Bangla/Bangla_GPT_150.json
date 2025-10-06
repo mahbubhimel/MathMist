@@ -1,0 +1,2702 @@
+[
+  {
+    "problem_index": 0,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "$\\frac{1}{\\sqrt{2}}$ এবং $\\sqrt{2}$ এর মধ্যে একটি মূলদ এবং একটি অমূলদ সংখ্যা নির্ণয় কর।",
+    "generated_answer": "মূলদ সংখ্যা: ১  \nঅমূলদ সংখ্যা: $\\frac{\\sqrt{3}}{2}$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "মূলদ সংখ্যা: ১ অমূলদ সংখ্যা: $\\frac{√(3)}{2}",
+    "extracted_final_answers": [
+      "মূলদ সংখ্যা: ১ অমূলদ সংখ্যা: $\\frac{√(3)}{2}"
+    ],
+    "exact_answer": "$a=1.2 and b= 1.020020002 দুইটি নির্ণেয় সংখ্যা যার মধ্যে a মূলদ এবং b অমূলদ।$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "নিচের সংখ্যাটি কি মূলদ নাকি অমূলদ?:  $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "Explanation: কারণ ১৪/৯ একটি ভগ্নাংশ, তাই এটি মূলদ।  \n<final>মূলদ</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "মূলদ",
+    "extracted_final_answers": [
+      "মূলদ"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ সংখ্যাটি মূলদ।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "নিচের সংখ্যাটি কি মূলদ নাকি অমূলদ?:\n $5.639$",
+    "generated_answer": "Explanation: এটি একটি সীমিত দশমিক, তাই ভগ্নাংশে প্রকাশ করা যায়, ফলে এটি মূলদ।  \n<final>মূলদ</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "মূলদ",
+    "extracted_final_answers": [
+      "মূলদ"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ সংখ্যাটি মূলদ।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "$\\sqrt{5}$ ও $4$ দুইটি বাস্তব সংখ্যা। $\\sqrt{5}$ ও $4$ এর মধ্যে দুইটি অমূলদ সংখ্যা নির্ণয় কর।",
+    "generated_answer": "√৬, π\n\n<final>√৬, π</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√৬, π",
+    "extracted_final_answers": [
+      "√৬, π"
+    ],
+    "exact_answer": "$a=2.4040040004$ ও $b=2.5050050005$ নির্ণেয় সংখ্যাদ্বয় যেখানে উভয় সংখ্যাই অমূলদ।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "$\\sqrt{5}$ ও $4$ দুইটি বাস্তব সংখ্যা।\nপ্রমাণ কর যে, $\\sqrt{5}$ একটি অমূলদ সংখ্যা।",
+    "generated_answer": "প্রমাণ সংক্ষেপ: যদি $\\sqrt5=\\frac{p}{q}$ (পূর্বধরি ভগ্নাংশে), তবে $5q^{2}=p^{2}$ থেকে $p$ ও $q$ উভয়ই ৫ দ্বারা বিভাজ্য, যা স্বাভাবিকীকৃত ভগ্নাংশের শর্তের সাথে বিরোধ করে; তাই $\\sqrt5$ অমূলদ।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "প্রমাণ সংক্ষেপ: যদি $\\sqrt5=(p)/(q)$ (পূর্বধরি ভগ্নাংশে), তবে $5q^{2}=p^{2}$ থেকে $p$ ও $q$ উভয়ই ৫ দ্বারা বিভাজ্য, যা স্বাভাবিকীকৃত ভগ্নাংশের শর্তের সাথে বিরোধ করে; তাই $\\sqrt5$ অমূলদ।",
+    "extracted_final_answers": [
+      "প্রমাণ সংক্ষেপ: যদি $\\sqrt5=(p)/(q)$ (পূর্বধরি ভগ্নাংশে), তবে $5q^{2}=p^{2}$ থেকে $p$ ও $q$ উভয়ই ৫ দ্বারা বিভাজ্য, যা স্বাভাবিকীকৃত ভগ্নাংশের শর্তের সাথে বিরোধ করে; তাই $\\sqrt5$ অমূলদ।"
+    ],
+    "exact_answer": "\\sqrt{5}$ অমূলদ সংখ্যা।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "Bangla",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "নিচের সেটগুলোকে তালিকা পদ্ধতিতে প্রকাশ কর :\n \\{x \\in Z : x^2 > 5 \\text{ এবং } x^2 \\leq 36 \\}",
+    "generated_answer": "নিম্নলিখিত পূর্ণসংখ্যাগুলি এই শর্ত পূরণ করে:  \n\\[-6,\\,-5,\\,-4,\\,-3,\\;3,\\;4,\\;5,\\;6\\]  \n\nExplanation: ৬ পর্যন্ত পূর্ণসংখ্যার বর্গ ৩৬ বা কম এবং ৩ থেকে বড় বর্গফল ৫ এর বেশি।  \n\n<final>[-6,-5,-4,-3,3,4,5,6]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[-6,-5,-4,-3,3,4,5,6]",
+    "extracted_final_answers": [
+      "[-6,-5,-4,-3,3,4,5,6]"
+    ],
+    "exact_answer": "{..., , -4, -3, -3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "Bangla",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "নিচের সেটগুলোকে কোনো ঘটনা বা পদ্ধতিতে প্রকাশ কর:\\{4, 8, 12, 16, 20, 24, 28, 32, 36, 40\\}",
+    "generated_answer": "সেটটি প্রকাশ করা যায়: \\{4n \\mid n=1,2,\\dots,10\\}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সেটটি প্রকাশ করা যায়: \\{4n \\mid n=1,2,\\dots,10\\}",
+    "extracted_final_answers": [
+      "সেটটি প্রকাশ করা যায়: \\{4n \\mid n=1,2,\\dots,10\\}"
+    ],
+    "exact_answer": "{x ∈ N : x, multiple of 4 and x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "Bangla",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "যদি $f(x) = \\frac{2x+1}{2x-1}$ হয়, তবে $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$ এর মান নির্ণয় কর।\n",
+    "generated_answer": "ফলাফলটি হলো \\(\\displaystyle \\frac{2}{x^{2}}\\)  \n\nExplanation: \\(f\\!\\left(\\frac{1}{x^{2}}\\right)=\\frac{2/x^{2}+1}{2/x^{2}-1}\\) থেকে \\(\\frac{f(\\frac{1}{x^{2}})+1}{f(\\frac{1}{x^{2}})-1}=2/x^{2}\\) পাওয়া যায়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "াফলটি হলো \\(\\displaystyle (2)/(x^{2)}\\) Explanation: \\(f\\!\\left((1)/(x^{2)}\\right)=\\frac{2/x^{2}+1}{2/x^{2}-1}\\) থেকে \\((f(\\frac{1)/(x^{2)})+1}{f((1)/(x^{2)})-1}=2/x^{2}\\) পাওয়া যায়।",
+    "extracted_final_answers": [
+      "াফলটি হলো \\(\\displaystyle (2)/(x^{2)}\\) Explanation: \\(f\\!\\left((1)/(x^{2)}\\right)=\\frac{2/x^{2}+1}{2/x^{2}-1}\\) থেকে \\((f(\\frac{1)/(x^{2)})+1}{f((1)/(x^{2)})-1}=2/x^{2}\\) পাওয়া যায়।"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "Bangla",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "সূত্রের সাহায্যে বর্গ নির্ণয় কর:\nax-by-cz",
+    "generated_answer": "( ax - by - cz )² = a²x² + b²y² + c²z² - 2abxy - 2acxz + 2bc yz\n\nExplanation: বর্গ করলে গুণফলের নিয়ম অনুসারে সব পদগুলো সম্প্রসারিত হয়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( ax - by - cz )² = a²x² + b²y² + c²z² - 2abxy - 2acxz + 2bc yz Explanation: বর্গ করলে গুণফলের নিয়ম অনুসারে সব পদগুলো সম্প্রসারিত হয়।",
+    "extracted_final_answers": [
+      "( ax - by - cz )² = a²x² + b²y² + c²z² - 2abxy - 2acxz + 2bc yz Explanation: বর্গ করলে গুণফলের নিয়ম অনুসারে সব পদগুলো সম্প্রসারিত হয়।"
+    ],
+    "exact_answer": "a^2x^2 + b^2y^2 + c^2z^2 - 2abxy - 2acxz + 2bcyz",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "Bangla",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "x - \\frac{1}{x} = 4 \\text{ হলে, প্রমাণ করো যে, } x^4 + \\frac{1}{x^4} = 322",
+    "generated_answer": "x - \\frac{1}{x} = 4 \\implies (x-\\frac1x)^2 = 16 \\Rightarrow x^2+\\frac1{x^2}=18 \\\\ \n(x^2+\\frac1{x^2})^2 = 324 \\Rightarrow x^4+\\frac1{x^4}=322 \n\nExplanation: (x-\\frac1x)^2 = x^2+\\frac1{x^2}-2, সুতরাং পরবর্তী ধাপে সমাধান করলে 322 পাওয়া যায়। \n\n<final>322</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "322",
+    "extracted_final_answers": [
+      "322"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "Bangla",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "$a+b+c=6$ এবং $a^2 + b^2 + c^2 = 14$ হলে, $(a - b)^2 + (b - c)^2 + (c - a)^2$ এর মান নির্ণয় কর।",
+    "generated_answer": "(১) প্রকাশটি  \n\\[\n(a-b)^2+(b-c)^2+(c-a)^2\n=2\\bigl(a^2+b^2+c^2-(ab+bc+ca)\\bigr).\n\\]\n\n(২) দেওয়া আছে \\(a+b+c=6\\) ও \\(a^2+b^2+c^2=14\\) ।  \n\\( (a+b+c)^2 = a^2+b^2+c^2+2(ab+bc+ca) \\) থেকে  \n\n\\[\n36 = 14 + 2(ab+bc+ca)\\;\\Longrightarrow\\; ab+bc+ca = 11.\n\\]\n\n(৩) বসিয়ে পাই  \n\n\\[\n2\\bigl(14-11\\bigr)=2\\cdot3=6.\n\\]\n\n**উত্তর**: \\(6\\)\n\nExplanation: পরিচিত সূত্রগুলো ব্যবহার করে সরাসরি মান বের করা যায়।<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "Bangla",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "সরল কর:$(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2) + (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "প্রকাশটি সরল করলে পাওয়া যায়  \n\\(2(x^{3}+y^{3}+z^{3})\\)\n\n<final>2(x^{3}+y^{3}+z^{3})</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2(x^{3}+y^{3}+z^{3})",
+    "extracted_final_answers": [
+      "2(x^{3}+y^{3}+z^{3})"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "উৎপাদকে বিশ্লেষণ কর $(a^2-b^2)(x^2-y^2) + 4abxy$",
+    "generated_answer": "<final>\\( (a(x-y)+b(x+y))\\,(a(x+y)-b(x-y)) \\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\( (a(x-y)+b(x+y))\\,(a(x+y)-b(x-y)) \\)",
+    "extracted_final_answers": [
+      "\\( (a(x-y)+b(x+y))\\,(a(x+y)-b(x-y)) \\)"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "উৎপাদকে বিশ্লেষণ কর $a^2 + 6a + 8 - y^2 + 2y$",
+    "generated_answer": "( a+2 )( a+4 ) - y( y-2 )",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( a+2 )( a+4 ) - y( y-2 )",
+    "extracted_final_answers": [
+      "( a+2 )( a+4 ) - y( y-2 )"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "উৎপাদকে বিশ্লেষণ কর $16x^2-25y^2-8xz+10yz$",
+    "generated_answer": "$(5y-4x)(2z-4x-5y)$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(5y-4x)(2z-4x-5y)",
+    "extracted_final_answers": [
+      "(5y-4x)(2z-4x-5y)"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "উৎপাদকে বিশ্লেষণ কর $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$",
+    "generated_answer": "<final>$-(a+b+c)(a+b-c)(a-b+c)(b+c-a)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-(a+b+c)(a+b-c)(a-b+c)(b+c-a)",
+    "extracted_final_answers": [
+      "-(a+b+c)(a+b-c)(a-b+c)(b+c-a)"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "উৎপাদকে বিশ্লেষণ কর $x^3 + 3x^2 + 3x + 2$",
+    "generated_answer": "Explanation: (x+1)^3+1 = (x+2)(x^2+x+1)\n\n<final>(x+2)(x^2+x+1)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+2)(x^2+x+1)",
+    "extracted_final_answers": [
+      "(x+2)(x^2+x+1)"
+    ],
+    "exact_answer": "(x+2)(x^2+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "উৎপাদকে বিশ্লেষণ কর $a^3 - 6a^2 + 12a - 9$",
+    "generated_answer": "( a - 3 )( a^2 - 3a + 3 )",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( a - 3 )( a^2 - 3a + 3 )",
+    "extracted_final_answers": [
+      "( a - 3 )( a^2 - 3a + 3 )"
+    ],
+    "exact_answer": "(a-3)(a^2-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "উৎপাদকে বিশ্লেষণ কর $8x^3 + 12x^2 + 6x - 63$",
+    "generated_answer": "$(2x-3)(4x^2+12x+21)$  \n\n<final>(2x-3)(4x^2+12x+21)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(2x-3)(4x^2+12x+21)",
+    "extracted_final_answers": [
+      "(2x-3)(4x^2+12x+21)"
+    ],
+    "exact_answer": "(2x-3)(4x^2+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "Bangla",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "উৎপাদকে বিশ্লেষণ কর $(x + 2)(x + 3)(x + 4)(x + 5) - 48$",
+    "generated_answer": "উৎপাদকে বিশ্লেষণ করলে  \n\\[\n(x+2)(x+3)(x+4)(x+5)-48=(x^2+7x+18)(x^2+7x+4)\n\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+2)(x+3)(x+4)(x+5)-48=(x^2+7x+18)(x^2+7x+4) \\]",
+    "extracted_final_answers": [
+      "(x+2)(x+3)(x+4)(x+5)-48=(x^2+7x+18)(x^2+7x+4) \\]"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "Bangla",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "উৎপাদকে বিশ্লেষণ কর: $(a+1) (3a^2-3a + 5)$",
+    "generated_answer": "(3a^3 + 2a + 5)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(3a^3 + 2a + 5)",
+    "extracted_final_answers": [
+      "(3a^3 + 2a + 5)"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "Bangla",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "উৎপাদকে বিশ্লেষণ কর: $x^3 - 7xy^2 - 6y^3$",
+    "generated_answer": "বিভাজন: $x^3-7xy^2-6y^3=(x-3y)(x+y)(x+2y)$।  \nExplanation: মূল সমীকরণকে $y^3(u^3-7u-6)$ আকারে লিখে $u=x/y$ এর কিউবিককে ফ্যাক্টর করলে তিনটি ফ্যাক্টর পাওয়া যায়।  \n<final>(x-3y)(x+y)(x+2y)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-3y)(x+y)(x+2y)",
+    "extracted_final_answers": [
+      "(x-3y)(x+y)(x+2y)"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "Bangla",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "উৎপাদকে বিশ্লেষণ কর: $2x^4-3x^3-3x-2$",
+    "generated_answer": "\\(2x^4-3x^3-3x-2=(x-2)(2x+1)(x^2+1)\\)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(2x^4-3x^3-3x-2=(x-2)(2x+1)(x^2+1)\\)",
+    "extracted_final_answers": [
+      "\\(2x^4-3x^3-3x-2=(x-2)(2x+1)(x^2+1)\\)"
+    ],
+    "exact_answer": "(x-2)(x^2+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "Bangla",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "বনভোজনে যাওয়ার জন্য $5700$ টাকায় একটি বাস ভাড়া করা হলো এবং শর্ত হলো যে, প্রত্যেক যাত্রী সমান ভাড়া বহন করবে। $5$ জন যাত্রী না যাওয়ায় মাথাপিছু ভাড়া $3$ টাকা বৃদ্ধি পেল। বাসে কতজন যাত্রী গিয়েছিল?",
+    "generated_answer": "১০০",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১০০",
+    "extracted_final_answers": [
+      "১০০"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "Bangla",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "কোনো সমিতির সদস্যগণ প্রত্যেকেই সদস্য সংখ্যার $100$ গুণ টাকা দেওয়ার সিদ্ধান্ত নিলেন। কিন্তু $4$ জন সদস্য টাকা না দেওয়ায় প্রত্যেকের টাকার পরিমাণ পূর্বের চেয়ে $500$ টাকা বেড়ে গেল।\nসমিতির সদস্য সংখ্যা $x$ এবং মোট টাকার পরিমাণ $A$ হলে, এদের মধ্যে সম্পর্ক নির্ণয় কর।",
+    "generated_answer": "A = 100x² + 100x – 2000",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = 100x² + 100x – 2000",
+    "extracted_final_answers": [
+      "A = 100x² + 100x – 2000"
+    ],
+    "exact_answer": " $A=100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "Bangla",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "কোনো সমিতির সদস্যগণ প্রত্যেকেই সদস্য সংখ্যার $100$ গুণ টাকা দেওয়ার সিদ্ধান্ত নিলেন। কিন্তু $4$ জন সদস্য টাকা না দেওয়ায় প্রত্যেকের টাকার পরিমাণ পূর্বের চেয়ে $500$ টাকা বেড়ে গেল।\nসমিতির সদস্য সংখ্যা ও মোট টাকার পরিমাণ নির্ণয় কর।",
+    "generated_answer": "সদস্য সংখ্যা 20, মোট টাকার পরিমাণ 40000",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সদস্য সংখ্যা 20, মোট টাকার পরিমাণ 40000",
+    "extracted_final_answers": [
+      "সদস্য সংখ্যা 20, মোট টাকার পরিমাণ 40000"
+    ],
+    "exact_answer": "20, 40,000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "Bangla",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "সমাধান কর: $(3^{m+1} / (3^m)^{m+1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "<final>১/৯^{m+1}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১/৯^{m+1}",
+    "extracted_final_answers": [
+      "১/৯^{m+1}"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "Bangla",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "প্রমাণ কর: $(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "generated_answer": "সত্য কারণ: \\(4^n-1=(2^{2n}-1)=(2^n-1)(2^n+1)\\) ।  \nঅতএব \\(\\displaystyle\\frac{4^n-1}{2^n-1}=2^n+1\\)। \n\n<final>সত্য কারণ: \\(4^n-1=(2^{2n}-1)=(2^n-1)(2^n+1)\\) । অতএব \\(\\frac{4^n-1}{2^n-1}=2^n+1\\)।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সত্য কারণ: \\(4^n-1=(2^{2n}-1)=(2^n-1)(2^n+1)\\) । অতএব \\((4^n-1)/(2^n-1)=2^n+1\\)।",
+    "extracted_final_answers": [
+      "সত্য কারণ: \\(4^n-1=(2^{2n}-1)=(2^n-1)(2^n+1)\\) । অতএব \\((4^n-1)/(2^n-1)=2^n+1\\)।"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$ ",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "Bangla",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "প্রমাণ কর:$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "generated_answer": "প্রকাশটি ১ সমান।\n\nExplanation: সব সূচকের সমষ্টি শূন্য হওয়ায় গুণফল ১ হয়।\n\n<final>১</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১",
+    "extracted_final_answers": [
+      "১"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "Bangla",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "P = x^a, Q = x^b এবং R = x^c\n হলে,$(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$ এর মান নির্ণয় কর।\n",
+    "generated_answer": "১/২",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১/২",
+    "extracted_final_answers": [
+      "১/২"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "Bangla",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "$X = (2a^{-1} + 3b^{-1})^{-1}$, $Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$;\nযেখানে $x > 0$ এবং $p, q, r > 0$ এবং $Z = (5^{(m+1)} + 25^{(m+1)}) / ((5^{(m)} + (5^{-1})^{m+1})$হলে, দেখাও যে, $Y + \\sqrt[3]{64} = 5$",
+    "generated_answer": "উপসংহার: \\(Y = 1\\) এবং \\(\\sqrt[3]{64}=4\\), তাই \\(Y + \\sqrt[3]{64} = 1 + 4 = 5\\) ।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(Y = 1\\) এবং \\(\\sqrt[3]{64}=4\\), তাই \\(Y + \\sqrt[3]{64} = 1 + 4 = 5\\) ।",
+    "extracted_final_answers": [
+      "\\(Y = 1\\) এবং \\(\\sqrt[3]{64}=4\\), তাই \\(Y + \\sqrt[3]{64} = 1 + 4 = 5\\) ।"
+    ],
+    "exact_answer": "$Y + \\sqrt[3]{64} = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "Bangla",
+    "chapter_number": "৪.2",
+    "example_number": "233",
+    "question": "X এর মান নির্ণয় কর:  $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "৪\n\n<final>৪</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৪",
+    "extracted_final_answers": [
+      "৪"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "Bangla",
+    "chapter_number": "৪.2",
+    "example_number": "235",
+    "question": "দেখাও যে,  $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "generated_answer": "উপসংহার: ৫০/১৪৭ = (২⋅৫²)/(৩⋅৭²), তাই লঘুগণিতের গুণের বৈশিষ্ট্য অনুযায়ী  \n\\[\n\\log_{10}\\frac{50}{147}=\\log_{10}2+2\\log_{10}5-\\log_{10}3-2\\log_{10}7\n\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\log_{10}(50)/(147)=\\log_{10}2+2\\log_{10}5-\\log_{10}3-2\\log_{10}7 \\]",
+    "extracted_final_answers": [
+      "\\log_{10}(50)/(147)=\\log_{10}2+2\\log_{10}5-\\log_{10}3-2\\log_{10}7 \\]"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$ ",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "Bangla",
+    "chapter_number": "৪.2",
+    "example_number": "242",
+    "question": "$x=2, y=3, z=5, w=7$ গ. দেখাও যে, $\\frac{\\log \\sqrt[3]{y} + y \\log x - \\frac{y}{x} \\log (xz)}{\\log (xy) - \\log z} = \\log_y \\sqrt[3]{\\sqrt{y}}$",
+    "generated_answer": "উপসংহার: দেওয়া অভিব্যক্তিটি সরলীকরণ করলে  \n\n\\[\n\\frac{\\log \\sqrt[3]{y}+y\\log x-\\frac{y}{x}\\log (xz)}{\\log (xy)-\\log z}= \\frac{1}{6}\n\\]\n\nঅর্থাৎ  \n\n\\[\n\\log_y \\sqrt[3]{\\sqrt{y}}= \\frac16 .\n\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\log_y \\sqrt[3]{√(y)}= \\frac16 . \\]",
+    "extracted_final_answers": [
+      "\\log_y \\sqrt[3]{√(y)}= \\frac16 . \\]"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "Bangla",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": " গুণফলের/ভাগফলের সাধারণ লগ (আসর পাঁচ দশমিক স্থান পর্যন্ত) নির্ণয় কর:\n$22.2642 \\div 3.42$",
+    "generated_answer": "6.51\n\n<final>6.51</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6.51",
+    "extracted_final_answers": [
+      "6.51"
+    ],
+    "exact_answer": "0.81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "Bangla",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "সমাধান কর: $x-a/b + x-b/a + x-3a-3b/a+b = 0$",
+    "generated_answer": "$x=\\dfrac{1}{3}\\!\\left(\\dfrac{a}{b}+\\dfrac{4b}{a}+3a-b\\right)$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=\\dfrac{1}{3}\\!\\left(\\dfrac{a}{b}+\\dfrac{4b}{a}+3a-b\\right)",
+    "extracted_final_answers": [
+      "x=\\dfrac{1}{3}\\!\\left(\\dfrac{a}{b}+\\dfrac{4b}{a}+3a-b\\right)"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "Bangla",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$",
+    "generated_answer": "উভয় গুণক শূন্য হলে সমাধান পাওয়া যায়।  \n<final> \\(x = -\\dfrac{3\\sqrt{2}}{2}\\) অথবা \\(x = \\dfrac{2\\sqrt{3}}{3}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(x = -\\dfrac{3√(2)}{2}\\) অথবা \\(x = \\dfrac{2√(3)}{3}\\)",
+    "extracted_final_answers": [
+      "\\(x = -\\dfrac{3√(2)}{2}\\) অথবা \\(x = \\dfrac{2√(3)}{3}\\)"
+    ],
+    "exact_answer": "$x=\\frac{-3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "প্রমাণ কর: $1/\\sec^2 A + 1/\\text{cosec}^2 A = 1$",
+    "generated_answer": "প্রমাণ: ১/সেকেন্ড² A + ১/কোসেকেন্ড² A = ১  \nকারণ ১/সেকেন্ড² A = cos² A এবং ১/কোসেকেন্ড² A = sin² A, ফলে cos² A + sin² A = ১।  \n\n<final>cos² A + sin² A = ১</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "cos² A + sin² A = ১",
+    "extracted_final_answers": [
+      "cos² A + sin² A = ১"
+    ],
+    "exact_answer": "$1/\\sec^2 A + 1/\\text{cosec}^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "প্রমাণ কর: $1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "generated_answer": "Explanation: কারণ 1 + tan²A = sec²A এবং 1 + cot²A = csc²A, তাই 1/(1+tan²A)=cos²A এবং 1/(1+cot²A)=sin²A, আর sin²A+cos²A=1। \n\n<final>১</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১",
+    "extracted_final_answers": [
+      "১"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "প্রমাণ কর: $1 / (\\text{cosec} A - 1) - 1 / (\\text{cosec} A + 1) = 2\\tan^2 A$.",
+    "generated_answer": "Explanation: সরলীকরণে পাওয়া যায় 2 tan²A।  \n<final>1/(cosec A - 1) - 1/(cosec A + 1) = 2 tan²A</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/(cosec A - 1) - 1/(cosec A + 1) = 2 tan²A",
+    "extracted_final_answers": [
+      "1/(cosec A - 1) - 1/(cosec A + 1) = 2 tan²A"
+    ],
+    "exact_answer": "$1 / (\\text{cosec} A - 1) - 1 / (\\text{cosec} A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "$\\text{cosec} \\theta - \\cot \\theta = 1/x$, যেখানে $\\theta$ সূক্ষ্মকোণ।দেখাও যে, $\\sec \\theta = (x^2 + 1) / (x^2 - 1)$",
+    "generated_answer": "Explanation: $\\,\\csc\\theta-\\cot\\theta=\\frac1x\\,$ থেকে $(\\csc\\theta+\\cot\\theta)=x$ পাওয়া যায়; উভয়কে গুণ করলে $\\sec\\theta=\\dfrac{x^2+1}{x^2-1}$।  \n<final>\\sec\\theta=\\dfrac{x^2+1}{x^2-1}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sec\\theta=\\dfrac{x^2+1}{x^2-1}",
+    "extracted_final_answers": [
+      "\\sec\\theta=\\dfrac{x^2+1}{x^2-1}"
+    ],
+    "exact_answer": "$\\sec\\theta = (x^2 + 1) / (x^2 - 1)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "Bangla",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "দেখাও যে, $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$ যদি $A = 30^\\circ$ হয়।",
+    "generated_answer": "কস 90° = 0 এবং  \n\\(4\\big(\\tfrac{\\sqrt3}{2}\\big)^3-3\\big(\\tfrac{\\sqrt3}{2}\\big)=0\\),  \nঅতএব \\(\\cos 3A = 4\\cos^3A-3\\cos A\\) সত্য।  \n<final>কস 90° = 0 এবং 4(√3/2)³−3(√3/2)=0, তাই সমীকরণটি সঠিক।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "কস 90° = 0 এবং 4(√3/2)³−3(√3/2)=0, তাই সমীকরণটি সঠিক।",
+    "extracted_final_answers": [
+      "কস 90° = 0 এবং 4(√3/2)³−3(√3/2)=0, তাই সমীকরণটি সঠিক।"
+    ],
+    "exact_answer": "\\cos 3A = 4 \\cos^3 A - 3 \\cos A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "একটি গাছের পাদদেশ থেকে 20 মিটার দূরে ভূতলের কোনো বিন্দুতে গাছের চূড়ার উন্নতি কোণ $60^{\\circ}$ হলে, গাছটির উচ্চতা নির্ণয় কর।",
+    "generated_answer": "গাছটির উচ্চতা = $20\\sqrt{3}\\,\\text{মিটার}$।\n\n<final>20√3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "20√3",
+    "extracted_final_answers": [
+      "20√3"
+    ],
+    "exact_answer": "34.641 মিটার।",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "১৪ মিটার দৈর্ঘ্যের একটি মই ভূমির সাথে $45^{\\circ}$ কোণ উৎপন্ন করে দেওয়ালের ছাদ স্পর্শ করে। দেওয়ালটির উচ্চতা নির্ণয় কর।",
+    "generated_answer": "দেওয়ালের উচ্চতা $7\\sqrt{2}$ মিটার।  \n<final>7√2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "7√2",
+    "extracted_final_answers": [
+      "7√2"
+    ],
+    "exact_answer": "12.728 মিটার।",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "একটি নদীর এক তীরে কোনো স্থানে দাঁড়িয়ে একজন লোক দেখলো যে, ঠিক সোজাসুজি অপর তীরে অবস্থিত $150$ মিটার লম্বা একটি গাছের শীর্ষের উন্নতি কোণ $30^\\circ$। লোকটি একটি নৌকায়োগে গাছটিকে লক্ষ্য করে যাত্রা শুরু করলো। কিন্তু পানির স্রোতের কারণে লোকটি গাছ থেকে $10$ মিটার দূরে তীরে পৌঁছল।\nলোকটির যাত্রা স্থান থেকে অবস্থানের স্থানের দূরত্ব নির্ণয় কর।",
+    "generated_answer": "সতিপূর্বক হিসাব করলে লোকটির যাত্রা স্থল থেকে অবস্থানের স্থল পর্যন্ত দূরত্ব ২৬০ মিটার।  \n<final>260</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "260",
+    "extracted_final_answers": [
+      "260"
+    ],
+    "exact_answer": "260 মিটার।",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "Bangla",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "যদি $a : b = b : c$ হয়, তবে প্রমাণ কর যে,\n $a/c = a^2+b^2/b^2+c^2$",
+    "generated_answer": "উপসংহার: $a/c=\\dfrac{a^2+b^2}{\\,b^2+c^2\\,}$।  \nExplanation: $a:b=b:c$ থেকে $ac=b^2$; এই সম্পর্ক বসিয়ে উভয় পাশে সরলীকরণ করলে সমীকরণটি সত্য প্রমাণিত হয়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$a/c=\\dfrac{a^2+b^2}{\\,b^2+c^2\\,}$। Explanation: $a:b=b:c$ থেকে $ac=b^2$; এই সম্পর্ক বসিয়ে উভয় পাশে সরলীকরণ করলে সমীকরণটি সত্য প্রমাণিত হয়।",
+    "extracted_final_answers": [
+      "$a/c=\\dfrac{a^2+b^2}{\\,b^2+c^2\\,}$। Explanation: $a:b=b:c$ থেকে $ac=b^2$; এই সম্পর্ক বসিয়ে উভয় পাশে সরলীকরণ করলে সমীকরণটি সত্য প্রমাণিত হয়।"
+    ],
+    "exact_answer": "\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "Bangla",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "সমাধান কর:\n $(1 - \\sqrt{1 - x}) / (1 + \\sqrt{1 - x}) = 1/3$",
+    "generated_answer": "<final>৩/৪</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৩/৪",
+    "extracted_final_answers": [
+      "৩/৪"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "Bangla",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "নিচের সরল সহসমীকরণগুলো সমঞ্জস, পরস্পর নির্ভরশীল/অনির্ভরশীল কি না যুক্তিসহ উল্লেখ কর এবং এগুলোর সমাধানের সংখ্যা নির্দেশ কর: ২. $2x + y = 3$\n$4x + 2y = 6$",
+    "generated_answer": "সমঞ্জস, নির্ভরশীল, অনন্ত সমাধান\n\n<final>সমঞ্জস, নির্ভরশীল, অনন্ত সমাধান</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সমঞ্জস, নির্ভরশীল, অনন্ত সমাধান",
+    "extracted_final_answers": [
+      "সমঞ্জস, নির্ভরশীল, অনন্ত সমাধান"
+    ],
+    "exact_answer": "$\\therefore \\frac{2}{4} = \\frac{1}{2} = \\frac{3}{6}$\nঅতএব সমীকরণজোটটি সঙ্গতিপূর্ণ ও পরস্পর নির্ভরশীল\nএবং সমীকরণজোটটির অসংখ্য সমাধান আছে।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "Bangla",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "নিচের সরল সহসমীকরণগুলো সমঞ্জস, পরস্পর নির্ভরশীল/অনির্ভরশীল কি না যুক্তিসহ উল্লেখ কর এবং এগুলোর সমাধানের সংখ্যা নির্দেশ কর: $3x + 2y = 0$\n$9x - 6y = 0$",
+    "generated_answer": "সমঞ্জস ও পরস্পর অনির্ভরশীল; সমাধানের সংখ্যা: ১টি।  \n<final>সমঞ্জস ও পরস্পর অনির্ভরশীল; সমাধানের সংখ্যা: ১টি।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সমঞ্জস ও পরস্পর অনির্ভরশীল; সমাধানের সংখ্যা: ১টি।",
+    "extracted_final_answers": [
+      "সমঞ্জস ও পরস্পর অনির্ভরশীল; সমাধানের সংখ্যা: ১টি।"
+    ],
+    "exact_answer": "আমরা পাই, $3/9 \\neq 2/-6$\nঅতএব, প্রদত্ত সমীকরণজোট সমঞ্জস ও পরস্পর অনির্ভরশীল এবং সমীকরণজোটটির একটি মাত্র (অনন্য) সমাধান আছে।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "Bangla",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "প্রতিস্থাপন পদ্ধতিতে সমাধান করঃ $ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "Explanation: প্রথম সমীকরণ থেকে $x$ বের করে দ্বিতীয়টিতে বসালে $y$ ও $x$ এর মান পাওয়া যায়।  \n<final>$x=\\frac{c(c-b)}{a(a-b)},\\; y=\\frac{c(c-a)}{b(b-a)}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=(c(c-b))/(a(a-b)),\\; y=(c(c-a))/(b(b-a))",
+    "extracted_final_answers": [
+      "x=(c(c-b))/(a(a-b)),\\; y=(c(c-a))/(b(b-a))"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "Bangla",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "আড়গুণন পদ্ধতিতে সমাধান কর $y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$",
+    "generated_answer": "Explanation: দুটি সমীকরণ সমাধান করে পাই x = 2, y = 4।  \n<final>২, ৪</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "২, ৪",
+    "extracted_final_answers": [
+      "২, ৪"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "Bangla",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "সহসমীকরণ গঠন করে সমাধান কর: কোনো ভগ্নাংশের লব ও হরের প্রত্যেকটির সাথে $1$ যোগ করলে ভগ্নাংশটি $\\frac{4}{5}$ হবে। আবার, লব ও হরের প্রত্যেকটি থেকে $5$ বিয়োগ করলে ভগ্নাংশটি $\\frac{1}{2}$ হবে। ভগ্নাংশটি নির্ণয় কর।",
+    "generated_answer": "ভগ্নাংশটি $\\displaystyle \\frac{7}{9}$।\n\n<final>৭/৯</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৭/৯",
+    "extracted_final_answers": [
+      "৭/৯"
+    ],
+    "exact_answer": "$\\frac{7}{9}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "Bangla",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "একটি সরল সমীকরণজোট\n$x + y = 10$\n$3x - 2y = 0$\nসমীকরণজোটটি সমাধান করে $(x, y)$ নির্ণয় কর।",
+    "generated_answer": "( x , y ) = ( 4 , 6 )<final>( 4 , 6 )</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( 4 , 6 )",
+    "extracted_final_answers": [
+      "( 4 , 6 )"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "কোনো সমান্তর ধারার $12$ তম পদ $77$ হলে, এর প্রথম $23$টি পদের সমষ্টি কত?",
+    "generated_answer": "১৭৭১\n\n<final>1771</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1771",
+    "extracted_final_answers": [
+      "1771"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "একটি সমান্তর ধারার $16$ তম পদ $-20$ হলে, এর প্রথম $31$টি পদের সমষ্টি কত?",
+    "generated_answer": "-620\n\n<final>-620</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-620",
+    "extracted_final_answers": [
+      "-620"
+    ],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "একটি সমান্তর ধারার প্রথম $12$ পদের সমষ্টি $144$ এবং প্রথম $20$ পদের সমষ্টি $560$ হলে, এর প্রথম $6$ পদের সমষ্টি নির্ণয় কর।",
+    "generated_answer": "<final>০</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "০",
+    "extracted_final_answers": [
+      "০"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "কোনো সমান্তর ধারার দুইটি নির্দিষ্ট পদ $l$ তম পদ $l^2$ এবং $k$ তম পদ $k^2$\n ধারাটির প্রথম পদ $a$ সাধারণ অন্তর $d$ এর উপরে উদ্দীপকের আলোকে দুইটি সমীকরণ তৈরি কর।",
+    "generated_answer": "সমান্তর ধারার জন্য  \n\\(t_n = a+(n-1)d\\)  \nএখানে  \n\n\\[\na+(l-1)d = l^2,\\qquad a+(k-1)d = k^2\n\\]  \n\n<final>a+(l-1)d = l^2,\\; a+(k-1)d = k^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a+(l-1)d = l^2,\\; a+(k-1)d = k^2",
+    "extracted_final_answers": [
+      "a+(l-1)d = l^2,\\; a+(k-1)d = k^2"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ ...............(i) $a + (k-1)d = k^2$ ...............(ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "কোনো সমান্তর ধারার দুইটি নির্দিষ্ট পদ $l$ তম পদ $l^2$ এবং $k$ তম পদ $k^2$\n $(1+k)$ তম পদ নির্ণয় কর।",
+    "generated_answer": "(1+k)-তম পদটি হল \\(k^{2}+k+l\\).",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1+k)-তম পদটি হল \\(k^{2}+k+l\\)",
+    "extracted_final_answers": [
+      "(1+k)-তম পদটি হল \\(k^{2}+k+l\\)"
+    ],
+    "exact_answer": "l^2 + kl + k^2",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "Bangla",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "কোনো সমান্তর ধারার দুইটি নির্দিষ্ট পদ $l$ তম পদ $l^2$ এবং $k$ তম পদ $k^2$\nপ্রমাণ কর ধারাটির প্রথম $(1+k)$ সংখ্যক পদের সমষ্টি $\\frac{l+k}{2} * (l^2 + k^2 + 1)$",
+    "generated_answer": "উপসংহার: প্রথম (১+k) পদের সমষ্টি হল \\(\\frac{l+k}{2}\\,(l^2+k^2+1)\\)।\n\nExplanation: গড় পদের গুণফল সূত্রে বসালে এই ফল পাওয়া যায়।  \n\n<final>প্রথম (১+k) পদের সমষ্টি হল \\(\\frac{l+k}{2}\\,(l^2+k^2+1)\\)।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "প্রথম (১+k) পদের সমষ্টি হল \\((l+k)/(2)\\,(l^2+k^2+1)\\)।",
+    "extracted_final_answers": [
+      "প্রথম (১+k) পদের সমষ্টি হল \\((l+k)/(2)\\,(l^2+k^2+1)\\)।"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "Bangla",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "$\\log 2 + \\log 16 + \\log 512 + \\ldots \\ldots$ ধারাটির প্রথম বারোটি পদের সমষ্টি নির্ণয় কর।",
+    "generated_answer": "650\\log 2\n\n<final>650\\log 2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "650\\log 2",
+    "extracted_final_answers": [
+      "650\\log 2"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "Bangla",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "$2 - 2 + 2 - 2 + \\ldots \\ldots$ ধারাটির $(2n+2)$ সংখ্যক পদের সমষ্টি কত?",
+    "generated_answer": "<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "Bangla",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "দেখাও যে, $1^3 + 2^3 + 3^3 + \\ldots \\ldots \\ldots + 10^3 = (1 + 2 + 3 + \\ldots \\ldots \\ldots + 10)^2$",
+    "generated_answer": "১^৩ + ২^৩ + ৩^৩ + … + ১০^৩ = ৩০২৫  \n১ + ২ + ৩ + … + ১০ = ৫৫, এবং ৫৫² = ৩০২৫।  \n\nExplanation: ঘনগুলির যোগফল = (প্রথম n সংখ্যার যোগফল)² এই পরিচিত সূত্রের প্রয়োগে সমাধানটি নিশ্চিত করা যায়।  \n\n<final>3025 = 55^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3025 = 55^2",
+    "extracted_final_answers": [
+      "3025 = 55^2"
+    ],
+    "exact_answer": "1^3 + 2^3 + 3^3 + \\dots \\dots \\dots + 10^3 = (1 + 2 + 3 + \\dots \\dots \\dots + 10)^2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "Bangla",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "একটি বর্গক্ষেত্রের পরিসীমা একটি আয়তক্ষেত্রের পরিসীমার সমান। আয়তক্ষেত্রের দৈর্ঘ্য প্রস্থের তিনগুণ এবং ক্ষেত্রফল $768$ বর্গমিটার। প্রতিটি $40$ সে.মি. বর্গাকার পাথর দিয়ে বর্গক্ষেত্রটি বাঁধতে মোট কতটি পাথর লাগবে।",
+    "generated_answer": "Explanation: বর্গক্ষেত্রের পরিসীমা ১২৮ মিটার; প্রতি ৪০ সেমি পাথর ০.৪ মিটার আচ্ছাদন করে, তাই ১২৮/০.৪ = ৩২০টি পাথর দরকার।  \n<final>৩২০</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৩২০",
+    "extracted_final_answers": [
+      "৩২০"
+    ],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "Bangla",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "একটি আয়তাকার ক্ষেত্রের ক্ষেত্রফল $160$ বর্গমিটার। যদি এর দৈর্ঘ্য $6$ মিটার কম হয়, তবে ক্ষেত্রটি বর্গাকার হয়। আয়তাকার ক্ষেত্রের দৈর্ঘ্য ও প্রস্থ নির্ণয় কর।",
+    "generated_answer": "দৈর্ঘ্য = ১৬ মিটার, প্রস্থ = ১০ মিটার।  \nExplanation: সমীকরণ \\(L(L-6)=160\\) সমাধান করলে \\(L=16\\) এবং \\(W=L-6=10\\) পাওয়া যায়।  \n\n<final>দৈর্ঘ্য = ১৬ মিটার, প্রস্থ = ১০ মিটার</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "দৈর্ঘ্য = ১৬ মিটার, প্রস্থ = ১০ মিটার",
+    "extracted_final_answers": [
+      "দৈর্ঘ্য = ১৬ মিটার, প্রস্থ = ১০ মিটার"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "Bangla",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "একটি সামান্তরিকের ক্ষেত্রফল একটি বর্গক্ষেত্রের সমান। সামান্তরিকের ভূমি $125$ মিটার এবং উচ্চতা $5$ মিটার হলে, বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য নির্ণয় কর।",
+    "generated_answer": "বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য $25\\sqrt{2}$ মিটার।  \nExplanation: সমান ক্ষেত্রফল থেকে বর্গের পার্শ্ব ২৫ মিটার, তাই কর্ণ ২৫√২ মিটার।  \n\n<final>25√2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "25√2",
+    "extracted_final_answers": [
+      "25√2"
+    ],
+    "exact_answer": "35.35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "Bangla",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "একটি বৃত্তচাপ কেন্দ্রে $30^\\circ$ কোণ উৎপন্ন করে। বৃত্তের ব্যাস 126 সে.মি. হলে, চাপের দৈর্ঘ্য নির্ণয় কর।",
+    "generated_answer": "চাপের দৈর্ঘ্য হবে \\(10.5\\pi\\) সেমি। <final>10.5π সেমি</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10.5π সেমি",
+    "extracted_final_answers": [
+      "10.5π সেমি"
+    ],
+    "exact_answer": "32.987 সে.মি. (প্রায়)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "Bangla",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "একটি আয়তাকার কাঠের বাক্সের বাইরের মাপ যথাক্রমে $8$ সে.মি., $6$ সে.মি., ও $4$ সে.মি.। এর ভিতরের সম্পূর্ণ পৃষ্ঠের ক্ষেত্রফল $88$ বর্গ সে.মি.। বাক্সটির কাঠের পুরুত্ব নির্ণয় কর।",
+    "generated_answer": "Explanation: সমীকরণ সমাধান করে পাই পুরুত্ব ১ সেমি।<final>১ সেমি</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১ সেমি",
+    "extracted_final_answers": [
+      "১ সেমি"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "$\\sqrt{3}$ এবং  $4$  এর মধ্যে দুইটি অমূলদ সংখ্যা নির্ণয় কর।",
+    "generated_answer": "দুটি অমূলদ সংখ্যা:  $\\sqrt{7}$ এবং  $\\sqrt{5}$  \n<final>দুটি অমূলদ সংখ্যা:  $\\sqrt{7}$ এবং  $\\sqrt{5}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "দুটি অমূলদ সংখ্যা: $√(7)$ এবং $√(5)",
+    "extracted_final_answers": [
+      "দুটি অমূলদ সংখ্যা: $√(7)$ এবং $√(5)"
+    ],
+    "exact_answer": "a  ও b  দুইটি নির্ণেয় অমূলদ সংখ্যা।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "$4.4623845\\dots$ এর $1,2,3,4$ ও $5$ দশমিক স্থান পর্যন্ত মান ও আসন্ন মান কত?",
+    "generated_answer": "1 দশমিক পর্যন্ত মান: 4.4, আসন্ন মান: 4.5  \n2 দশমিক পর্যন্ত মান: 4.46, আসন্ন মান: 4.46  \n3 দশমিক পর্যন্ত মান: 4.462, আসন্ন মান: 4.462  \n4 দশমিক পর্যন্ত মান: 4.4623, আসন্ন মান: 4.4624  \n5 দশমিক পর্যন্ত মান: 4.46238, আসন্ন মান: 4.46239",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4 দশমিক পর্যন্ত মান: 4.4623, আসন্ন মান: 4.4624 5 দশমিক পর্যন্ত মান: 4.46238, আসন্ন মান: 4.46239",
+    "extracted_final_answers": [
+      "4 দশমিক পর্যন্ত মান: 4.4623, আসন্ন মান: 4.4624 5 দশমিক পর্যন্ত মান: 4.46238, আসন্ন মান: 4.46239"
+    ],
+    "exact_answer": "4.4, 4.5, 4.46, 4.462, 4.4624, 4.46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "যে সকল স্বাভাবিক সংখ্যা দ্বারা  $311$ এবং  $419$ কে ভাগ করলে প্রতি ক্ষেত্রে  $23$ অবশিষ্ট থাকে \r\nএদের সেট নির্ণয় কর।",
+    "generated_answer": "সমাধান: {36}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সমাধান: {36}",
+    "extracted_final_answers": [
+      "সমাধান: {36}"
+    ],
+    "exact_answer": "\\{36\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "$100$  জন শিক্ষার্থীর মধ্যে কোনো পরীক্ষায়  $88$ জন বাংলায়,   $80$ জন গণিতে এবং $70$ জন উভয় বিষয়ে পাশ করেছে। ভেনচিত্রের সাহায্যে তথ্যগুলো প্রকাশ কর এবং কতজন শিক্ষার্থী উভয় বিষয়ে ফেল করেছে,  তা নির্ণয় কর।",
+    "generated_answer": "উভয় বিষয়ে ফেল করা শিক্ষার্থীর সংখ্যা ২ জন।\n\n<final>২</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "২",
+    "extracted_final_answers": [
+      "২"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "যদি  $A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$   এবং  $A$ ও $B$  এর উপাদানগুলোর মধ্যে $x = y - 1$  সম্পর্ক\r\nবিবেচনায় থাকে,  তবে সংশ্লিষ্ট অন্বয় বর্ণনা কর।",
+    "generated_answer": "অ্যাপার উপাদানগুলি ও সম্পর্ক $x=y-1$ বিবেচনা করলে অন্বয়টি হবে  \n<final>{(1,2),(3,4)}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{(1,2),(3,4)}",
+    "extracted_final_answers": [
+      "{(1,2),(3,4)}"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "সার্বিক সেট $U=\\{x:x \\in N$ এবং $x \\le 6\\},$ \n$A=\\{x:x$ মৌলিক সংখ্যা এবং $x\\le 5\\},$ \n$B=\\{x: x$ জোড়  সংখ্যা এবং $x\\le 6\\}$ এবং  \n$C=A \\setminus B$     দেখাও যে, $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$",
+    "generated_answer": "উপসংহার: যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব  \n$(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,. <final>উপসংহার: যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব $(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,<final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব $(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,. <final>উপসংহার: যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব $(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,<final>",
+    "extracted_final_answers": [
+      "যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব $(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,. <final>উপসংহার: যেকোনো সমষ্টি $X,Y,Z$ এর জন্য $(X\\cap Y)\\times Z=(X\\times Z)\\cap(Y\\times Z)$; অতএব $(A\\cap C)\\times B=(A\\times B)\\cap(C\\times B)\\,<final>"
+    ],
+    "exact_answer": "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "Bangla",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "$a+b+c=15$ এবং $a^{2}+b^{2}+c^{2}=83$ হলে,    $ab+bc+ac$ এর মান কত?",
+    "generated_answer": "ab+bc+ac এর মান 71।\n\n<final>71</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "71",
+    "extracted_final_answers": [
+      "71"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "Bangla",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "একটি বইয়ের মূল্য $24$ টাকা। এই মূল্য বই তৈরির ব্যয়ের $80\\%$। বাকি মূল্য সরকার ভর্তুকি দিয়ে \r\nথাকেন। সরকার প্রতি বইয়ে কত টাকা ভর্তুকি দেন?",
+    "generated_answer": "Explanation: দাম 80% হলে ব্যয় 30 টাকা, ভর্তুকি 30–24=6 টাকা।<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "Bangla",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "সরল কর: \n$(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$   ",
+    "generated_answer": "-27/4\n\n<final>-27/4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-27/4",
+    "extracted_final_answers": [
+      "-27/4"
+    ],
+    "exact_answer": "-\\dfrac{27}{4}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "Bangla",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "$400$ এর লগ $4$ হলে লগের ভিত্তি কত? ",
+    "generated_answer": "২√৫",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "২√৫",
+    "extracted_final_answers": [
+      "২√৫"
+    ],
+    "exact_answer": "2\\sqrt{5}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "Bangla",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "প্রমাণ কর যে, $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$  ",
+    "generated_answer": "সাবস্টিটিউশন ও গুণের গুণাবলি ব্যবহার করলে পাওয়া যায়  \n\\(3\\log_{10}2+\\log_{10}5=\\log_{10}(2^3)+\\log_{10}5=\\log_{10}(8\\cdot5)=\\log_{10}40\\)।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সাবস্টিটিউশন ও গুণের গুণাবলি ব্যবহার করলে পাওয়া যায় \\(3\\log_{10}2+\\log_{10}5=\\log_{10}(2^3)+\\log_{10}5=\\log_{10}(8\\cdot5)=\\log_{10}40\\)।",
+    "extracted_final_answers": [
+      "সাবস্টিটিউশন ও গুণের গুণাবলি ব্যবহার করলে পাওয়া যায় \\(3\\log_{10}2+\\log_{10}5=\\log_{10}(2^3)+\\log_{10}5=\\log_{10}(8\\cdot5)=\\log_{10}40\\)।"
+    ],
+    "exact_answer": "\\log_{10} 40",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "Bangla",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "সমাধান কর: $(y-1)(y+2)= (y+4)(y-2)$",
+    "generated_answer": "Explanation: সমীকরণ সমাধান করে y = ৬ পাওয়া যায়।<final>৬</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৬",
+    "extracted_final_answers": [
+      "৬"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "Bangla",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "সমাধান কর ও সমাধান সেট লেখ: $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$ ",
+    "generated_answer": "সমাধান: x = 28",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সমাধান: x = 28",
+    "extracted_final_answers": [
+      "সমাধান: x = 28"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "Bangla",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "$\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$  হলে, $A$ এর মান নির্ণয় কর।\r\n",
+    "generated_answer": "$A = \\dfrac{\\pi}{3}+k\\pi\\;\\;(k\\in\\mathbb Z)$  \nExplanation: সমীকরণে \\(\\dfrac{1-\\tan A}{1+\\tan A}=\\dfrac{1-\\sqrt3}{1+\\sqrt3}\\) বসালে \\(\\tan A=\\sqrt3\\), তাই \\(A=\\pi/3+k\\pi\\)।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = \\dfrac{\\pi}{3}+k\\pi\\;\\;(k\\in\\mathbb Z)$ Explanation: সমীকরণে \\(\\dfrac{1-\\tan A}{1+\\tan A}=\\dfrac{1-\\sqrt3}{1+\\sqrt3}\\) বসালে \\(\\tan A=\\sqrt3\\), তাই \\(A=\\pi/3+k\\pi\\)।",
+    "extracted_final_answers": [
+      "A = \\dfrac{\\pi}{3}+k\\pi\\;\\;(k\\in\\mathbb Z)$ Explanation: সমীকরণে \\(\\dfrac{1-\\tan A}{1+\\tan A}=\\dfrac{1-\\sqrt3}{1+\\sqrt3}\\) বসালে \\(\\tan A=\\sqrt3\\), তাই \\(A=\\pi/3+k\\pi\\)।"
+    ],
+    "exact_answer": "A=60\\degree",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "Bangla",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "$A=45\\degree$\tপ্রমাণ কর যে, $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$।",
+    "generated_answer": "প্রমাণঃ A=45° হলে cos 2A=cos 90°=0 এবং tan A=tan 45°=1, তাই  \n\n\\[\n\\frac{1-\\tan ^2A}{1+\\tan ^2A}=\\frac{1-1}{1+1}=0.\n\\]  \n\nঅতএব cos 2A = (1‑tan²A)/(1+tan²A) সত্য। <final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "পলাশ সরকার $2005$ সালের জানুয়ারি মাসে বার্ষিক $120000$ টাকা বেতনে চাকুরীতে যোগদান করলেন। তার বেতন বৃদ্ধির পরিমাণ প্রতি বছর $5000$ টাকা। প্রতি বছর তার বেতন থেকে $10\\%$ ভবিষ্যৎ তহবিল হিসেবে কর্তন করা হয়। তিনি বেতন থেকে বার্ষিক \n$12\\%$ চক্রবৃদ্ধি মুনাফা হারে বছর শেষে একটি ব্যাংকে $12000$ টাকা জমা রাখেন। তিনি $2030$ সালের $31$ ডিসেম্বর চাকুরী থেকে অবসরে যাবেন।\n\n$2031$ সালের $31$ ডিসেম্বর ঐ ব্যাংকে মুনাফাসহ তার মোট কত টাকা জমা হবে?",
+    "generated_answer": "২,০২৫,২১৭.৮৭৮৪ টাকা",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "২,০২৫,২১৭.৮৭৮৪ টাকা",
+    "extracted_final_answers": [
+      "২,০২৫,২১৭.৮৭৮৪ টাকা"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "Bangla",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "বর্গাকার একটি মাঠের ভিতরে চারদিকে $4$  মিটার চওড়া একটি রাস্তা আছে। যদি রাস্তার ক্ষেত্রফল $1$ হেক্টর হয়, তবে রাস্তা বাদে মাঠের ভিতরের ক্ষেত্রফল নির্ণয় কর।",
+    "generated_answer": "বর্গাকার মাঠের ভিতরের ক্ষেত্রফল (রাস্তা বাদে) = ৩৮৪ ৪০০ মি²\n\n<final>384400</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "384400",
+    "extracted_final_answers": [
+      "384400"
+    ],
+    "exact_answer": "38.56 হেক্টর",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "Bangla",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "$S = \\{x : x$, $100$ থেকে বড় নয় এমন পূর্ণবর্গ সংখ্যা$\\}$,\n$S$ কে অন্যভাবে প্রকাশ কর।\n",
+    "generated_answer": "S = \\{\\,n^2 \\mid n\\in\\mathbb{N},\\ 1\\le n\\le10\\,\\}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S = \\{\\,n^2 \\mid n\\in\\mathbb{N},\\ 1\\le n\\le10\\,\\}",
+    "extracted_final_answers": [
+      "S = \\{\\,n^2 \\mid n\\in\\mathbb{N},\\ 1\\le n\\le10\\,\\}"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "Bangla",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "$A$ ও $B$ যেকোনো সেট হলে $A \\cap B \\subseteq A$ এবং $A \\cap B \\subseteq B$",
+    "generated_answer": "Explanation: A ∩ B ⊆ A এবং A ∩ B ⊆ B কারণ প্রতিটি উপাদান উভয় সেটে বিদ্যমান।  \n\n<final>সত্য।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "সত্য।",
+    "extracted_final_answers": [
+      "সত্য।"
+    ],
+    "exact_answer": "A \\cap B \\subseteq A এবং A \\cap B \\subseteq B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "Bangla",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "দেখাও যে, $A \\subset B$ হবে যদি এবং কেবল যদি নিম্নোক্ত যেকোনো একটি শর্ত খাটে:\n$A \\cap B = A$\n",
+    "generated_answer": "উপসংহার: $A\\subseteq B$ হলে $A\\cap B=A$; আর $A\\cap B=A$ হলে $A$ এর প্রতিটি উপাদান $B$ তে থাকে, ফলে $A\\subseteq B$।<final>উপসংহার: $A\\subseteq B$ হলে $A\\cap B=A$; আর $A\\cap B=A$ হলে $A$ এর প্রতিটি উপাদান $B$ তে থাকে, ফলে $A\\subseteq B$।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$A\\subseteq B$ হলে $A\\cap B=A$; আর $A\\cap B=A$ হলে $A$ এর প্রতিটি উপাদান $B$ তে থাকে, ফলে $A\\subseteq B$।",
+    "extracted_final_answers": [
+      "$A\\subseteq B$ হলে $A\\cap B=A$; আর $A\\cap B=A$ হলে $A$ এর প্রতিটি উপাদান $B$ তে থাকে, ফলে $A\\subseteq B$।"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "Bangla",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "দেখাও যে,\n$A \\subset B$ হলে, $A \\cup (B \\setminus A) = B$\n",
+    "generated_answer": "উপসংহার: যেহেতু $A\\subseteq B$, তাই $A$-এর প্রত্যেক উপাদান $B$-এ আছে এবং $B$-এর যেকোনো উপাদান বা তো $A$-এর মধ্যে আছে বা $A$-এর বাইরে কিন্তু $B$-এ আছে, অর্থাৎ $B\\setminus A$-এ; ফলে $A\\cup(B\\setminus A)=B$।  \n\n<final>উপসংহার: যেহেতু $A\\subseteq B$, তাই $A\\cup(B\\setminus A)=B$।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "যেহেতু $A\\subseteq B$, তাই $A\\cup(B\\setminus A)=B$।",
+    "extracted_final_answers": [
+      "যেহেতু $A\\subseteq B$, তাই $A\\cup(B\\setminus A)=B$।"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "Bangla",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "যদি $U = \\{x: x \\text{ জোড় পূর্ণসংখ্যা}\\}$, $A = \\{x: 3x \\ge 25\\} \\subset U$ এবং $B = \\{x: 5x < 12\\} \\subset U$ হয়, তাহলে $n(A \\cap B)$ এবং $n(A' \\cap B')$ এর মান নির্ণয় কর।",
+    "generated_answer": "$A\\cap B=\\varnothing$ ⇒ $n(A\\cap B)=0$  \n$A'\\cap B'=\\{4,6,8\\}$ ⇒ $n(A'\\cap B')=3$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A\\cap B=\\varnothing$ ⇒ $n(A\\cap B)=0$ $A'\\cap B'=\\{4,6,8\\}$ ⇒ $n(A'\\cap B')=3",
+    "extracted_final_answers": [
+      "A\\cap B=\\varnothing$ ⇒ $n(A\\cap B)=0$ $A'\\cap B'=\\{4,6,8\\}$ ⇒ $n(A'\\cap B')=3"
+    ],
+    "exact_answer": "n(A \\cap B) = 0 এবং n(A' \\cap B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "নিচে প্রদত্ত $S$ অবয়বগুলোর ডোমেন, রেঞ্জ ও বিপরীত অন্বয় নির্ণয় কর।\n$S$ অথবা $S^{-1}$ অন্বয়গুলো ফাংশন কিনা তা নির্ধারণ কর।\nফাংশনগুলো এক-এক কিনা নির্ধারণ কর।\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "ডোমেন: {1, 2, 3, 4} রেঞ্জ: {5, 10, 15, 20}  \nবিপরীত অন্বয়: S⁻¹ = {(5,1), (10,2), (15,3), (20,4)}  \n\nS একটি ফাংশন এবং এক-এক (ইনজেকটিভ)।  \nS⁻¹ ও একটি ফাংশন এবং এক-এক (ইনজেকটিভ)।  \n\nExplanation: উভয়ই এক-এক হওয়ায় রেঞ্জের প্রতিটি উপাদানের জন্য ঠিক একটি প্রাক-চিত্র আছে।  \n\n<final>ডোমেন: {1, 2, 3, 4} রেঞ্জ: {5, 10, 15, 20} বিপরীত অন্বয়: {(5,1),(10,2),(15,3),(20,4)} S ও S⁻¹ উভয়ই ফাংশন এবং এক-এক।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ডোমেন: {1, 2, 3, 4} রেঞ্জ: {5, 10, 15, 20} বিপরীত অন্বয়: {(5,1),(10,2),(15,3),(20,4)} S ও S⁻¹ উভয়ই ফাংশন এবং এক-এক।",
+    "extracted_final_answers": [
+      "ডোমেন: {1, 2, 3, 4} রেঞ্জ: {5, 10, 15, 20} বিপরীত অন্বয়: {(5,1),(10,2),(15,3),(20,4)} S ও S⁻¹ উভয়ই ফাংশন এবং এক-এক।"
+    ],
+    "exact_answer": "\\therefore S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\therefore S^{-1} অন্বয়টিও ফাংশন। \\therefore S এক-এক ফাংশন।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "নিচে প্রদত্ত $S$ অবয়বগুলোর ডোমেন, রেঞ্জ ও বিপরীত অন্বয় নির্ণয় কর।\n$S$ অথবা $S^{-1}$ অন্বয়গুলো ফাংশন কিনা তা নির্ধারণ কর।\nফাংশনগুলো এক-এক কিনা নির্ধারণ কর।\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "ডোমেইন S = \\{½, 1, 5/2\\}, রেঞ্জ S = \\{0, 1, -1, 2, -2\\}  \nডোমেইন S⁻¹ = \\{0, 1, -1, 2, -2\\}, রেঞ্জ S⁻¹ = \\{½, 1, 5/2\\}  \n\nS একটি ফাংশন নয় (১‑এর জন্য দু'টি ভিন্ন আউটপুট আছে)।  \nS⁻¹ একটি ফাংশন (প্রতিটি ইনপুটের জন্য একক আউটপুট)।  \n\nS⁻¹ এক‑এক (injective) নয় (০≠‑০ এর জন্য একই আউটপুট ১/২, ২≠‑২ এর জন্য একই আউটপুট ৫/২)।  \nS-ও এক‑এক নয়।  \n\nExplanation: S‑এর একটি ইনপুটের জন্য একাধিক আউটপুট থাকায় ফাংশন নয়, এবং S⁻¹‑এর ক্ষেত্রে বিভিন্ন ইনপুটে একই আউটপুট দেখা যায়।  \n\n<final>ডোমেইন S = \\{½, 1, 5/2\\}, রেঞ্জ S = \\{0, 1, -1, 2, -2\\}  \nডোমেইন S⁻¹ = \\{0, 1, -1, 2, -2\\}, রেঞ্জ S⁻¹ = \\{½, 1, 5/2\\}  \nS ফাংশন নয়; S⁻¹ ফাংশন, কিন্তু উভয়ই এক‑এক নয়।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ডোমেইন S = \\{½, 1, 5/2\\}, রেঞ্জ S = \\{0, 1, -1, 2, -2\\} ডোমেইন S⁻¹ = \\{0, 1, -1, 2, -2\\}, রেঞ্জ S⁻¹ = \\{½, 1, 5/2\\} S ফাংশন নয়; S⁻¹ ফাংশন, কিন্তু উভয়ই এক‑এক নয়।",
+    "extracted_final_answers": [
+      "ডোমেইন S = \\{½, 1, 5/2\\}, রেঞ্জ S = \\{0, 1, -1, 2, -2\\} ডোমেইন S⁻¹ = \\{0, 1, -1, 2, -2\\}, রেঞ্জ S⁻¹ = \\{½, 1, 5/2\\} S ফাংশন নয়; S⁻¹ ফাংশন, কিন্তু উভয়ই এক‑এক নয়।"
+    ],
+    "exact_answer": "\\therefore S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S ফাংশন নয়। সুতরাং S^{-1} ফাংশনটি এক-এক নয়।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "নিচে প্রদত্ত $S$ অবয়বগুলোর ডোমেন, রেঞ্জ ও বিপরীত অন্বয় নির্ণয় কর।\n$S$ অথবা $S^{-1}$ অন্বয়গুলো ফাংশন কিনা তা নির্ধারণ কর।\nফাংশনগুলো এক-এক কিনা নির্ধারণ কর।\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "ডোমেইন: {২}  \nরেঞ্জ: {১, ২, ৩}  \nবিপরীত অন্বয়: \\(S^{-1}= \\{(১,২),(২,২),(৩,২)\\}\\)  \n\\(S\\) ফাংশন নয় (একই \\(x\\) এর জন্য একাধিক \\(y\\)).  \n\\(S^{-1}\\) ফাংশন, তবে এক-এক নয় (বিভিন্ন \\(x\\) একই \\(y\\) দেয়).  \n\nExplanation: \\(S\\) তে একই ইনপুটের জন্য তিনটি ভিন্ন আউটপুট আছে, তাই ফাংশন নয়; \\(S^{-1}\\) তে প্রত্যেক ইনপুটের জন্য কেবল একটি আউটপুট থাকলেও ভিন্ন ইনপুটগুলো একই আউটপুটে যায়, ফলে এক-এক নয়.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(S^{-1}\\) ফাংশন, তবে এক-এক নয় (বিভিন্ন \\(x\\) একই \\(y\\) দেয়). Explanation: \\(S\\) তে একই ইনপুটের জন্য তিনটি ভিন্ন আউটপুট আছে, তাই ফাংশন নয়; \\(S^{-1}\\) তে প্রত্যেক ইনপুটের জন্য কেবল একটি আউটপুট থাকলেও ভিন্ন ইনপুটগুলো একই আউটপুটে যায়, ফলে এক-এক নয়",
+    "extracted_final_answers": [
+      "\\(S^{-1}\\) ফাংশন, তবে এক-এক নয় (বিভিন্ন \\(x\\) একই \\(y\\) দেয়). Explanation: \\(S\\) তে একই ইনপুটের জন্য তিনটি ভিন্ন আউটপুট আছে, তাই ফাংশন নয়; \\(S^{-1}\\) তে প্রত্যেক ইনপুটের জন্য কেবল একটি আউটপুট থাকলেও ভিন্ন ইনপুটগুলো একই আউটপুটে যায়, ফলে এক-এক নয়"
+    ],
+    "exact_answer": "ডোম = \\{2\\}; রেঞ্জ = \\{1, 2, 3\\} S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} সুতরাং S ফাংশন নয়। সুতরাং S^{-1} ফাংশন। সুতরাং S^{-1} ফাংশনটি এক-এক নয়।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "$F: \\mathbb{R} \\to \\mathbb{R}$, $F(x) = x^3$ ফাংশনের জন্য—\nডোম $F$ এবং রেঞ্জ $F$ নির্ণয় কর।",
+    "generated_answer": "ডোমেইন: $\\mathbb{R}$, রেঞ্জ: $\\mathbb{R}$।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ডোমেইন: $\\mathbb{R}$, রেঞ্জ: $\\mathbb{R}$।",
+    "extracted_final_answers": [
+      "ডোমেইন: $\\mathbb{R}$, রেঞ্জ: $\\mathbb{R}$।"
+    ],
+    "exact_answer": "ডোম F = \\mathbb{R} এবং রেঞ্জ F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "$f: \\mathbb{R} \\to \\mathbb{R}$ এবং $g: \\mathbb{R} \\to \\mathbb{R}$ ফাংশন দুইটি যথাক্রমে\n$f(x) = 3x + 3$ এবং $g(x) = \\frac{x-3}{3}$ দ্বারা সংজ্ঞায়িত।\n$f(x)$ সার্বিক ফাংশন কিনা তা নির্ধারণ কর।",
+    "generated_answer": "Explanation: যেকোনো \\(y\\in\\mathbb{R}\\) এর জন্য \\(x=\\frac{y-3}{3}\\) বসালে \\(f(x)=y\\) হয়।  \n<final>হ্যাঁ, \\(f(x)=3x+3\\) একটি সার্বিক (onto) ফাংশন।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "হ্যাঁ, \\(f(x)=3x+3\\) একটি সার্বিক (onto) ফাংশন।",
+    "extracted_final_answers": [
+      "হ্যাঁ, \\(f(x)=3x+3\\) একটি সার্বিক (onto) ফাংশন।"
+    ],
+    "exact_answer": "ফাংশনটি সার্বিক",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "Bangla",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "দেওয়া আছে, $f(x) = \\sqrt{x-4}$\n$f(x)$ এক-এক ফাংশন কিনা নির্ধারণ কর।",
+    "generated_answer": "উপসংহার: হ্যাঁ, \\(f(x)=\\sqrt{x-4}\\) এক-এক ফাংশন।  \n<final>হ্যাঁ, \\(f(x)=\\sqrt{x-4}\\) এক-এক ফাংশন।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "হ্যাঁ, \\(f(x)=√(x-4)\\) এক-এক ফাংশন।",
+    "extracted_final_answers": [
+      "হ্যাঁ, \\(f(x)=√(x-4)\\) এক-এক ফাংশন।"
+    ],
+    "exact_answer": "f(x) একটি এক-এক ফাংশন",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "আংশিক ভগ্নাংশে প্রকাশ কর: $\\frac{x^2-4x-7}{(x+1)(x^2+4)}$",
+    "generated_answer": "উত্তরঃ  \n\\[\n\\frac{x^{2}-4x-7}{(x+1)(x^{2}+4)}\n=\\frac{-\\tfrac25}{\\,x+1\\,}+\\frac{\\tfrac75x-\\tfrac{27}{5}}{\\,x^{2}+4\\,}\n=\\frac{1}{5}\\Bigl[-\\frac{2}{x+1}+\\frac{7x-27}{x^{2}+4}\\Bigr].\n\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "=(1)/(5)\\Bigl[-(2)/(x+1)+(7x-27)/(x^{2)+4}\\Bigr]. \\]",
+    "extracted_final_answers": [
+      "=(1)/(5)\\Bigl[-(2)/(x+1)+(7x-27)/(x^{2)+4}\\Bigr]. \\]"
+    ],
+    "exact_answer": "\\frac{1}{5}\\left(\\frac{7x-27}{x^2+4} - \\frac{2}{x+1}\\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "আংশিক ভগ্নাংশে প্রকাশ কর: $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "আংশিক ভগ্নাংশে বিভাজন  \n\n\\[\n\\frac{x^{2}}{(2x+1)(x+3)^{2}}\n=\\frac{1}{25}\\,\\frac{1}{2x+1}\n+\\frac{12}{25}\\,\\frac{1}{x+3}\n-\\frac{9}{5}\\,\\frac{1}{(x+3)^{2}}\n\\]\n\nExplanation: প্রতিটি ধ্রুবকের মান সমাধান করে এই আকারে পাওয়া যায়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\] Explanation: প্রতিটি ধ্রুবকের মান সমাধান করে এই আকারে পাওয়া যায়।",
+    "extracted_final_answers": [
+      "\\] Explanation: প্রতিটি ধ্রুবকের মান সমাধান করে এই আকারে পাওয়া যায়।"
+    ],
+    "exact_answer": "\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "Bangla",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "সমাধান কর:$\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "<final>9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9",
+    "extracted_final_answers": [
+      "9"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "Bangla",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "সমাধান কর:\n $x+\\frac{4}{y}=1$, $y+\\frac{4}{x}=25$",
+    "generated_answer": "সমাধানসমূহ:\n$x=\\frac{4}{5},\\;y=20 \\quad$ অথবা \\quad $x=\\frac{1}{5},\\;y=5$\n\n<final>$x=\\frac{4}{5},\\;y=20 \\text{ অথবা } x=\\frac{1}{5},\\;y=5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=(4)/(5),\\;y=20 \\text{ অথবা } x=(1)/(5),\\;y=5",
+    "extracted_final_answers": [
+      "x=(4)/(5),\\;y=20 \\text{ অথবা } x=(1)/(5),\\;y=5"
+    ],
+    "exact_answer": "(x,y) = \\left(\\frac{4}{5},20\\right), \\left(\\frac{1}{5},5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "Bangla",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "সমাধান কর $8 \\ge 2-2x$",
+    "generated_answer": "সামাধান: \\(x \\ge -3\\)।\n\n<final>x \\ge -3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x \\ge -3",
+    "extracted_final_answers": [
+      "x \\ge -3"
+    ],
+    "exact_answer": "x \\ge -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "Bangla",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "এক বালক ঘন্টায় $x$ কি.মি. বেগে $3$ ঘন্টা হাঁটল এবং ঘন্টায় $(x+2)$ কি. মি. বেগে $\\frac{1}{2}$ ঘন্টা দৌড়াল এবং তার অতিক্রান্ত পথ $29$ কি. মি. এর কম। $x$ এর সম্ভাব্য মান নির্ণয় কর।",
+    "generated_answer": "x এর মান: $0 < x < 8$।\n\nExplanation: সমীকরণ থেকে পাওয়া যায় $7x+2<58$ ⇒ $x<8$, আর গতি ধনাত্মক হওয়ায় $x>0$।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x এর মান: $0 < x < 8$। Explanation: সমীকরণ থেকে পাওয়া যায় $7x+2<58$ ⇒ $x<8$, আর গতি ধনাত্মক হওয়ায় $x>0$।",
+    "extracted_final_answers": [
+      "x এর মান: $0 < x < 8$। Explanation: সমীকরণ থেকে পাওয়া যায় $7x+2<58$ ⇒ $x<8$, আর গতি ধনাত্মক হওয়ায় $x>0$।"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "Bangla",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": " সোহরাব সাহেব $70$ টাকা কেজি দরে $x$ কেজি আম কিনলেন। তিনি বিক্রেতাকে $500$ টাকার একখানা নোট দিলেন। বিক্রেতা $20$ টাকার $x$ খানা নোটসহ বাকি টাকা ফেরত দিলেন।$x$ এর সম্ভাব্য মান নির্ণয় কর।\n",
+    "generated_answer": "কোনো পূর্ণসংখ্যা মানে \\(x\\) সম্ভব নয়।  \nExplanation: সমীকরণ \\(20x = 500-70x\\) থেকে \\(x=\\frac{50}{9}\\) হয়, যা পূর্ণসংখ্যা নয়।  \n<final>কোনো পূর্ণসংখ্যা মানে \\(x\\) সম্ভব নয়।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "কোনো পূর্ণসংখ্যা মানে \\(x\\) সম্ভব নয়।",
+    "extracted_final_answers": [
+      "কোনো পূর্ণসংখ্যা মানে \\(x\\) সম্ভব নয়।"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "Bangla",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": " ঢাকা থেকে সিঙ্গাপুর বিমান পথে দূরত্ব $2900$ কি. মি.। জেট বিমানের সর্বোচ্চ গতিবেগ ঘন্টায় $900$ কি. মি.। কিন্তু ঢাকা থেকে সিঙ্গাপুর যাবার পথে প্রতিকূল দিকে ঘন্টায় $100$ কি. মি. বেগে বায়ু প্রবাহের সম্মুখীন হতে হয়। ঢাকা থেকে সিঙ্গাপুর বিমাানীন উড়ালেনের প্রয়োজনীয় সময় একটি অসমতার মাধ্যমে প্রকাশ কর।\n",
+    "generated_answer": "\\(t \\ge \\dfrac{2900}{900-100}\\;\\text{ঘন্টা}\\)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(t \\ge \\dfrac{2900}{900-100}\\;\\text{ঘন্টা}\\)",
+    "extracted_final_answers": [
+      "\\(t \\ge \\dfrac{2900}{900-100}\\;\\text{ঘন্টা}\\)"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "Bangla",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "$x$-এর উপর কী শর্ত আরোপ করলে $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ অসীম ধারাটির (অসীমতক) সমষ্টি থাকবে এবং সেই সমষ্টি নির্ণয় কর।",
+    "generated_answer": "শর্ত: \\(|x+1|>1\\) (অর্থাৎ \\(x<-2\\) অথবা \\(x>0\\))  \nসমষ্টি: \\(\\displaystyle \\frac1x\\)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "শর্ত: \\(|x+1|>1\\) (অর্থাৎ \\(x<-2\\) অথবা \\(x>0\\)) সমষ্টি: \\(\\displaystyle \\frac1x\\)",
+    "extracted_final_answers": [
+      "শর্ত: \\(|x+1|>1\\) (অর্থাৎ \\(x<-2\\) অথবা \\(x>0\\)) সমষ্টি: \\(\\displaystyle \\frac1x\\)"
+    ],
+    "exact_answer": "x < -2, x > 0,  \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "Bangla",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "একটি ত্রিভুজের কোণগুলো সমান্তর শ্রেণিভুক্ত এবং বৃহত্তম কোণটি ক্ষুদ্রতম কোণের দ্বিগুণ। কোণগুলোর রেডিয়ান পরিমাপ কত?",
+    "generated_answer": "ক্ষুদ্রতম কোণ 2π/9 রেডিয়ান, মধ্যবর্তী কোণ π/3 রেডিয়ান, বৃহত্তম কোণ 4π/9 রেডিয়ান।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ক্ষুদ্রতম কোণ 2π/9 রেডিয়ান, মধ্যবর্তী কোণ π/3 রেডিয়ান, বৃহত্তম কোণ 4π/9 রেডিয়ান।",
+    "extracted_final_answers": [
+      "ক্ষুদ্রতম কোণ 2π/9 রেডিয়ান, মধ্যবর্তী কোণ π/3 রেডিয়ান, বৃহত্তম কোণ 4π/9 রেডিয়ান।"
+    ],
+    "exact_answer": "\\frac{2\\pi^c}{9}, \\frac{\\pi^c}{3}, \\frac{4\\pi^c}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "Bangla",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "মান নির্ণয় কর: $\\text\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0$\n",
+    "generated_answer": "0\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "Bangla",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "মান নির্ণয় কর: $\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2$\n",
+    "generated_answer": "2",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2",
+    "extracted_final_answers": [
+      "2"
+    ],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "Bangla",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "মান নির্ণয় কর: $\\cos\\frac{9\\pi}{4} + \\cos\\frac{5\\pi}{4} + \\sin\\frac{31\\pi}{36} - \\sin\\frac{5\\pi}{36}$\n",
+    "generated_answer": "0",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "Bangla",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "প্রদত্ত শর্ত পূরণ করে $\\alpha$ (আলফা) এর মান নির্ণয় কর:$\\cot \\alpha = -\\sqrt{3}$, $\\frac{3\\pi}{2} < \\alpha < 2\\pi$\n",
+    "generated_answer": "11π/6\n\n<final>11π/6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "11π/6",
+    "extracted_final_answers": [
+      "11π/6"
+    ],
+    "exact_answer": "\\frac{11\\pi}{6}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "Bangla",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "সমাধান কর: (যখন $0 < \\theta < \\frac{\\pi}{2}$) $2\\sin^2\\theta + 3\\cos\\theta = 3$\n",
+    "generated_answer": "Explanation: সমীকরণটি সমাধান করলে cosθ = 1/2 পাওয়া যায়, ফলে θ = π/3 (প্রথম চতুর্ভুজে)।\n\n<final>π/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "π/3",
+    "extracted_final_answers": [
+      "π/3"
+    ],
+    "exact_answer": "\\frac{\\pi}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "সরল কর: $bc\\sqrt[bc]{\\frac{x^b}{x^c}} \\times ca\\sqrt[ca]{\\frac{x^c}{x^a}} \\times ab\\sqrt[ab]{\\frac{x^a}{x^b}}$",
+    "generated_answer": "$(abc)^2$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(abc)^2",
+    "extracted_final_answers": [
+      "(abc)^2"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "দেখাও যে,\n যদি $x = a^q b^p, y = a^r b^q, z = a^p b^r$ হয়, তবে $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1$.",
+    "generated_answer": "Explanation: শুধুমাত্র যখন \\(p = q = r\\) তখনই ফল ১ হয়।  \n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "Bangla",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": " যদি $a^2+2 = 3^{\\frac{2}{3}}+3^{-\\frac{2}{3}}$ এবং $a \\geq 0$ হয়, তবে দেখাও যে, $3a^3+9a=8$",
+    "generated_answer": "সুতরাং 3a³+9a = 8।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3a³+9a = 8।",
+    "extracted_final_answers": [
+      "3a³+9a = 8।"
+    ],
+    "exact_answer": "3a^3 + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "Bangla",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "নিচের ফাংশনের বিপরীত ফাংশন লিখ $y = \\log_{10} x$",
+    "generated_answer": "f^{-1}(x) = 10^x\n<final>f^{-1}(x) = 10^x</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "f^{-1}(x) = 10^x",
+    "extracted_final_answers": [
+      "f^{-1}(x) = 10^x"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "Bangla",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "$f(x)=\\ln \\frac{1-x}{1+x}$ ফাংশনটির ডোমেন এবং রেঞ্জ নির্ণয় কর।",
+    "generated_answer": "ডোমেন: \\((-1,\\,1)\\)  \nরেঞ্জ: \\(\\mathbb{R}\\)  \n\n<final>ডোমেন: (-1,1)  রেঞ্জ: ℝ</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ডোমেন: (-1,1) রেঞ্জ: ℝ",
+    "extracted_final_answers": [
+      "ডোমেন: (-1,1) রেঞ্জ: ℝ"
+    ],
+    "exact_answer": "D_f=(-1, 1) ,R_f=R.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "Bangla",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "ডোমেন এবং রেঞ্জ উল্লেখ কর।\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{যখন } x \\ne 0 \\ 0, & \\text{যখন } x=0 \\end{cases}$ ",
+    "generated_answer": "ডোমেন: ℝ  \nরেঞ্জ: {−1, 0, 1}  \nExplanation: f(x) ১, −১, ০ মান নেয়, তাই রেঞ্জ {−1,0,1}।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "রেঞ্জ: {−1, 0, 1} Explanation: f(x) ১, −১, ০ মান নেয়, তাই রেঞ্জ {−1,0,1}।",
+    "extracted_final_answers": [
+      "রেঞ্জ: {−1, 0, 1} Explanation: f(x) ১, −১, ০ মান নেয়, তাই রেঞ্জ {−1,0,1}।"
+    ],
+    "exact_answer": "D_f = \\mathbb{R} , R_f = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "bangla",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "(1 + x^2)^8 এর বিস্তৃতির প্রথম চারটি পদ নির্ণয় কর। উক্ত ফলাফল ব্যবহার করে (1.01)^8 এর মান নির্ণয় কর।",
+    "generated_answer": "প্রথম চারটি পদ: ১ + ৮x² + ২৮x⁴ + ৫৬x⁶।  \n(1.01)⁸ ≈ ১.০৮২৯।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "প্রথম চারটি পদ: ১ + ৮x² + ২৮x⁴ + ৫৬x⁶। (1.01)⁸ ≈ ১.০৮২৯।",
+    "extracted_final_answers": [
+      "প্রথম চারটি পদ: ১ + ৮x² + ২৮x⁴ + ৫৬x⁶। (1.01)⁸ ≈ ১.০৮২৯।"
+    ],
+    "exact_answer": "1.082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "bangla",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "নিম্নোক্ত বিস্তৃতিসমূহের প্রথম চারটি পদ নির্ণয় কর।\n[দ্বিপদী বিস্তৃতি বা প্যাসকেল ত্রিভুজ এর যেকোনো একটি ব্যবহার করে]\n(ক) (1 - 2x^2)^7",
+    "generated_answer": "১ - ১৪x² + ৮৪x⁴ - ২৮০x⁶",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১ - ১৪x² + ৮৪x⁴ - ২৮০x⁶",
+    "extracted_final_answers": [
+      "১ - ১৪x² + ৮৪x⁴ - ২৮০x⁶"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots ",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "bangla",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "নিম্নোক্ত বিস্তৃতিসমূহের প্রথম চারটি পদ নির্ণয় কর।\n[দ্বিপদী বিস্তৃতি বা প্যাসকেল ত্রিভুজ এর যেকোনো একটি ব্যবহার করে]\n(গ) (1 - \\frac{1}{2x})^7",
+    "generated_answer": "প্রথম চারটি পদ:  \n\\(1-\\dfrac{7}{2x}+\\dfrac{21}{4x^{2}}-\\dfrac{35}{8x^{3}}\\)  \n\nExplanation: দ্বিপদী সূত্রে k=0,1,2,3 এর মান বসালে এই চারটি পদ পাওয়া যায়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(1-\\dfrac{7}{2x}+\\dfrac{21}{4x^{2}}-\\dfrac{35}{8x^{3}}\\) Explanation: দ্বিপদী সূত্রে k=0,1,2,3 এর মান বসালে এই চারটি পদ পাওয়া যায়।",
+    "extracted_final_answers": [
+      "\\(1-\\dfrac{7}{2x}+\\dfrac{21}{4x^{2}}-\\dfrac{35}{8x^{3}}\\) Explanation: দ্বিপদী সূত্রে k=0,1,2,3 এর মান বসালে এই চারটি পদ পাওয়া যায়।"
+    ],
+    "exact_answer": "1-\\frac{7}{2x}+\\frac{21}{4x^2}-\\frac{35}{8x^3}+.....",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "Bangla",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "নির্ণেয় বিস্তৃতিসমূহের প্রথম চারটি পদ নির্ণয় কর।\n(1) $(2+3x)^6$",
+    "generated_answer": "প্রথম চারটি পদ: ৬৪ + ৫৭৬x + ২১৬০x² + ৪৩২০x³  \nExplanation: দ্বিপদী সূত্র প্রয়োগ করে গণনা করা হয়েছে।  \n<final>৬৪ + ৫৭৬x + ২১৬০x² + ৪৩২০x³</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৬৪ + ৫৭৬x + ২১৬০x² + ৪৩২০x³",
+    "extracted_final_answers": [
+      "৬৪ + ৫৭৬x + ২১৬০x² + ৪৩২০x³"
+    ],
+    "exact_answer": "64 + 576x + 2160x^2 + 4320x^3 + \\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "Bangla",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "দেখাও যে, $a+b=c$ হলে $a=c-b$",
+    "generated_answer": "Explanation: উভয় পাশে থেকে \\(b\\) বিয়োগ করলে \\(a = c - b\\) পাওয়া যায়।  \n<final>a = c - b</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a = c - b",
+    "extracted_final_answers": [
+      "a = c - b"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "ভূমির উপর অবস্থিত 2.5 মি. দৈর্ঘ্য ও 1 মি. প্রস্থবিশিষ্ট (অভ্যন্তরীণ পরিমাপ) একটি আয়তাকার জলাধারের উচ্চতা 0.4 মিটার হলে, এর আয়তন এবং অভ্যন্তরীণ তলের ক্ষেত্রফল নির্ণয় কর।",
+    "generated_answer": "আয়তন: ১.০০০০ ঘন মিটার, অভ্যন্তরীণ তল ক্ষেত্রফল: ২.৫০০০ বর্গ মিটার",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "আয়তন: ১.০০০০ ঘন মিটার, অভ্যন্তরীণ তল ক্ষেত্রফল: ২.৫০০০ বর্গ মিটার",
+    "extracted_final_answers": [
+      "আয়তন: ১.০০০০ ঘন মিটার, অভ্যন্তরীণ তল ক্ষেত্রফল: ২.৫০০০ বর্গ মিটার"
+    ],
+    "exact_answer": "1, 7.8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "70 জন ছাত্রের জন্য এরূপ একটি হোস্টেল নির্মাণ করতে হবে যাতে প্রত্যেক ছাত্রের জন্য 4.25 বর্গমিটার মেঝে ও 13.6 ঘনমিটার শূন্যস্থান থাকে। ঘরটি 34 মিটার লম্বা হলে, এর প্রস্থ ও উচ্চতা কত হবে ?",
+    "generated_answer": "প্রস্থ ৮.৭৫ মিটার, উচ্চতা ৩.২ মিটার",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "প্রস্থ ৮.৭৫ মিটার, উচ্চতা ৩.২ মিটার",
+    "extracted_final_answers": [
+      "প্রস্থ ৮.৭৫ মিটার, উচ্চতা ৩.২ মিটার"
+    ],
+    "exact_answer": "8.75,3.2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "কোনো সমকোণী ত্রিভুজের দুইটি বাহুর দৈর্ঘ্য 5 সে.মি. এবং 3.5 সে.মি.। একে বৃহত্তর বাহুর চতুর্দিকে ঘোরালে যে ঘনবস্তু উৎপন্ন হয়, তার আয়তন নির্ণয় কর।",
+    "generated_answer": "৬৪.১৪০৯ ঘন সেন্টিমিটার",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "৬৪.১৪০৯ ঘন সেন্টিমিটার",
+    "extracted_final_answers": [
+      "৬৪.১৪০৯ ঘন সেন্টিমিটার"
+    ],
+    "exact_answer": "64.14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "25 মি. দৈর্ঘ্য ও 18 মি. প্রস্থ বিশিষ্ট ভূমির উপর অবস্থিত দোচালা গুদাম ঘরের দেয়ালের উচ্চতা 5 মি.। প্রতিটি চালার দৈর্ঘ্য 14 মি. হলে গুদাম ঘরটির আয়তন নির্ণয় কর।",
+    "generated_answer": "গুদাম ঘরের আয়তন 2250 ঘন মিটার।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "গুদাম ঘরের আয়তন 2250 ঘন মিটার।",
+    "extracted_final_answers": [
+      "গুদাম ঘরের আয়তন 2250 ঘন মিটার।"
+    ],
+    "exact_answer": "4662.85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "দেখাও যে, $F:R \\rightarrow R, \\  F(x)=x^2$ ফাংশনটি এক-এক নয়। ",
+    "generated_answer": "উদাহরণস্বরূপ, \\(F(1)=1=F(-1)\\) কিন্তু \\(1\\neq -1\\), তাই \\(F\\) এক-এক নয়।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "উদাহরণস্বরূপ, \\(F(1)=1=F(-1)\\) কিন্তু \\(1\\neq -1\\), তাই \\(F\\) এক-এক নয়।",
+    "extracted_final_answers": [
+      "উদাহরণস্বরূপ, \\(F(1)=1=F(-1)\\) কিন্তু \\(1\\neq -1\\), তাই \\(F\\) এক-এক নয়।"
+    ],
+    "exact_answer": "F এক-এক নয়।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "Bangla",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "$f(x) = 3x+1,\\ 0 \\le x \\le 2$; $f$   রেঞ্জ নির্ণয় কর।",
+    "generated_answer": "রেঞ্জ হলো \\([1,\\,7]\\)।\n\n<final>[1, 7]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[1, 7]",
+    "extracted_final_answers": [
+      "[1, 7]"
+    ],
+    "exact_answer": "{y: 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "যদি $P(x)=3x^3+2x^2-7x+8$ হয়, তবে $P(2)$ এর মান নির্ণয় কর।",
+    "generated_answer": "26",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "26",
+    "extracted_final_answers": [
+      "26"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "যদি $P(x) = ax^3+bx+c$ হয়, তবে $P(x)$ কে $x-m$ দ্বারা ভাগ করে দেখাও যে, ভাগশেষ $P(m)$ এর সমান।",
+    "generated_answer": "Explanation: ভাগশেষের ডিগ্রি ১ এর কম, তাই $x=m$ বসালে $P(m)=R$।  \nউপসংহার: ভাগশেষ $P(m)$।<final> ভাগশেষ $P(m)$।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ভাগশেষ $P(m)$।",
+    "extracted_final_answers": [
+      "ভাগশেষ $P(m)$।"
+    ],
+    "exact_answer": "ভাগশেষ P(m) এর সমান।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "মনে করি, $P(x) = ax^3 + bx^2 + cx + d$ বহুপদীর সহগগুলো পূর্ণসংখ্যা, $a \\ne 0$, $d \\ne 0$ এবং $x - r$ বহুপদীর একটি উৎপাদক। দেখাও যে,\nযদি $r$ পূর্ণসংখ্যা হয়, তবে $r$, $d$ এর উৎপাদক হবে।",
+    "generated_answer": "উপসংহার: যেহেতু $P(r)=0$, তাই $ar^3+br^2+cr+d=0$ এবং $d=-ar^3-br^2-cr$; প্রত্যেকটি পদে $r$ গুণক আছে, ফলে $r|d$।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "যেহেতু $P(r)=0$, তাই $ar^3+br^2+cr+d=0$ এবং $d=-ar^3-br^2-cr$; প্রত্যেকটি পদে $r$ গুণক আছে, ফলে $r|d$।",
+    "extracted_final_answers": [
+      "যেহেতু $P(r)=0$, তাই $ar^3+br^2+cr+d=0$ এবং $d=-ar^3-br^2-cr$; প্রত্যেকটি পদে $r$ গুণক আছে, ফলে $r|d$।"
+    ],
+    "exact_answer": "r, d এর একটি উৎপাদক",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "$P(x)=x^3-6x^2+11x-6$ কে উৎপাদকে বিশ্লেষণ কর।",
+    "generated_answer": "( x-1)( x-2)( x-3)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( x-1)( x-2)( x-3)",
+    "extracted_final_answers": [
+      "( x-1)( x-2)( x-3)"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "উৎপাদকে বিশ্লেষণ কর: \t$18x^3+15x^2-x-2$।\n",
+    "generated_answer": "Explanation: x = -½ একটি মূল, ভাগ করলে 9x²+3x-2 পাওয়া যায় যা (3x-1)(3x+2) এ বিশ্লেষণযোগ্য।  \n<final>(x+½)(3x-1)(3x+2)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+½)(3x-1)(3x+2)",
+    "extracted_final_answers": [
+      "(x+½)(3x-1)(3x+2)"
+    ],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "$a^3(b-c)+b^3(c-a)+c^3(a-b)$  কে উৎপাদকে বিশ্লেষণ কর।",
+    "generated_answer": "<a-b)(b-c)(c-a)(a+b+c)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "<a-b)(b-c)(c-a)(a+b+c)",
+    "extracted_final_answers": [
+      "<a-b)(b-c)(c-a)(a+b+c)"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "$(b+c)(c+a)(a+b)+abc$ কে উৎপাদকে বিশ্লেষণ কর।\n",
+    "generated_answer": "( a+b+c )\\,( ab+bc+ca )",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( a+b+c )\\,( ab+bc+ca )",
+    "extracted_final_answers": [
+      "( a+b+c )\\,( ab+bc+ca )"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "Bangla",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "$\\dfrac{x}{(x-1)(x^2+4)}$ কে আংশিক ভগ্নাংশে প্রকাশ কর।",
+    "generated_answer": "<final>\\displaystyle \\frac{x}{(x-1)(x^2+4)}=\\frac{1}{5}\\Bigl(\\frac{1}{x-1}+\\frac{-x+4}{\\,x^{2}+4}\\Bigr)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\displaystyle (x)/((x-1)(x^2+4))=(1)/(5)\\Bigl((1)/(x-1)+(-x+4)/(\\,x^{2)+4}\\Bigr)",
+    "extracted_final_answers": [
+      "\\displaystyle (x)/((x-1)(x^2+4))=(1)/(5)\\Bigl((1)/(x-1)+(-x+4)/(\\,x^{2)+4}\\Bigr)"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "Bangla",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "$\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ একটি অনন্ত গুণোত্তর ধারা।\\item $x=1$ হলে, ধারাটির সাধারণ অনুপাত নির্ণয় কর।",
+    "generated_answer": "সাধারণ অনুপাত $r=\\dfrac{1}{2x+1}$, তাই $x=1$ হলে $r=\\dfrac{1}{3}$।  \nExplanation: প্রথম ও পরবর্তী পদগুলোর অনুপাত $\\dfrac{1}{2x+1}$, এবং $x=1$ দিলে তা $\\dfrac{1}{3}$।  \n<final>1/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/3",
+    "extracted_final_answers": [
+      "1/3"
+    ],
+    "exact_answer": "\\dfrac{1}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "Bangla",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "একটি ত্রিভুজের তিনটি কোণের অনুপাত $3:4:5$, কোণ তিনটির বৃত্তীয় মান কত?",
+    "generated_answer": "কোণগুলো হবে ৪৫°, ৬০°, ৭৫°।  \nবৃত্তীয় মান (রেডিয়ান) হবে \\(\\displaystyle \\frac{\\pi}{4},\\ \\frac{\\pi}{3},\\ \\frac{5\\pi}{12}\\)।\n\nExplanation: 3k+4k+5k=180° থেকে k=15°।  \n<final>\\(\\frac{\\pi}{4},\\ \\frac{\\pi}{3},\\ \\frac{5\\pi}{12}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\((\\pi)/(4),\\ (\\pi)/(3),\\ (5\\pi)/(12)\\)",
+    "extracted_final_answers": [
+      "\\((\\pi)/(4),\\ (\\pi)/(3),\\ (5\\pi)/(12)\\)"
+    ],
+    "exact_answer": "\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3} ও \\dfrac{5\\pi}{12}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "Bangla",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": " কোনো বৃত্তের ব্যাসার্ধ $7$ সে.মি.। বৃত্তের $11$ সে.মি. দীর্ঘ চাপের কেন্দ্রস্থ  কোণের পরিমাণ নির্ণয় কর।",
+    "generated_answer": "90.0362°",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "90.0362°",
+    "extracted_final_answers": [
+      "90.0362°"
+    ],
+    "exact_answer": "1.57 রেডিয়ান",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "Bangla",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "$7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$ হলে, প্রমাণ কর যে, $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$ ",
+    "generated_answer": "উপসংহার: $\\tan\\theta=\\pm\\dfrac{1}{\\sqrt3}$।  \nExplanation: $7\\sin^2\\theta+3\\cos^2\\theta=4$ থেকে $\\sin^2\\theta=\\frac14,\\ \\cos^2\\theta=\\frac34$, ফলে $\\tan^2\\theta=\\frac{\\frac14}{\\frac34}=\\frac13\\Rightarrow\\tan\\theta=\\pm\\frac1{\\sqrt3}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$\\tan\\theta=\\pm\\dfrac{1}{\\sqrt3}$। Explanation: $7\\sin^2\\theta+3\\cos^2\\theta=4$ থেকে $\\sin^2\\theta=\\frac14,\\ \\cos^2\\theta=\\frac34$, ফলে $\\tan^2\\theta=(\\frac14)/(\\frac34)=\\frac13\\Rightarrow\\tan\\theta=\\pm\\frac1{\\sqrt3}$",
+    "extracted_final_answers": [
+      "$\\tan\\theta=\\pm\\dfrac{1}{\\sqrt3}$। Explanation: $7\\sin^2\\theta+3\\cos^2\\theta=4$ থেকে $\\sin^2\\theta=\\frac14,\\ \\cos^2\\theta=\\frac34$, ফলে $\\tan^2\\theta=(\\frac14)/(\\frac34)=\\frac13\\Rightarrow\\tan\\theta=\\pm\\frac1{\\sqrt3}$"
+    ],
+    "exact_answer": "\\text{tan} \\theta=\\pm \\dfrac{1}{\\sqrt{3}}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "Bangla",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "মান নির্ণয় কর। , $\\text{sin} (10\\pi+\\theta)$ ",
+    "generated_answer": "\\sin\\theta",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sin\\theta",
+    "extracted_final_answers": [
+      "\\sin\\theta"
+    ],
+    "exact_answer": "\\sin\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "Bangla",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "মান নির্ণয় কর। , $\\text{cot} \\left(\\theta-\\dfrac{9\\pi}{2}\\right)$ ",
+    "generated_answer": "Explanation: কারণ $\\cot(\\alpha-\\frac{\\pi}{2})=\\tan\\alpha$।  \n\n<final>$\\tan\\theta$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\tan\\theta",
+    "extracted_final_answers": [
+      "\\tan\\theta"
+    ],
+    "exact_answer": "-\\tan\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "Bangla",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "প্রমাণ কর যে, $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times  \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.\n",
+    "generated_answer": "1\n\nExplanation: প্রতিটি ফ্যাক্টরকে সূচক রূপে লিখে যোগ করলে শূন্য হয়, ফলে ফলাফল ১।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 Explanation: প্রতিটি ফ্যাক্টরকে সূচক রূপে লিখে যোগ করলে শূন্য হয়, ফলে ফলাফল ১।",
+    "extracted_final_answers": [
+      "1 Explanation: প্রতিটি ফ্যাক্টরকে সূচক রূপে লিখে যোগ করলে শূন্য হয়, ফলে ফলাফল ১।"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "Bangla",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": " যদি $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$  হয় তবে দেখাও যে, $a^xb^yc^z=1$\n",
+    "generated_answer": "a^x b^y c^z = 1",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a^x b^y c^z = 1",
+    "extracted_final_answers": [
+      "a^x b^y c^z = 1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "$ (1-3x)^5$  কে বিস্তৃত কর।",
+    "generated_answer": "<final>১ - ১৫x + ৯০x² - ২৭০x³ + ৪০৫x⁴ - ২৪৩x⁵</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "১ - ১৫x + ৯০x² - ২৭০x³ + ৪০৫x⁴ - ২৪৩x⁵",
+    "extracted_final_answers": [
+      "১ - ১৫x + ৯০x² - ২৭০x³ + ৪০৫x⁴ - ২৪৩x⁵"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "$ (1-\\dfrac{x^2}{4})^8$  এর বিস্তৃতির $ x^3$  ও $ x^6$ এর সহগ নির্ণয় কর।  ",
+    "generated_answer": "x^3 এর সহগ = 0, x^6 এর সহগ = -7/8।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^3 এর সহগ = 0, x^6 এর সহগ = -7/8।",
+    "extracted_final_answers": [
+      "x^3 এর সহগ = 0, x^6 এর সহগ = -7/8।"
+    ],
+    "exact_answer": "x^3  এর সহগ   0  এবং  x^6  এর সহগ   -\\dfrac{7}{8}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "Bangla",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "$ \\left(x-\\dfrac{1}{x^2}\\right)^5$  কে বিস্তৃত কর।",
+    "generated_answer": "x^5-5x^2+\\frac{10}{x}-\\frac{10}{x^4}+\\frac{5}{x^7}-\\frac{1}{x^{10}}  \nExplanation: বিনোমিয়াল সূত্র অনুযায়ী প্রতিটি পদ গুণফল করে পাওয়া যায়।<final>x^5-5x^2+\\frac{10}{x}-\\frac{10}{x^4}+\\frac{5}{x^7}-\\frac{1}{x^{10}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^5-5x^2+(10)/(x)-(10)/(x^4)+(5)/(x^7)-(1)/(x^{10)}",
+    "extracted_final_answers": [
+      "x^5-5x^2+(10)/(x)-(10)/(x^4)+(5)/(x^7)-(1)/(x^{10)}"
+    ],
+    "exact_answer": "x^5-5x^2+\\dfrac{10}{x}-\\dfrac{10}{x^4}+\\dfrac{5}{x^7}-\\dfrac{1}{x^{10}}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "Bangla",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "ভেক্টরের সাহায্যে প্রমাণ কর যে, ত্রিভুজের যেকোনো দুই বাহুর মধ্যবিন্দুদ্বয়ের সংযোজক রেখাংশ ঐ ত্রিভুজের তৃতীয় বাহুর সমান্তরাল ও তার অর্ধেক।",
+    "generated_answer": "ধরি ত্রিভুজ \\(ABC\\)‑এর \\(AB\\) ও \\(AC\\) এর মধ্যবিন্দু যথাক্রমে \\(M\\) ও \\(N\\)। তাহলে  \n\\(M=\\frac{A+B}{2},\\; N=\\frac{A+C}{2}\\) এবং  \n\\[\n\\overrightarrow{MN}=N-M=\\frac{C-B}{2}=\\frac12\\,\\overrightarrow{BC}.\n\\]  \nঅতএব \\(MN\\) হলো \\(BC\\)-এর সমান্তরাল ও তার অর্ধেক।  \n\nExplanation: \\(\\overrightarrow{MN}= \\tfrac12\\,\\overrightarrow{BC}\\).  \n\n<final>ধরি ত্রিভুজ \\(ABC\\)-এর \\(AB\\) ও \\(AC\\) এর মধ্যবিন্দু যথাক্রমে \\(M\\) ও \\(N\\)। তাহলে \\(MN=\\frac12\\,BC\\), সুতরাং \\(MN\\) \\(BC\\)-এর সমান্তরাল ও অর্ধেক।</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "ধরি ত্রিভুজ \\(ABC\\)-এর \\(AB\\) ও \\(AC\\) এর মধ্যবিন্দু যথাক্রমে \\(M\\) ও \\(N\\)। তাহলে \\(MN=\\frac12\\,BC\\), সুতরাং \\(MN\\) \\(BC\\)-এর সমান্তরাল ও অর্ধেক।",
+    "extracted_final_answers": [
+      "ধরি ত্রিভুজ \\(ABC\\)-এর \\(AB\\) ও \\(AC\\) এর মধ্যবিন্দু যথাক্রমে \\(M\\) ও \\(N\\)। তাহলে \\(MN=\\frac12\\,BC\\), সুতরাং \\(MN\\) \\(BC\\)-এর সমান্তরাল ও অর্ধেক।"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "Bangla",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "ভেক্টর পদ্ধতিতে প্রমাণ কর যে, সামান্তরিকের কর্ণদ্বয় পরস্পরকে সমদ্বিখণ্ডিত করে।",
+    "generated_answer": "কর্ণদ্বয়ের মধ্যবিন্দু একই হওয়ায় তারা পরস্পরকে সমদ্বিখণ্ডিত করে।",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "কর্ণদ্বয়ের মধ্যবিন্দু একই হওয়ায় তারা পরস্পরকে সমদ্বিখণ্ডিত করে।",
+    "extracted_final_answers": [
+      "কর্ণদ্বয়ের মধ্যবিন্দু একই হওয়ায় তারা পরস্পরকে সমদ্বিখণ্ডিত করে।"
+    ],
+    "exact_answer": "সামান্তরিকের কর্ণদ্বয় পরস্পরকে সমদ্বিখণ্ডিত করে।",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "Bangla",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "একটি আয়তাকার ঘনবস্তুর দৈর্ঘ্য,   প্রস্থ ও উচ্চতার অনুপাত  $ 4: 3: 2 $  এবং তার সমগ্র তলের ক্ষেত্রফল  $ 468 $   বর্গমিটার হলে,   তার কর্ণ ও আয়তন নির্ণয় কর। ",
+    "generated_answer": "প্রশ্নের উত্তর: কর্ণ = $3\\sqrt{29}$ মিটার, আয়তন = $648$ ঘন মিটার।  \n\nExplanation: কারণ $k^2=9$ হলে মাত্রা $12$, $9$, $6$ মিটার, ফলে সূত্র অনুযায়ী ফলাফল পাওয়া গেল।  \n\n<final>3√29, 648</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3√29, 648",
+    "extracted_final_answers": [
+      "3√29, 648"
+    ],
+    "exact_answer": "16.16   মিটার (প্রায়), 648   ঘনমিটার।",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "Bangla",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "আবহাওয়া দপ্তর থেকে পাওয়া রিপোর্ট অনুযায়ী জুলাই মাসে ঢাকা শহরে  $ 21 $  দিন বৃষ্টি হয়েছে। তাহলে \n $ 8 $  জুলাই বৃষ্টি হওয়ার সম্ভাবনা কত?",
+    "generated_answer": "0.6774\n\n<final>0.6774</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0.6774",
+    "extracted_final_answers": [
+      "0.6774"
+    ],
+    "exact_answer": "\\dfrac{21}{31}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]

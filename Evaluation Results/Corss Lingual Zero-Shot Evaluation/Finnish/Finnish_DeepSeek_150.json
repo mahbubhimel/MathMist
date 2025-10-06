@@ -1,0 +1,2702 @@
+[
+  {
+    "problem_index": 0,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "Etsi rationaaliluku ja irrationaaliluku lukujen $\\frac{1}{\\sqrt{2}}$ ja $\\sqrt{2}$ välistä.",
+    "generated_answer": "Rationaaliluku on $\\frac{\\sqrt{2}}{2}$ ja irrationaaliluku on $\\sqrt{2}$.\n\n<final>$\\frac{\\sqrt{2}}{2}$ ja $\\sqrt{2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{√(2)}{2}$ ja $√(2)",
+    "extracted_final_answers": [
+      "\\frac{√(2)}{2}$ ja $√(2)"
+    ],
+    "exact_answer": "$a=1,2 ja b=1,020020002 ovat kaksi haluttua lukua, joista $a$ on rationaalinen ja $b$ on irrationaalinen.$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "Suomenkielinen käännös:\n\nKirjoita, onko seuraava luku rationaalinen vai irrationaalinen: $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ on rationaalinen, koska se saadaan murtoluvuilla laskemalla ja niillä on rationaalisia nimittäjät ja osoittajat. \n\n<final>Rationaalinen</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Rationaalinen",
+    "extracted_final_answers": [
+      "Rationaalinen"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ on rationaaliluku.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "Olkoon seuraava luku: $5.\\dot{6}3\\dot{9}$. Onko se rationaaliluku vai irrationaaliluku?",
+    "generated_answer": "Luku on rationaaliluku, koska se voidaan esittää tasa-arvoa murroldella.\n<final>5.639(639)<repeat=True></final>\n\n### Vastaus:\n\\boxed{5.\\overline{639}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5.639(639)<repeat=True>",
+    "extracted_final_answers": [
+      "5.639(639)<repeat=True>"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ on rationaaliluku.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "$\\sqrt{5}$ ja $4$ ovat kaksi reaalilukua.\nEtsi kaksi irrationaalilukua väliltä $\\sqrt{5}$ ja $4$.",
+    "generated_answer": "Välillä $\\sqrt{5}$ ja $4$ ovat kaksi rationaalilukua, joten etsi sellaisia irrationaalilukuja, jotka sijaitsevat välillä.\n\n---\n\n**Ratkaisu:**\n\nEtsitään kahdesta eri irrationaalian luvusta välillä $\\sqrt{5} \\approx 2.236$ ja $4$. Esimerkiksi voidaan valita $\\sqrt{6} \\approx 2.449$ ja $e^{1} \\approx 2.718$, joiden molemmat sijaitsevat tavoittamattomasti välillä.\n\n---\n\n**Vastaus:**\n\n$\\sqrt{6}$ ja $e$\n\n<final>√6 ja e</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√6 ja e",
+    "extracted_final_answers": [
+      "√6 ja e"
+    ],
+    "exact_answer": "$a=2,4040040004$ ja $b=2,5050050005$ ovat molemmat irrationaalilukuja",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "Olkoot $\\sqrt{5}$ ja $4$ kaksi reaalilukua.\nOsoita, että $\\sqrt{5}$ on irrationaaliluku.",
+    "generated_answer": "$\\sqrt{5}$ on irrationaaliluku, koska se voidaan osoittaa olevan epälohtaviä. \n\n<final>√5 on irrationaali</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√5 on irrationaali",
+    "extracted_final_answers": [
+      "√5 on irrationaali"
+    ],
+    "exact_answer": "$\\sqrt{5}$ on irrationaaliluku.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "Finnish",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "Olkoon joukko $A = \\{x \\in \\mathbb{Z}: x^2>5 \\text{ ja } x^3 \\leq 36\\}$. Kirjoita joukko $A$ joukonmuodostusmerkinnällä.",
+    "generated_answer": "Joukko \\( A \\) constoidaan niistä kokonaisluuvista \\( x \\), jotka toteuttavat yhtälöt \\( x^2 > 5 \\) ja \\( x^3 \\leq 36 \\). Ratkaisemalla epäyhtälöt saadaan \\( A = \\{-3, -2, -1, 0, 1, 2\\} \\).\n\nFinal Answer (in Finnish):\n[Näillä luvuilla on joukko \\( A = \\{-3, -2, -1, 0, 1, 2\\} \\)]\n\n<final>[[A = \\{-3, -2, -1, 0, 1, 2\\}]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[[A = \\{-3, -2, -1, 0, 1, 2\\}]",
+    "extracted_final_answers": [
+      "[[A = \\{-3, -2, -1, 0, 1, 2\\}]"
+    ],
+    "exact_answer": "{..., -4, -3, 3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "Finnish",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "Ilmaise seuraavat joukot joukonmuodostusmerkintänä: {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}",
+    "generated_answer": "Lukujoukko {4, 8, 12, 16, 20, 24, 28, 32, 36, 40} voidaan esittää joukonmuodostusmerkinnällä $4\\mathbb{N}_5$, jossa $\\mathbb{N}_5$ tarkoittaa luonnollisia lukuja jakamattomassa neljänä jaksolla.\n\nFinal Answer (in Finnish):\n[N $4\\mathbb{N}_5$]\n\n<final>[N $4\\mathbb{N}_5$]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[N $4\\mathbb{N}_5$]",
+    "extracted_final_answers": [
+      "[N $4\\mathbb{N}_5$]"
+    ],
+    "exact_answer": "{x ∈ N : x on neljän monikerta ja x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "Finnish",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "Olkoon $f(x) = \\frac{2x+1}{2x-1}$. Määritä lausekkeen $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$ arvo.",
+    "generated_answer": "Löytäisämme lausekkeen arvo, kun $f(x) = \\frac{2x+1}{2x-1}$. Re kitten $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$.\n\n### Rationaali:\nKäytän alkeisoid laskuun ja erääksistä lauseketta. Lauseke palautuu yksinkertainen muodon, kun $f\\left(\\frac{1}{x^2}\\right)$ sijoitetaan.\n\n### Lasku:\n$\\frac{\\frac{3}{-3}}{-5} = \\boxed{-\\frac{1}{5}}$\n\n<final>-\\dfrac{1}{5}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-\\dfrac{1}{5}",
+    "extracted_final_answers": [
+      "-\\dfrac{1}{5}"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "Finnish",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "Laske neliö käyttäen kaavaa:\n$ax - by - cz$",
+    "generated_answer": "Neljän kertominen on $ax - by - cz$.\n\nFinal Answer (in Finnish):  \n[Neliö: $a x - b y - c z$]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [Neliö: $a x - b y - c z$]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [Neliö: $a x - b y - c z$]"
+    ],
+    "exact_answer": "a^2x^2 + b^2y^2 + c^2z^2 - 2abxy + 2bcyz - 2cazx",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "Finnish",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "Olkoon $x - \\frac{1}{x} = 4$. Todista, että $x^4 + \\frac{1}{x^4} = 322$.",
+    "generated_answer": "Olkoon $x - \\frac{1}{x} = 4$. Nyt voidaan laske $x^2 + \\frac{1}{x^2}$ ja siten $x^4 + \\frac{1}{x^4}$.\n\nLasketaan ensin $x^2 + \\frac{1}{x^2}$:\n\\[\n(x - \\frac{1}{x})^2 = x^2 - 2 + \\frac{1}{x^2} \\Rightarrow x^2 + \\frac{1}{x^2} = (4)^2 + 2 = 16 + 2 = 18\n\\]\n\nLasketaan sitten $x^4 + \\frac{1}{x^4}$:\n\\[\n(x^2 + \\frac{1}{x^2})^2 = x^4 + 2 + \\frac{1}{x^4} \\Rightarrow x^4 + \\frac{1}{x^4} = (18)^2 - 2 = 324 - 2 = 322\n\\]\n\nVastaus:\n$$\n\\boxed{x^4+\\dfrac{1}{x^4}=322}\n$$\n\n<final>x^4 + \\frac{1}{x^4} = 322</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^4 + (1)/(x^4) = 322",
+    "extracted_final_answers": [
+      "x^4 + (1)/(x^4) = 322"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "Finnish",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "Olkoon $a + b + c = 6$ ja $a^2 + b^2 + c^2 = 14$. Mikä on lausekkeen $(a-b)^2 + (b-c)^2 + (c-a)^2$ arvo?",
+    "generated_answer": "Lasketaan lausekkeen $(a-b)^2 + (b-c)^2 + (c-a)^2$ arvo, kun $a + b + c = 6$ ja $a^2 + b^2 + c^2 = 14$. \n\nAlkuvaiheellä kerrotaan lauseke laajentumaisiksi:\n\\[\n(a-b)^2 + (b-c)^2 + (c-a)^2 = 2(a^2 + b^2 + c^2) - 2(ab + bc + ca)\n\\]\nTiedämme, että $a + b + c = 6$, joten $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca) = 36$. Sijoittamalla tunnettu arvo saadaan:\n\\[\n14 + 2(ab + bc + ca) = 36 \\implies ab + bc + ca = 11\n\\]\nNyt lasketaan alkuperäinen lauseke:\n\\[\n2(a^2 + b^2 + c^2) - 2(ab + bc + ca) = 2(14) - 2(11) = 28 - 22 = 6\n\\]\n\nLausekkeen arvo on $\\boxed{6}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\] Lausekkeen arvo on 6",
+    "extracted_final_answers": [
+      "\\] Lausekkeen arvo on 6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "Finnish",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "Sievennä: $(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2)$\n$+ (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "Sievennä lause: $(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)$\n\n\\boxed{x^3 + y^3 + z^3}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Sievennä lause: $(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)x^3 + y^3 + z^3",
+    "extracted_final_answers": [
+      "Sievennä lause: $(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)x^3 + y^3 + z^3"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "Pura tekijöihin $(a^2-b^2)(x^2-y^2) + 4abxy$.\n\na) Osoita, että $(a^2-b^2)(x^2-y^2) + 4abxy = (ax+by)(bx+ay)(ax-by)(bx-ay)$.\nb) Ratkaise yhtälö $(a^2-b^2)(x^2-y^2) + 4abxy = 0$ muuttujien $x$ ja $y$ suhteen, kun $a$ ja $b$ ovat tunnettuja vakioita, joille $a \\neq b$ ja $a \\neq -b$.",
+    "generated_answer": "Pura tekijöihin $(a^2-b^2)(x^2-y^2) + 4abxy$.\n\na) Osoita, että $(a^2-b^2)(x^2-y^2) + 4abxy = (ax+by)(bx+ay)(ax-by)(bx-ay)$.\nb) Ratkaise yhtälö $(a^2-b^2)(x^2-y^2) + 4abxy = 0$ muuttujien $x$ ja $y$ suhteen, kun $a$ ja $b$ ovat tunnettuja vakioita, joille $a \\neq b$ ja $a \\neq -b$.\n\n<final>\nLauseen (a) Todistus: $(a^2-b^2)(x^2-y^2) + 4abxy = (ax+by)(bx+ay)(ax-by)(bx-ay)$.\nLauseen (b) ratkaisu: $x = \\pm \\frac{a}{b} y$.\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lauseen (a) Todistus: $(a^2-b^2)(x^2-y^2) + 4abxy = (ax+by)(bx+ay)(ax-by)(bx-ay)$. Lauseen (b) ratkaisu: $x = \\pm (a)/(b) y$",
+    "extracted_final_answers": [
+      "Lauseen (a) Todistus: $(a^2-b^2)(x^2-y^2) + 4abxy = (ax+by)(bx+ay)(ax-by)(bx-ay)$. Lauseen (b) ratkaisu: $x = \\pm (a)/(b) y$"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "Ratkaise tekijöihin $(a^2 + 6a + 8) - (y^2 - 2y)$",
+    "generated_answer": "Käytän perusrakennetta ja tekijöihinjakoa ratkaisemiseksi. Lauseke $$(a^2 + 6a + 8) - (y^2 - 2y)$$ voidaan jakaa seuraavasti:\n\n- Ensimmäinen osa: $a^2 + 6a + 8$ voidaan jakaa tekijöihin muotoon $(a+4)(a+2)$.\n- Toinen osa: $-(y^2 - 2y)$ voidaan jakaa tekijöihin muotoon $-(y(y-2))$.\n\nYhdistämällä nämä saadaan:\n$$(a+4)(a+2) - y(y-2)$$\n\nNyt ratkaistaan tämän lauseke suoraan:\n$$(a^2 + 6a + 8) - (y^2 - 2y) = a^2 + 6a + 8 - y^2 + 2y$$\nToisen asteen termin $-y^2$ saa selville, joten muodostettu lauseke on:\n$$a^2 + 6a + (8 - y^2) + 2y$$\n\nPiiläsamalla saadaan:\n$$\\boxed{a^2 + 6a + 8 - y^2 + 2y}$$\n tai\n$$\\boxed{(a+4)(a+2) - y(y-2)}$$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "tai $(a+4)(a+2) - y(y-2)",
+    "extracted_final_answers": [
+      "tai $(a+4)(a+2) - y(y-2)"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "Ratkaise tekijöihin $16x^2 - 25y^2 - 8xz + 10yz$",
+    "generated_answer": "Käytän rajoittamista tekijäanalyysia, jotta saan $16x^2 - 8xz$ nyt muotoon $8x(2x - z)$ ja myös $-25y^2 + 10yz$ muotoon $-5y(5y - 2z)$. Tämän jälkeen päästään muodoksi $8x(2x - z) - 5y(5y - 2z)$, ja näiden yhteiset tekijät eivät ole yksityiskohtaisia. \n\n<final>16x^2 - 25y^2 - 8xz + 10yz = 8x(2x - z) - 5y(5y - 2z)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16x^2 - 25y^2 - 8xz + 10yz = 8x(2x - z) - 5y(5y - 2z)",
+    "extracted_final_answers": [
+      "16x^2 - 25y^2 - 8xz + 10yz = 8x(2x - z) - 5y(5y - 2z)"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "Ratkaise tekijöihin $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$",
+    "generated_answer": "Ratkaise tekijöihin $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$\n\n**Ratkaisu:**\n\nLauseke voidaan ratkaisemaan seuraavasti:\n\n\\[\n2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4 = (b^2 + c^2 - a^2)(a^2 + c^2 - b^2)(a^2 + b^2 - c^2)\n\\]\n\n**Vastaus:**\n\n\\[\n(b^2 + c^2 - a^2)(a^2 + c^2 - b^2)(a^2 + b^2 - c^2)\n\\]\n\n<final>$(b^2 + c^2 - a^2)(a^2 + c^2 - b^2)(a^2 + b^2 - c^2)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(b^2 + c^2 - a^2)(a^2 + c^2 - b^2)(a^2 + b^2 - c^2)",
+    "extracted_final_answers": [
+      "(b^2 + c^2 - a^2)(a^2 + c^2 - b^2)(a^2 + b^2 - c^2)"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "Ratkaise tekijöihin polynomi $x^3 + 3x^2 + 3x + 2$",
+    "generated_answer": "Ratkaistaan polynomi $x^3 + 3x^2 + 3x + 2$.\n\n\\[\nx = -1\n\\]\n\n<final>$(x + 1)(x^2 + 2x + 2)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x + 1)(x^2 + 2x + 2)",
+    "extracted_final_answers": [
+      "(x + 1)(x^2 + 2x + 2)"
+    ],
+    "exact_answer": "(x+2)(x²+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "Tehtävä: Jaetaan tekijöihin lauseke $a^3 - 6a^2 + 12a - 9$.",
+    "generated_answer": "Lauseke $a^3 - 6a^2 + 12a - 9$ voidaan jakaa tekijöihin seuraavasti:  \n$\\boxed{(a-3)^3}$  \n\n<final>(a-3)^3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-3)^3",
+    "extracted_final_answers": [
+      "(a-3)^3"
+    ],
+    "exact_answer": "(a-3)(a^2-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "Ratkaise tekijöihin $8x^3 + 12x^2 + 6x - 63$",
+    "generated_answer": "Ratkaisu on tekijöihin jakaminen suurempiin osiin. Ensimmäisenä huomioidaan, että 8x³ + 12x² + 6x - 63 voidaan jakaa useita tapauksia erilaisiksi osiin.\n\n**Ratkaisu:**\n\\[\n8x^3 + 12x^2 + 6x - 63 = (4x^2 + 6x)(2x) + (-63)\n\\]\n\nKuitenkin tämä muoto ei ole suora tekijöihin jakaminen. Tarkastetaan 8x³ + 12x² + 6x - 63 = (ax + b)(cx^2 + dx + e). Ratkaisemalla yhtälön kertoimien saadaan a=4, b=-3, c=x+2, d=3 ja e=7.\n\n\\[\n8x^3 + 12x^2 + 6x - 63 = (4x - 3)(2x^2 + 3x + 7)\n\\]\n\n**Lopuksa tekijöihin jakaminen on**\n\\[\n(4x - 3)(2x^2 + 3x + 7)\n\\]\n\n<final>\n(4x - 3)(2x² + 3x + 7)\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(4x - 3)(2x² + 3x + 7)",
+    "extracted_final_answers": [
+      "(4x - 3)(2x² + 3x + 7)"
+    ],
+    "exact_answer": "(2x-3)(4x^2+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "Finnish",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "Here is the Finnish translation of the mathematical question, adhering to all your guidelines:\n\n**Ratkaise tekijöihin $(x + 2)(x + 3)(x + 4)(x + 5) - 48$**",
+    "generated_answer": "Näytän ratkaisen $(x + 2)(x + 3)(x + 4)(x + 5) - 48$ tekijöihin.\n\n**Ratkaisu:**\n\nEnsimmäisenä vertaillaan kaikkia tekijäitä $(x+2)$, $(x+3)$, $(x+4)$ ja $(x+5)$. Nämä muodostavat neljän peräkkäisen kokonaisluvun. Varmistetaan, että kaikki ovat positiivisia, jos $x > -2$.\n\nSeuraavaksi kerrotaan kaikki tekijät yhteen:\n\\[\n(x + 2)(x + 3)(x + 4)(x + 5) = (x^2 + 7x + 10)(x^2 + 9x + 20)\n\\]\n\nTämä saadaan laajentettuna:\n\\[\n= x^4 + 16x^3 + 85x^2 + 174x + 200\n\\]\n\nVastataan mainittamaan, että $x = -1$ on yksi ratkaisu.\n\\[\n(-1)^4 + 16 \\cdot (-1)^3 + 85 \\cdot (-1)^2 + 174 \\cdot (-1) + 200 = 90\n\\]\n\n**Vastaus:**\n\n\\boxed{90}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus:90",
+    "extracted_final_answers": [
+      "Vastaus:90"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "Finnish",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "Tekijöihin jako: $(a+1) (3a^2-3a + 5)$",
+    "generated_answer": "To solve the problem of factoring $(a+1)(3a^2 - 3a + 5)$, we can directly use the given expression as it is already in its factored form. Therefore, no further simplification or calculation is needed.\n\nFinal Answer (in Finnish):\n[Nyt lauseke on joko $$(a+1)(3a^2-3a+5)$$]\n\n<final>[Nyt lauseke on joko $$(a+1)(3a^2-3a+5)$$]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Nyt lauseke on joko $$(a+1)(3a^2-3a+5)$$]",
+    "extracted_final_answers": [
+      "[Nyt lauseke on joko $$(a+1)(3a^2-3a+5)$$]"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "Finnish",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "Tekijöihin jaottaminen: $x^3 - 7xy^2 - 6y^3$",
+    "generated_answer": "$ x^3 - 7xy^2 - 6y^3 = (x + y)(x^2 - xy - 6y^2) $\n\nExplanation: Polynomin $ x^3 - 7xy^2 - 6y^3 $ tekijöihin jakaminen saad},${(x + y)}$ on yksi sen mahdollista tekijä ja ${(x^2 - xy - 6y^2)}$ on muutoksia.\n\n[Nearly done]\n<final>x^3 - 7xy^2 - 6y^3 = (x + y)(x^2 - xy - 6y^2)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^3 - 7xy^2 - 6y^3 = (x + y)(x^2 - xy - 6y^2)",
+    "extracted_final_answers": [
+      "x^3 - 7xy^2 - 6y^3 = (x + y)(x^2 - xy - 6y^2)"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "Finnish",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "Tehtävä: Faktoroi $2x^4-3x^3-3x-2$",
+    "generated_answer": "Näillen polynomin $2x^4 - 3x^3 - 3x - 2$ tekijöihin jakoaminen onnistuu seuraavasti:\n\n\\[\n2x^4 - 3x^3 - 3x - 2 = (2x + 1)(x^3 - 2x^2 + x - 2)\n\\]\n\nKoska $x^3 - 2x^2 + x - 2$ ei ole laskennallisesti helpompi tekijöihin jakoilla, se on lopullinen muotointi.\n\n[Näytetään viimeisin vaihe:]  \n<final>\\boxed{(2x+1)(x^3-2x^2+x-2)}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(2x+1)(x^3-2x^2+x-2)",
+    "extracted_final_answers": [
+      "(2x+1)(x^3-2x^2+x-2)"
+    ],
+    "exact_answer": "(x-2)(x^2+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "Finnish",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "Bussi vuokrattiin 5700 Tk:lla piknikkiä varten sillä ehdolla, että jokainen matkustaja kantaisi tasapuolisen osuuden kustannuksista. Koska kuitenkin 5 matkustajaa jäi pois, matkan hinta nousi 3 Tk per henkilö. Kuinka monta matkustajaa käytti bussia?",
+    "generated_answer": "[Näillä bussilla käytettiin 5700 Tk.]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Näillä bussilla käytettiin 5700 Tk.]",
+    "extracted_final_answers": [
+      "[Näillä bussilla käytettiin 5700 Tk.]"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "Finnish",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "Yhdistyksen jäsenet päättivät kukin tilata määrän, joka on $100$-kertainen jäsenmäärään nähden. Kuitenkin $7$ jäsentä ei tilannut. Tämän seurauksena kunkin jäsenen tilaussumma kasvoi 500 Tk:lla edellisestä.\nJos jäsenten lukumäärä on $x$ ja tilausten kokonaissumma on $A$ Tk, etsi niiden välinen suhde.",
+    "generated_answer": "Jäsenen määrä on $x$, ja tilausten kokonaissumma on $A$ Tk. Jokaisen jäsenen tilaussumman kasvu on 500 Tk, mikä johtaa yhteensä tilauksia 7 · 500 = 3500 Tk. Tällöin:\n$$\nA + 3500 = 100x \\quad \\Rightarrow \\quad A = 100x - 3500\n$$\nLukumäärän suhde on:\n$$\n\\frac{A}{x} = 100 - \\frac{3500}{x}\n$$\n\nFinal Answer (in Finnish):\n[Nokia x:llä laskettu arvo $A/x$ on $100 - 3500/x$.]\n\n<final>[Nokia x:llä laskettu arvo \\( A/x \\) on \\( 100 - \\frac{3500}{x} \\).]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Nokia x:llä laskettu arvo \\( A/x \\) on \\( 100 - (3500)/(x) \\).]",
+    "extracted_final_answers": [
+      "[Nokia x:llä laskettu arvo \\( A/x \\) on \\( 100 - (3500)/(x) \\).]"
+    ],
+    "exact_answer": "$A = 100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "Finnish",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "Yhdistyksen jokainen jäsen päätti tilata summan, joka on $100$-kertainen jäsenmäärään nähden. Kuitenkin $7$ jäsentä ei tilannut. Tämän seurauksena jokaisen jäsenen tilaussumma kasvoi $500$ Tk edelliseen verrattuna.\nMäärittäkää yhdistyksen jäsenmäärä ja tilausten kokonaissumma.",
+    "generated_answer": "[Numerical solution: Lasketaan yhdistyksen jäsenmäärä ja tilausten kokonaissumma. Olkoon n jäsenen määrä ja S tilausten kokonaissumma. Jokaisen jäsenen tilaussumma kasvaa 500 T燃气, mikä johtaa yhtälöön: (n - 7) * (S / n + 500) = S. Lisäksi tiedetään, että kysymyksestä on 100 kertaa jäsenmäärää nähden, joten S = 100n. Ratkaisemalla nämä yhtälöt saadaan n = 25 ja S = 2500 T燃气.]\n\n<final>[Jyväskylän yhteishänteen jäsenmäärä on 25 ja tilausten kokonaissumma on 2500 T燃气.]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Jyväskylän yhteishänteen jäsenmäärä on 25 ja tilausten kokonaissumma on 2500 T燃气.]",
+    "extracted_final_answers": [
+      "[Jyväskylän yhteishänteen jäsenmäärä on 25 ja tilausten kokonaissumma on 2500 T燃气.]"
+    ],
+    "exact_answer": "20, 40 000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "Finnish",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "Ratkaise: $(3^{m+1} / (3^m)^{m-1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "Ratkaisu: Potenssin laskeminen ja supistaminen.\n\n[Numeric result]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ratkaisu: Potenssin laskeminen ja supistaminen. [Numeric result]",
+    "extracted_final_answers": [
+      "Ratkaisu: Potenssin laskeminen ja supistaminen. [Numeric result]"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "Finnish",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "Todista, että: $\\frac{4^n - 1}{2^n - 1} = 2^n + 1$",
+    "generated_answer": "$\\frac{4^n - 1}{2^n - 1} = \\frac{(2^n)^2 - 1}{2^n - 1} = \\frac{(2^n - 1)(2^n + 1)}{2^n - 1} = 2^n + 1$.\n\n[Numeric result]  \n<final>2^n + 1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2^n + 1",
+    "extracted_final_answers": [
+      "2^n + 1"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "Finnish",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "Todista, että: $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$",
+    "generated_answer": "$\\frac{x^a}{x^b} = x^{a-b}$, ja samalla tarkoittaa, että $(\\frac{x^a}{x^b})^{a+b} = x^{(a-b)(a+b)}$.\nVastaavasti $(\\frac{x^b}{x^c})^{b+c} = x^{(b-c)(b+c)}$ ja $(\\frac{x^c}{x^a})^{c+a} = x^{(c-a)(c+a)}$.\nKun ne kerrotaan yhteen, saadaan $x^{(a-b)(a+b) + (b-c)(b+c) + (c-a)(c+a)}$.\nNyt $(a-b)(a+b) = a^2 - b^2$, $(b-c)(b+c) = b^2 - c^2$ ja $(c-a)(c+a) = c^2 - a^2$. Muuttamalla kunkin termin vasemmalta oikealle saadaan $a^2 - b^2 + b^2 - c^2 + c^2 - a^2 = 0$.\nSiisäytyy siis $x^0 = 1$.\n\nFinal Answer (in Finnish):\n\\boxed{1}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish):1",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish):1"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "Finnish",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "Olkoon $P = x^a$, $Q = x^b$ ja $R = x^c$.\nMääritä lausekkeen $(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$ arvo.",
+    "generated_answer": "Lasketaan lauseketta $(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$ arvo, kun $P = x^a$, $Q = x^b$ ja $R = x^c$. Lauseke voidaan sieventää potenssin laskusääntöjen avulla.\n\n1. Sievennä $(P/Q)^{(a+b)}$:  \n   $(x^a/x^b)^{(a+b)} = (x^{a-b})^{(a+b)} = x^{(a-b)(a+b)}$\n\n2. Sievennä $(Q/R)^{(b+c)}$:  \n   $(x^b/x^c)^{(b+c)} = (x^{b-c})^{(b+c)} = x^{(b-c)(b+c)}$\n\n3. Sievennä $2(RP)^{(a-c)}$:  \n   $2(x^c \\cdot x^a)^{(a-c)} = 2(x^{a+c})^{(a-c)} = 2x^{(a+c)(a-c)}$\n\n4. Kirjaa kaikki yhteen:  \n   $x^{(a-b)(a+b)} \\times x^{(b-c)(b+c)} / (2x^{(a+c)(a-c)})$\n\n5. Sievennä potenssit:  \n   $= x^{[(a-b)(a+b) + (b-c)(b+c)] - [(a+c)(a-c)]} / 2$\n\n6. Verrata ja sievennä:  \n   $(a-b)(a+b) = a^2 - b^2$  \n   $(b-c)(b+c) = b^2 - c^2$  \n   $(a+c)(a-c) = a^2 - c^2$\n\n7. Lasketaan potenssin yhteys:  \n   $= x^{[a^2 - b^2 + b^2 - c^2] - [a^2 - c^2]} / 2$  \n   $= x^{(a^2 - c^2) - (a^2 - c^2)} / 2$  \n   $= x^{0} / 2 = 1/2$\n\nLauseke siis yksinkertaistuu $\\boxed{\\dfrac{1}{2}}$.<final>$\\boxed{\\dfrac{1}{2}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1{2}}",
+    "extracted_final_answers": [
+      "\\dfrac{1{2}}"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "Finnish",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "Olkoot annetut:\n$X = (2a^{-1} + 3b^{-1})^{-1}$\n$Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$; missä $x > 0$ ja $p, q, r > 0$\n$Z = (5^{m+1} + 25^{m+1}) / (5^m + (5^{-1})^{m+1})$\nOsoita, että $Y + \\sqrt[3]{64} = 5$.",
+    "generated_answer": "Osoita, että $Y + \\sqrt[3]{64} = 5$.\n\n**Ratkaisu:**\n\nLasketaan ensin $\\sqrt[3]{64}$, joka on $4$. Lauseke $Y$ on muotoa $\\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$, ja kaikkien s Gripari ovat yhtäsuureisia, joten $Y$ on $1$. Siis:\n\\[\nY + \\sqrt[3]{64} = 1 + 4 = 5\n\\]\n\nLopuksa $Z$ voidaan laskea ilman tiettyä informaatiota, koska se ei ole vahvasti liitettynyt mainittavien yhtälöiden ratkaisemiseen.\n\n**Vastaus:**\n\\boxed{5}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus:5",
+    "extracted_final_answers": [
+      "Vastaus:5"
+    ],
+    "exact_answer": "$Y + 4 = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "Finnish",
+    "chapter_number": "4.2",
+    "example_number": "233",
+    "question": "**Finnish Translation:**\n\nMääritä x:n arvo: $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "Käytän loogista määritteroista. Yhtälö $\\log_x \\frac{1}{16} = -2$ voidaan muokata exponential muodille $x^{-2} = \\frac{1}{16}$. Kun ratkaistaan x, saadaan $x = 4$.\nFinal Answer (in Finnish):\n\\boxed{4}\n\n<final>4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4",
+    "extracted_final_answers": [
+      "4"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "Finnish",
+    "chapter_number": "4.2",
+    "example_number": "235",
+    "question": "Osoita, että $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "generated_answer": "Osoita, että $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$.\n\n**Ratkaisu:**\n\nKirjoitetaan lauseke $\\frac{50}{147}$ os Clarkin muotoon:\n$$\n\\frac{50}{147} = \\frac{2 \\cdot 5^2}{3 \\cdot 7^2}\n$$\n\nSiten logaritmin mukaan saadaan:\n$$\n\\log_{10}\\left(\\frac{50}{147}\\right) = \\log_{10}(2) + 2\\log_{10}(5) - \\log_{10}(3) - 2\\log_{10}(7)\n$$\n\nLasketaan yksilöpizzaa:\n$$\n\\boxed{\\log_{10} 2 + 2\\log_{10} 5 - \\log_{10} 3 - 2\\log_{10} 7}\n$$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\log_{102 + 2\\log_{10} 5 - \\log_{10} 3 - 2\\log_{10} 7}",
+    "extracted_final_answers": [
+      "\\log_{102 + 2\\log_{10} 5 - \\log_{10} 3 - 2\\log_{10} 7}"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "Finnish",
+    "chapter_number": "4.2",
+    "example_number": "242",
+    "question": "Olkoon $x=2$, $y=3$, $z=5$, $w=7$. Osoita, että\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$",
+    "generated_answer": "Lukion matematiikan opettaja.\n\nMolemmat puolien lasketaan erikseen ja saadaan samat arvot, joten yhtälö on voimassa.\n\n[Concise Finnish conclusion]\nYhtälö on tosi, koska molemmat puud lasketaan erikseen ja saadaan samat arvot.\n<final>Yhtälö on tosi.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Yhtälö on tosi",
+    "extracted_final_answers": [
+      "Yhtälö on tosi"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "Finnish",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": "Määritä luvun $22,2642 \\div 3,42$ yleinen logaritmi (likiarvo viiden desimaalin tarkkuudella):",
+    "generated_answer": "Luvun \\(22,2642 \\div 3,42\\) yleinen logaritmi (likiarvo viiden desimaalin tarkkuudella):\n\n\\[\n\\log(22{,}2642 / 3{,}42) = \\log(6{,}509)\n\\]\n\nKäytän laskentaa logaritmin arvontaa:\n\n1. Lasketaan osamurto \\(6{,}509\\) logaritmi:\n   \\[\n   \\ln(6{,}509) \\approx 1{,}874\n   \\]\n\n2. Muutetaan luonnollinen logaritmi kymmenjärjestyslogaritmi:\n   \\[\n   \\lg(6{,}509) = \\frac{\\ln(6{,}509)}{\\ln(10)} \\approx 0{,}817\n   \\]\n\n3. Vastauksena on siis logaritmien arvo:\n   \\[\n   \\log(22{,}2642 / 3{,}42) \\approx 0{,}817\n   \\]\n\n\\(\\boxed{0{,}817}\\)\n\n<final>0,817</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0,817",
+    "extracted_final_answers": [
+      "0,817"
+    ],
+    "exact_answer": "0,81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "Finnish",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "Ratkaise yhtälö:\n$\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$",
+    "generated_answer": "Ratkaistaan yhtälö $\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$. Lasketaan yhteisoministeri ja ratkaistaan x:n arvo.\n\n<final>[x = \\frac{4ab - a^2 - b^2}{a + b}]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[x = (4ab - a^2 - b^2)/(a + b)]",
+    "extracted_final_answers": [
+      "[x = (4ab - a^2 - b^2)/(a + b)]"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "Finnish",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$",
+    "generated_answer": "$\\sqrt{2}x+3=0 \\text{ tai } \\sqrt{3}x-2=0$\n\n<final>$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(√(2)x+3)(√(3)x-2)=0",
+    "extracted_final_answers": [
+      "(√(2)x+3)(√(3)x-2)=0"
+    ],
+    "exact_answer": "$x=-\\frac{3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "Todista, että: $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$",
+    "generated_answer": "$\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$\n\n**Explanation:** Väite on tosi, koska $\\frac{1}{\\sec^2 A} = \\cos^2 A$ ja $\\frac{1}{\\operatorname{cosec}^2 A} = \\sin^2 A$, ja $\\cos^2 A + \\sin^2 A = 1$. \n\n<final>$\\boxed{1}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1/\\sec^2 A + 1/\\text{cosec}^2 A = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "Osoita, että: $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$",
+    "generated_answer": "\\(\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1\\)\n\nExplanation: Tangentin ja kotangenttien peruskaavojen avulla yksinkertainen trigonometrinen identiteetti.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "Osoita, että: $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.",
+    "generated_answer": "Tarkistetaan yhtälöä $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.\n\n**Ratkaistaan vasemman puiston lauseke:**\n\\[\n\\begin{align*}\n\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} &= \\frac{\\operatorname{cosec} A + 1 - (\\operatorname{cosec} A - 1)}{(\\operatorname{cosec} A - 1)(\\operatorname{cosec} A + 1)} \\\\\n&= \\frac{2}{\\operatorname{cosec}^2 A - 1} \\\\\n&= 2\\tan^2 A.\n\\end{align*}\n\\]\n\n**Vastaus:**\n$\\boxed{\\tan^2 A}$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus: \\tan^2 A",
+    "extracted_final_answers": [
+      "Vastaus: \\tan^2 A"
+    ],
+    "exact_answer": "$1 / (\\text{kosek } A - 1) - 1 / (\\text{kosek } A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "Olkoon $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$. Osoita, että $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$.",
+    "generated_answer": "Lukion matematiikan oppikirjan tehtävä. Varmista ratkaisuohjeen luonteen mukaan.\n\n<final>\nOsoita, että $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$.\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Osoita, että $\\sec A = (x^2 + 1)/(x^2 - 1)$",
+    "extracted_final_answers": [
+      "Osoita, että $\\sec A = (x^2 + 1)/(x^2 - 1)$"
+    ],
+    "exact_answer": "$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "Finnish",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "Osoita, että $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$, kun $A = 30^\\circ$.",
+    "generated_answer": "To prove that $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$ for $A = 30^\\circ$, substitute $A = 30^\\circ$ into both sides of the equation and verify equality.\n\n<final>$\\boxed{\\frac{\\sqrt{3}}{2}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(√(3)/(2))",
+    "extracted_final_answers": [
+      "(√(3)/(2))"
+    ],
+    "exact_answer": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "Olkoon puun latvan etäisyys sen juuresta maan päällä olevaan pisteeseen $20$ metriä, ja maan päällä olevasta pisteestä mitattuna puun latvaan nouseva korkeuskulma on $60^\\circ$. Määritä puun korkeus.",
+    "generated_answer": "Lasketaan puun korkeutta käyttämällä trigonometrista suhde:\n\n\\[\n\\sin 60^\\circ = \\frac{\\text{korkeus}}{20}\n\\]\n\nKorkeus saadaan laskemalla:\n\n\\[\n\\text{korkeus} = 20 \\cdot \\sin 60^\\circ = 20 \\cdot \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}\\, \\text{metriä}\n\\]\n\nFinal Answer (in Finnish):\n[Neli\\(\\sqrt{3}\\) metriä]\n\n<final>[Neli\\(\\sqrt{3}\\) metriä]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Neli\\(√(3)\\) metriä]",
+    "extracted_final_answers": [
+      "[Neli\\(√(3)\\) metriä]"
+    ],
+    "exact_answer": "34,641 metriä",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "Määrää seinän korkeus, kun $45^\\circ$ kulman maahan muodostava, $18$ metriä pitkä tikas koskettaa seinän huippua.",
+    "generated_answer": "Määrähdetään tiettyyn korkeuteen, joka saadaan 45 asteella maakaista piirtevän tikan avustalla. Tika on 18 metriä pitkä ja kutsutuu sinin korkeuden laskemiseksi.\n\nKorkeus voidaan laskea seuraavasti:\n\\[\n\\text{Corkeus} = 18 \\, \\text{metriä} \\times \\sin(45^\\circ) = 12.7279 \\, \\text{metriä}\n\\]\n\n<final>12,7279 m</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12,7279 m",
+    "extracted_final_answers": [
+      "12,7279 m"
+    ],
+    "exact_answer": "12,728 metriä",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "Joen rannan mistä tahansa kohdasta mies havaitsi, että suoraan häntä vastapäätä joen toisella rannalla olevan $150$ metrin korkuisen puun korkeuskulma oli $30^\\circ$. Mies lähti veneellä kohti puuta. Virran vuoksi hän kuitenkin päätyi $10$ metrin päähän puusta.\nMääritä etäisyys lähtöpisteestä päätepisteeseen.",
+    "generated_answer": "Joon rannan suoraan häntä vastapäätä joen toisella rannalla olevan $150$ metrin korkuisen puun korkeuskulma oli $30^\\circ$. Mies lähti veneellä kohti puuta, mutta hän päätyi $10$ metrin päähän puusta. Tämän perusteella meillä on selvitetty, että etäisyys lähtöpisteestä päätepisteeseen on $\\frac{245}{\\sqrt{3}} + 10 \\approx 146.78$ metriä.\n\nFinal Answer (in Finnish):\n[Nyt olevan tärkeä selvitetty, että etäisyys lähtöpisteestä päätepisteeseen on $\\frac{245}{\\sqrt{3}} + 10 \\approx 146.78$ metriä.]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [Nyt olevan tärkeä selvitetty, että etäisyys lähtöpisteestä päätepisteeseen on $(245)/(√(3)) + 10 \\approx 146.78$ metriä.]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [Nyt olevan tärkeä selvitetty, että etäisyys lähtöpisteestä päätepisteeseen on $(245)/(√(3)) + 10 \\approx 146.78$ metriä.]"
+    ],
+    "exact_answer": "260 metriä",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "Finnish",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "Jos $a:b=b:c$, todista, että\n$\\frac{a}{c}=\\left(\\frac{a+b}{b+c}\\right)^2$",
+    "generated_answer": "$\\frac{a}{c}=\\left(\\frac{a+b}{b+c}\\right)^2$\n\n<final>jos \\( a:b = b:c \\), niin \\(\\frac{a}{c} = \\left( \\frac{a + b}{b + c} \\right)^2\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "jos \\( a:b = b:c \\), niin \\((a)/(c) = \\left( (a + b)/(b + c) \\right)^2\\)",
+    "extracted_final_answers": [
+      "jos \\( a:b = b:c \\), niin \\((a)/(c) = \\left( (a + b)/(b + c) \\right)^2\\)"
+    ],
+    "exact_answer": "\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "Finnish",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "Ratkaise yhtälö:\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$",
+    "generated_answer": "Ratkaisu onnistuu muuttamalla yhtälöön variabli ja ratkaisemalla se. Lopputuloksena saadaan ratkaisu \\( x = 0 \\).\n\n\\boxed{x=0}\n\n<final>x = 0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 0",
+    "extracted_final_answers": [
+      "x = 0"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "Finnish",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "Tarkastellaan annettuja yksinkertaisia yhtälöpareja ja perustellaan, ovatko ne **yhteensopivia**/**yhteensopimattomia**, **riippuvaisia**/**riippumattomia** ja mikä on niiden ratkaisujen lukumäärä.\n\n2.\n$2x + y = 3$\n$4x + 2y = 6$",
+    "generated_answer": "Yhtälöparit ovat yhteensopivia, riippumattomia ja ratkaisuja on yksi. \n\n\\boxed{y=3-2x}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Yhtälöparit ovat yhteensopivia, riippumattomia ja ratkaisuja on yksi.y=3-2x",
+    "extracted_final_answers": [
+      "Yhtälöparit ovat yhteensopivia, riippumattomia ja ratkaisuja on yksi.y=3-2x"
+    ],
+    "exact_answer": "$\\therefore \\frac{2}{4} = \\frac{1}{2} = \\frac{3}{6}$\nSiksi yhtälöryhmä on konsistentti ja yhtälöt ovat keskenään riippuvaisia. Yhtälöryhmällä on ääretön määrä ratkaisuja.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "Finnish",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "Oikein ammattimaisena suomalaisena matematiikan opettajana, jolla on laaja kokemus akateemisen matematiikan sisällön kääntämisestä, tässä on pyydetty käännös korkeimpien ammattistandardien mukaisesti:\n\n**Kysymys:**\n\nMainitse perusteluineen, ovatko seuraavat yksinkertaiset yhtälöryhmät yhteensopivia/epäyhteensopivia, lineaarisesti riippuvia/riippumattomia, ja ilmoita ratkaisujen lukumäärä.\n5. $3x + 2y = 0$\n   $9x - 6y = 0$\n\n**Selitykset ja perustelut:**\n\nKäännös noudattaa annettuja ohjeita seuraavasti:\n\n1.  **Matemaattiset elementit:** Kaikki matemaattinen merkintätapa (luvut, muuttujat, yhtälöt, symbolit) on säilytetty täsmälleen samana. LaTeX/ASCII-muoto on säilytetty. Matemaattinen rakenne ja suhteet ovat identtiset.\n\n2.  **Suomalaiset matemaattiset konventiot:**\n    *   Desimaalipilkkua ei tässä tehtävässä tarvittu, mutta jos olisi, olisi käytetty pilkkua.\n    *   Käytetty suomalaista matemaattista sanastoa: \"yhtälöryhmä\" (simultaneous equations), \"yhteensopivia/epäyhteensopivia\" (consistent/inconsistent), \"lineaarisesti riippuvia/riippumattomia\" (mutually dependent/independent) ja \"ratkaisujen lukumäärä\" (number of solutions). Oletettu, että \"mutually dependent/independent\" viittaa lineaariseen riippuvuuteen/riippumattomuuteen yhtälöryhmän yhteydessä, mikä on yleinen käytäntö. Sanamuoto \"simple simultaneous equations\" on käännetty \"yksinkertaisiksi yhtälöryhmiksi\".\n\n3.  **Formaatti ja rakenne:** Kysymyksen rakenne on säilytetty samana. Muotoilu on akateemisen formaali. Tarvittavat suomen kielen kieliopilliset muodot on käytetty.\n\n4.  **Laatutarkistukset:**\n    *   Käännös noudattaa suomalaista akateemista kirjoituskäytäntöä.\n    *   Matemaattista tietoa ei ole menetetty tai muutettu.\n    *   Vaikeustaso on identtinen.\n\n**Huomautus:** Sanan \"mention\" (mainitse) kääntäminen \"mainitse perusteluineen\" on tässä yhteydessä luonnollisempi ja kattavampi kuin pelkkä \"mainitse\", koska tehtävä edellyttää perusteluja. \"Simple simultaneous equations\" on käännetty sujuvasti \"yksinkertaisiksi yhtälöryhmiksi\". Termi \"mutually dependent/independent\" on kontekstissa tulkittu tarkoittavan lineaarisesti riippuvia tai riippumattomia yhtälöitä tai yhtälöiden pareja yhtälöryhmässä, mikä on yleinen tapa viitata näihin käsitteisiin tässä yhteydessä.",
+    "generated_answer": "5. Yhtälöryhmissä on yhteensopivat ratkaisut ja ne ovat riippumattomia. Ratkaisujen lukumäärä on yksi.\n\n<final>5. Yhtälöryhmässä on yhteensopivat ratkaisut ja ne ovat riippumattomia. Ratkaisujen lukumäärä on yksi.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5. Yhtälöryhmässä on yhteensopivat ratkaisut ja ne ovat riippumattomia. Ratkaisujen lukumäärä on yksi",
+    "extracted_final_answers": [
+      "5. Yhtälöryhmässä on yhteensopivat ratkaisut ja ne ovat riippumattomia. Ratkaisujen lukumäärä on yksi"
+    ],
+    "exact_answer": "Koska $\\frac{3}{9} \\ne \\frac{2}{-6}$, yhtälöryhmä on konsistentti ja yhtälöt ovat toisistaan riippumattomia. Yhtälöryhmällä on vain yksi (yksikäsitteinen) ratkaisu.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "Finnish",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "Ratkaise sijoitusmenetelmällä yhtälöpari:\n$ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "Ratkaistaan yhtälöpari sijoitusmenetelmällä.\n\\boxed{x = \\dfrac{c(b^2 - a b + a)}{a b(a - b)}, \\quad y = \\dfrac{c(a^2 - a b + b)}{a b(b - a)}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ratkaistaan yhtälöpari sijoitusmenetelmällä.x = \\dfrac{c(b^2 - a b + a){a b(a - b)}, \\quad y = \\dfrac{c(a^2 - a b + b)}{a b(b - a)}}",
+    "extracted_final_answers": [
+      "Ratkaistaan yhtälöpari sijoitusmenetelmällä.x = \\dfrac{c(b^2 - a b + a){a b(a - b)}, \\quad y = \\dfrac{c(a^2 - a b + b)}{a b(b - a)}}"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "Finnish",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "Ratkaise ristiinkertomismenetelmällä yhtälöpari\n$y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$",
+    "generated_answer": "Ratkaistaan yhtälöpari ristiinkertomismenetelmällä.\n\n\\[\n\\begin{cases}\ny(3 + x) = x(6 + y) \\\\\n3(3 + x) = 5(y - 1)\n\\end{cases}\n\\]\n\nKirjoitetaan ensimmäinen yhtälö laajentumaisena:\n\n\\[\ny \\cdot (3 + x) = x \\cdot (6 + y) \\implies 3y + xy = 6x + xy \\implies 3y = 6x \\implies y = 2x\n\\]\n\nSe toinen yhtälö laajentuu seuraavasti:\n\n\\[\n3(3 + x) = 5(y - 1) \\implies 9 + 3x = 5y - 5 \\implies 5y = 3x + 14\n\\]\n\nSijoitetaan \\( y = 2x \\) tulos toiseen yhtälöön:\n\n\\[\n5(2x) = 3x + 14 \\implies 10x = 3x + 14 \\implies 7x = 14 \\implies x = 2\n\\]\n\nLasketaan \\( y \\):\n\n\\[\ny = 2x = 2(2) = 4\n\\]\n\nNäin saadaan ratkaisu:\n\n\\[\n\\boxed{x=2,\\, y=4}\n\\]\n\n<final>x=2 ja y=4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=2 ja y=4",
+    "extracted_final_answers": [
+      "x=2 ja y=4"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "Finnish",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "Ratkaise muodostamalla yhtälöpari: Jos murtolukuun lisätään $1$ osoittajaan ja nimittäjään, murtoluku tulee olemaan $\\frac{4}{5}$. Jos taas murtoluvun osoittajasta ja nimittäjästä vähennetään $5$, murtoluku tulee olemaan $\\frac{1}{2}$. Etsi murtoluku.",
+    "generated_answer": "Murtoluku on $\\frac{9}{13}$.\n\n<final>$\\boxed{\\dfrac{9}{13}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{9{13}}",
+    "extracted_final_answers": [
+      "\\dfrac{9{13}}"
+    ],
+    "exact_answer": "\\frac{7}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "Finnish",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "Yksinkertaisten yhtälöiden systeemi on\n$x + y = 10$\n$3x - 2y = 0$\nRatkaistaessa yhtälösysteemi, etsi $(x,y)$.",
+    "generated_answer": "$x = 2$ ja $y = 8$\n\n<final>x = 2 ja y = 8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 2 ja y = 8",
+    "extracted_final_answers": [
+      "x = 2 ja y = 8"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "Jos aritmeettisen sarjan $12.$ termi on $77$, mikä on kyseisen sarjan $23$ ensimmäisen termin summa?",
+    "generated_answer": "Ratkaistaan aritmeettisen sarjan 23 ensimmäisen termin summa, kun tiedetään että 12. termi on 77.\n\nAritmeettisen sarjan yleinen termi on $a_n = a_1 + (n-1)d$, missä $a_1$ on ensimmäinen termi ja $d$ on differenssi.\nKirjaa tuntemattomuista:\n$a_{12} = 77 \\Rightarrow a_1 + 11d = 77$\n\nSumma $\\Sigma_{n=1}^{23}a_n$ saadaan kaikkeen summakaavan avulla:\n$\\Sigma_{n=1}^{23}a_n = \\frac{23}{2}(a_1 + a_{23}) = 23 \\times \\frac{a_1 + (a_1 + 22d)}{2}$\n\nKäytännössä:\n- Ratkaistaan ensin $a_1$ ja $d$: $a_1 = 77 - 11d$\n- Sijoitetaan summakaavaan ja ratkaistaan summasta.\n\nLopuksa saadaan summan arvo.\n\n[Numeerinen tulos]\n<final>[Numeerinen tulos]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Numeerinen tulos]",
+    "extracted_final_answers": [
+      "[Numeerinen tulos]"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "Jos aritmeettisen jonon 16. jäsen on $-20$, mikä on 31 ensimmäisen jäsenen summa?",
+    "generated_answer": "Johdetaan aritmeettisen jonon ensimmäisen 31 jäsenen summa, kun tiedetään että 16. jäsen on $-20$. Aritmeettisen jonon yleinen jäsen on $a_n = a_1 + (n-1)d$, missä $a_1$ on ensimmäinen jäsen ja $d$ on differenssi. Saadaan yhtälö:  \n$a_{16} = a_1 + 15d = -20$.  \nEnsimmäisen 31 jäsenen summa on $S_{31} = \\frac{31}{2}(a_1 + a_{31})$, ja $a_{31} = a_1 + 30d$.  \nLasketaan yhtälö:  \n$S_{31} = -89.5$\n\n[Numeric result]  \n<final>-89,5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-89,5",
+    "extracted_final_answers": [
+      "-89,5"
+    ],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "Jos aritmeettisen jonon $12$ ensimmäisen termin summa on $144$ ja $20$ ensimmäisen termin summa on $560$, niin laske $6$ ensimmäisen termin summa.",
+    "generated_answer": "Tässä on ratkaista aritmeettisen jonon 6 ensimmäisen termin summa.\n\nRatkaistaan ensin jonon ensimmäinen termi ($a_1$) ja yhteenvähenemis ($d$):\n\\[\nS_{12} = \\frac{12}{2}(2a_1 + 11d) = 144\n\\]\n\\[\nS_{20} = \\frac{20}{2}(2a_1 + 19d) = 560\n\\]\n\nRatkaistaan yhtälöt ja saadaan:\n\\[\na_1 = -8, \\quad d = 4\n\\]\n\nLasketaan 6 ensimmäisen termin summa ($S_6$):\n\\[\nS_6 = \\frac{6}{2}(2(-8) + 5(4)) = 3(-16 + 20) = 18\n\\]\n\n[Nägte selville laskeminen]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\] [Nägte selville laskeminen]",
+    "extracted_final_answers": [
+      "\\] [Nägte selville laskeminen]"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "Aritmeettisen jonon $l$:s termi on $l^2$ ja $k$:s termi on $k^2$.\nMuodosta kaksi yhtälöä annetun tiedon perusteella, kun jonon ensimmäinen termi on $a$ ja **differenssi** on $d$.",
+    "generated_answer": "L RATKAISTaan annetun tiedon perusteella yhtälöt:\n\\[\nl = a + (l-1)d \\quad \\text{ja} \\quad k = a + (k-1)d\n\\]\n\n<final>Arvostelu: $a$ on jonon ensimmäinen termi ja $d$ on differenssi.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Arvostelu: $a$ on jonon ensimmäinen termi ja $d$ on differenssi",
+    "extracted_final_answers": [
+      "Arvostelu: $a$ on jonon ensimmäinen termi ja $d$ on differenssi"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ .... (i)\n$a + (k-1)d = k^2$ .... (ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "Aritmeettisen jonon $l$:s termi on $l^2$ ja $k$:s termi on $k^2$.\nMääritä $(l+k)$:s termi.",
+    "generated_answer": "Lisätietoja: Aritmeettisen jonon $l$:s termi on $l^2$ ja $k$:s termi on $k^2$.  \nMääritä $(l+k)$:s termi.\n\nRatkaisu: Aritmeettisen jonon yleinen termin kaava on $a_n = a_1 + (n-1)d$, missä $a_1$ on ensimmäinen termi ja $d$ on differenssi.  \nTied tiedämme, että $l^2 = a_l = a_1 + (l-1)d$ ja $k^2 = a_k = a_1 + (k-1)d$.  \nVastaus $(l+k)$:n termiä on $(l+k)^2$.\n\n\\boxed{(l + k)^2}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$(l+k)$:n termiä on $(l+k)^2$.(l + k)^2",
+    "extracted_final_answers": [
+      "$(l+k)$:n termiä on $(l+k)^2$.(l + k)^2"
+    ],
+    "exact_answer": "l^2+kl+k^2",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "Finnish",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "Suomennettu matemaattinen kysymys:\n\nAritmeettisen sarjan $l$:s termi on $l^2$ ja $k$:s termi on $k^2$.\nOsoita, että sarjan ensimmäisten $(l+k)$ termin summa on $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.",
+    "generated_answer": "Suora Ratkaisu (Finnish):\nMatematiikan tehtävä on osoittautumassa, että aritmeettisen sarjan $(l+k)$ ensimmäisen termin summa on $\\frac{l+k}{2} (l^2 + k^2 + l + k)$. Osoita tämän oikeaksi laskemalla sarjan $(l+k)$ ensimmäiset termit ja summattamaan niitä kaikkeen.\n<final>Matematiikan perusrakkaus: Arithmetisen sarjan $(l+k)$ ensimmäisten termin yhteistä saadaan kaavalla $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Matematiikan perusrakkaus: Arithmetisen sarjan $(l+k)$ ensimmäisten termin yhteistä saadaan kaavalla $(l+k)/(2) (l^2 + k^2 + l + k)$",
+    "extracted_final_answers": [
+      "Matematiikan perusrakkaus: Arithmetisen sarjan $(l+k)$ ensimmäisten termin yhteistä saadaan kaavalla $(l+k)/(2) (l^2 + k^2 + l + k)$"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "Finnish",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "Mikä on sarjan $\\log 2 + \\log 16 + \\log 512 + \\ldots$ 12 ensimmäisen termin summa?",
+    "generated_answer": "Löydettäään sarjan $\\log 2 + \\log 16 + \\log 512 + \\ldots$ ensimmäisen kymmenen termin summakaavoa. Sarja on geometrinen, missä jokainen termi on edellisen termin 8-kertakohta. Geometrisen sarjan yleinen termi on $a_n = 2^{3n-1}$, ja summakauda on $S_{10} = \\frac{2(1 - 8^{10})}{1 - 8}$. Tässä $a_1 = 2$ ja $q = 8$.\n\nNyt lasketaan summakauda:\n\\[\nS_{10} = \\frac{2(1 - 8^{10})}{-7} = \\frac{2(8^{10} - 1)}{7}\n\\]\n\nLasketaan $8^{10}$:\n\\[\n8^{10} = (2^3)^{10} = 2^{30} = 1,073,741,824\n\\]\n\nSijoittamalla arvot summakauda:\n\\[\nS_{10} = \\frac{2(1,073,741,824 - 1)}{7} = \\frac{2 \\times 1,073,741,823}{7} = \\frac{2,147,483,646}{7} = 306,783,378\n\\]\n\nNäin saadaan summakauda:\n\\[\nS_{10} = 306,\\!783,\\!378\n\\]\n\nFinal Answer (in Finnish):\n[Neli kymmenen]\n\n<final>[Neli kymmenen]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Neli kymmenen]",
+    "extracted_final_answers": [
+      "[Neli kymmenen]"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "Finnish",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "Mikä on sarjan $2 - 2 + 2 - 2 + \\ldots \\ldots \\ldots \\ldots$ $(2n+2)$ ensimmäisen termin summa?",
+    "generated_answer": "Nimi on sarjan $2 - 2 + 2 - 2 + \\ldots$ $(2n+2)$ ensimmäisen termin summa.\n\nSarjan ensimmäiset kaksi termiä ovat $2$ ja $-2$, ja näiden muodostavat paria, jonka summa on $0$. Tämän jälkeen kaikki muut termit ovat myös parit $(2 - 2) + (2 - 2) + \\ldots$, joka jokainen parin suma on $0$. Siis kaikkien parien summa on $0$.\n\nKun $n$ on parillinen eli $n = 2k$, niin ensimmäiset $(2n+2)$ termi ovat parit, ja niiden summa on $0$. Kun $n$ on kolmannen aikakaudella eli $n = 2k + 1$, niin on vielä yksi extra termi $2$, joten summa on $2$.\n\nSarjan ensimmäisen $(2n+2)$ termin summa on siis:\n$$\n\\boxed{0}\n$$\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "Finnish",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "Osoita, että $1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2$.",
+    "generated_answer": "Summan $1^3 + 2^3 + \\dots + n^3$ voidaan laskentaan kaavalla $(\\frac{n(n+1)}{2})^2$, ja tässä tapauksessa $n=10$. Lasketaan ensin summa $S = 1 + 2 + ... + 10 = \\frac{10 \\times 11}{2} = 55$. Silloin $(S)^2 = 55^2 = 3025$.\n\n[Näiden summien neliö on yhtäinen.]\n<final>3025</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3025",
+    "extracted_final_answers": [
+      "3025"
+    ],
+    "exact_answer": "1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "Finnish",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "Suomalaisena matematiikan opettajana, jolla on laaja kokemus akateemisen matematiikan sisällön kääntämisestä, käännän alla olevan matemaattisen kysymyksen englannista suomeksi korkeimpien ammattistandardien mukaisesti.\n\nKÄÄNNÖSOHJEET:\n1. MATEMAATTISET ELEMENTIT:\n   - Säilytä KAIKKI matemaattinen merkintätapa täsmälleen sellaisenaan: numerot, muuttujat, yhtälöt, symbolit (∑, ∫, ∂, √, jne.)\n   - Pidä matemaattiset lausekkeet alkuperäisessä LaTeX/ASCII-muodossaan, jos niitä on\n   - Säilytä täsmälleen sama matemaattinen rakenne ja suhteet\n\n2. SUOMALAISET MATEMAATTISET KONVENTIOT:\n   - Käytä suomalaista desimaalimerkintää (pilkku pisteen sijasta): 3,14 eikä 3.14\n   - Käytä asianmukaista suomalaista matemaattista sanastoa:\n     • \"olkoon\" merkityksessä \"let\"\n     • \"siten että\" merkityksessä \"such that\"\n     • \"joukko\" merkityksessä \"set\"\n     • \"funktio\" merkityksessä \"function\"\n     • \"yhtälö\" merkityksessä \"equation\"\n     • \"ratkaista\" merkityksessä \"solve\"\n     • \"laskea\" merkityksessä \"calculate\"\n     • \"määrittää\" merkityksessä \"determine\"\n     • \"osoittaa\" merkityksessä \"show that\"\n     • \"todistaa\" merkityksessä \"prove\"\n\n3. MUOTOILU JA RAKENNE:\n   - Säilytä kysymyksen rakenne täsmälleen samana (monivalintavaihtoehdot, osat a), b), c), jne.)\n   - Pidä sama matemaattisen muodollisuuden taso\n   - Käytä tarvittaessa asianmukaisia suomen kielen partitiivi- ja genetiivimuotoja\n\n4. LAATUTARKISTUKSET:\n   - Varmista, että käännös noudattaa suomalaisia akateemisen kirjoittamisen standardeja\n   - Varmista, ettei matemaattista tietoa katoa tai muutu\n   - Vahvista, että vaikeustaso pysyy identtisenä\n\nEnglanninkielinen kysymys: The perimeter of a square region is equal to the perimeter of a rectangular region. The length of the rectangular region is thrice its breadth and the area is $768$ sq. metre. How many stones will be required to cover the square region with square stones of $40$ cm each?\n\nSuomenkielinen käännös: Neliömäisen alueen piiri on yhtä suuri kuin suorakulmaisen alueen piiri. Suorakulmaisen alueen pituus on kolminkertainen sen leveyteen nähden ja pinta-ala on $768$ m². Kuinka monta kiveä tarvitaan neliömäisen alueen päällystämiseen neliökivillä, joiden sivunpituus on $40$ cm kukin?",
+    "generated_answer": "Neljän kiveä.\n\n<final>neljä</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "neljä",
+    "extracted_final_answers": [
+      "neljä"
+    ],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "Finnish",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "Tasaisella alueella on suorakulmion muoto. Sen pinta-ala on $160$ neliömetriä. Jos pituutta vähennetään $6$ metrillä, alueesta tulee neliön muotoinen. Määritä suorakulmion pituus ja leveys.",
+    "generated_answer": "Suorakulmion pinta-ala on 160 neliömetriä. Olkoon suorakulmion pituus \\( l \\) ja leveys \\( w \\). Saadaan yhtälö:\n\n\\[ l \\times w = 160 \\]\n\n jos pituutta vähennetään 6 metrillä, saadaan neliö, joten pituus ja leveys olkeaa samassa suhteessa:\n\n\\[ (l - 6) = w \\]\n\n Sijoittamalla leveys pituuteen:\n\n\\[ l \\times (l - 6) = 160 \\]\n\\[ l^2 - 6l - 160 = 0 \\]\n\n Ratkaisemalla toisen asteen yhtälö:\n\n\\[ l = \\frac{6 \\pm \\sqrt{36 + 640}}{2} = \\frac{6 \\pm \\sqrt{676}}{2} = \\frac{6 \\pm 26}{2} \\]\n\n Käytän positiivista ratkaisua:\n\n\\[ l = \\frac{6 + 26}{2} = 16 \\, \\text{metriä} \\]\n\\[ w = l - 6 = 10 \\, \\text{metriä} \\]\n\n Suorakulmion pituus on \\( \\boxed{16 \\) metriä ja leveys \\( \\boxed{10 \\) metriä. <final>16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16",
+    "extracted_final_answers": [
+      "16"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "Finnish",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "Parallelogrammin pinta-ala on yhtä suuri kuin neliön pinta-ala. Jos parallellogrammin kanta on $125$ metriä ja korkeus $5$ metriä, etsi neliön diagonaalin pituus.",
+    "generated_answer": "Lahdas paraleeligrammin pinta-ala yhtä suiseksi neliön pinta-alaksi. Paraleeligrammin ala on \\( 125 \\times 5 = 625 \\) m², joten neliön pinta-ala myös on 625 m². Neliön sivu on siis \\( \\sqrt{625} = 25 \\) metriä. Diagonaalin pituus saadaan kaavasta \\( d = \\sqrt{2s^2 - e^2} \\), kun \\( e \\) on sivun pituus ja \\( s \\) on neliön tilavuus. Tässä tapauksessa \\( d = \\sqrt{2 \\times 25^2 - 0} = 35,3554 \\).\n\nFinal Answer (in Finnish):\n[Neliön diagonaalin pituus on \\( 35,3554 \\) metriä.]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [Neliön diagonaalin pituus on \\( 35,3554 \\) metriä.]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [Neliön diagonaalin pituus on \\( 35,3554 \\) metriä.]"
+    ],
+    "exact_answer": "35,35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "Finnish",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "Ympyräsegmentin keskuskulma on $30^\\circ$. Jos ympyrän halkaisija on $126$ cm, määritä kaaren pituus.",
+    "generated_answer": "Keskerotuksen pituus saadaan kaaren pituuden kaavasta \\( L = r \\cdot \\theta \\), missä \\( \\theta \\) on kulma radiaaneissa. Ensiksi muutetaan kulma \\( 30^\\circ \\) radiaaneiksi: \\( 30^\\circ \\times \\frac{\\pi}{180^\\circ} = \\frac{\\pi}{6} \\). Ympyrän säde on \\( r = \\frac{126\\ \\text{cm}}{2} = 63\\ \\text{cm} \\). Lasketaan kaarensä pituus: \\( L = 63 \\cdot \\frac{\\pi}{6} = \\frac{63\\pi}{6} = \\frac{21\\pi}{2}\\ \\text{cm} \\).\n\nFinal Answer (in Finnish):\n[N käänös: \\( \\frac{21\\pi}{2}\\ \\text{cm} \\)]\n\n<final>\\(\\frac{21\\pi}{2}\\ \\text{cm}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\((21\\pi)/(2)\\ \\text{cm}\\)",
+    "extracted_final_answers": [
+      "\\((21\\pi)/(2)\\ \\text{cm}\\)"
+    ],
+    "exact_answer": "32,987 cm (noin)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "Finnish",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "Suomenkielinen käännös:\n\nSuorakulmaisen puulaatikon ulkomitat ovat $8$ cm, $6$ cm ja $4$ cm, ja koko sisäpinnan pinta-ala on $88$ cm$^2$. Määritä laatikon puun paksuus.",
+    "generated_answer": "Suorakulmaisen puulaatikon ulkomtat ovat $8$ cm, $6$ cm ja $4$ cm, ja koko sisäpinnan pinta-ala on $88$ cm$^2$. Laitoksen puun paksuus voidaan määrittää 1 mm:n tarkkuudella.\n\n**Ratkaisu:**\n\nOlkoon laitosen paksuus $x$ cm. Tällöin sisäpuuden mitat ovat $(8 - x)$, $(6 - x)$ ja $(4 - x)$. Sisäpinnan pinta-ala on $88$ cm², joten voidaan kirittää yhtälö:\n\n\\[\n(8 - x)(6 - x) + (8 - x)(4 - x) + (6 - x)(4 - x) = 88\n\\]\n\n ratkaistaчи5x ja saada $x = \\frac{2}{3}$ cm, joka on yhtä hyvin $0.67$ cm.\n\n**Vastaus:**\n\nLaitoksen puun paksuus on $\\boxed{\\dfrac{2}{3}\\text{ cm}}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus: Laitoksen puun paksuus on \\dfrac{2{3}\\text{ cm}}$",
+    "extracted_final_answers": [
+      "Vastaus: Laitoksen puun paksuus on \\dfrac{2{3}\\text{ cm}}$"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "Määritä irrationaaliluku $\\sqrt{3}$:n ja $4$:n väliltä.",
+    "generated_answer": "$\\sqrt{3}$ on irrationaalisia, koska se ei voida esittää murtoluvun muodossa ja sitä ei saa lausekeen $\\frac{a}{b}$, missä $a$ ja $b$ ovat kokonaislukuja, $b \\neq 0$. Lauseemme perustaa seuraavasti:",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(3)$ on irrationaalisia, koska se ei voida esittää murtoluvun muodossa ja sitä ei saa lausekeen $(a)/(b)$, missä $a$ ja $b$ ovat kokonaislukuja, $b \\neq 0$. Lauseemme perustaa seuraavasti",
+    "extracted_final_answers": [
+      "√(3)$ on irrationaalisia, koska se ei voida esittää murtoluvun muodossa ja sitä ei saa lausekeen $(a)/(b)$, missä $a$ ja $b$ ovat kokonaislukuja, $b \\neq 0$. Lauseemme perustaa seuraavasti"
+    ],
+    "exact_answer": "a ja b ovat halutut luvut.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "Laske luvun $4,4623845\\dots$ tarkat arvot ja likiarvot $1, 2, 3, 4$ ja $5$ desimaalin tarkkuudella.",
+    "generated_answer": "Luvun $4,4623845\\dots$ tarkat arvot ja likiarvot 1, 2, 3, 4 ja 5 desimaalin tarkkuudella ovat:\n\n- 1 desimaali: $\\boxed{4.5}$\n- 2 desimaa: $\\boxed{4.46}$\n- 3 desimaa: $\\boxed{4.462}$\n- 4 desimaa: $\\boxed{4.4624}$\n- 5 desimaa: $\\boxed{4.46238}$\n\n<final>4.5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4.5",
+    "extracted_final_answers": [
+      "4.5"
+    ],
+    "exact_answer": "4,4, 4,5, 4,46, 4,462, 4,4624, 4,46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "Olkoon $S$ luonnollisten lukujen joukko, joilla on sama jakojäännös $23$ jaettaessa luvulla $311$ ja luvulla $419$. Määritä joukko $S$.",
+    "generated_answer": "Lukujoukko $S$ constointaa kaikki sellaiset luonnolliset luvut, jotka jäännys 23olla jakamisessa 311:llä ja myös 419:llä. Nämä luvut ovat samalla aikakaudella 23:än ja 68:än moninkertaisuudessa, joten suurin yhteinen tekijä on 17. Luvuille 311 ja 419 on siis suurin yhteinen tekijä 1. Siten joukku $S$ constoi kaikilla luonnollisilla lukuvwilla, jotka ovat kongruenttia 23 mod 311 ja myös kongruenttia 23 mod 419.\n\nFinal Answer (in Finnish):\n[Natural numbers congruent to 23 modulo the least common multiple of 311 and 419]\n\n<final>[Natural numbers congruent to 23 modulo the least common multiple of 311 and 419]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Natural numbers congruent to 23 modulo the least common multiple of 311 and 419]",
+    "extracted_final_answers": [
+      "[Natural numbers congruent to 23 modulo the least common multiple of 311 and 419]"
+    ],
+    "exact_answer": "36",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "$100$ oppilaasta $88$ läpäisi bengalissa, $80$ matematiikassa ja $70$ molemmissa aineissa. Esitä tiedot Vennin diagrammina ja laske, kuinka moni oppilas hylättiin molemmissa aineissa.",
+    "generated_answer": "Näytän ratkaisun Vennin diagrammin avulla. Labeled ympyröillä aineiden 80 ja 70 opiskelijoiden joukko, ja silmälle 100 opiskelijoille bengalissa. Verrataan 88 opiskelijoja bengalissa olevia. Molempien aineiden yhteistö on $x$ opiskelijoja.\n\nRatkaistaan yhtälö:\n\\[\n100 = (80 - x) + (70 - x) + x\n\\]\n\\[\n100 = 150 - x\n\\]\n\\[\nx = 50\n\\]\n\nKysymys on, montako opilast hylättä molemmilla aineilla. Vastaus: $\\boxed{50}$\n\n<final>50</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "50",
+    "extracted_final_answers": [
+      "50"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "Olkoon $A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$ ja joukkojen $A$ ja $B$ alkioiden välillä on relaatio $x = y - 1$. Määritä relaatio(t).",
+    "generated_answer": "Relaatio on joukko $(1,2)$ ja $(2,3)$ ja $(3,4)$.\n\nFinnish Answer: Relaatio on $\\{(1, 2), (2, 3), (3, 4)\\}$.\n\n<final>\\{ (1, 2), (2, 3), (3, 4) \\}\\}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\{ (1, 2), (2, 3), (3, 4) \\}\\}",
+    "extracted_final_answers": [
+      "\\{ (1, 2), (2, 3), (3, 4) \\}\\}"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "Olkoon universaalijoukko $U=\\{x:x \\in N$ ja  $x \\le 6\\},$ \n$A=\\{x:x$ on alkuluku ja $x\\le 5\\},$ \n$B=\\{x: x$ on parillinen luku ja $x\\le 6\\}$ ja \n$C=A \\setminus B$. Osoita, että $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$.",
+    "generated_answer": "Osoita, että $(A \\cap C) \\times B = (A \\times B) \\cap (C \\times B)$.\n\n**Ratkaisu:**\n\n tuntemattomuksia, minkä tahansa joukku $X$ ja $Y$, joukko $X \\times Y$ on niiden kaikkeen $(x,y)$ parien joukku, missä $x \\in X$ ja $y \\in Y$. Osoittamme, että molemmat joukut $(A \\cap C) \\times B$ ja $(A \\times B) \\cap (C \\times B)$ ovat samat. Varmista ensin joukkojen $A$, $B$ ja $C$ alueet:\n\n- $U = \\{1, 2, 3, 4, 5, 6\\}$\n- $A = \\{2, 3, 5\\}$ (alkuluvut $\\leq 5$)\n- $B = \\{2, 4, 6\\}$ (parilliset luvut $\\leq 6$)\n- $C = A \\setminus B = \\{3, 5\\}$\n\nNyt:\n- $(A \\cap C) \\times B = (\\{2, 3, 5\\} \\cap \\{3, 5\\}) \\times \\{2, 4, 6\\} = \\{3, 5\\} \\times \\{2, 4, 6\\}$ \n- $(A \\times B) \\cap (C \\times B) = (\\{2, 3, 5\\} \\times \\{2, 4, 6\\}) \\cap (\\{3, 5\\} \\times \\{2, 4, 6\\}) = \\{3, 5\\} \\times \\{2, 4, 6\\}$\n\nSiisäytyy, että molemmat joukut ovat yhtä suuret.\n\n**Vastaus:**\n<final>\\(\\boxed{\\text{Osoitus on voimassa.}}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(\\text{Osoitus on voimassa.}\\)",
+    "extracted_final_answers": [
+      "\\(\\text{Osoitus on voimassa.}\\)"
+    ],
+    "exact_answer": "(A ∩ C) × B = (A × B) ∩ (C × B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "Finnish",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "Olkoon $a+b+c=15$ ja $a^{2}+b^{2}+c^{2}=83$. Mikä on arvo lausekkeelle $ab+bc+ac$?",
+    "generated_answer": "Lukion matematiikan tehtävä.  \nKirjoita vihrempi专家 mathematician.  \n\nOlkoon $a+b+c=15$ ja $a^{2}+b^{2}+c^{2}=83$. Mikä on arvo lausekkeelle $ab+bc+ac$?  \n\nVastaus:  \n[Numeric result]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Numeric result]",
+    "extracted_final_answers": [
+      "[Numeric result]"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "Finnish",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "Kirjan hinta on 24 Tk. Tämä hinta on $80\\%$ todellisesta hinnasta. Valtio tukee puuttuvaa hintaa. Kuinka paljon rahaa valtio tukee kutakin kirjaa kohden?",
+    "generated_answer": "Valtio tukee 16 % jokaisestaKirjan hinnasta.\n\nLasketaan valtion nousevan osaa:\n$24 \\text{ Tk} = 80\\% \\times x$\n\nRatkaistaan $x$:\n$x = \\frac{24}{0.80} = 30 \\text{ Tk}$\n\nValtio tukee:\n$30 \\text{ Tk} - 24 \\text{ Tk} = 6 \\text{ Tk}$\n\nTämä on 20 % eli $6/30 = 0.20$, joten valtio tukee jokaisestaKirjan hinnasta 16 %.\n\n<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "Finnish",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "Sievennä: $(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$",
+    "generated_answer": "Lasketaan ensin potenssi:\n\n\\((-3)^3 = -27\\) ja \\(\\left(-\\dfrac{1}{2}\\right)^2 = \\dfrac{1}{4}\\).\n\nNyt lasketaan kertotulos:\n\n\\[\n-27 \\times \\dfrac{1}{4} = -\\dfrac{27}{4}\n\\]\n\nExplanation: Potenssi lasketaan ensin, ja potenssin tulo kerrotaan toisella.\n<final>-\\dfrac{27}{4}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-\\dfrac{27}{4}",
+    "extracted_final_answers": [
+      "-\\dfrac{27}{4}"
+    ],
+    "exact_answer": "- \\dfrac{27}{4}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "Finnish",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "Jos luvun $400$ logaritmi on $4$, mikä on logaritmin kantaluku?",
+    "generated_answer": "Vastaus: Luvun $400$ logaritmi on $4$, joten kantaluku on $\\boxed{16}$.\n\n<final>16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16",
+    "extracted_final_answers": [
+      "16"
+    ],
+    "exact_answer": "2\\sqrt{5}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "Finnish",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "Todista, että $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$.",
+    "generated_answer": "Todetaan, että $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$.\n\nLukuteorian mukaan logaritmin ominaisuuksista tiedaan, että $\\log_b a + \\log_b c = \\log_b (a \\cdot c)$ ja $n\\log_b a = \\log_b (a^n)$. Nyt voidaan laskea kaikkeen:\n\n$3\\log_{10} 2 = \\log_{10} 2^3 = \\log_{10} 8$\n\n$\\log_{10} 5$ on joko alkoon.\n\nSumma on siis $\\log_{10} 8 + \\log_{10} 5 = \\log_{10} (8 \\cdot 5) = \\log_{10} 40$.\n\n\\boxed{\\log_{10} 40}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Summa on siis $\\log_{10} 8 + \\log_{10} 5 = \\log_{10} (8 \\cdot 5) = \\log_{10} 40$.\\log_{1040}",
+    "extracted_final_answers": [
+      "Summa on siis $\\log_{10} 8 + \\log_{10} 5 = \\log_{10} (8 \\cdot 5) = \\log_{10} 40$.\\log_{1040}"
+    ],
+    "exact_answer": "\\log_{10} 40",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "Finnish",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "Ratkaise: $(y-1)(y+2)= (y+4)(y-2)$",
+    "generated_answer": "Ratkaistaan yhtälö $(y-1)(y+2)= (y+4)(y-2)$.\n\nMuodostetaan expandoidaan molemmat puut:\n\n$y^2 + 2y - y - 2 = y^2 - 2y + 4y - 8$\n\nYksinkertainnillä saadaan:\n\n$y^2 + y - 2 = y^2 + 2y - 8$\n\nVähentää molemmista puolista $y^2$:\n\n$y - 2 = 2y - 8$\n\nRatkaistaan $y$:\n\n$-2 + 8 = 2y - y \\Rightarrow y = 6$\n\n**Vastaus:**  \n$\\boxed{6}$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus: 6",
+    "extracted_final_answers": [
+      "Vastaus: 6"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "Finnish",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "Ratkaise ja kirjoita ratkaisujoukko: $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$",
+    "generated_answer": "Ratkaisu: Ensimmäiseksi kerrotkaan kaikkeen lauseketta yhteisönmuotoon, jolloin saadaan yhtälö muuttamatta ratkaisua:\n\n$\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$\n\nKun lauseketta ratkaistaan, saadaan:\n\n$69 = 3 \\cdot x$\n\nSiisäytyy siitä, että $x = 23$. Tämän perusteella lasketaan saadaksemme ratkaisu.\n\nFinal Answer (in Finnish):\n[Näillä lauseilla on yksi ratkaisu: $x=23$.]\n\n<final>[Lauseen ratkaisut: x = 23.]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Lauseen ratkaisut: x = 23.]",
+    "extracted_final_answers": [
+      "[Lauseen ratkaisut: x = 23.]"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "Finnish",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "Jos $\\dfrac{\\cos A-\\sin A}{\\cos A+\\sin A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$, etsi $A$:n arvo.",
+    "generated_answer": "$\\dfrac{\\cos A-\\sin A}{\\cos A+\\sin A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$ Ratkaistaan $A$:n arvo.\n\n[Numeric result]\n<final>45°</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "45°",
+    "extracted_final_answers": [
+      "45°"
+    ],
+    "exact_answer": "A=60°",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "Finnish",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "Oletetaan, että $A=45\\degree$. Todista, että $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$.",
+    "generated_answer": "Nascenti analyysii, saadaan siitä, että kaavion perustan mukaan $\\cos 2A$ voidaan ilmaista seuraavasti: \\[\\cos 2A = \\frac{1 - \\tan^2 A}{1 + \\tan^2 A}\\]. Tämä kaava on tosi, jos $A=45^\\circ$, koska $\\tan 45^\\circ = 1$ ja $\\cos 90^\\circ = 0$. \n\nKoska $\\frac{1 - 1}{1 + 1} = \\frac{0}{2} = 0$, joka on samalla $\\cos 90^\\circ = 0$, kaava päättyy toisenä oikaisena. Tämä todetaan siis todeksi.\n\nFinal Answer (in Finnish):\n\\[\\boxed{\\frac{1-\\tan^2 A}{1+\\tan^2 A}}\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): \\[\\frac{1-\\tan^2 A{1+\\tan^2 A}}\\]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): \\[\\frac{1-\\tan^2 A{1+\\tan^2 A}}\\]"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "Palash Sarker aloitti työnsä tammikuussa $2005$ palkalla, jonka vuosipalkka oli $120000$ Tk. Hänen vuosittainen palkankorotuksensa on $5000$ Tk. Hänen palkastaan vähennetään $10\\%$ vuosittain työntekijärahastoon. Vuoden lopussa hän tallettaa $12000$ Tk. pankkiin $12\\%$ vuosittaisella korkoa korolle -korkokannalla. Hän jää eläkkeelle $31$. joulukuuta $2030$.\n\nMikä on pankkiin talletetun kokonaisrahan määrä $31$. joulukuuta $2031$ mennessä?",
+    "generated_answer": "Näillä aikakaudella hän tallettaa jokaisen vuoden lopussa 12000 Tk pankkia 12% vuosittaisella korolla. Vuodesta 2031 alkaen talletus on jatkuva, ja vuosipalkkasi kasvaa korkoylehden mukaan.\n\n<final>15684.79 Tk</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "15684.79 Tk",
+    "extracted_final_answers": [
+      "15684.79 Tk"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "Finnish",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "Neliökentän ympärillä on $4$ metrin levyinen tie. Jos tien pinta-ala on $1$ hehtaari, määritä kentän pinta-ala ilman tietä.",
+    "generated_answer": "[Nelikön pinta-ala on $1 \\text{ hehtaari}$ ja levy on $4$ metriä. Tiedän, että levy on ympyrän muotoinen, joten ympyrän säde voidaan laskea kaikkien levyyn liittyvällä tiedolla. Kyseessä on 1 hehtaari = 100 m². Kuten ymmärtääni, kentän pinta-ala on $98.45$ metriä.\n<final>98.45</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "98.45",
+    "extracted_final_answers": [
+      "98.45"
+    ],
+    "exact_answer": "38,56 hehtaaria",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "Finnish",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "Olkoon $S = \\{x : x$ on neliöluku, joka ei ole suurempi kuin $100\\}$. Ilmaise $S$ toisella tavalla.",
+    "generated_answer": "$S$ on joukko, joka sisältää kaikki neliölukuja, jotka ovat enintään 100.\n\nFinal Answer (in Finnish):\n[S = \\{x : x on neliöluku ja x ≤ 100\\}]<final>[S = \\{x : x on neliöluku ja x ≤ 100\\}]\\end{final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [S = \\{x : x on neliöluku ja x ≤ 100\\}]<final>[S = \\{x : x on neliöluku ja x ≤ 100\\}]\\end{final>",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [S = \\{x : x on neliöluku ja x ≤ 100\\}]<final>[S = \\{x : x on neliöluku ja x ≤ 100\\}]\\end{final>"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "Finnish",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "Olkoon $A$ ja $B$ mitkä tahansa joukot, niin $A \\cap B \\subseteq A$ ja $A \\cap B \\subseteq B$.",
+    "generated_answer": "Joukko $A \\cap B$ on joukko $A$ ja joukko $B$ yhteiset alkiot. Kun väite $A \\cap B \\subseteq A$ ja $A \\cap B \\subseteq B$ tunnettaa, niin sitä voidaan perustella alueellisesti. Alkit ovat molemmilla joukoilla $A$ ja $B$, joten ne kuuluvat molempiin joukkuihin. \n\n<final>Joukko $A \\cap B$ on joukko $A$ ja joukko $B$ subset, joten $A \\cap B$ on joukko $A$ ja joukko $B$ osajoukko. $\\blacksquare$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Joukko $A \\cap B$ on joukko $A$ ja joukko $B$ subset, joten $A \\cap B$ on joukko $A$ ja joukko $B$ osajoukko. $\\blacksquare",
+    "extracted_final_answers": [
+      "Joukko $A \\cap B$ on joukko $A$ ja joukko $B$ subset, joten $A \\cap B$ on joukko $A$ ja joukko $B$ osajoukko. $\\blacksquare"
+    ],
+    "exact_answer": "A \\cap B \\subseteq A ja A \\cap B \\subseteq B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "Finnish",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "Todista, että $A \\subset B$ jos ja vain jos jokin seuraavista ehdoista toteutuu:\n$A \\cap B = A$",
+    "generated_answer": "[A on B osajoukko jos ja vain jos A ∩ B = A.]\n\n<final>A on B osajoukko, jos ja vain jos A ∩ B = A.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A on B osajoukko, jos ja vain jos A ∩ B = A",
+    "extracted_final_answers": [
+      "A on B osajoukko, jos ja vain jos A ∩ B = A"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "Finnish",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "Osoita, että\njos $A \\subset B$, niin $A \\cup (B \\setminus A) = B$",
+    "generated_answer": "Väite: Jos \\( A \\subset B \\), niin \\( A \\cup (B \\setminus A) = B \\).\n\nPiilättävä ymmärtäämien joukkojen suhteiden, kun \\( A \\) on \\( B \\) osa, niin \\( B \\setminus A \\) sisältää kaikki alueet, jotka kuuluvat \\( B \\) muttei \\( A \\). Kun nämä joukot yhdistetään, saadaan kutsutut alkioita kaikkeen \\( B \\).\n\nEsitys:\n\\boxed{A \\cup (B \\setminus A) = B}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Esitys:A \\cup (B \\setminus A) = B",
+    "extracted_final_answers": [
+      "Esitys:A \\cup (B \\setminus A) = B"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "Finnish",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "Olkoon $U = \\{x: x \\text{ on parillinen kokonaisluku}\\}$, $A = \\{x: 3x \\ge 25\\} \\subset U$ ja $B = \\{x: 5x < 12\\} \\subset U$. Määritä silloin joukkojen $A \\cap B$ ja $A' \\cap B'$ lukumäärät, eli $n(A \\cap B)$ ja $n(A' \\cap B')$.",
+    "generated_answer": "Näillä joukkojen $A \\cap B$ ja $A' \\cap B'$ leikkauksien määrät ovat 0 ja 5, vastaavasti. Muodostettu lasku perustuu joukkojen $A$, $B$ ja niiden komplementtien määrittelyyn sekä parillisuuksia koskevien ehkojen tarkastelmuten.\n\nFinal Answer (in Finnish):\n$n(A \\cap B) = 0$<br>\n$n(A' \\cap B') = 5$\n\n<final>\n$n(A \\cap B) = 0$<br>$n(A' \\cap B') = 5$\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "n(A \\cap B) = 0$<br>$n(A' \\cap B') = 5",
+    "extracted_final_answers": [
+      "n(A \\cap B) = 0$<br>$n(A' \\cap B') = 5"
+    ],
+    "exact_answer": "n(A ∩ B) = 0 ja n(A' ∩ B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "Määritä annetun relaation $S$ **määrittelyjoukko**, **arvojoukko** ja käänteisrelaatio.\nVarmista, ovatko relaatiot $S$ tai $S^{-1}$ funktioita.\nOvatko näihin relaatioihin kuuluvat funktiot injektiivisiä?\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "Määritä annetun relaation \\( S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\} \\) määrittelyjoukko, arvojoukko ja käänteisrelaatio. Varmista, ovatko relaatiot \\( S \\) tai \\( S^{-1} \\) funktioita. Ovatko näihin relaatioihin kuuluvat funktiot injektiivisiä?\n\n**Ratkaisu:**\n\nMäärittelyjoukko on joukko \\( A = \\{1, 2, 3, 4\\} \\), arvojoukko on joukko \\( B = \\{5, 10, 15, 20\\} \\). Relaatio \\( S \\) on funktio, koska jokaisella alkkiyksellä on yksi täsmenys. Käänteisrelaatio \\( S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\) ei ole funktio, koska joukkuun \\( B \\) liittyvissä alkuelementeissä on useita kuvauksia. Relaatiot eivät ole injektiivisiä, koska määrittelyjoukosta jokainen alkio kuvataan eri arvojoukkueen alkion.\n\n**Vastaus:**\n\nMäärittelyjoukko on \\(\\boxed{\\{1, 2, 3, 4\\}}\\), arvojoukko on \\(\\boxed{\\{5, 10, 15, 20\\}}\\) ja käänteisrelaatio on \\(\\boxed{\\{(5, 1), (10, 2), (15, 3), (20, 4)\\}}\\). Relaatio \\( S \\) on funktio, kun taas relaatio \\( S^{-1} \\) ei ole. Relaatiot eivät ole injektiivisiä.\n\n<final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Määrittelyjoukko on \\(\\{1, 2, 3, 4\\}\\), arvojoukko on \\(\\{5, 10, 15, 20\\}\\) ja käänteisrelaatio on \\(\\{(5, 1), (10, 2), (15, 3), (20, 4)\\}\\). Relaatio \\( S \\) on funktio, kun taas relaatio \\( S^{-1} \\) ei ole. Relaatiot eivät ole injektiivisiä. <final>",
+    "extracted_final_answers": [
+      "Määrittelyjoukko on \\(\\{1, 2, 3, 4\\}\\), arvojoukko on \\(\\{5, 10, 15, 20\\}\\) ja käänteisrelaatio on \\(\\{(5, 1), (10, 2), (15, 3), (20, 4)\\}\\). Relaatio \\( S \\) on funktio, kun taas relaatio \\( S^{-1} \\) ei ole. Relaatiot eivät ole injektiivisiä. <final>"
+    ],
+    "exact_answer": "$S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\therefore S on funktio. \\therefore S^{-1} on bijektio.$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "Olkoon annetun relaation $S$ määrittelyjoukko, arvojoukko ja käänteisrelaatio.\nSelvitä, ovatko relaatiot $S$ tai $S^{-1}$ funktioita.\nOvatko näiden relaatioiden funktiot injektiivisiä?\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "Relaatio $S$ ei ole funktio, koska yhteistä alkiota $\\frac{5}{2}$ kohtaan kahden eri arvon $(\\frac{5}{2}, 2)$ ja $(\\frac{5}{2}, -2)$ liittyy. Käänteisrelaatio $S^{-1}$ myös ei ole funktio, koska se saa yhdeltä alkiosta useita arvoja.\n<final>Relaatiot $S$ ja $S^{-1}$ ovat molemmat funktiot injektiivisiä.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Relaatiot $S$ ja $S^{-1}$ ovat molemmat funktiot injektiivisiä",
+    "extracted_final_answers": [
+      "Relaatiot $S$ ja $S^{-1}$ ovat molemmat funktiot injektiivisiä"
+    ],
+    "exact_answer": "S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S ei ole funktio. Joten S^{-1} ei ole injektiivinen funktio.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "Määrittäkää annetun relaation $S$ määrittelyjoukko, arvojoukko ja käänteisrelaatio.\nSelvittäkää, ovatko relaatiot $S$ tai $S^{-1}$ funktioita.\nOvatko nämä relaatiot funktioita injektiivisiä?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "Määritellään relaatio $S$ määrittelyjoukko, arvojoukko ja käänteisrelaatio. Selvitetään, ovatko relaatiot $S$ tai $S^{-1}$ funktioita. Tarkastellaan myös, ovatko ne funktioita injektiivisia.\n\n**Ratkaisu:**\n- Määrittelyjoukko $D_S = \\{2\\}$\n- Arvojoukko $R_S = \\{1, 2, 3\\}$\n- Käänteisrelaatio $S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\}$\n\nRelaatio $S$ ei ole funktio, koska alkion 2 kuvassa on useita arvoja. Relaatio $S^{-1}$ myös ei ole funktio, sillä alkion 2 kuvassa on useita alkukuheimerä.\n\n**Kysymykset:**\n- ovatko relaatiot funktioita? \\textbf{Ei}\n- ovatko ne funktioita injektiivisia? \\textbf{Ei}\n\n<final>\nMäärittelyjoukko: {2}, Arvojoukko: {1, 2, 3}, Käänteisrelaatio: {(1, 2), (2, 2), (3, 2)}. Ei ole funktioita. <final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "<final> Määrittelyjoukko: {2}, Arvojoukko: {1, 2, 3}, Käänteisrelaatio: {(1, 2), (2, 2), (3, 2)}. Ei ole funktioita. <final>",
+    "extracted_final_answers": [
+      "<final> Määrittelyjoukko: {2}, Arvojoukko: {1, 2, 3}, Käänteisrelaatio: {(1, 2), (2, 2), (3, 2)}. Ei ole funktioita. <final>"
+    ],
+    "exact_answer": "Määrittelyjoukko = \\{2\\} Arvojoukko = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} Joten S ei ole funktio. Joten S^{-1} on funktio. Joten S^{-1} ei ole bijektiivinen funktio.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "Olkoot funktio $F: \\mathbb{R} \\to \\mathbb{R}$, $F(x)=x^3$.\nMääritä $F$:n määrittelyjoukko ja kuvajoukko.",
+    "generated_answer": "Määritä funtion $F(x)=x^3$ määrittelyjoukko ja kuvajoukko.\n\n**Ratkaisu:**\nFunktio $F(x) = x^3$ on määritelty kaikille reaaliluvuille $x$, joten määrittelyjoukko on $\\mathbb{R}$. Kuvajoukko myös on $\\mathbb{R}$, koska kuarta cubing funktio saa jokaisen reaalin arvon.\n\n<final>\nFunktion $F$ määrittelyjoukko on $\\mathbb{R}$ ja kuvajoukko myös $\\mathbb{R}$.\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Funktion $F$ määrittelyjoukko on $\\mathbb{R}$ ja kuvajoukko myös $\\mathbb{R}$",
+    "extracted_final_answers": [
+      "Funktion $F$ määrittelyjoukko on $\\mathbb{R}$ ja kuvajoukko myös $\\mathbb{R}$"
+    ],
+    "exact_answer": "määrittelyjoukko F = \\mathbb{R} ja maaljoukko F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "Kaksi funktiota $f: \\mathbb{R} \\to \\mathbb{R}$ ja $g: \\mathbb{R} \\to \\mathbb{R}$ määritellään kaavoilla $f(x)=3x+3$ ja $g(x)=\\frac{x-3}{3}$\nMääritä, onko funktio $f(x)$ surjektiivinen.",
+    "generated_answer": "Funktio \\( f(x) = 3x + 3 \\) on surjektiivinen, koska jokaiselle reaaliyhteisölle \\( y \\) löytyy sellainen reaaliluku \\( x \\), että \\( f(x) = y \\).\n\nFinal Answer (in Finnish):\n\\boxed{f \\text{ on surjektiivinen}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish):f \\text{ on surjektiivinen}",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish):f \\text{ on surjektiivinen}"
+    ],
+    "exact_answer": "f(x) on surjektio",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "Finnish",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "Olkoon $f(x)=\\sqrt{x-4}$.\nMääritä, onko $f(x)$ aidosti monotoninen funktio (tai injektiivinen funktio).\n\n**Explanation of choices:**\n\n*   **Olkoon $f(x)=\\sqrt{x-4}$**: This directly translates \"Given that, $f(x)=\\sqrt{x-4}$\" using the standard Finnish mathematical convention \"olkoon\" for \"let\" or \"given that.\"\n*   **Määritä**: This translates \"Determine\" accurately in a mathematical context.\n*   **onko $f(x)$ aidosti monotoninen funktio (tai injektiivinen funktio)**: This is where a nuanced choice is made for \"one-one function.\"\n    *   **Aidosti monotoninen funktio**: This is a common and precise Finnish term for a function that is either strictly increasing or strictly decreasing. For a function to be one-to-one, it must indeed be strictly monotonic over its domain. This is often the preferred term in Finnish secondary and introductory university mathematics.\n    *   **Injektiivinen funktio**: This is the direct translation of \"injective function,\" which is the formal mathematical definition of a one-to-one function. It means that for any two distinct inputs $x_1$ and $x_2$ in the domain, their outputs $f(x_1)$ and $f(x_2)$ are also distinct.\n\nI have provided both options separated by \"(tai\" meaning \"or\") because \"aidosti monotoninen funktio\" is often used as a sufficient condition and thus a practical equivalent for \"one-one function\" in many contexts, while \"injektiivinen funktio\" is the precise, formal term. Depending on the target audience's level, one might be preferred over the other, but offering both ensures full coverage and clarity.\n\nThe mathematical notation $f(x)=\\sqrt{x-4}$ is preserved exactly as requested. The structure of the question remains a single, direct request for determination.",
+    "generated_answer": "Olkoon $f(x)=\\sqrt{x-4}$. Tarkastellaan, onko funktio aidosti monotoninen. Koska lauseke $\\sqrt{x-4}$ on määritelty vain kun $x \\geq 4$, ja se kasvaa jatkuvasti suurempiin arvoihin, kun $x$ kasvaa, niin funktio on aidosti monotoninen.\n\nFinal Answer (in Finnish):\n$f(x)$ on aidosti monotoninen funktio.\n\n<final>$f(x)$ on aidosti monotoninen funktio.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "f(x)$ on aidosti monotoninen funktio",
+    "extracted_final_answers": [
+      "f(x)$ on aidosti monotoninen funktio"
+    ],
+    "exact_answer": "f(x) on aidosti monotoninen funktio",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "Muotoile osamurtokehitelmänä: $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$",
+    "generated_answer": "Osamurtokehitelmä on $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$.\n\n[Osamurtokehitelmä on $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$.]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Osamurtokehitelmä on $(x^2 - 4x - 7)/((x+1)(x^2+4))$. [Osamurtokehitelmä on $(x^2 - 4x - 7)/((x+1)(x^2+4))$.]",
+    "extracted_final_answers": [
+      "Osamurtokehitelmä on $(x^2 - 4x - 7)/((x+1)(x^2+4))$. [Osamurtokehitelmä on $(x^2 - 4x - 7)/((x+1)(x^2+4))$.]"
+    ],
+    "exact_answer": "\\frac{1}{5} \\left( \\frac{7x-27}{x^2+4} - \\frac{2}{x+1} \\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "Muodosta osamurtokehitelmä: $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "Osamurtokehitelmä on $\\frac{x^2}{(2x+1)(x+3)^2} = \\frac{A}{2x+1} + \\frac{B}{x+3} + \\frac{C}{(x+3)^2}$, missä $A$, $B$ ja $C$ ovat vakiot.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Osamurtokehitelmä on $(x^2)/((2x+1)(x+3)^2) = (A)/(2x+1) + (B)/(x+3) + (C)/((x+3)^2)$, missä $A$, $B$ ja $C$ ovat vakiot",
+    "extracted_final_answers": [
+      "Osamurtokehitelmä on $(x^2)/((2x+1)(x+3)^2) = (A)/(2x+1) + (B)/(x+3) + (C)/((x+3)^2)$, missä $A$, $B$ ja $C$ ovat vakiot"
+    ],
+    "exact_answer": "\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "Finnish",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "Ratkaise: $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "Ratkaisu: $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$\n\n\\boxed{x = 5}\n\n<final>x = 5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 5",
+    "extracted_final_answers": [
+      "x = 5"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "Finnish",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "Ratkaise yhtälöpari: $ x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$",
+    "generated_answer": "Ratkaise yhtälöpari: $ x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$\n\n$\\boxed{x = 3}$ ja $\\boxed{y = 7}$  \n\n<final>x = 3 ja y = 7</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 3 ja y = 7",
+    "extracted_final_answers": [
+      "x = 3 ja y = 7"
+    ],
+    "exact_answer": "(x, y) = \\left(\\frac{4}{5}, 20\\right), \\left(\\frac{1}{5}, 5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "Finnish",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "Ratkaise $8 \\geq 2-2x$",
+    "generated_answer": "Ratkaisu on $x \\leq 5$.\n\n<final>x \\leq 5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x \\leq 5",
+    "extracted_final_answers": [
+      "x \\leq 5"
+    ],
+    "exact_answer": "x \\geq -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "Finnish",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "Suomenkielinen käännös:\n\nPoika käveli $3$ tuntia nopeudella $x$ km/h ja juoksi $\\frac{1}{2}$ tuntia nopeudella $(x+2)$ km/h. Kuljettu matka oli alle $29$ km. Määritä mahdolliset $x$:n arvot.",
+    "generated_answer": "Käyntiä kello 3 nopeudella $x$ km/h ja $\\frac{1}{2}$ tuntia nopeudella $(x+2)$ km/h. Matka oli alle $29$ km.\n\n\\[\n3x + \\frac{1}{2}(x+2) < 29\n\\]\n\nKirjoittamalla ratkaisu:\n\n\\[\n3x + \\frac{x}{2} + 1 < 29 \\\\\n\\frac{7x}{2} < 28 \\\\\nx < 8\n\\]\n\nKoska nopeus on positiivinen, saadaan $0 < x < 8$.\n\n<final>[0 < x < 8]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Koska nopeus on positiivinen, saadaan $0 < x < 8$. <final>[0 < x < 8]",
+    "extracted_final_answers": [
+      "Koska nopeus on positiivinen, saadaan $0 < x < 8$. <final>[0 < x < 8]"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "Finnish",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": "Herra Sohrab osti $x$ kg mangoa hintaan 70 Tk/kg. Hän antoi myyjälle 500 Tk setelin. Myyjä palautti hänelle loput rahat $x$ kappaleen 20 Tk seteleinä. Etsi mahdolliset $x$:n arvot.",
+    "generated_answer": "Herra Sohrab osti \\( x \\) kg mangoa hintaan 70 Tk/kg, joten koko mangojen hinta oli \\( 70x \\) Tk. Hän antoi myyjälle 500 Tk setelin, ja myyjä palautti loput rahat \\( x \\) kappaleen 20 Tk seteleinä. Yhtälö voidaan kirastaa seuraavasti:\n\n\\[\n70x - 500 = 20x\n\\]\n\nRatkaistaan yhtälö:\n\\[\n70x - 20x = 500 \\\\\n50x = 500 \\\\\nx = \\frac{500}{50} \\\\\nx = 10\n\\]\n\n**Vastaus:**\n\\[\n\\boxed{x = 10}\n\\]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 10\\]",
+    "extracted_final_answers": [
+      "x = 10\\]"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "Finnish",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": "Ilmaetäisyys Dhakasta Singaporeen on 2900 km. Jet-lentokoneen maksiminopeus on 900 km/h. Mutta matkalla Dhakasta Singaporeen se kohtaa vastatuulta, joka virtaa 100 km/h. Ilmoita Dhakan ja Singaporen välisen suoran lennon vaatima aika epäyhtälönä.",
+    "generated_answer": "Lukion matematiikan opettaja Pekka Tarinno.\n\nIlmainen aika on sairaalassa, jos $\\frac{|AB|}{v + w} \\leq t$.\n\n<final>\\boxed{\\dfrac{2900}{900 + 100} \\leq t}\\end{final}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ilmainen aika on sairaalassa, jos $(|AB|)/(v + w) \\leq t$. <final>\\dfrac{2900{900 + 100} \\leq t}\\end{final}",
+    "extracted_final_answers": [
+      "Ilmainen aika on sairaalassa, jos $(|AB|)/(v + w) \\leq t$. <final>\\dfrac{2900{900 + 100} \\leq t}\\end{final}"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "Finnish",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "Olkoon annettu ääretön sarja $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$. Aseta ehto muuttujalle $x$, jonka vallitessa sarjan summa (äärettömyyteen) on olemassa, ja määritä tämä summa.",
+    "generated_answer": "Mies onpuolueella on osoittautumassa sitä, että hän ei osannut myöntämään meistä itsensä kansalle itsenäisyyttä. Tämä näkyy järkeellisesti sen kerrallaista, kunhan meillä on aika odotaakseni.\n\nFinal Answer (in Finnish):\n<final>$\\boxed{\\frac{1}{x}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{1{x}}",
+    "extracted_final_answers": [
+      "\\frac{1{x}}"
+    ],
+    "exact_answer": "x < -2, x > 0, \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "Finnish",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "Kolmion kulmat ovat aritmeettisessa jonossa ja suurin kulma on kaksi kertaa pienin kulma. Mitkä ovat kulmien radiaanimitat?",
+    "generated_answer": "Kolmion kulmat ovat aritmeettisessa jonossa ja suurin kulma on kaksi kertaa pienin kulma. Tarkastetaan alusta, että suurin kulma on kaksi kertaa pienimmän kulmana. Olkoon pienin kulma α, jolloin suurin kulma on 2α. Koska kolmion kulmat summoivat 180°, saadaan yhtälö: α + β + 2α = 180°, missä β on keskimmäinen kulma. Rationaalista hyvitystä saadaan β = 60° - α. Vaihtamalla lausekkeeseen saadaan α + (60° - α) + 2α = 180°, josta 3α + 60° = 180°, ja siis α = 40°. Kuitenkin tarkastetaan myös ratkaistua yleisen muotoon, jolloin saadaan kulmat: 20°, 60°, 100°. Nämä voidaan konверoida radiaanoiksi:\n\nPienin kulma α = 20° = π/9 ≈ 0.3491 radiaa\nKeskimmäinen kulma β = 60° = π/3 ≈ 1.0472 radiaa\nSuurin kulma γ = 100° = 5π/9 ≈ 1.7453 radiaa\n\n[Numeric result]  \nKulmien radiaanmitat ovat π/9, π/3 ja 5π/9 radiaa.\n\n<final>π/9, π/3, 5π/9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "π/9, π/3, 5π/9",
+    "extracted_final_answers": [
+      "π/9, π/3, 5π/9"
+    ],
+    "exact_answer": "2π^c/9, π^c/3, 4π^c/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "Finnish",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "Sievennä: $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$",
+    "generated_answer": "$\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10}$ sievennetään summaksi 0, koska cos-s summien symmetrian seurauksena napaavat toisinsa ja tuvastaa kahden vastakkaisen kulman kosinin summamiehet nollaksi.\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "$\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "Finnish",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "Sievennä: $\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$",
+    "generated_answer": "$\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$\n\n[Sininen lauseen todistus]: Lause saa arvoa 2, joten se on tosi. \n\n<final>2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2",
+    "extracted_final_answers": [
+      "2"
+    ],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "Finnish",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "Sievennä: $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$",
+    "generated_answer": "Sievennä $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$.\n\n**Ratkaisu:**\n\nLasketaan jokainen termi erikseen ja sievennetään yhteensä:\n- $\\cos \\frac{9\\pi}{4} = \\cos \\left(2\\pi + \\frac{\\pi}{4}\\right) = \\cos \\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$\n- $\\cos \\frac{5\\pi}{4} = \\cos \\left(\\pi + \\frac{\\pi}{4}\\right) = -\\frac{\\sqrt{2}}{2}$\n- $\\sin \\frac{31\\pi}{36} = \\sin \\left(\\pi + \\frac{5\\pi}{36}\\right) = -\\sin \\frac{5\\pi}{36}$\n- $-\\sin \\frac{5\\pi}{36}$\n\nNyt yhteenlaskeminen:\n$\\cos \\frac{\\pi}{4} - \\cos \\frac{\\pi}{4} + (-\\sin \\frac{5\\pi}{36}) - \\sin \\frac{5\\pi}{36} = 0 - 2\\sin \\frac{5\\pi}{36}$\n\nSiisäydetään lopuksenä $\\boxed{\\sin \\frac{5\\pi}{18}}$.\n\n<final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Siisäydetään lopuksenä \\sin \\frac{5\\pi{18}}$. <final>",
+    "extracted_final_answers": [
+      "Siisäydetään lopuksenä \\sin \\frac{5\\pi{18}}$. <final>"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "Finnish",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "Määritä arvo $\\alpha$:lle, joka toteuttaa annetut ehdot: $\\cot \\alpha = -\\sqrt{3} \\, ; \\, \\frac{3\\pi}{2} < \\alpha < 2\\pi$",
+    "generated_answer": "Määritä arvo α:lle, joka toteuttaa annetut ehdot: cot α = -√3 ; 3π/2 < α < 2π.\n\n**Ratkaisu:**\n\nKoska cot α = -√3, saadaan α = arccot(-√3) + kπ. Arvoilla 3π/2 < α < 2π on kyseensä第四象限，jossa cot α on negatiivi. Tarkasteltaessa yksikönolohteen, saadaan α = (5π)/6 + π = (11π)/6.\n\n**Vastaus:**\n\nα = \\boxed{\\dfrac{11\\pi}{6}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaus: α =\\dfrac{11\\pi{6}}",
+    "extracted_final_answers": [
+      "Vastaus: α =\\dfrac{11\\pi{6}}"
+    ],
+    "exact_answer": "\\frac{11\\pi}{6}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "Finnish",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "Ratkaise yhtälö: $\\left(\\text{missä } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$",
+    "generated_answer": "Ratkaistaan yhtälö: \\(2\\sin^2 \\theta + 3 \\cos \\theta = 3\\) missä \\(0 < \\theta < \\frac{\\pi}{2}\\).\n\nKun yhtälö ratkaistaan, saadaan yksin \\(\\theta\\) lauseke. Lasketaan ensin sinin ja kosinin vahviasia arvoja.\n\n[Numeric result]  \n<final>\\boxed{\\frac{\\pi}{3}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{\\pi{3}}",
+    "extracted_final_answers": [
+      "\\frac{\\pi{3}}"
+    ],
+    "exact_answer": "\\frac{\\pi}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "Sievennä:\n$bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$",
+    "generated_answer": "Finnish: Sievennä lauseketta $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$.  \nPitkän laskun perusteella lauseke sievenee muotoon $x^{(ab+bc+ca)/(abc)}$.\n<final>x^{(ab+bc+ca)/(abc)}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^{(ab+bc+ca)/(abc)}",
+    "extracted_final_answers": [
+      "x^{(ab+bc+ca)/(abc)}"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "Osoita, että\n1) Jos $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$, niin $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$",
+    "generated_answer": "Osoita, että jos \\( x = a^{q+r}b^p \\), \\( y = a^{r+p}b^q \\), \\( z = a^{p+q}b^r \\), niin \\( x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1 \\).\n\n**Rationaali:**\n\\[\nx^{q - r} \\cdot y^{r - p} \\cdot z^{p - q} = (a^{q+r}b^p)^{q-r} \\cdot (a^{r+p}b^q)^{r-p} \\cdot (a^{p+q}b^r)^{p-q}\n\\]\nKun lasketaan potensit, saadaan:\n\\[\n= a^{(q+r)(q - r)} b^{p(q - r)} \\cdot a^{(r+p)(r - p)} b^{q(r - p)} \\cdot a^{(p+q)(p - q)} b^{r(p - q)}\n\\]\nSimplifino:\n\\[\n= a^{q^2 - r^2 + r^2 - p^2 + p^2 - q^2} b^{pq - pr + qr - pq + rp - rq}\n\\]\nNyt kaikki koein potenssit saattuvat antamaan nolla, joten:\n\\[\n= a^0 b^0 = 1\n\\]\n\n[Näillä tiedeopetteluilla on päättynyt, että yhtälö pätee.]\n<final>\nNäillä tiedeopetteluilla on päättynyt, että yhtälö pätee.\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Näillä tiedeopetteluilla on päättynyt, että yhtälö pätee",
+    "extracted_final_answers": [
+      "Näillä tiedeopetteluilla on päättynyt, että yhtälö pätee"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "Finnish",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": "Olkoon $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ ja $a \\ge 0$. Osoita, että $3a^3 + 9a = 8$.",
+    "generated_answer": "Olkoon $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ ja $a \\ge 0$. Osoita, että $3a^3 + 9a = 8$.\n\n**Ratkaisu:**\n\nVarmista yhtälön $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ toisen asteen yhtälön ratkaisun oikeassa määrittelyssä ja lasketaan sen perusteella oheiset arvot. Lopuksi perustella, että saadut arvot toteuttavat myös tiedon $3a^3 + 9a = 8$.\n\n[Numeric result]\n<final>[N/A]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[N/A]",
+    "extracted_final_answers": [
+      "[N/A]"
+    ],
+    "exact_answer": "3a³ + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "Finnish",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "Olkoon funktio $y = \\log_{10} x$. Kirjoita käänteisfunktio.",
+    "generated_answer": "Käänteisfunktio on $x = 10^y$.\n\n<final>x = 10^{y}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 10^{y}",
+    "extracted_final_answers": [
+      "x = 10^{y}"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "Finnish",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "Määritä funktion $f(x) = \\ln \\frac{1-x}{1+x}$ määrittelyjoukko ja arvojoukko.",
+    "generated_answer": "Funktion $f(x) = \\ln \\frac{1-x}{1+x}$ määrittelyjoukko on $-1 < x < 1$, ja sen arvojoukko on $\\mathbb{R}$. \n\n<final>-1 < x < 1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-1 < x < 1",
+    "extracted_final_answers": [
+      "-1 < x < 1"
+    ],
+    "exact_answer": "Määritelmäjoukko D_f = (-1, 1) ja Arvojoukko R_f = \\mathbb{R}.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "Finnish",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "Ohessa on suomenkielinen käännös matemaattisesta kysymyksestä.\n\n**Kysymys:**\n\nOlkoon funktio $f(x)$ määritelty seuraavasti:\n\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{kun } x \\ne 0 \\\\ 0, & \\text{kun } x=0 \\end{cases}$\n\nMääritä funktion $f$ määrittelyjoukko ja arvojoukko.",
+    "generated_answer": "Funktion määrittelyjoukko on kaikki reaaliluvut, ja arvojoukko koostuu kakkoseen arvojen 1 ja -1 sekä nollaan.\n\n$\\boxed{D = \\mathbb{R}, V = \\{-1, 0, 1\\}}$\n\n<final>D = \\mathbb{R}, V = \\{-1, 0, 1\\}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "D = \\mathbb{R}, V = \\{-1, 0, 1\\}",
+    "extracted_final_answers": [
+      "D = \\mathbb{R}, V = \\{-1, 0, 1\\}"
+    ],
+    "exact_answer": "Määritelmäjoukko = \\mathbb{R} , Arvojoukko = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "Finnish",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "Here is the Finnish translation of the mathematical question, adhering to your guidelines:\n\nLaajenna $(1 + x^{2})^{8}$ ensimmäisiin neljään termiin. Käyttäen tulosta, etsi arvo $(1.01)^{8}$.",
+    "generated_answer": "Lajitellaan $(1 + x^{2})^{8}$ ensimmäisiin neljään termiin, saadaan $1 + 8x^{2} + 28x^{4} + 56x^{6}$. Tämän perusteella $(1.01)^{8} = (1 + 0.01)^{8} \\approx 1 + 8(0.01) + 28(0.01)^2 + 56(0.01)^3 = 1.0816$. \n\n[Numeric result]\n1.0816\n<final>1.0816</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1.0816",
+    "extracted_final_answers": [
+      "1.0816"
+    ],
+    "exact_answer": "1,082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "Finnish",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "Etsi seuraava kehitelmä neljään ensimmäiseen termiin asti [käyttäen Pascalin kolmiota tai binomilausetta]\n1) $(1 - 2x^{2})^{7}$",
+    "generated_answer": "Neljä ensimmäistä termin kertomista lauseke $(1 - 2x^{2})^{7}$:ssä on seuraavat:\n\n\\[\n\\begin{align*}\n&1, \\\\\n&-14x^2, \\\\\n&84x^4, \\\\\n&-280x^6.\n\\end{align*}\n\\]\n\n<final>$(1 - 14x^2 + 84x^4 - 280x^6)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1 - 14x^2 + 84x^4 - 280x^6)",
+    "extracted_final_answers": [
+      "(1 - 14x^2 + 84x^4 - 280x^6)"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "Finnish",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "Tässä käännös pyydettyyn matematiikkakysymykseen suomeksi, noudattaen antamiasi ohjeita:\n\nEtsi seuraava kehitelmä neljän ensimmäisen termin tarkkuudella [käyttäen Pascalin kolmiota tai binomilausetta]:\n3) $(1 - \\frac{1}{2x})^{7}$",
+    "generated_answer": "Kysymys: Etsi $(1 - \\frac{1}{2x})^{7}$ kehitelmä neljän ensimmäisen termin tarkkuudella, käyttämällä Pascalin kolmiota tai binomilausetta.\n\nRatkaisu:\nBinomikerroin $\\binom{7}{k}$ ja termi $(-\\frac{1}{2x})^k$ saadaan seuraavat neljän termin:\n\n$\\left(1 - \\frac{1}{2x}\\right)^7 = 1 - \\frac{7}{2x} + \\frac{21}{8x^2} - \\frac{35}{16x^3} + \\cdots$\n\n<final>$(1 - \\frac{1}{2x})^{7} \\approx 1 - \\frac{7}{2x} + \\frac{21}{8x^2} - \\frac{35}{16x^3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1 - (1)/(2x))^{7} \\approx 1 - (7)/(2x) + (21)/(8x^2) - (35)/(16x^3)",
+    "extracted_final_answers": [
+      "(1 - (1)/(2x))^{7} \\approx 1 - (7)/(2x) + (21)/(8x^2) - (35)/(16x^3)"
+    ],
+    "exact_answer": "1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3} + .....",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "Finnish",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "Määritä lausekkeen $(2 + 3x)^6$ neljä ensimmäistä termiä.",
+    "generated_answer": "Lauseke $(2 + 3x)^6$ binomion lauseketta käyttäen, ensimmäiset neljä termiä ovat:\n$$\n(2^6), \\quad 6 \\cdot 2^5 \\cdot 3x, \\quad 15 \\cdot 2^4 \\cdot (3x)^2, \\quad 20 \\cdot 2^3 \\cdot (3x)^3.\n$$\nNämä lausekeilla saadaan:\n$$\n64 + 576x + 2160x^2 + 4320x^3.\n$$\n\nLauseen $(2 + 3x)^6$ neljä ensimmäistä termiä ovat siis:\n$$\n\\boxed{64 + 576x + 2160x^2 + 4320x^3}\n```",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "64 + 576x + 2160x^2 + 4320x^3```",
+    "extracted_final_answers": [
+      "64 + 576x + 2160x^2 + 4320x^3```"
+    ],
+    "exact_answer": "64 + 576x + 2160x² + 4320x³ + …",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "Finnish",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "Osoita, että jos $\\underline{a} + \\underline{b} = \\underline{c}$, niin $\\underline{a} = \\underline{c} - \\underline{b}$.",
+    "generated_answer": "$\\underline{a} = \\underline{c} - \\underline{b}$, koska $\\underline{a} + \\underline{b} = \\underline{c}$ ja siis $\\underline{a} = \\underline{c} - \\underline{b}$.\n\n<final>$\\underline{a} = \\underline{c} - \\underline{b}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\underline{a} = \\underline{c} - \\underline{b}",
+    "extracted_final_answers": [
+      "\\underline{a} = \\underline{c} - \\underline{b}"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "Suorakulmaisen säiliön pituus on $2,5$ metriä, leveys $1,0$ metriä ja se seisoo maassa. Jos sen korkeus on $0,4$ metriä, laske sen tilavuus ja sisäpinta-alan suuruus.",
+    "generated_answer": "Suorakulmaisen säiliön tilavuus on $2,5 \\times 1,0 \\times 0,4 = 1,0$ m³. Sisäpinta-ala on $2(2,5 \\times 1,0) + (2,5 \\times 0,4) + (1,0 \\times 0,4) = 6,8$ m².\n\nFinal Answer (in Finnish):\n[N/A]\n\n<final>[N/A]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[N/A]",
+    "extracted_final_answers": [
+      "[N/A]"
+    ],
+    "exact_answer": "1 , 7,8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "Hyvinvoinnin tukemiseksi tähän on käännetty englanninkielinen matemaattinen kysymys suomeksi korkeimpien ammatillisten standardien mukaisesti:\n\n**Suomenkielinen kysymys:**\n\nHostelli on tarkoitus rakentaa 70 opiskelijalle siten, että jokaisella opiskelijalla on 4,25 neliömetrin lattiatilaa ja 13,6 kuutiometriä tilaa. Jos huone on 34 metriä pitkä, mikä sen leveys ja korkeus ovat?",
+    "generated_answer": "Kysymys on ratkaistavassa muodossa, ja sen ratkaiseminen vaati laajan määriä matemaattista tietämistä. Tarkastellaan annettuakseen virheisiä yhtälöitä ja ratkaise voidaan hyväksyyn.\n\nLopputulos on laadittavassa muodossa, ja se tarjoaa suora vastaus tehtävän kysymykseen. Kuitenkin matemaattiset välitokiinnokset vaikuttavat tiettyyn ratkaisuun.\n\n<final>Leveys on 2,6 metriä ja korkeus on 1,7 metriä.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Leveys on 2,6 metriä ja korkeus on 1,7 metriä",
+    "extracted_final_answers": [
+      "Leveys on 2,6 metriä ja korkeus on 1,7 metriä"
+    ],
+    "exact_answer": "8,75; 3,2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "Kaksi suorakulmaisen kolmion kateettia ovat pituudeltaan $5 \\text{ cm}$ ja $3,5 \\text{ cm}$. Laske sen kappaleen tilavuus, joka muodostuu, kun kolmio pyöräytetään sen pidemmän kateetin ympäri.",
+    "generated_answer": "Suorakulmaisen kolmion kateettien pituudet ovat $5 \\text{ cm}$ ja $3,5 \\text{ cm}$. Kun kolmio pyöräytetään sen pidemmän kateetin ympäri, saadaan kyläpäisillä kappaleella tilavuus $\\frac{49\\pi}{6} \\text{ cm}^3$.\n\nFinal Answer (in Finnish):\n[N/A]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [N/A]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [N/A]"
+    ],
+    "exact_answer": "64,14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "Kaksiosaisella katolla varustettu varasto rakennetaan 25 metriä pitkälle ja 18 metriä leveälle tontille. Sen korkeus on 5 metriä. Kumpikin kattopalan leveys on 14 metriä. Laske varaston tilavuus.",
+    "generated_answer": "Vastaavasti suoraan laskennassa saadaan varastoiden tilavuudet summoina. Tarkoittaa, että kaikki kahden kattopalan leveys 14 metriä voidaan käyttää varaston rakentamisessa.\n\n\\boxed{896}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Vastaavasti suoraan laskennassa saadaan varastoiden tilavuudet summoina. Tarkoittaa, että kaikki kahden kattopalan leveys 14 metriä voidaan käyttää varaston rakentamisessa.896",
+    "extracted_final_answers": [
+      "Vastaavasti suoraan laskennassa saadaan varastoiden tilavuudet summoina. Tarkoittaa, että kaikki kahden kattopalan leveys 14 metriä voidaan käyttää varaston rakentamisessa.896"
+    ],
+    "exact_answer": "4662,85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "Osoita, että funktio $F: \\mathbb{R} \\rightarrow \\mathbb{R}, \\ F(x)=x^2$ ei ole injektiivinen.",
+    "generated_answer": "Funktio \\( F(x) = x^2 \\) ei ole injektiivinen, koska eri muuttujan arvoilla saad voidaan saada samat \\( F(x) \\)-arvot. Esimerkiksi \\( F(1) = 1 \\) ja \\( F(-1) = 1 \\), joten funktio ei ole yksinjoukkoisesti kuvauksista.\n\n<final>Funktio ei ole injektiivinen.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Funktio ei ole injektiivinen",
+    "extracted_final_answers": [
+      "Funktio ei ole injektiivinen"
+    ],
+    "exact_answer": "F ei ole yksi-yhteen",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "Finnish",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "Olkoon funktio $f(x)=3x+1$, kun $0 \\le x \\le 2$. Määritä $f$:n arvojoukko.",
+    "generated_answer": "Funktion $f(x)=3x+1$ on määritelty välillä $0 \\le x \\le 2$. Kun $x=0$, saadaan $f(0)=1$. Kun $x=2$, saadaan $f(2)=7$. Välillä $0 \\le x \\le 2$ funktio $f(x)$ on lineaarinen ja kasvaa jatkuva, joten arvojoukko on väli $[1,7]$.\n\nFinal Answer (in Finnish):\n\\boxed{[1,7]}\n\n<final>[1,7]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[1,7]",
+    "extracted_final_answers": [
+      "[1,7]"
+    ],
+    "exact_answer": "{y: 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "Olkoon $P(x)=3x^3+2x^2-7x+8$. Määritä arvo $P(2)$.",
+    "generated_answer": "Lasketaan polynomi $P(2)$:\n\n\\[\nP(2) = 3 \\cdot 2^3 + 2 \\cdot 2^2 - 7 \\cdot 2 + 8\n\\]\n\\[\n= 3 \\cdot 8 + 2 \\cdot 4 - 14 + 8\n\\]\n\\[\n= 24 + 8 - 14 + 8 = 26\n\\]\n\n**Explanation:** Replaces $x$ with $2$ in polynomial and simplifies.\n\n<final>[26]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[26]",
+    "extracted_final_answers": [
+      "[26]"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "Olkoon $P(x) = ax^3+bx+c$, osoita, että polynomien $P(x)$ ja $x-m$ jakojäännös on yhtä suuri kuin $P(m)$.",
+    "generated_answer": "Piilä P(x)-n ja x-m:n jakojäännös on yhtä suuri kuin P(m). Tämä seuraa polynomin jakolaista, jossa jakajärjestys on x - m, ja jakojäännös saadaan arvolla x = m. Täten P(m) on jakojäännös.\n\nFinal Answer (in Finnish):\n[Polynomin $P(x)$ ja $x-m$ jakojäännös on yhtä suuri kuin $P(m)$.]\n\n<final>P(x) ja x - m:n jakojäännös on yhtä suuri kuin P(m).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "P(x) ja x - m:n jakojäännös on yhtä suuri kuin P(m)",
+    "extracted_final_answers": [
+      "P(x) ja x - m:n jakojäännös on yhtä suuri kuin P(m)"
+    ],
+    "exact_answer": "Jakojäännös on yhtä suuri kuin P(m)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "Olkoon $P(x)=ax^3+bx^2+cx+d$ polynomi, jonka kertoimet ovat kokonaislukuja, $a \\neq 0, \\ d \\neq 0$. Oletetaan, että $x-r$ on polynomin $P(x)$ tekijä. Osoita, että jos $r$ on kokonaisluku, niin $r$ on vakiotermin tekijä.",
+    "generated_answer": "Rationaaliset nollakohdat ovat Kokonaislukujen tekijöiden. <final>Kokonaisluvun r on vakiontermi d:n tekijä.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Kokonaisluvun r on vakiontermi d:n tekijä",
+    "extracted_final_answers": [
+      "Kokonaisluvun r on vakiontermi d:n tekijä"
+    ],
+    "exact_answer": "r on d:n tekijä",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "Olkoon polynomi $P(x) = x^3 - 6x^2 + 11x - 6$. Jaa polynomi tekijöihin.",
+    "generated_answer": "Polynomi $P(x) = x^3 - 6x^2 + 11x - 6$ voidaan jakaa tekijöihin $(x-1)(x-2)(x-3)$.\n\nFinal Answer (in Finnish):  \n[N$(x-1)(x-2)(x-3)$]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [N$(x-1)(x-2)(x-3)$]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [N$(x-1)(x-2)(x-3)$]"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "Tekijöihin jako: $18x^3+15x^2-x-2$",
+    "generated_answer": "$18x^3+15x^2-x-2 = (3x + 2)(6x^2 - x - 1)$\n\nFinal Answer (in Finnish):\n[N $(3x + 2)(6x^2 - x - 1)$]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [N $(3x + 2)(6x^2 - x - 1)$]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [N $(3x + 2)(6x^2 - x - 1)$]"
+    ],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "Ratkaise tekijöihin lauseke $a^3(b-c)+b^3(c-a)+c^3(a-b)$.",
+    "generated_answer": "Ratkaisu: Lauseke voidaan kirjata seuraavasti:\n\n\\[\na^3(b - c) + b^3(c - a) + c^3(a - b) = -(a - b)(b - c)(c - a)(a + b + c)\n\\]\n\nTämä lauseke saadaan siirtelemällä tekijöihin ja yksinkertainen muunnoksella, jossa käytettiin algebrallisia identiteettejä.\n\n<final>Lauseke voidaan esittää seuraavasti: $-(a - b)(b - c)(c - a)(a + b + c)$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lauseke voidaan esittää seuraavasti: $-(a - b)(b - c)(c - a)(a + b + c)$",
+    "extracted_final_answers": [
+      "Lauseke voidaan esittää seuraavasti: $-(a - b)(b - c)(c - a)(a + b + c)$"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "Olkoon tehtäväsi jakaa tekijöihin lauseke $(b+c)(c+a)(a+b)+abc$.",
+    "generated_answer": "Lauseke $(b+c)(c+a)(a+b)+abc$ voidaan jakaa tekijöihin seuraavasti:\n\n\\[\n(b + c)(c + a)(a + b) + abc = (a + b + c)(ab + bc + ca)\n\\]\n\n<final>\\( (a + b + c)(ab + bc + ca) \\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\( (a + b + c)(ab + bc + ca) \\)",
+    "extracted_final_answers": [
+      "\\( (a + b + c)(ab + bc + ca) \\)"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "Finnish",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "Muotoile $\\dfrac{x}{(x-1)(x^2+4)}$ osamurtokehitelmänä.",
+    "generated_answer": "Muodostamme $\\dfrac{x}{(x-1)(x^2+4)}$ osamurtokehitelmäksi seuraavasti:  \n$\\dfrac{A}{x-1} + \\dfrac{Bx+C}{x^2+4}$.\n\nJälki laskemalla saadaan yhtälöt:  \n$A(x^2 + 4) + (Bx + C)(x - 1) = x$.  \n\nSijoittamalla $x = 1$ saadaan $A(1 + 4) = 1 \\Rightarrow A = \\dfrac{1}{5}$.  \nToisen asteen yhtälössä saadaan $B = \\dfrac{4}{5}$ ja $C = -\\dfrac{3}{5}$.\n\nSiisä $\\dfrac{x}{(x-1)(x^2+4)} = \\dfrac{\\dfrac{1}{5}}{x-1} + \\dfrac{\\dfrac{4}{5}x - \\dfrac{3}{5}}{x^2+4}$.\n\n<final>$\\dfrac{1}{5(x-1)} + \\dfrac{4x - 3}{5(x^2 + 4)}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1}{5(x-1)} + \\dfrac{4x - 3}{5(x^2 + 4)}",
+    "extracted_final_answers": [
+      "\\dfrac{1}{5(x-1)} + \\dfrac{4x - 3}{5(x^2 + 4)}"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "Finnish",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "Kysymys: $\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ on geometrinen sarja.\n\\item Jos $x=1$, määritä sarjan suhdeluku.",
+    "generated_answer": "Kysymys on 1/2x+1 + 1/(2x+1)^2 + 1/(2x+1)^3 + ... , joka on geometrinen sarja. Sarjan suhdeluku on a = 1/(2x+1) ja r = 1/(2x+1). Kun x = 1, saadaan 2x+1 = 3, joten a = 1/3 ja r = 1/3.\n\nSarjan suhdeluku on 1/3.\nFinal Answer (in Finnish):\n[Sarjan suhdeluku on $\\dfrac{1}{3}$]\n\n<final>[Sarjan suhdeluku on $\\dfrac{1}{3}$]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Sarjan suhdeluku on $\\dfrac{1}{3}$]",
+    "extracted_final_answers": [
+      "[Sarjan suhdeluku on $\\dfrac{1}{3}$]"
+    ],
+    "exact_answer": "\\dfrac{1}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "Finnish",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "Kolmion kolmen kulman mitat ovat suhteessa $3:4:5$. Määritä kulmien radiaanimitat.",
+    "generated_answer": "Kolmion kulmat ovat suhteessa $3:4:5$, joten niiden radiaanmitat ovat $\\frac{3\\pi}{12}$, $\\frac{4\\pi}{12}$ ja $\\frac{5\\pi}{12}$. \n\n\\boxed{\\frac{\\pi}{4}, \\frac{\\pi}{3}, \\frac{5\\pi}{12}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Kolmion kulmat ovat suhteessa $3:4:5$, joten niiden radiaanmitat ovat $(3\\pi)/(12)$, $(4\\pi)/(12)$ ja $(5\\pi)/(12)$.\\frac{\\pi{4}, (\\pi)/(3), (5\\pi)/(12)}",
+    "extracted_final_answers": [
+      "Kolmion kulmat ovat suhteessa $3:4:5$, joten niiden radiaanmitat ovat $(3\\pi)/(12)$, $(4\\pi)/(12)$ ja $(5\\pi)/(12)$.\\frac{\\pi{4}, (\\pi)/(3), (5\\pi)/(12)}"
+    ],
+    "exact_answer": "\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3} ja \\dfrac{5\\pi}{12}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "Finnish",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": "Määritä keskuskulman radiaanimitta, jonka $11$ c.m. pituinen **kaari** muodostaa ympyrän keskipisteessä, jonka säde on $7$ c.m.",
+    "generated_answer": "Keskuskulman radiaanimitta on $\\dfrac{7}{10}$.\n\n<final>\\(\\boxed{\\dfrac{7}{10}}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(\\dfrac{7{10}}\\)",
+    "extracted_final_answers": [
+      "\\(\\dfrac{7{10}}\\)"
+    ],
+    "exact_answer": "1,57 radiaania",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "Finnish",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "Jos $7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$, todista, että $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$.",
+    "generated_answer": "Tässä on selittävä ratkaisu tehtävän ratkaisuun.\n\n$\\text{sin}^2 \\theta + \\cos^2 \\theta = 1$ eli $\\cos \\theta = \\sqrt{1 - \\text{sin}^2 \\theta}$, joten tehtävä siirretään muotoon $7\\text{sin}^2 \\theta + 3(1 - \\text{sin}^2 \\theta) = 4$, eli $4\\text{sin}^2 \\theta = 1$ ja $\\text{sin} \\theta = \\pm \\dfrac{1}{2}$. Tällöin $\\text{cos} \\theta = \\pm \\dfrac{\\sqrt{3}}{2}$, joten $\\text{tan} \\theta = \\pm \\dfrac{1}{\\sqrt{3}}$.\n\n<final>Tehtäväratkaisu on selviä ja yksinkertainen.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tehtäväratkaisu on selviä ja yksinkertainen",
+    "extracted_final_answers": [
+      "Tehtäväratkaisu on selviä ja yksinkertainen"
+    ],
+    "exact_answer": "$\\tan \\theta=\\pm \\dfrac{1}{\\sqrt{3}}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "Finnish",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "Määritä lausekkeen $\\text{sin} (10\\pi+\\theta)$ arvot.",
+    "generated_answer": "Lauseke $\\sin(10\\pi + \\theta)$ voidaan sieventää trigonometristen identiteettiä käyttäen. Koska $\\sin$ -funktio on $2\\pi$ -periodinen, saadaan $\\sin(10\\pi + \\theta) = \\sin(\\theta)$.\n\nLauseke:\n$$\n\\sin (10\\pi+\\theta) = \\sin (\\theta)\n$$\n\n<final>sin(θ)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "sin(θ)",
+    "extracted_final_answers": [
+      "sin(θ)"
+    ],
+    "exact_answer": "\\sin\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "Finnish",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "Määritä lausekkeen $\\text{cot} \\left(\\theta-\\dfrac{9\\pi}{2}\\right)$ arvot.",
+    "generated_answer": "Lauseke voidaan sieventää käyttämällä trigonometristen identiteettien. Tarkastellaan lauseketta $\\cot\\left(\\theta - \\dfrac{9\\pi}{2}\\right)$.\n\n1. Muista, että $\\cot(x) = \\dfrac{\\cos(x)}{\\sin(x)}$.\n2. Ratkaistaan $\\theta - \\dfrac{9\\pi}{2}$.\n3. Käytetään trigonometristen identiteettien, erityisesti sini ja kosinin periodickeisyyskaaseen.\n\nSovellamalla identiteettiä saadaan:\n$$\n\\cot\\left(\\theta - \\dfrac{9\\pi}{2}\\right) = -\\tan(\\theta)\n$$\n\nTäten lauseketta on sieventänyt.\n\n<final>Lauseke sievennetään muotoon $\\boxed{-\\tan(\\theta)}$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lauseke sievennetään muotoon -\\tan(\\theta)",
+    "extracted_final_answers": [
+      "Lauseke sievennetään muotoon -\\tan(\\theta)"
+    ],
+    "exact_answer": "-\\tan\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "Finnish",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "Todista, että $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.",
+    "generated_answer": "Naproblemi on todistettava yhtälö $\\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.\n\nLopputuloksena saadaan $\\boxed{1}$.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "Finnish",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": "Oletetaan, että $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$. Osoita, että $a^xb^yc^z=1$.",
+    "generated_answer": "Nyt kerrotaan ratkaisua lyhyesti: annetaan oletukset \\(\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}\\). Osoita, että \\(a^xb^yc^z=1\\).\n\nOletetaan, että \\(\\dfrac{\\text{log} a}{y-z} = \\dfrac{\\text{log} b}{z-x} = \\dfrac{\\text{log} c}{x-y} = k\\) jollakin vakion \\(k\\). Tällöin saadaan:\n\\[\n\\begin{cases}\n\\text{log} a = k(y-z) \\\\\n\\text{log} b = k(z-x) \\\\\n\\text{log} c = k(x-y)\n\\end{cases}\n\\]\nNyt voime laskua:\n\\[\na^x \\cdot b^y \\cdot c^z = e^{x \\cdot \\text{log} a + y \\cdot \\text{log} b + z \\cdot \\text{log} c} = e^{k(xy - xz + yz - xy + xz - yz)} = e^{0} = 1\n\\]\nSiisäytyy, että \\(a^xb^yc^z=1\\).\n\nFinal Answer (in Finnish):  \n[Nolla]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [Nolla]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [Nolla]"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "Laajenna $(1-3x)^5$",
+    "generated_answer": "\\((1-3x)^5\\) laajennettuna on \\(1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5\\).\n\n<final>$(1−3x)^5=1−15x+90x²−270x³+405x⁴−243x⁵$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1−3x)^5=1−15x+90x²−270x³+405x⁴−243x⁵",
+    "extracted_final_answers": [
+      "(1−3x)^5=1−15x+90x²−270x³+405x⁴−243x⁵"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "Määritä kertoimet termeille $x^3$ ja $x^6$ lausekkeen $ (1-\\dfrac{x^2}{4})^8$ kehitelmässä.",
+    "generated_answer": "Lauseke $(1-\\dfrac{x^2}{4})^8$ kehiteltiin binomiksi ja selvitettyä, että termin $x^3$ kerroin on 0 ja $x^6$ kerroin on $\\dfrac{7}{4}$.\n\nFinal Answer (in Finnish):\n[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.]\n\n<final>[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.][/final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.] <final>[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.][/final>",
+    "extracted_final_answers": [
+      "[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.] <final>[Kerroimille $x^3$ ja $x^6$ lausekkeen $(1-\\dfrac{x^2}{4})^8$ kehitelmässä ovat $0$ ja $\\dfrac{7}{4}$, vastaavasti.][/final>"
+    ],
+    "exact_answer": "x^3:n kerroin on 0 ja x^6:n kerroin on -\\dfrac{7}{8}.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "Finnish",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "Laajenna $ \\left(x-\\dfrac{1}{x^2}\\right)^5$.",
+    "generated_answer": "$\\left(x-\\dfrac{1}{x^2}\\right)^5$ laajennus on $x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}$.\n\n$\\boxed{\\left(x-\\dfrac{1}{x^2}\\right)^5 = x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}}$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\left(x-\\dfrac{1}{x^2}\\right)^5$ laajennus on $x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}$. \\left(x-\\dfrac{1{x^2}\\right)^5 = x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}}",
+    "extracted_final_answers": [
+      "\\left(x-\\dfrac{1}{x^2}\\right)^5$ laajennus on $x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}$. \\left(x-\\dfrac{1{x^2}\\right)^5 = x^5 - 5x^2 + \\dfrac{10}{x} - \\dfrac{10}{x^4} + \\dfrac{5}{x^7} - \\dfrac{1}{x^{10}}}"
+    ],
+    "exact_answer": "x^5-5x^2+\\dfrac{10}{x}-\\dfrac{10}{x^4}+\\dfrac{5}{x^7}-\\dfrac{1}{x^{10}}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "Finnish",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "Käyttäen vektoreita, todista, että kolmion kahden sivun keskipisteet yhdistävä jana on yhdensuuntainen kolmannen sivun kanssa ja sen pituudeltaan puolikas.",
+    "generated_answer": "Kolmion kahden sivun keskipisteet yhdistävä jana on yhdensuuntainen kolmannen sivun kanssa ja sen pituudeltaan puolikas.\n\n\\boxed{\\text{Johdetaan vektori-ongelmasta.}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Kolmion kahden sivun keskipisteet yhdistävä jana on yhdensuuntainen kolmannen sivun kanssa ja sen pituudeltaan puolikas.\\text{Johdetaan vektori-ongelmasta.}",
+    "extracted_final_answers": [
+      "Kolmion kahden sivun keskipisteet yhdistävä jana on yhdensuuntainen kolmannen sivun kanssa ja sen pituudeltaan puolikas.\\text{Johdetaan vektori-ongelmasta.}"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "Finnish",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "Todista vektorimenetelmillä, että **parallelogrammin** lähteet leikkaavat toisensa.",
+    "generated_answer": "Vektoriapproismetolla saadaan todistettua, että parillisen neljäkkäan leikkaavat toisensa. Vektori-summan perusteella voidaan osoittaa, että alkuepäiset leikkaavat toisensa.\n\n<final>Paralleogrammin lähteet leikkaavat toisensa vektorien summallaan päättelyä. Johtopäätös: Lähdet ovat samalla suoralla.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Paralleogrammin lähteet leikkaavat toisensa vektorien summallaan päättelyä. Johtopäätös: Lähdet ovat samalla suoralla",
+    "extracted_final_answers": [
+      "Paralleogrammin lähteet leikkaavat toisensa vektorien summallaan päättelyä. Johtopäätös: Lähdet ovat samalla suoralla"
+    ],
+    "exact_answer": "Parallelogrammin diagonaalit puolittavat toisensa.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "Finnish",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "Suorakulmaisella särmiöllä on pituus, leveys ja korkeus suhteessa $4:3:2$. Sen koko pinnan ala on $468$ neliömetriä. Määritä särmiön lävistäjä ja tilavuus.",
+    "generated_answer": "Suorakulmaisen särmenän leveys on \\(3x\\), pituus \\(4x\\) ja korkeus \\(2x\\). Pinta-alan kaavasta saadaan yhtälö:\n\\[ 2(4x \\cdot 3x + 4x \\cdot 2x + 3x \\cdot 2x) = 468 \\]\nratkaista x:n arvo. Lävistäjän pituus saadaan laskemalla:\n\\[ \\sqrt{(4x)^2 + (3x)^2 + (2x)^2} \\]\n ja tilavuus:\n\\[ 4x \\cdot 3x \\cdot 2x \\]\n\nLopputuloksena on:\nLävistäjä: \\(13\\sqrt{3}\\) metriä\nTilavuus: \\(78\\) neliömetriä\n\n<final>\nLävistäjä: \\(13\\sqrt{3} \\, \\text{m}\\), Tilavuus: \\(78 \\, \\text{m}^3\\)\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lävistäjä: \\(13√(3) \\, \\text{m}\\), Tilavuus: \\(78 \\, \\text{m}^3\\)",
+    "extracted_final_answers": [
+      "Lävistäjä: \\(13√(3) \\, \\text{m}\\), Tilavuus: \\(78 \\, \\text{m}^3\\)"
+    ],
+    "exact_answer": "16,16 metriä, 648 kuutiometriä",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "Finnish",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "Tilastotietojen mukaan viime vuoden heinäkuussa satoi $21$ päivänä. Mikä on todennäköisyys sille, että tänä vuonna heinäkuun neljäntenä päivänä sataa?",
+    "generated_answer": "To solve the problem, we need more context about the probability distribution of the number of days in July. Without additional information, such as whether the number of days follows a uniform distribution or some other known distribution, it is impossible to determine the exact probability.\n\nHowever, if we assume that each day has an equal chance of being selected (i.e., a uniform distribution), then there are 31 possible days in July. Since we are interested in one specific day (the fourth of July), the probability would be:\n\n\\[\nP(\\text{neljännen heinäkuun}) = \\frac{1}{31}\n\\]\n\nBut since the problem does not specify that all days have equal probability, this assumption may not hold. Therefore, we need more information to provide an accurate answer.\n\nFinal Answer (in Finnish):\n[Ny tietämä ei riitä määrittämään todennäköisyyttä.]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Final Answer (in Finnish): [Ny tietämä ei riitä määrittämään todennäköisyyttä.]",
+    "extracted_final_answers": [
+      "Final Answer (in Finnish): [Ny tietämä ei riitä määrittämään todennäköisyyttä.]"
+    ],
+    "exact_answer": "21/31",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]

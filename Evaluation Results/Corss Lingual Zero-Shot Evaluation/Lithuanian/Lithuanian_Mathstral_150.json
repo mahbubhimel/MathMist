@@ -1,0 +1,2702 @@
+[
+  {
+    "problem_index": 0,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "Raskite vieną racionalųjį ir vieną iracionalųjį skaičių tarp $\\frac{1}{\\sqrt{2}}$ ir $\\sqrt{2}$.",
+    "generated_answer": "Įmanoma, kad visi skaičiai tarp $\\frac{1}{\\sqrt{2}}$ ir $\\sqrt{2}$ yra racionalūs.\n<final>Visi skaičiai tarp $\\frac{1}{\\sqrt{2}}$ ir $\\sqrt{2}$ yra racionalūs.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Visi skaičiai tarp $(1)/(√(2))$ ir $√(2)$ yra racionalūs",
+    "extracted_final_answers": [
+      "Visi skaičiai tarp $(1)/(√(2))$ ir $√(2)$ yra racionalūs"
+    ],
+    "exact_answer": "$a=1,2 ir b= 1,020020002 yra du pageidaujami skaičiai, iš kurių $a$ yra racionalus, o $b$ – iracionalus.$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "Nurodykite, ar šis skaičius yra racionalusis, ar iracionalusis: $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "Įrodymas: Skaičius yra racionalusis.\n\nFinal Answer (in Lithuanian):\n<final>Skaičius yra racionalusis.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Skaičius yra racionalusis",
+    "extracted_final_answers": [
+      "Skaičius yra racionalusis"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ yra racionalusis skaičius.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "Nurodykite, ar šis skaičius yra racionalusis, ar iracionalusis: $5.\\dot{6}3\\dot{9}$",
+    "generated_answer": "Įvertinkite, ar šis skaičius yra racionalusis, ar iracionalusis: $5.\\dot{6}3\\dot{9}$\n\nKviečiamas atsakymas yra: Šis skaičius yra **iracionalus** <final>Iracionalus</final>.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Iracionalus",
+    "extracted_final_answers": [
+      "Iracionalus"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ yra racionalusis skaičius.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "$\\sqrt{5}$ ir $4$ yra du realieji skaičiai.\nRaskite du iracionaliuosius skaičius tarp $\\sqrt{5}$ ir $4$.",
+    "generated_answer": "1. Atvilinkite du realius skaičius tarp $\\sqrt{5}$ ir $4$. Skaičiuokite ilgesnį šaknį iš šios kvadratines lygios:\n   \\[\n   \\sqrt{5} + \\sqrt{3} = 2\\sqrt{5 - 2\\sqrt{5} + 1}\n   \\]\n   \n2. Papildomai, turi būti kertas daugelyje lyginių kvadratinių lygocių:\n   \\[\n   \\left(\\frac{\\sqrt{5} + \\sqrt{3}}{2}\\right)^2 = 1 + \\frac{\\sqrt{5}}{2}\n   \\]\n   \n3. Taip pat turi būti kertas daugelyje lyginių kvadratinių lygocių:\n   \\[\n   \\left(\\frac{\\sqrt{5} - \\sqrt{3}}{2}\\right)^2 = 1 - \\frac{\\sqrt{5}}{2}\n   \\]\n\n<final>Atvilinkite du realius skaičius tarp $\\sqrt{5}$ ir $4$. Skaičiuokite ilgesnį šaknį iš šios kvadratines lygos: $\\sqrt{5} + \\sqrt{3} = 2\\sqrt{5 - 2\\sqrt{5} + 1}$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Atvilinkite du realius skaičius tarp $√(5)$ ir $4$. Skaičiuokite ilgesnį šaknį iš šios kvadratines lygos: $√(5) + √(3) = 2√(5 - 2\\sqrt{5) + 1}$",
+    "extracted_final_answers": [
+      "Atvilinkite du realius skaičius tarp $√(5)$ ir $4$. Skaičiuokite ilgesnį šaknį iš šios kvadratines lygos: $√(5) + √(3) = 2√(5 - 2\\sqrt{5) + 1}$"
+    ],
+    "exact_answer": "$a=2,4040040004$ ir $b=2,5050050005$ abu yra iracionalieji skaičiai",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "$\\sqrt{5}$ ir $4$ yra du realieji skaičiai.\nĮrodykite, kad $\\sqrt{5}$ yra iracionalusis skaičius.",
+    "generated_answer": "Įrodykite, kad $\\sqrt{5}$ yra iracionalusis skaičius.\n\n<final>$\\sqrt{5}$ yra iracionalusis skaičius.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(5)$ yra iracionalusis skaičius",
+    "extracted_final_answers": [
+      "√(5)$ yra iracionalusis skaičius"
+    ],
+    "exact_answer": "$\\sqrt{5}$ yra iracionalusis skaičius.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "Lithuanian",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "Tegu šios aibės bus išreikštos aibių aprašymo žymėjimu: $\\{x \\in Z: x^2>5 \\text{ ir } x^3 \\leq 36\\}$",
+    "generated_answer": "Įvertinti x, kuriuo yra įvesta aibė. Įvertinti saknų dalių ir patikrinti ar tai yra tikrososios skaičiavimo rezultatas.\n<final>x=3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=3",
+    "extracted_final_answers": [
+      "x=3"
+    ],
+    "exact_answer": "{..., -4, -3, 3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "Lithuanian",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "Tegu aibė yra užrašyta aibių konstravimo (apibrėžimo) būdu: {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}",
+    "generated_answer": "Įdiegiau išraiškos aprašai, pateikus daugiau informacijos.\n\nFinal Answer:\n<final>Nauja išraiška buvo sėkmingai sukurta.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Nauja išraiška buvo sėkmingai sukurta",
+    "extracted_final_answers": [
+      "Nauja išraiška buvo sėkmingai sukurta"
+    ],
+    "exact_answer": "{x ∈ N : x yra 4 kartotinis ir x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "Lithuanian",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "Jei $f(x) = \\frac{2x+1}{2x-1}$, tuomet nustatykite $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$ reikšmę.",
+    "generated_answer": "Įveskite $f(x) = \\frac{2x+1}{2x-1}$. Tada, $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1} = -\\frac{1}{x}$.\n<final>$-\\frac{1}{x}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-(1)/(x)",
+    "extracted_final_answers": [
+      "-(1)/(x)"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "Lithuanian",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "Raskite kvadratą, naudodamiesi šiomis formulėmis:\n$ax - by - cz$",
+    "generated_answer": "Įvedant formulę $ax - by - cz$ rezultuojanti kvadratą, išsaugusi įprastą formulę:\n1. $a^2 + b^2 + c^2 = (ax)^2 + (-by)^2 + (-cz)^2$, <final>10</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10",
+    "extracted_final_answers": [
+      "10"
+    ],
+    "exact_answer": "a^2x^2 + b^2y^2 + c^2z^2 - 2abxy + 2bcyz - 2cazx",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "Lithuanian",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "Jei $x - \\frac{1}{x} = 4$, įrodykite, kad $x^4 + \\frac{1}{x^4} = 322$.",
+    "generated_answer": "įrodo, jog $x^4 + \\frac{1}{x^4} = 322$. <final>322</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "322",
+    "extracted_final_answers": [
+      "322"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "Lithuanian",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "Jei $a + b + c = 6$ ir $a^2 + b^2 + c^2 = 14$, kokia yra $(a-b)^2 + (b-c)^2 + (c-a)^2$ reikšmė?",
+    "generated_answer": "56\n\n<final>56</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "56",
+    "extracted_final_answers": [
+      "56"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "Lithuanian",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "Supaprastinkite: $(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2)$\n$+ (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "解答：$(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2)$\n$+ (z + x) (z^2 - zx + x^2) = 3(x + y + z)^2$\nExplanation: Vykdykite multiplikacijos su reiksmingomis kintamiesiomis.\n<final>$3(x + y + z)^2$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3(x + y + z)^2",
+    "extracted_final_answers": [
+      "3(x + y + z)^2"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "Išskaidykite dauginamaisiais $(a^2-b^2)(x^2-y^2) + 4abxy$",
+    "generated_answer": "<final>$(a^2-b^2)(x^2-y^2)+4abxy$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a^2-b^2)(x^2-y^2)+4abxy",
+    "extracted_final_answers": [
+      "(a^2-b^2)(x^2-y^2)+4abxy"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "Išskaidykite dauginamaisiais $a^2 + 6a + 8 - y^2 + 2y$",
+    "generated_answer": "1. Raskaitu dauginamaisiais $a^2 + 6a + 8$ ir $-y^2 + 2y$. <final>(6;3,-4)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(6;3,-4)",
+    "extracted_final_answers": [
+      "(6;3,-4)"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "Išskaidykite dauginamaisiais $16x^2 - 25y^2 - 8xz + 10yz$.",
+    "generated_answer": "16x^2 - 25y^2 - 8xz + 10yz = A.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16x^2 - 25y^2 - 8xz + 10yz = A",
+    "extracted_final_answers": [
+      "16x^2 - 25y^2 - 8xz + 10yz = A"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "Išskaidyti dauginamaisiais $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$",
+    "generated_answer": "2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4 = (a-b)^2(a+b)^2 - c^4\n<final>2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4 = (a-b)^2(a+b)^2 - c^4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4 = (a-b)^2(a+b)^2 - c^4",
+    "extracted_final_answers": [
+      "2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4 = (a-b)^2(a+b)^2 - c^4"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "Lietuviškas vertimas:\n\nIšskaidykite dauginamaisiais $x^3 + 3x^2 + 3x + 2$",
+    "generated_answer": "1. Vieta's formulas tell us that if the polynomial $x^3 + 3x^2 + 3x + 2$ has roots, their sum is $-3$.\n2. The polynomial factors as $(x+1)^3$ (since all three roots are the same).\n3. Therefore, the only root of the polynomial is $-1$, and it is a triple root.\n4. As we're asked for the solutions to the equation $x^3 + 3x^2 + 3x + 2 = 0$, the answer is that there is only one solution, which is $x = -1$.\n5. Explanation: Vieta's formulas and factoring are standard techniques used in algebra to solve polynomial equations.\n\nFinal Answer (in Lithuanian):\n```\n<final>viena ir tik viena ryškioji šaka, kuri yra -1</final>\n```",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "viena ir tik viena ryškioji šaka, kuri yra -1",
+    "extracted_final_answers": [
+      "viena ir tik viena ryškioji šaka, kuri yra -1"
+    ],
+    "exact_answer": "(x+2)(x^2+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "Išskaidykite dauginamaisiais $a^3 - 6a^2 + 12a - 9$",
+    "generated_answer": "3125",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3125",
+    "extracted_final_answers": [
+      "3125"
+    ],
+    "exact_answer": "(a-3)(a²-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "Išskaidykite dauginamaisiais $8x^3 + 12x^2 + 6x - 63$",
+    "generated_answer": "Įmanomas dėsinis skaičius yra $x_{1}=-2$, o saknis ne esanti šios dėsnio vietoje yra $x_{2}=3$. <final>$x_{1}=-2$, $x_{2}=3$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x_{1}=-2$, $x_{2}=3",
+    "extracted_final_answers": [
+      "x_{1}=-2$, $x_{2}=3"
+    ],
+    "exact_answer": "(2x-3)(4x²+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "Lithuanian",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "Here is the Lithuanian translation of the mathematical question, adhering to your guidelines:\n\n**Išskaidykite dauginamaisiais $(x + 2)(x + 3)(x + 4)(x + 5) - 48$**",
+    "generated_answer": "Įsiskaitykite dauginamaisiais $(x + 2)(x + 3)(x + 4)(x + 5) - 48$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Įsiskaitykite dauginamaisiais $(x + 2)(x + 3)(x + 4)(x + 5) - 48",
+    "extracted_final_answers": [
+      "Įsiskaitykite dauginamaisiais $(x + 2)(x + 3)(x + 4)(x + 5) - 48"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "Lithuanian",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "Here is the Lithuanian translation of your mathematical question, adhering to the specified guidelines:\n\n**Išskaidykite dauginamaisiais:** $(a+1) (3a^2-3a + 5)$",
+    "generated_answer": "Įmanoma, bet šis uždavinys nesusijęs su matematiškais skaičiavimais. Jis yra išreikštas tariantis \"Išskaidykite dauginamaisiais:\" $(a+1) (3a^2-3a + 5)$.\n\n<final>Klaidos uždavinys neįmanoma atlikti be darbesnių informacijų apie kokius reikia panaudoti sąvokas.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Klaidos uždavinys neįmanoma atlikti be darbesnių informacijų apie kokius reikia panaudoti sąvokas",
+    "extracted_final_answers": [
+      "Klaidos uždavinys neįmanoma atlikti be darbesnių informacijų apie kokius reikia panaudoti sąvokas"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "Lithuanian",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "Faktorizuokite: $x^3 - 7xy^2 - 6y^3$",
+    "generated_answer": "Faktorizuokite: $x^3 - 7xy^2 - 6y^3$\n\nFinal Answer (in Lithuanian):\n$(x-3y)(x^2+3xy+2y^2)$\n\n<final>$(x-3y)(x^2+3xy+2y^2)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-3y)(x^2+3xy+2y^2)",
+    "extracted_final_answers": [
+      "(x-3y)(x^2+3xy+2y^2)"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "Lithuanian",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "Dalinkite dauginamaisiais: $2x^4-3x^3-3x-2$",
+    "generated_answer": "4x^2 - 3x + 1\nExplanation: Išskaičiuotas rezultatas vieningos formos.\n<final>4x^2 - 3x + 1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4x^2 - 3x + 1",
+    "extracted_final_answers": [
+      "4x^2 - 3x + 1"
+    ],
+    "exact_answer": "(x-2)(x²+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "Lithuanian",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "Autobusas buvo išnuomotas už 5700 Lt išvykai į iškylą, su sąlyga, kad kiekvienas keleivis sumokės vienodą kainą. Tačiau neatvykus 5 keleiviams, kaina padidėjo 3 Lt už žmogų. Kiek keleivių pasinaudojo autobuso paslauga?",
+    "generated_answer": "10 keleiviai naudojo autobuso paslaugą.\n\nExplanation: Žiūrima, kad jeigu visi keliautojai ateitų, kaina būtų 5700 Lt. Tačiau šitaip niekas nenumešė. Vykdo vienetinį išskyrimą ir paspaudžiama, jog jeigu ateis 5 keleiviai, kaina padidėjo 3 Lt už žmogų. Apsiribodamos iki dabartinio atvejaus:\n\\[ x \\text{ (kiekvienas ateituvas sumokėjo)} = \\frac{5700 + 15}{x - 5} \\]\nTuomet, kai keleiviai apsiriboja tiesine funkcijai ir dabar paspaudžiama:\n\\[ x^2 - 5x - 5700 = 0 \\]\nPanaudoję formulą Vietos, gausim:\n\\[ x = \\frac{5 \\pm \\sqrt{5^2 - 4 * (-1) * (-5700)}}{2} \\]\n\\[ x = \\frac{5 \\pm \\sqrt{25 + 22800}}{2} \\]\n\\[ x = \\frac{5 \\pm \\sqrt{22825}}{2} \\]\n\\[ x = \\frac{5 \\pm 151}{2} \\]\n\\[ x_1 = 78, x_2 = -73 \\] (nebūna teigiamas)\n\n<final>10</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10",
+    "extracted_final_answers": [
+      "10"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "Lithuanian",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "Asociacijos nariai nutarė, kad kiekvienas prenumeratos suma bus lygi 100 kartų didesnei nario skaičiui. Tačiau 7 nariai nesusiprenumeravo. Dėl to kiekvieno nario prenumeratos suma padidėjo 500 Tk. nei ankstesnioji.\nJei narių skaičius yra $x$, o bendra prenumeratos suma yra $A$ Tk., suraskite tarp jų ryšį.",
+    "generated_answer": "Įvykdžius darbą, turėjome paaiškoti ryšį tarp narių skaičiaus $x$ ir bendros prenumeratos sumos $A$. Skaičiavimais nustatinti ryšį:\n<final>$A = 500(x-1) + 100(x+7)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = 500(x-1) + 100(x+7)",
+    "extracted_final_answers": [
+      "A = 500(x-1) + 100(x+7)"
+    ],
+    "exact_answer": "$A = 100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "Lithuanian",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "Kiekvienas asociacijos narys nusprendė užsiprenumeruoti sumą, lygi nario skaičiui padaugintam iš $100$. Tačiau $7$ nariai neprisirašė. Dėl to kiekvienam nariui tenkanti prenumeratos suma padidėjo $500$ Tk. lyginant su ankstesne.\nRaskite asociacijos narių skaičių ir bendrą prenumeratos sumą.",
+    "generated_answer": "7 nariai, bendra prenumeratos suma - 652100 Tk.\n<final>7 nariai, bendra prenumeratos suma - 652100 Tk.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "7 nariai, bendra prenumeratos suma - 652100 Tk",
+    "extracted_final_answers": [
+      "7 nariai, bendra prenumeratos suma - 652100 Tk"
+    ],
+    "exact_answer": "20, 40 000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "Lithuanian",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "Spręskite: $(3^{m+1} / (3^m)^{m-1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "81\n<final>81</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "81",
+    "extracted_final_answers": [
+      "81"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "Lithuanian",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "Įrodykite, kad: $\\frac{4^n - 1}{2^n - 1} = 2^n + 1$",
+    "generated_answer": "Įrodykite, kad: $\\frac{4^n - 1}{2^n - 1} = 2^n + 1$\n\nCRITICAL FORMATTING REQUIREMENTS (ZERO-SHOT):\n- The math problem you will receive is written in LITHUANIAN. Provide your concise FINAL ANSWER in LITHUANIAN.\n- DO NOT provide chain-of-thought or step-by-step internal reasoning. Do NOT reveal private chain-of-thought.\n- If a very short justification is necessary, include a single-line 'Explanation:' with at most one sentence (in Lithuanian).\n- Always end with a machine-readable final tag <final>...</final> containing ONLY the concise final answer in LITHUANIAN (no extra reasoning inside the tag).\nFOR NUMERICAL RESULTS:\n- Provide the numeric result in exact form if available (fractions/radicals). Otherwise provide a decimal rounded to 4 decimal places.\nFormat example (English instructions):\nFinal Answer (in Lithuanian):\n[Numeric result]\n\n<final>[Numeric result]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Numeric result]",
+    "extracted_final_answers": [
+      "[Numeric result]"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "Lithuanian",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "Įrodykite, kad: $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$",
+    "generated_answer": "Įrodykite, kad: $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$\n\n<final>Tai yra teigiamas, nes visos frakcijos keičiasi vietomis ir suma galios išlieka 1.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tai yra teigiamas, nes visos frakcijos keičiasi vietomis ir suma galios išlieka 1",
+    "extracted_final_answers": [
+      "Tai yra teigiamas, nes visos frakcijos keičiasi vietomis ir suma galios išlieka 1"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "Lithuanian",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "Tegu $P = x^a$, $Q = x^b$ ir $R = x^c$.\nRaskite $(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$ reikšmę.",
+    "generated_answer": "Galiausiai:\n\nReikšmė yra 1.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "Lithuanian",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "Duota:\n$X = (2a^{-1} + 3b^{-1})^{-1}$\n$Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$; kur $x > 0$ ir $p, q, r > 0$\n$Z = (5^{m+1} + 25^{m+1}) / (5^m + (5^{-1})^{m+1})$\nParodykite, kad $Y + \\sqrt[3]{64} = 5$.",
+    "generated_answer": "1. **Problem Statement in English**:\n   Given mathematical expressions for $X$, $Y$, and $Z$. We need to prove that $Y + \\sqrt[3]{64} = 5$ where $x > 0$ and $p, q, r > 0$.\n   \n2. **Solution**:\n   - For $X$: Simplify the expression using properties of exponents.\n     \\[ X = (2a^{-1} + 3b^{-1})^{-1} \\]\n     Rewrite $a^{-1}$ and $b^{-1}$ as $\\frac{1}{a}$ and $\\frac{1}{b}$ respectively:\n     \\[ X = \\left(\\frac{2}{a} + \\frac{3}{b}\\right)^{-1} \\]\n     Simplify further using the common denominator $ab$:\n     \\[ X = \\frac{ab}{2b + 3a} \\]\n   \n   - For $Y$: Simplify the expression using properties of exponents.\n     \\[ Y = \\sqrt[pq]{x^p / x^q} \\times \\sqrt[qr]{x^q / x^r} \\times \\sqrt[rp]{x^r / x^p} \\]\n     Apply the exponent rules:\n     \\[ Y = (x^{1/q - 1/p}) \\times (x^{1/r - 1/q}) \\times (x^{1/p - 1/r}) \\]\n     Combine exponents by summing them up:\n     \\[ Y = x^{(1/q - 1/p) + (1/r - 1/q) + (1/p - 1/r)} = x^0 = 1 \\]\n   \n   - For $Z$: Simplify the expression using properties of exponents.\n     \\[ Z = \\frac{5^{m+1} + 25^{m+1}}{5^m + (5^{-1})^{m+1}} \\]\n     Rewrite $25$ as $5^2$ and $(5^{-1})$ as $\\frac{1}{5}$:\n     \\[ Z = \\frac{5^{m+1} + (5^2)^{m+1}}{5^m + 5^{-(m+1)}} \\]\n     Simplify further:\n     \\[ Z = \\frac{5^{m+1} + 5^{2m+2}}{5^m + \\frac{1}{5^{m+1}}} \\]\n     Combine terms in the numerator and denominator by finding a common denominator:\n     \\[ Z = \\frac{5^{3m+3}}{5^{m+1}} = 5^{3m+3 - (m+1)} = 5^{2m+2} \\]\n   \n   - For $Y + \\sqrt[3]{64}$: Simplify $\\sqrt[3]{64}$ as $4$ since $64 = 4^3$.\n     \\[ Y + \\sqrt[3]{64} = 1 + 4 = 5 \\]\n   \n   'Explanation:' The expressions for $X$, $Y$, and $Z$ were simplified using properties of exponents. The expression for $Y + \\sqrt[3]{64}$ was evaluated to be equal to $5$.\n\n   <final>$X = \\frac{ab}{2b + 3a}, Y = 1, Z = 5^{2m+2}, Y + \\sqrt[3]{64} = 5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "X = (ab)/(2b + 3a), Y = 1, Z = 5^{2m+2}, Y + \\sqrt[3]{64} = 5",
+    "extracted_final_answers": [
+      "X = (ab)/(2b + 3a), Y = 1, Z = 5^{2m+2}, Y + \\sqrt[3]{64} = 5"
+    ],
+    "exact_answer": "$Y + 4 = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "Lithuanian",
+    "chapter_number": "4.2",
+    "example_number": "233",
+    "question": "Suraskite x reikšmę: $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "解答：\n$x = 256$\n\n<final>$x = 256$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 256",
+    "extracted_final_answers": [
+      "x = 256"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "Lithuanian",
+    "chapter_number": "4.2",
+    "example_number": "235",
+    "question": "Parodykite, kad $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$.",
+    "generated_answer": "Įrodymas: Naudojant logaritmų savybes.\nFinal Answer (in Lithuanian):\n<final>logaritmai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "logaritmai",
+    "extracted_final_answers": [
+      "logaritmai"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "Lithuanian",
+    "chapter_number": "4.2",
+    "example_number": "242",
+    "question": "Tegu $x=2$, $y=3$, $z=5$, $w=7$. Parodykite, kad:\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$",
+    "generated_answer": "Įvairus:\nTegu $x=2$, $y=3$, $z=5$, $w=7$. Parodykite, kad:\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$\n\nIšvada:\nNeprastinos aritmethikos.\n\n<final>Neapibrėžta teoremų aprašymas</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Neapibrėžta teoremų aprašymas",
+    "extracted_final_answers": [
+      "Neapibrėžta teoremų aprašymas"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "Lithuanian",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": "Raskite sandaugos/dalmens bendrojo logaritmo apytikslę reikšmę (su penkių skaitmenų po kablelio tikslumu): $22,2642 \\div 3,42$",
+    "generated_answer": "6,5 <final>6,5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6,5",
+    "extracted_final_answers": [
+      "6,5"
+    ],
+    "exact_answer": "0,81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "Lithuanian",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "Sprendimas:\n $\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$",
+    "generated_answer": "Įmanymas:\n $\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$\n\n<final>x = a + b</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = a + b",
+    "extracted_final_answers": [
+      "x = a + b"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "Lithuanian",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "Tegu $(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$.",
+    "generated_answer": "解答：\n$x_1 = \\frac{-3}{\\sqrt{2}}$, $x_2 = \\frac{2}{\\sqrt{3}}$\n\n<final>$x_1 = \\frac{-3}{\\sqrt{2}}, x_2 = \\frac{2}{\\sqrt{3}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x_1 = (-3)/(√(2)), x_2 = (2)/(√(3))",
+    "extracted_final_answers": [
+      "x_1 = (-3)/(√(2)), x_2 = (2)/(√(3))"
+    ],
+    "exact_answer": "$x=-\\frac{3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "Atsakymas:\n\nĮrodykite, kad: $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$",
+    "generated_answer": "1-aš esant $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A}$ yra lygus 1.\n\n<final>Yra</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Yra",
+    "extracted_final_answers": [
+      "Yra"
+    ],
+    "exact_answer": "1/sek² A + 1/kosek² A = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "Įrodykite, kad: $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$",
+    "generated_answer": "Įrodykite, kad $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$ yra tiesa. <final>Tiesa</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tiesa",
+    "extracted_final_answers": [
+      "Tiesa"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "Įrodykite, kad: $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.",
+    "generated_answer": "Įrodykite, kad: $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.\n\n<final>True. Explanation: This follows directly from the trigonometric identities.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "True. Explanation: This follows directly from the trigonometric identities",
+    "extracted_final_answers": [
+      "True. Explanation: This follows directly from the trigonometric identities"
+    ],
+    "exact_answer": "$1 / (\\text{kosekantas} A - 1) - 1 / (\\text{kosekantas} A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "Profesionalus matematikos vertimas iš anglų į lietuvių kalbą, atsižvelgiant į akademinius standartus ir lietuvių matematikos konvencijas:\n\n**Lietuviškas vertimas:**\n\nJei $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$, parodykite, kad $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$.",
+    "generated_answer": "Įrodymas: Panaudojant trigonometrijos identifikaciją ir elementines algebrines transformacijas.\n\nFinal Answer in Lithuanian:\n<final>$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sec A = (x^2 + 1)/(x^2 - 1)",
+    "extracted_final_answers": [
+      "\\sec A = (x^2 + 1)/(x^2 - 1)"
+    ],
+    "exact_answer": "$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "Lithuanian",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "Parodykite, kad $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$, kai $A = 30^\\circ$.",
+    "generated_answer": "3 0,462 1 <final>0,462 1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0,462 1",
+    "extracted_final_answers": [
+      "0,462 1"
+    ],
+    "exact_answer": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "Jei atstumas nuo medžio viršūnės iki bet kurio taško žemėje, esančio jo pamato atžvilgiu, yra $20$ metrų, o aukščio kampas yra $60^\\circ$, raskite medžio aukštį.",
+    "generated_answer": "Įvairiausias aukštis yra 40 metrų.\n\n<final>40 metrų</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "40 metrų",
+    "extracted_final_answers": [
+      "40 metrų"
+    ],
+    "exact_answer": "34,641 metro",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "Laiptinė, sudaranti $45^\\circ$ kampą su žeme, siekia sienos viršūnę. Laiptinės ilgis yra $18$ metrų. Raskite sienos aukštį.",
+    "generated_answer": "13,5 metrų.\n\n<final>13,5 metrų</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "13,5 metrų",
+    "extracted_final_answers": [
+      "13,5 metrų"
+    ],
+    "exact_answer": "12,728 metro",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "Stovėdamas bet kurioje upės kranto vietoje, žmogus pastebėjo, kad $150$ metrų **aukščio** medžio, esančio tiesiai prieš jį kitoje upės pusėje, pakilimo kampas yra $30^\\circ$. Vyras valtimi pasileido link medžio. Tačiau dėl srovės jis priplaukė $10$ metrų atstumu nuo medžio.\nRaskite atstumą nuo pradinio taško iki tikslo.",
+    "generated_answer": "32,5 metro\n\n<final>32,5 metro</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "32,5 metro",
+    "extracted_final_answers": [
+      "32,5 metro"
+    ],
+    "exact_answer": "260 metrai",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "Lithuanian",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "Jei $a:b=b:c$, įrodykite, kad\n$\\frac{a}{c}=\\frac{a^2+b^2}{b^2+c^2}$",
+    "generated_answer": "Įrodymas: Panaudojant savybes, kad $a:b=b:c$ ir pakeičiant šiuos ryšius įvairiomis formulėmis, gausimųsi iki norinamosios rezultato.\n\nFinal Answer (in Lithuanian):\n\n<final>Nuolatinis ryšys tarp $a$, $b$ ir $c$ yra nustatytas.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Nuolatinis ryšys tarp $a$, $b$ ir $c$ yra nustatytas",
+    "extracted_final_answers": [
+      "Nuolatinis ryšys tarp $a$, $b$ ir $c$ yra nustatytas"
+    ],
+    "exact_answer": "\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "Lithuanian",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "Spręskite:\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$",
+    "generated_answer": "解答：\n$\\boxed{\\frac{1}{2}}$\n\nExplanation:\nSprendama kintamajį, gausiame $x$ reikšmę, kuri atitinka $\\boxed{\\frac{1}{2}}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Explanation: Sprendama kintamajį, gausiame $x$ reikšmę, kuri atitinka \\frac{1{2}}$",
+    "extracted_final_answers": [
+      "Explanation: Sprendama kintamajį, gausiame $x$ reikšmę, kuri atitinka \\frac{1{2}}$"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "Lithuanian",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "Atsižvelgiant į tai, kad tai yra paprastos tiesinių lygčių sistemos, ir siekiant aukščiausių profesionalumo standartų, pateikiu išsamų vertimą.\n\n**Lietuviškas vertimas:**\n\nNurodykite, argumentuotai, ar šios paprastos lygčių sistemos yra suderinamos/nesuderinamos, vienodai priklausomos/nepriklausomos ir nurodykite sprendinių skaičių:\n\n2. $2x + y = 3$\n   $4x + 2y = 6$\n\n**Argumentacija ir papildoma informacija (tai, ką paprastai pateiktų mokytojas):**\n\nNorint nustatyti lygčių sistemos suderinamumą, priklausomumą ir sprendinių skaičių, galime naudoti kelis metodus. Nagrinėsime šią sistemą:\n\n1. $2x + y = 3$\n2. $4x + 2y = 6$\n\n**Metodas 1: Lyginimas ir manipuliavimas**\n\nGalime pabandyti manipuliuoti viena lygtimi, kad pamatytume, ar ji sutampa su kita. Pažvelkime į antrą lygtį: $4x + 2y = 6$. Jei padalinsime visą lygtį iš 2, gausime:\n$\\frac{4x}{2} + \\frac{2y}{2} = \\frac{6}{2}$\n$2x + y = 3$\n\nPastebime, kad ši nauja lygtis yra identiška pirmajai lyčiai: $2x + y = 3$.\n\n**Išvada pagal metodą 1:**\n\n*   **Suderinamumas:** Sistemoje yra bent vienas sprendinys, nes lygčių rinkinys nurodo tuos pačius santykius tarp kintamųjų. Taigi sistema yra **suderinama**.\n*   **Priklausomumas:** Kadangi viena lygtis yra kitos daugyba (arba atvirkščiai), abi lygtys išreiškia tą patį tiesės vieną, kurią jos apibrėžia. Jos yra **vienodai priklausomos**.\n*   **Sprendinių skaičius:** Kai abi sistemos lygtys yra vienodos arba viena yra kitos daugyba, jos apibrėžia tą pačią tiesę. Tai reiškia, kad bet kuris taškas, esantis ant šios tiesės, yra sistemos sprendinys. Tokiu atveju sprendinių yra **begalybė**.\n\n**Metodas 2: Koeficientų palyginimas (tiesinių lygčių sistemoms)**\n\nDvi tiesinės lygčių sistemos su dviem kintamaisiais, bendru atveju, yra užrašomos taip:\n$a_1x + b_1y = c_1$\n$a_2x + b_2y = c_2$\n\nŠios sistemos gali būti:\n*   **Nesuderinamos** (neturi sprendinių), jei $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$ (lygiagrečios, bet nesutampančios tiesės).\n*   **Vienodai priklausomos** (turi begalybę sprendinių), jei $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$ (sutampančios tiesės).\n*   **Nepriklausomos** (turi vienintelį sprendinį), jei $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$ (kiržiančios tiesės).\n\nMūsų atveju:\n$a_1 = 2, b_1 = 1, c_1 = 3$\n$a_2 = 4, b_2 = 2, c_2 = 6$\n\nDabar palyginkime santykius:\n$\\frac{a_1}{a_2} = \\frac{2}{4} = \\frac{1}{2}$\n$\\frac{b_1}{b_2} = \\frac{1}{2}$\n$\\frac{c_1}{c_2} = \\frac{3}{6} = \\frac{1}{2}$\n\nKadangi $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$, sistema yra **vienodai priklausoma**, **suderinama** ir turi **begalybę sprendinių**.\n\n**Apibendrintas atsakymas (atitinkantis klausimo reikalavimus):**\n\nŠi paprasta lygčių sistema yra **suderinama**, **vienodai priklausoma** ir turi **begalybę sprendinių**. Argumentai yra pagrįsti tuo, kad antroji lygtis, padalinta iš 2, yra identiška pirmajai lyčiai, arba santykis tarp atitinkamų koeficientų ($a_1/a_2 = b_1/b_2 = c_1/c_2$) yra lygus.",
+    "generated_answer": "Įrodymas: Šios paprastos lygčių sistemos suderinamos, vienodai priklausomos ir turi begalybę sprendinių.\n\n<final>Ši paprasta lygčių sistema yra sudėtinga, vienoda ir turi begalybę sprendinių.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ši paprasta lygčių sistema yra sudėtinga, vienoda ir turi begalybę sprendinių",
+    "extracted_final_answers": [
+      "Ši paprasta lygčių sistema yra sudėtinga, vienoda ir turi begalybę sprendinių"
+    ],
+    "exact_answer": "$\\therefore \\frac{2}{4} = \\frac{1}{2} = \\frac{3}{6}$\nTodėl lygčių sistema yra suderinta ir lygtys yra tarpusavyje priklausomos. Lygčių sistema turi begalinį sprendinių skaičių.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "Lithuanian",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "Ekspertas lietuvių matematikos pedagogas, turintis didelę akademinio matematinio turinio vertimo patirtį, profesionaliai išverčia šį matematinį klausimą iš anglų kalbos į lietuvių kalbą.\n\n**VERTĖMO GAIIDLINĖS:**\n1.  **MATEMATINIAI ELEMENTAI:**\n    *   Išsaugoti VISUS matematinius ženklus tiksliai: skaičius, kintamuosius, lygtis, simbolius (∑, ∫, ∂, √ ir pan.)\n    *   Saugoti matematines išraiškas originaliame LaTeX/ASCII formatu, jei jos yra.\n    *   Išlaikyti tą pačią matematinę struktūrą ir ryšius.\n\n2.  **LIETUVIŲ MATEMATINĖS KONVENCIJOS:**\n    *   Naudoti lietuvišką dešimtainę notaciją (kablelį vietoj taško): 3,14 vietoj 3.14.\n    *   Naudoti tinkamą lietuvišką matematinę terminiją:\n        *   \"tegu\" ar \"tegul\" žodžiui \"let\".\n        *   \"toks kad\" žodžiams \"such that\".\n        *   \"aibė\" žodžiui \"set\".\n        *   \"funkcija\" žodžiui \"function\".\n        *   \"lygtis\" žodžiui \"equation\".\n        *   \"spręsti\" žodžiui \"solve\".\n        *   \"apskaičiuoti\" žodžiui \"calculate\".\n        *   \"nustatyti\" žodžiui \"determine\".\n        *   \"parodyti\" žodžiams \"show that\".\n        *   \"įrodyti\" žodžiams \"prove\".\n\n3.  **FORMATAVIMAS IR STRUKTŪRA:**\n    *   Išsaugoti tikslią klausimo struktūrą (pasirinkimo variantus, dalis a), b), c) ir pan.).\n    *   Išlaikyti tą patį matematinio formalumo lygį.\n    *   Naudoti tinkamus lietuvių kalbos gramatinius linksnius.\n\n4.  **KOKYBĖS PATIKRINIMAS:**\n    *   Užtikrinti, kad vertimas būtų standartine akademine lietuvių kalba.\n    *   Patikrinti, ar nepateko jokios matematinės informacijos, kuri būtų prarasta ar pakeista.\n    *   Patvirtinti, kad sunkumo lygis išlieka identiškas.\n\n**Anglų kalbos klausimas:**\nMention with arguments whether the following simple simultaneous equations are consistent/inconsistent, mutually dependent/independent and indicate the number of 5. $3x + 2y = 0$\n$9x - 6y = 0$\n\n**Lietuviškas vertimas:**\n\nPateikite argumentuotus atsakymus, ar šios paprastosios lygčių sistemos yra suderintos/nesuderintos, tarpusavyje priklausomos/nepriklausomos, ir nurodykite sprendinių skaičių:\n$3x + 2y = 0$\n$9x - 6y = 0$",
+    "generated_answer": "Įvertinti, ar šios paprastosios lygčių sistemos yra suderintos/nesuderintos bei tarpusavyje priklausomos/nepriklausomos, ir nurodyti sprendinių skaičių:\n$3x + 2y = 0$\n$9x - 6y = 0$\n\n<final>Šios lygčių sistemos yra suderintos bei tarpusavyje priklausomos. Joms yra bendroji sprendinys.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Šios lygčių sistemos yra suderintos bei tarpusavyje priklausomos. Joms yra bendroji sprendinys",
+    "extracted_final_answers": [
+      "Šios lygčių sistemos yra suderintos bei tarpusavyje priklausomos. Joms yra bendroji sprendinys"
+    ],
+    "exact_answer": "Matome, jog $\\frac{3}{9} \\ne \\frac{2}{-6}$.\nTodėl lygčių sistema yra suderinama ir lygtys yra tarpusavyje nepriklausomos. Lygčių sistema turi tik vieną (vienintelį) sprendinį.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "Lithuanian",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "**Išspręskite pakeitimo (substitucijos) metodu:**\n$ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "**Išspręskite pakeitimo (substitucijos) metodu:**\n$ax + by = c$\n$a^2x + b^2y = c^2$\n\n**Išspręska**:\n<final>Daugianarių metodas: $x = \\frac{bc^2 - a^2c}{b^2c - a^3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Daugianarių metodas: $x = (bc^2 - a^2c)/(b^2c - a^3)",
+    "extracted_final_answers": [
+      "Daugianarių metodas: $x = (bc^2 - a^2c)/(b^2c - a^3)"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "Lithuanian",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "Tegu duotos lygtys:\n$y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$\n\nSpręskite kryžminės sandaugos metodu.",
+    "generated_answer": "解答：\n\n$x= \\boxed{3}$ , $y= \\boxed{5}$\n\n<final>3, 5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3, 5",
+    "extracted_final_answers": [
+      "3, 5"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "Lithuanian",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "Spręskite sudarydami lygčių sistemą: Jei prie trupmenos skaitiklio ir vardiklio pridedamas skaičius $1$, trupmena tampa lygi $\\frac{4}{5}$. Vėlgi, jei iš skaitiklio ir vardiklio atimamas skaičius $5$, trupmena tampa lygi $\\frac{1}{2}$. Raskite trupmeną.",
+    "generated_answer": "解答：\n最后的答案是：\n<final>$\\frac{3}{5}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(3)/(5)",
+    "extracted_final_answers": [
+      "(3)/(5)"
+    ],
+    "exact_answer": "\\frac{7}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "Lithuanian",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "Sistemos tiesinių lygčių yra\n$x + y = 10$\n$3x - 2y = 0$\nIšsprendę lygčių sistemą, raskite $(x,y)$.",
+    "generated_answer": "Įvertinkite abiejų lygių šios puslankio visumą. Kai pasimokėjome skaičių $x$ ir atlikome reikalaujamą dalyvavimą, gauta vertė buvo 0. Tai reiškia, kad $x = 2$, o tobulas atsakymas yra $x = 2$.\n\n<final>$x = 2$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 2",
+    "extracted_final_answers": [
+      "x = 2"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "Jei aritmetinės sekos $12$-asis narys yra $77$, koks yra tos sekos pirmųjų $23$ narių suma?",
+    "generated_answer": "5170\n\n<final>5170</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5170",
+    "extracted_final_answers": [
+      "5170"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "Jei aritmetinės progresijos $16$-asis narys yra $-20$, koks bus pirmųjų $31$ nario suma?",
+    "generated_answer": "1925\n\n<final>1925</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1925",
+    "extracted_final_answers": [
+      "1925"
+    ],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "Jei $12$ aritmetinės progresijos narių suma yra $144$, o $20$ narių suma yra $560$, rasti $6$ pirmųjų narių sumą.",
+    "generated_answer": "15\n<final>15</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "15",
+    "extracted_final_answers": [
+      "15"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "$l^{\\text{oji}}$ aritmetinės progresijos narys yra $l^2$, o $k^{\\text{oji}}$ narys yra $k^2$.\nSudarykite dvi lygtis pagal pateiktą informaciją, kai $a$ yra progresijos pirmasis narys, o $d$ yra jos skirtumas.",
+    "generated_answer": "Įvykdžius duomenų, nurodomos šios lygtys:\n$a_1 + (l-1)d = l^2$\n$a_1 + (k-1)d = k^2$\n<final>$a_1 + (l-1)d = l^2$, $a_1 + (k-1)d = k^2$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a_1 + (l-1)d = l^2$, $a_1 + (k-1)d = k^2",
+    "extracted_final_answers": [
+      "a_1 + (l-1)d = l^2$, $a_1 + (k-1)d = k^2"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ .... (i)\n$a + (k-1)d = k^2$ .... (ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "Lietuviškas vertimas:\n\n$l$-oji aritmetinės progresijos narė yra lygi $l^2$, o $k$-oji narė yra lygi $k^2$.\nRaskite $(l+k)$-ąją narę.",
+    "generated_answer": "Įmanoma, jog tai yra užduotis apie aritmetinę progresiją. Šios aritmetinės progresijos nariai $l$ ir $k$ yra lygi $l^2$ bei $k^2$ atitinkamai. Norima rasti $(l+k)$-ąją progresijos šiuolaikines reikšmę.\n\n<final>$(l+k)$ nariui yra svarbu išspręsti, bet tai nepaprastas atsakymas be detalių duomenų apie $l$ ir $k$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(l+k)$ nariui yra svarbu išspręsti, bet tai nepaprastas atsakymas be detalių duomenų apie $l$ ir $k$",
+    "extracted_final_answers": [
+      "(l+k)$ nariui yra svarbu išspręsti, bet tai nepaprastas atsakymas be detalių duomenų apie $l$ ir $k$"
+    ],
+    "exact_answer": "l^2+kl+k^2",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "Lithuanian",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "Aritmetinės sekos $l$-asis narys yra $l^2$, o $k$-asis narys yra $k^2$.\nĮrodykite, kad pirmųjų $(l+k)$ narių suma sekoje yra lygi $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.",
+    "generated_answer": "Įrodykite, kad pirmųjų $(l+k)$ narių suma sekoje yra lygi $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.\n<final>Lyginis</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lyginis",
+    "extracted_final_answers": [
+      "Lyginis"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "Lithuanian",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "Koks yra pirmųjų 12 sandaugos $\\log 2 + \\log 16 + \\log 512 + \\ldots$ narių suma?",
+    "generated_answer": "Įmanomas\n\n<final>12</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12",
+    "extracted_final_answers": [
+      "12"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "Lithuanian",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "Kokia yra $(2n+2)$ narių sumos eilutės $2 - 2 + 2 - 2 + \\ldots \\ldots \\ldots \\ldots$?",
+    "generated_answer": "Įgaliai teigiamojo skaičiaus $n$ suma yra lygus nulimui.\n\n<final>Suma yra lygi nuliui.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Suma yra lygi nuliui",
+    "extracted_final_answers": [
+      "Suma yra lygi nuliui"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "Lithuanian",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "Parodykite, kad $1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2$.",
+    "generated_answer": "1^3 + 2^3 + 3^3 + ... + 10^3 = (1 + 2 + 3 + ... + 10)^2 <final>$55^2=3025</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "55^2=3025",
+    "extracted_final_answers": [
+      "55^2=3025"
+    ],
+    "exact_answer": "1³ + 2³ + 3³ + ... + 10³ = (1 + 2 + 3 + ... + 10)²",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "Lithuanian",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "Nustatyti, kiek akmenų reikės padengti kvadratiniam plotui, naudojant $40$ cm kraštinės kvadratinius akmenis, kai kvadratinio ploto perimetras yra lygus stačiakampio ploto perimetrui, kurio ilgis triskart didesnis nei plotis, o stačiakampio plotas yra $768$ kv. metrai.",
+    "generated_answer": "16 akmenų <final>16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16",
+    "extracted_final_answers": [
+      "16"
+    ],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "Lithuanian",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "Aikštės stačiakampio formos plotas yra $160$ kv. metrų. Jei ilgis sumažinamas $6$ metrais, ji tampa kvadratine aikšte. Nustatykite stačiakampio ilgį ir plotį.",
+    "generated_answer": "16 metrų ir 8 metrų <final>16 metrų ir 8 metrų</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16 metrų ir 8 metrų",
+    "extracted_final_answers": [
+      "16 metrų ir 8 metrų"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "Lithuanian",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "Paralelogramo plotas yra lygus kvadrato plotui. Jei paralelogramo pagrindas yra 125 metrai, o aukštis yra 5 metrai, raskite kvadrato įstrižainės ilgį.",
+    "generated_answer": "Įstrižainės ilgis yra 25 metrai.\n\n<final>25 metrai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "25 metrai",
+    "extracted_final_answers": [
+      "25 metrai"
+    ],
+    "exact_answer": "35,35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "Lithuanian",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "Kampas, **kuriuo apskritimo segmentas remiasi** centre, yra $30^\\circ$. Jei apskritimo skersmuo yra $126$ cm, nustatykite lanko ilgį.",
+    "generated_answer": "128 cm.\n\n<final>128 cm</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "128 cm",
+    "extracted_final_answers": [
+      "128 cm"
+    ],
+    "exact_answer": "32,987 cm (apytiksliai).",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "Lithuanian",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "Stačiakampio medinės dėžės išoriniai matmenys yra atitinkamai $8$ cm, $6$ cm ir $4$ cm, o visų jos vidinių paviršių plotų suma yra $88$ cm$^2$. Raskite medienos storį.",
+    "generated_answer": "Įdiegę dėžės išorinius matmenis ir sumą visų jos vidinių paviršių plotų, galima rasti medienos storį. Medienos storis yra <final>4 cm</final>.\nExplanation: Iš dalijamo išorinių dėžės storio ir sumos visų jos vidinių paviršių plotų gali būti surastas medienos storis.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4 cm",
+    "extracted_final_answers": [
+      "4 cm"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "Raskite iracionalųjį skaičių tarp $\\sqrt{3}$ ir $4$.",
+    "generated_answer": "1. Naujoji formulė, kurią galima nuspausti, yra $y=2x^3-2$.\n2. Galimos šios variantų atsitiktinis sėkminis pasirinkimas:\n    - Dvejopio kryžiaus variantas yra 1.\n    - Triynio kryžiaus variantas yra 4.\n    - Ketveriopio kryžiaus variantas yra 3.\n3. Jei pakartoti šią procedūrą, galima matyti, jog variantų pasirinkimas nekintis ir tęsėsi nuolat.\n4. Išvada: Didesniojėlis negali būti įmanomas be konkretinių atsitiktinių sėkminių pasirinkimo.\n<final>Nesėkmė</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Nesėkmė",
+    "extracted_final_answers": [
+      "Nesėkmė"
+    ],
+    "exact_answer": "a ir b yra ieškomi skaičiai.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "Apskaičiuokite skaičiaus $4,4623845\\dots$ tiksliąsias ir apytiksles reikšmes iki $1, 2, 3, 4$ ir $5$ skaitmenų po kablelio.",
+    "generated_answer": "Įvertinkite skaičiaus $4,4623845\\dots$ tikslias ir apytiksles reikšmes iki $1, 2, 3, 4$ ir $5$ skaitmenų po kablelio.\n\nFinal Answer (in Lithuanian):\n[Numeric results]\n\n<final>[Numeric results]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Numeric results]",
+    "extracted_final_answers": [
+      "[Numeric results]"
+    ],
+    "exact_answer": "4,4, 4,5, 4,46, 4,462, 4,4624, 4,46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "Nustatykite natūraliųjų skaičių aibę, kurių *dalybos* liekana dalijant $311$ ir $419$ yra $23$.",
+    "generated_answer": "Įmanoma natūralus skaičius, kurių *dalybos* liekana dalijant $311$ ir $419$ yra $23$. Taigi atsakymas yra 57.\n<final>57</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "57",
+    "extracted_final_answers": [
+      "57"
+    ],
+    "exact_answer": "36",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "Štai klausimo vertimas į lietuvių kalbą, atitinkantis aukščiausius profesinius standartus:\n\n**Iš $100$ mokinių $88$ išlaikė Banglų kalbą, $80$ – Matematiką, o $70$ – abu dalykus. Pateikite informaciją Ven diagramoje ir apskaičiuokite, kiek mokinių neišlaikė abiejų dalykų.**",
+    "generated_answer": "12 mokinių neišlaikė abiejų dalykų.\n\nExplanation:\nGalima naudoti Ven diagramo sąryšio ir padarimo kritijus, kad išgautumėm mokinių skaičių, kurių neišlaiko abiejų dalykų. Šis atsakymas nustatytas pagal šiuolaikinius matematinius metodus.\n\n<final>12</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12",
+    "extracted_final_answers": [
+      "12"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "Tegu $A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$ ir elementams $x \\in A$ bei $y \\in B$ galioja santykis $x = y - 1$. Raskite visas tokias elementų poras $(x, y)$.",
+    "generated_answer": "1. The relationship between $x$ and $y$ is given by the equation $x = y - 1$.\n2. Considering the sets $A = \\{1, 2, 3\\}$ and $B = \\{0, 2, 4\\}$, we substitute each element of set $B$ into the equation to find corresponding $x$ values from set $A$.\n   - For $y = 0$, $x = 0 - 1 = -1$ (not in set A).\n   - For $y = 2$, $x = 2 - 1 = 1$ (in set A).\n   - For $y = 4$, $x = 4 - 1 = 3$ (in set A).\n3. The valid pairs $(x, y)$ are thus:\n   - $(1, 2)$ where $x = 1$ and $y = 2$.\n   - $(3, 4)$ where $x = 3$ and $y = 4$.\n\n<final>Poros (x, y) yra: (1, 2) ir (3, 4).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Poros (x, y) yra: (1, 2) ir (3, 4)",
+    "extracted_final_answers": [
+      "Poros (x, y) yra: (1, 2) ir (3, 4)"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "Tegu universali aibė yra $U=\\{x:x \\in N$ ir  $x \\le 6\\},$ \n$A=\\{x:x$ yra pirminis skaičius ir $x\\le 5\\},$ \n$B=\\{x: x$ yra lyginis skaičius ir $x\\le 6\\},$ ir \n$C=A \\setminus B.$  Įrodykite, kad $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B).$",
+    "generated_answer": "Įrodykite, kad $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B).$\n<final>Teisės apimties dažnis yra teisingas.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Teisės apimties dažnis yra teisingas",
+    "extracted_final_answers": [
+      "Teisės apimties dažnis yra teisingas"
+    ],
+    "exact_answer": "(A ∩ C) × B = (A × B) ∩ (C × B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "Lithuanian",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "Tegu $a+b+c=15$ ir $a^{2}+b^{2}+c^{2}=83$. Kokia yra $ab+bc+ac$ reikšmė?",
+    "generated_answer": "13\n\n<final>13</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "13",
+    "extracted_final_answers": [
+      "13"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "Lithuanian",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "Knygos kaina yra 24 Tk. Ši kaina sudaro 80 % tikrosios kainos. Vyriausybė subsidijuoja **neapmokėtą** kainos dalį. Kiek pinigų Vyriausybė subsidijuoja už kiekvieną knygą?",
+    "generated_answer": "8 Tk.\n\n<final>8 Tk.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8 Tk",
+    "extracted_final_answers": [
+      "8 Tk"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "Lithuanian",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "Apspręskite: $(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$",
+    "generated_answer": "75/8",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "75/8",
+    "extracted_final_answers": [
+      "75/8"
+    ],
+    "exact_answer": "-\\dfrac{27}{4}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "Lithuanian",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "Jei $\\log_b 400 = 4$, koks yra $\\log$ pagrindas?",
+    "generated_answer": "Final Answer (in Lithuanian):\nb = 16\n<final>16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16",
+    "extracted_final_answers": [
+      "16"
+    ],
+    "exact_answer": "2\\sqrt{5}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "Lithuanian",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "Įrodykite, kad $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$",
+    "generated_answer": "10 log10 2 + log10 5 = log10 40\n\n<final>Atsakomybe:</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Atsakomybe",
+    "extracted_final_answers": [
+      "Atsakomybe"
+    ],
+    "exact_answer": "logaritmas pagrindu 10 iš 40",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "Lithuanian",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "Sprendimas: $(y-1)(y+2)= (y+4)(y-2)$",
+    "generated_answer": "1337\n\n<final>$y^2 + y - 8 = y^2 + 2y - 8 \\implies y = 0$ or $y = 4$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "y^2 + y - 8 = y^2 + 2y - 8 \\implies y = 0$ or $y = 4",
+    "extracted_final_answers": [
+      "y^2 + y - 8 = y^2 + 2y - 8 \\implies y = 0$ or $y = 4"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "Lithuanian",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "Spręskite ir parašykite sprendinių aibę: $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$",
+    "generated_answer": "3 <final>3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3",
+    "extracted_final_answers": [
+      "3"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "Lithuanian",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "Jei $\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$, raskite $A$ reikšmę.",
+    "generated_answer": "150 laipsnių.\n<final>150°</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "150°",
+    "extracted_final_answers": [
+      "150°"
+    ],
+    "exact_answer": "A=60 laipsnių",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "Lithuanian",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "Tegu $A=45\\degree$. Įrodykite, kad $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$.",
+    "generated_answer": "Tai yra teigiama, kad $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$.\n<final>Tai yra teigiama, kad $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tai yra teigiama, kad $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}",
+    "extracted_final_answers": [
+      "Tai yra teigiama, kad $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "Tegu Palash Sarker pradeda dirbti 2005 m. sausio mėn. su metine alga 120 000 Tk.\nJo metinis priedas yra 5 000 Tk. Kiekvienais metais 10% jo atlyginimo yra atskaitoma pensijų fondui.\nMetų pabaigoje jis deponuoja 12 000 Tk. banke su 12% metinėmis palūkanomis. Jis išeis į pensiją 2030 m. gruodžio 31 d.\n\nKokia bendra banke deponuota pinigų suma iki 2031 m. gruodžio 31 d.?",
+    "generated_answer": "Įsigijęs bendrą banko deponuotų pinigų sumą iki 2031 m. gruodžio 31 d., gali būti aprašomas kaip bent milijonas Tk.:\n\n<final>1,000,000 Tk</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1,000,000 Tk",
+    "extracted_final_answers": [
+      "1,000,000 Tk"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "Lithuanian",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "Tegu yra kelias, kurio plotis yra $4$ metrai, einantis aplink kvadratinį lauką. Jei kelio plotas yra $1$ hektaras, apskaičiuokite lauko, neįskaitant kelio, plotą.",
+    "generated_answer": "15 hektarai <final>15 hektarai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "15 hektarai",
+    "extracted_final_answers": [
+      "15 hektarai"
+    ],
+    "exact_answer": "38,56 hektaro",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "Lithuanian",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "Tegu $S = \\{x : x$ yra skaičius, kurio kvadratas yra ne didesnis nei $100\\}$. Išreikškite $S$ kitu būdu.",
+    "generated_answer": "Įvertinkite kvadratus iki $10$.\n\n<final>$S = \\{-9, -8, ..., -2, -1, 0, 1, 2, ..., 8, 9\\}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S = \\{-9, -8, ..., -2, -1, 0, 1, 2, ..., 8, 9\\}",
+    "extracted_final_answers": [
+      "S = \\{-9, -8, ..., -2, -1, 0, 1, 2, ..., 8, 9\\}"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "Lithuanian",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "Jei $A$ ir $B$ yra bet kokios aibės, tuomet $A \\cap B \\subseteq A$ ir $A \\cap B \\subseteq B$.",
+    "generated_answer": "Įrodymas: Kartais yra svarbu pamatus palyginti su kitais elementų rinkiniais.\n\n<final>Kad būtų gerai, reikia pamatus pamatyti</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Kad būtų gerai, reikia pamatus pamatyti",
+    "extracted_final_answers": [
+      "Kad būtų gerai, reikia pamatus pamatyti"
+    ],
+    "exact_answer": "A \\cap B \\subseteq A ir A \\cap B \\subseteq B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "Lithuanian",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "Įrodykite, kad $A \\subset B$ tada ir tik tada, kai galioja bet kuri iš šių sąlygų:\n$A \\cap B = A$",
+    "generated_answer": "Įrodykite, kad $A \\subset B$ tada ir tik tada, kai galioja bet kuri iš šių sąlygų:\n$A \\cap B = A$\n\nFinal Answer (in Lithuanian):\n<final>Jeigu $A \\cap B = A$, tad $A \\subset B$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Jeigu $A \\cap B = A$, tad $A \\subset B$",
+    "extracted_final_answers": [
+      "Jeigu $A \\cap B = A$, tad $A \\subset B$"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "Lithuanian",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "Parodykite, kad,\njei $A \\subset B$, tuomet $A \\cup (B \\setminus A) = B$",
+    "generated_answer": "Įrodymas: Kai $A$ yra $B$-o dalis, tai $A \\cup (B \\setminus A) = B$\n\n<final>$A \\cup (B \\setminus A) = B$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A \\cup (B \\setminus A) = B",
+    "extracted_final_answers": [
+      "A \\cup (B \\setminus A) = B"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "Lithuanian",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "Jei $U = \\{x: x \\text{ yra lyginis sveikasis skaičius}\\}$, $A = \\{x \\in U: 3x \\ge 25\\}$ ir $B = \\{x \\in U: 5x < 12\\}$, tuomet raskite $n(A \\cap B)$ ir $n(A' \\cap B')$ reikšmes.",
+    "generated_answer": "16\n\n<final>16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16",
+    "extracted_final_answers": [
+      "16"
+    ],
+    "exact_answer": "n(A ∩ B) = 0 ir n(A' ∩ B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "Tegu duotas santykis $S$. Raskite jo apibrėžimo sritį, reikšmių sritį ir atvirkštinį santykį.\nNustatykite, ar santykiai $S$ ar $S^{-1}$ yra funkcijos.\nAr tarp šių santykių esančios funkcijos yra vienareikšmės?\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "Įvestinis santykis $S$ apibrėžimas apima reikšmes, kurios yra išskirtinės. Santykiui $S$ atvirkštinis santykis yra funkcija $f(x) = \\frac{10}{x-2}$. Kai kurių šio santyko apibrėžtumas neturi išskirtinių reikšmių, jį galima apibūdinti kaip vienareikšmę funkciją. <final>$f(x) = \\frac{10}{x-2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "f(x) = (10)/(x-2)",
+    "extracted_final_answers": [
+      "f(x) = (10)/(x-2)"
+    ],
+    "exact_answer": "S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\therefore S yra funkcija. \\therefore S^{-1} yra viena-vienai funkcija.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "Raskite duotosios relacijos $S$ apibrėžimo sritį, reikšmių sritį ir atvirkštinę relę.\nNustatykite, ar relės $S$ ar $S^{-1}$ yra funkcijos.\nAr tarp šių relacijų esančios funkcijos yra vienareikšmės?\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "Įvedamos relacijos $S$ apibrėžimas, reikšmų sritis ir atvirkštinė rela, yra nurodyti žemiau. Reliuose $S$ ir $S^{-1}$ nebuvo pateiktos funkcijos. Vietoj to, buvo išaiškinami atitinkamų parametrų vienareikšmės relacijos.\n\n<final>Reliuose $S$ ir $S^{-1}$ nebuvo pateiktos funkcijos, bet vietoj to buvo išaiškinami atitinkamų parametrų vienareikšmės relacijos.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Reliuose $S$ ir $S^{-1}$ nebuvo pateiktos funkcijos, bet vietoj to buvo išaiškinami atitinkamų parametrų vienareikšmės relacijos",
+    "extracted_final_answers": [
+      "Reliuose $S$ ir $S^{-1}$ nebuvo pateiktos funkcijos, bet vietoj to buvo išaiškinami atitinkamų parametrų vienareikšmės relacijos"
+    ],
+    "exact_answer": "S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S nėra funkcija. Taigi, S^{-1} nėra viena vienai funkcija.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "Tegu duotas santykis $S$. Raskite jo apibrėžimo sritį, reikšmių sritį ir atvirkštinį santykį. Nustatykite, ar santykiai $S$ ar $S^{-1}$ yra funkcijos. Ar tarp šių santykių esančios funkcijos yra injektyviosios?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "Įvedamas santykis $S$. Atbrėžkite jo apibrėžimo sritį, reikšmių sritį ir atvirkštinį santykį. Nustatykite, ar santykiai $S$ ir $S^{-1}$ yra funkcijos. Ar tarp šių santykių esančios funkcijos yra injektyviosios?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$\n\nFinal Answer (in Lithuanian):\nApibrėžimo sritis yra $\\{1\\}$, reikšmių sritis yra $\\{2\\}$, atvirkštinis santykis yra $\\{(1, 2), (2, 2), (3, 2)\\}$. Santykiai $S$ ir $S^{-1}$ nesudarė funkcijų.\n<final>Apibrėžimo sritis yra $\\{1\\}$, reikšmių sritis yra $\\{2\\}$, atvirkštinis santykis yra $\\{(1, 2), (2, 2), (3, 2)\\}$. Santykiai $S$ ir $S^{-1}$ nesudarė funkcijų.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Apibrėžimo sritis yra $\\{1\\}$, reikšmių sritis yra $\\{2\\}$, atvirkštinis santykis yra $\\{(1, 2), (2, 2), (3, 2)\\}$. Santykiai $S$ ir $S^{-1}$ nesudarė funkcijų",
+    "extracted_final_answers": [
+      "Apibrėžimo sritis yra $\\{1\\}$, reikšmių sritis yra $\\{2\\}$, atvirkštinis santykis yra $\\{(1, 2), (2, 2), (3, 2)\\}$. Santykiai $S$ ir $S^{-1}$ nesudarė funkcijų"
+    ],
+    "exact_answer": "Dom = \\{2\\} Važ = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} Taigi, S nėra funkcija. Taigi, S^{-1}$ yra funkcija. Taigi, S^{-1} nėra viena-vienai funkcija.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "Tegul funkcija $F: \\mathbb{R} \\to \\mathbb{R}$ yra apibrėžta kaip $F(x)=x^3$.\nRaskite $F$ apibrėžimo sritį ir reikšmių sritį.",
+    "generated_answer": "定義域：$\\mathbb{R}$，取值域：$\\mathbb{R}$。\n\n<final>定義域： $\\mathbb{R}$, 取值域： $\\mathbb{R}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "定義域： $\\mathbb{R}$, 取值域： $\\mathbb{R}",
+    "extracted_final_answers": [
+      "定義域： $\\mathbb{R}$, 取值域： $\\mathbb{R}"
+    ],
+    "exact_answer": "apibrėžimo sritis F = \\mathbb{R} ir reikšmių sritis F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "Tegu funkcijos $f: \\mathbb{R} \\to \\mathbb{R}$ ir $g: \\mathbb{R} \\to \\mathbb{R}$ yra apibrėžtos kaip $f(x)=3x+3$ ir $g(x)=\\frac{x-3}{3}$ atitinkamai.\nNustatykite, ar funkcija $f(x)$ yra siurjektyvioji (surjective, onto).",
+    "generated_answer": "Įrodymas: Funkcija $f(x)$ yra siurjektyvioji dėl monotonumo ir ribotumo.\n\n<final>Funkcija $f(x)$ yra siurjektyvioji.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Funkcija $f(x)$ yra siurjektyvioji",
+    "extracted_final_answers": [
+      "Funkcija $f(x)$ yra siurjektyvioji"
+    ],
+    "exact_answer": "f(x) yra surjektyvi funkcija",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "Lithuanian",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "Tegu $f(x)=\\sqrt{x-4}$.\nNustatykite, ar $f(x)$ yra vienašalė (injektyvioji) funkcija.",
+    "generated_answer": "Įrodymas:\nFunkcija $f(x)=\\sqrt{x-4}$ yra vienašalė, nes kiekvienam realiam $x$ reikalui yra atitinkamas $\\sqrt{x-4}$, ir šios funkcijos vertės turi būti nešalybos priklausomos nuo to.\n\n<final>Funkcija $f(x)=\\sqrt{x-4}$ yra vienašalė.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Funkcija $f(x)=√(x-4)$ yra vienašalė",
+    "extracted_final_answers": [
+      "Funkcija $f(x)=√(x-4)$ yra vienašalė"
+    ],
+    "exact_answer": "f(x) yra viena-vienai funkcija",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "Tegu $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$ yra išreiškiamas kaip trupmeninių dalių suma.",
+    "generated_answer": "Įrodykis:\nIšreiškiamas kaip $\\frac{x-7}{(x+1)(x+2)} - \\frac{3}{x^2 + 4}$ <final>$\\frac{x-7}{(x+1)(x+2)} - \\frac{3}{x^2 + 4}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-7)/((x+1)(x+2)) - (3)/(x^2 + 4)",
+    "extracted_final_answers": [
+      "(x-7)/((x+1)(x+2)) - (3)/(x^2 + 4)"
+    ],
+    "exact_answer": "\\frac{1}{5} \\left( \\frac{7x-27}{x^2+4} - \\frac{2}{x+1} \\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "Pateikite kaip trupmenų skilimo į paprastuosius dalinius trupmenis: $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "Įrodymas:\nNaudojant algebrines manipulacijos metodą ir dalijimo algoritmą.\n\nFinal Answer (in Lithuanian):\n<final>$\\frac{1}{6x+9}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1)/(6x+9)",
+    "extracted_final_answers": [
+      "(1)/(6x+9)"
+    ],
+    "exact_answer": "\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "Lithuanian",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "Spręskite lygtį: $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "18,9\n\n<final>18,9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "18,9",
+    "extracted_final_answers": [
+      "18,9"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "Lithuanian",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "Išspręskite: $x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$",
+    "generated_answer": "解答：\n$x = 4, y = \\frac{1}{5}$\n\n<final>$x = 4, y = \\frac{1}{5}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 4, y = (1)/(5)",
+    "extracted_final_answers": [
+      "x = 4, y = (1)/(5)"
+    ],
+    "exact_answer": "(x, y) = \\left(\\frac{4}{5}, 20\\right), \\left(\\frac{1}{5}, 5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "Lithuanian",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "Spręskite nelygybę $8 \\geq 2-2x$",
+    "generated_answer": "8 < 2 - 2x\nExplanation: Užkoduojamos pavyzdys.\n<final>9,7138</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9,7138",
+    "extracted_final_answers": [
+      "9,7138"
+    ],
+    "exact_answer": "x \\geq -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "Lithuanian",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "Berniukas ėjo $3$ valandas greičiu $x$ km/val. ir bėgo $\\frac{1}{2}$ val. greičiu $(x+2)$ km/val., o jo nueitas atstumas buvo mažesnis nei $29$ km. Raskite galimas $x$ reikšmes.",
+    "generated_answer": "Įsitikink, kad Berniuko neįvedamas atstumas mažesnis nei 29 km.\n\n<final>$0 < x < \\frac{53}{3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0 < x < (53)/(3)",
+    "extracted_final_answers": [
+      "0 < x < (53)/(3)"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "Lithuanian",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": "Ponas Sohrabas pirko $x$ kg mangų, kurių kaina buvo 70 Tk už kg. Jis pardavėjui davė 500 Tk kupiūrą. Pardavėjas grąžino jam likusius pinigus $x$ kupiūromis po 20 Tk. Raskite galimas $x$ reikšmes.",
+    "generated_answer": "50 svarų.\n\n<final>50 svarų</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "50 svarų",
+    "extracted_final_answers": [
+      "50 svarų"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "Lithuanian",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": "Oro atstumas tarp Singapūro ir Dakos yra 2900 km. Didžiausias reaktyvinio lėktuvo greitis yra 900 km/val. Tačiau skrendant iš Dakos į Singapūrą, prieš jį pučia 100 km/val. priešpriešinis vėjas. Išreikškite nenutrūkstamo skrydžio iš Dakos į Singapūrą laiko trukmę nelygybės forma.",
+    "generated_answer": "50 valandos dėl vėjo, 6 valandas dėl atstumo. Laikas - 50,6 valandos\n\n<final>$T = \\frac{2900}{900 - 100} + 6 = 50.6$ valandos</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "T = (2900)/(900 - 100) + 6 = 50.6$ valandos",
+    "extracted_final_answers": [
+      "T = (2900)/(900 - 100) + 6 = 50.6$ valandos"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "Lithuanian",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "Taikykite sąlygą kintamajam $x$, su kuria begalinė eilutė $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ turės sumą (iki begalybės), ir suraskite tą sumą.",
+    "generated_answer": "Įmanomis sąlygomis, turimai begalybės sumą. Taip pat turi būti nustatyti, ar x yra teigiamas ar neigiamas. Explanation: Iš šaltinio gauta informacija apie \"įmanomus sąlygas\" nustato be galo didelę sumą, taip pat reikia pažinti, kurių reikmenų yra teigiami ir kurių neigiami.\n\n<final>∑∞n=1(x+1)n∑∞n=1(x+1)n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "∑∞n=1(x+1)n∑∞n=1(x+1)n",
+    "extracted_final_answers": [
+      "∑∞n=1(x+1)n∑∞n=1(x+1)n"
+    ],
+    "exact_answer": "x < -2, x > 0, \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "Lithuanian",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "Trikampio kampai sudaro aritmetinę progresiją, o didžiausias kampas yra du kartus didesnis už mažiausią kampą. Kokie yra kampų didumai radianais?",
+    "generated_answer": "1 radianas, 2 radianai, 3 radianai <final>1 radianas, 2 radianai, 3 radianai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 radianas, 2 radianai, 3 radianai",
+    "extracted_final_answers": [
+      "1 radianas, 2 radianai, 3 radianai"
+    ],
+    "exact_answer": "$\\frac{2\\pi^c}{9}, \\frac{\\pi^c}{3}, \\frac{4\\pi^c}{9}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "Lithuanian",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "**Sutrumpinkite:** $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$",
+    "generated_answer": "Įrodymas: Skaičiavimas naudojant patarę formulės.\n<final>$\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\cos (17\\pi)/(10) + \\cos (13\\pi)/(10) + \\cos (9\\pi)/(10) + \\cos (\\pi)/(10) = 0",
+    "extracted_final_answers": [
+      "\\cos (17\\pi)/(10) + \\cos (13\\pi)/(10) + \\cos (9\\pi)/(10) + \\cos (\\pi)/(10) = 0"
+    ],
+    "exact_answer": "\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "Lithuanian",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "Štai klausimo vertimas į lietuvių kalbą:\n\nSupaprastinkite: $\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$",
+    "generated_answer": "Įvata:\n$ \\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2 $\n<final>Įvata: $ \\boxed{\\text{Tiesa}} $</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Įvata: \\text{Tiesa}",
+    "extracted_final_answers": [
+      "Įvata: \\text{Tiesa}"
+    ],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "Lithuanian",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "Paprastinkite: $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$",
+    "generated_answer": "0, <final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "Lithuanian",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "Raskite $\\alpha$ reikšmę, tenkinančią sąlygas: $\\cot \\alpha = -\\sqrt{3} \\, ; \\, \\frac{3\\pi}{2} < \\alpha < 2\\pi$",
+    "generated_answer": "α = $\\frac{7\\pi}{6}$\n\nExplanation: This solution is obtained by considering the negative cotangent value and the given interval. The angle $\\alpha$ must be in the fourth quadrant where cotangent is negative, and it should satisfy the equation $\\cot \\alpha = -\\sqrt{3}$. The angle that meets these criteria within the specified range is $\\frac{7\\pi}{6}$.\n<final>$\\boxed{\\frac{7\\pi}{6}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{7\\pi{6}}",
+    "extracted_final_answers": [
+      "\\frac{7\\pi{6}}"
+    ],
+    "exact_answer": "\\frac{11\\pi}{6}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "Lithuanian",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "Sprendžiant: $\\left(\\text{kur } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$",
+    "generated_answer": "Δėjimas: $\\left(\\text{kur } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$\n\n<final>[Numeric result]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Numeric result]",
+    "extracted_final_answers": [
+      "[Numeric result]"
+    ],
+    "exact_answer": "\\frac{\\pi}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "Tegul yra pateiktas toks reiškinys:\n$bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$\n\nPaprastinkite šį reiškinį.",
+    "generated_answer": "Įprastintas reiškinys yra $x^{a+b+c}$\n\n<final>$x^{a+b+c}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^{a+b+c}",
+    "extracted_final_answers": [
+      "x^{a+b+c}"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "Here is the Lithuanian translation of the mathematical question, adhering to your guidelines:\n\n**Parodykite, kad**\n1) Jei $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$, tuomet $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$",
+    "generated_answer": "1. Provided that $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$, then it follows that $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$.\n  Explanation: The exponents of a and b cancel out.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "Lithuanian",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": "Jeigu $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ ir $a \\ge 0$, tada parodykite, kad $3a^3 + 9a = 8$.",
+    "generated_answer": "3a³ + 9a = 8\n\n<final>3a³ + 9a = 8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3a³ + 9a = 8",
+    "extracted_final_answers": [
+      "3a³ + 9a = 8"
+    ],
+    "exact_answer": "3a³ + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "Lithuanian",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "Užrašykite atvirkštinę funkciją kiekvienu atveju: $y = \\log_{10} x$",
+    "generated_answer": "Atvirkštinė funkcija yra $x = 10^y$.\n\n<final>Atvirkštinė funkcija yra $x = 10^y$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Atvirkštinė funkcija yra $x = 10^y",
+    "extracted_final_answers": [
+      "Atvirkštinė funkcija yra $x = 10^y"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "Lithuanian",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "Nustatykite funkcijos $f(x) = \\ln \\frac{1-x}{1+x}$ apibrėžimo sritį ir reikšmių sritį.",
+    "generated_answer": "Įdedamos apibrėžimo ir reikšmių sritis šios funkcijos:\n\nApibrėžimas:\n- Atšiauriams ribojams $a < b$, kurių ryšys - tikrinuko lygus, įvedamos apibrėžimas sritis $(a, b)$;\n- Apibrėžimo sritis šios funkcijos yra $(-1, 1)$.\n\nReikšmių sritis:\n- Reikšmės turi būti tokiomis, kad logaritmas turi reiksmę;\n- Reikšmės sritis šios funkcijos yra $\\mathbb{R}$.\n<final>Apibrėžimas: $(-1, 1)$, Reikšmių sritis: $\\mathbb{R}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Apibrėžimas: $(-1, 1)$, Reikšmių sritis: $\\mathbb{R}",
+    "extracted_final_answers": [
+      "Apibrėžimas: $(-1, 1)$, Reikšmių sritis: $\\mathbb{R}"
+    ],
+    "exact_answer": "D_f = (-1, 1) ir Vaizdis R_f = \\mathbb{R}.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "Lithuanian",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "Tegu funkcija $f(x)$ apibrėžiama taip:\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{kai } x \\ne 0 \\\\ 0, & \\text{kai } x=0 \\end{cases}$\nNustatykite funkcijos $f(x)$ apibrėžimo sritį ir reikšmių (vaizdžio) sritį.",
+    "generated_answer": "Įmanoma apibrėžimo sritis yra visos realių skaičių kintamasis $x$. Skirtingai nuo reikšmių (vaizdžio) srities, apibrėžimo sritis nesusijusi su funkcijos reikšmėmis.\n\n<final>Visos realių skaičių kintamasis $x$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Visos realių skaičių kintamasis $x",
+    "extracted_final_answers": [
+      "Visos realių skaičių kintamasis $x"
+    ],
+    "exact_answer": "D_f = \\mathbb{R} , R_f = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "Lithuanian",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "Here is the Lithuanian translation of your mathematical question, adhering to the provided guidelines:\n\nIšskleiskite $(1 + x^{2})^{8}$ į pirmus keturis narius. Naudodami gautą rezultatą, raskite $(1.01)^{8}$ reikšmę.",
+    "generated_answer": "1.0824\n\n<final>1.0824</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1.0824",
+    "extracted_final_answers": [
+      "1.0824"
+    ],
+    "exact_answer": "1,082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "Lithuanian",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "Atsižvelgiant į jūsų prašymą, pateikiu profesionalų vertimą į lietuvių kalbą, laikantis visų nurodytų matematinių ir kalbos konvencijų:\n\n**Lietuviškas vertimas:**\n\nRaskite išskleidinį iki pirmųjų keturių narių [naudodami Paskalio trikampį arba binominę teoremą]:\n1) $(1 - 2x^{2})^{7}$",
+    "generated_answer": "1) $(1 - 2x^{2})^{7}$\n\n1. The Binomial Theorem is utilized here, which states that $(a + b)^n = \\sum_{k=0}^{n} {n \\choose k} a^{n-k}b^k$.\n2. For the given expression, $a = 1$, $b = -2x^2$, and $n = 7$.\n3. Applying the Binomial Theorem, we get: $(1 - 2x^{2})^{7} = \\sum_{k=0}^{7} {7 \\choose k} (1)^{7-k}(-2x^2)^k$\n4. The first four terms of this expansion are: ${7 \\choose 0}(1)(-2x^2)^0 + {7 \\choose 1}(1)(-2x^2)^1 + {7 \\choose 2}(1)(-2x^2)^2 + {7 \\choose 3}(1)(-2x^2)^3$\n5. Simplifying, we get: $1 - 14x^2 + 49x^4 - 196x^6$\n\n<final>1 - 14x^2 + 49x^4 - 196x^6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - 14x^2 + 49x^4 - 196x^6",
+    "extracted_final_answers": [
+      "1 - 14x^2 + 49x^4 - 196x^6"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "Lithuanian",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "3) Raskite šį plėtinį iki pirmųjų keturių narių [naudodami Paskalio trikampį arba binominę teoremą]:\n   $(1 - \\frac{1}{2x})^{7}$",
+    "generated_answer": "Įmanomaisiais metodais šiame atveju panaudojau Paskalio trikampį. Rezultatas yra $(1 - \\frac{7}{2x}) <final> \\boxed{(1 - \\frac{7}{2x})} </final>$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1 - \\frac{7{2x})}",
+    "extracted_final_answers": [
+      "(1 - \\frac{7{2x})}"
+    ],
+    "exact_answer": "1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3} + .....",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "Lithuanian",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "Nustatykite $(2 + 3x)^6$ pirmuosius keturis narius.",
+    "generated_answer": "Įgyvendinami formulę ir skaičiuojant, gausiame šį atsakymą:\n\nFinal Answer (in Lithuanian):\n$64 + 192x + 240x^2 + 160x^3 + 60x^4 + 12x^5 + x^6$\n\n<final>$64 + 192x + 240x^2 + 160x^3 + 60x^4 + 12x^5 + x^6$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "64 + 192x + 240x^2 + 160x^3 + 60x^4 + 12x^5 + x^6",
+    "extracted_final_answers": [
+      "64 + 192x + 240x^2 + 160x^3 + 60x^4 + 12x^5 + x^6"
+    ],
+    "exact_answer": "64 + 576x + 2160x² + 4320x³ + …",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "Lithuanian",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "Parodykite, kad, jei $\\underline{a} + \\underline{b} = \\underline{c}$, tuomet $\\underline{a} = \\underline{c} - \\underline{b}$.",
+    "generated_answer": "Įrodymas: Kadabaltis.\n<final>$\\underline{a} = \\underline{c} - \\underline{b}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\underline{a} = \\underline{c} - \\underline{b}",
+    "extracted_final_answers": [
+      "\\underline{a} = \\underline{c} - \\underline{b}"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "Stačiakampės talpyklos ilgis yra $2,5$ metro, plotis – $1,0$ metro, ji stovi ant žemės. Jei jos aukštis yra $0,4$ metro, apskaičiuokite jos tūrį ir vidinio paviršiaus plotą.",
+    "generated_answer": "Įrengimas:\nStačiakampės talpyklos ilgis yra $2,5$ metro, plotis – $1,0$ metro, ji stovi ant žemės. Jei jos aukštis yra $0,4$ metro, apskaičiuokite jos tūrį ir vidinio paviršiaus plotą.\n\nTarpas:\nPirmiausia, reikia apskaičiuoti stačiakampės talpyklos tūrį (pastaroji priežastis yra aukštis). Stačiakampės talpyklos plotas – ilgis ir plotis. Jų tūris gali būti apskaičiuotas daugelio būdų, vienu iš jų yra:\n\n$Tūris = Ilgis * Plotis * Aukštis$\n\nĮrengimas:\n$2,5 metrų * 1,0 metras * 0,4 metrai = 1,0 m³$\n\n<final>1,0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1,0",
+    "extracted_final_answers": [
+      "1,0"
+    ],
+    "exact_answer": "1, 7,8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "Aukštesnioji mokykla (arba bendrabutis) turi būti pastatyta 70 studentams, kad kiekvienam studentui tektų 4,25 kvadratinio metro grindų ploto ir 13,6 kubinio metro erdvės. Jei patalpos ilgis yra 34 metrai, koks turėtų būti jos plotis ir aukštis?",
+    "generated_answer": "3 metrai, 15 metrai, 2.75 metrai\n<final>3 metrai, 15 metrai, 2.75 metrai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3 metrai, 15 metrai, 2.75 metrai",
+    "extracted_final_answers": [
+      "3 metrai, 15 metrai, 2.75 metrai"
+    ],
+    "exact_answer": "8,75; 3,2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "Dvi stačiojo trikampio statinės yra $5 \\text{ cm}$ ir $3,5 \\text{ cm}$. Apskaičiuokite tūrį kūno, gauto sukant trikampį apie jo ilgesnę statinę.",
+    "generated_answer": "Įdėkite trikampį apie jo ilgesnę statinę. Kūno tūris yra <final>14,375 cm³</final>.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "14,375 cm³",
+    "extracted_final_answers": [
+      "14,375 cm³"
+    ],
+    "exact_answer": "64,14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "Sandėlis su dviejų dalių stogu yra pastatytas ant 25 metrų ilgio ir 18 metrų pločio žemės sklypo. Jo aukštis yra 5 metrai. Kiekvienos stogo dalies plotis yra 14 metrų. Apskaičiuokite sandėlio tūrį.",
+    "generated_answer": "150 kubo metrai <final>150 kubo metrai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "150 kubo metrai",
+    "extracted_final_answers": [
+      "150 kubo metrai"
+    ],
+    "exact_answer": "4662,85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "Parodykite, kad funkcija $F: R \\rightarrow R, \\ F(x)=x^2$ nėra įvairi.",
+    "generated_answer": "Įrodymas: Funkcija $F(x)=x^2$ yra simetrini.\n\n<final><išvada>Funkcija $F(x)=x^2$ nėra įvairi</išvada></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "<išvada>Funkcija $F(x)=x^2$ nėra įvairi</išvada>",
+    "extracted_final_answers": [
+      "<išvada>Funkcija $F(x)=x^2$ nėra įvairi</išvada>"
+    ],
+    "exact_answer": "F nėra viena-vienai",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "Lithuanian",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "Tegu $f(x) = 3x+1$, kai $0 \\le x \\le 2$; raskite $f$ reikšmių aibę.",
+    "generated_answer": "Įvertinkite funkciją $f(x)$ tiesiogiai.\n\n<final>[Įvertinkite funkciją $f(x)$ tiesiogiai]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Įvertinkite funkciją $f(x)$ tiesiogiai]",
+    "extracted_final_answers": [
+      "[Įvertinkite funkciją $f(x)$ tiesiogiai]"
+    ],
+    "exact_answer": "{y: 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "Jei $P(x)=3x^3+2x^2-7x+8$, tai raskite $P(2)$ reikšmę.",
+    "generated_answer": "76\n\n<final>76</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "76",
+    "extracted_final_answers": [
+      "76"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "Jei $P(x) = ax^3+bx+c$, parodykite, kad liekana, liekanti dalijant $P(x)$ iš $x-m$, yra lygi $P(m)$.",
+    "generated_answer": "Įrodymas: Polinomų savybės vartojant.\n\nFinal Answer (in Lithuanian):\n<final>Polinomas P(x) padalijamas iš x-m yra lygus P(m).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Polinomas P(x) padalijamas iš x-m yra lygus P(m)",
+    "extracted_final_answers": [
+      "Polinomas P(x) padalijamas iš x-m yra lygus P(m)"
+    ],
+    "exact_answer": "Likusis lygus P(m)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "Tegul $P(x)=ax^3+bx^2+cx+d$ yra polinomas, turintis sveikųjų koeficientų, kur $a \\neq 0$ ir $d \\neq 0$. Tarkime, kad $x-r$ yra $P(x)$ daliklis. Parodykite, kad jei $r$ yra sveikasis skaičius, tuomet $r$ yra laisvojo nario daliklis.",
+    "generated_answer": "Įrodymas: Jis yra beveik jo laisvoji dalis.\n\n<final>Jis yra beveik jo laisvoji dalis.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Jis yra beveik jo laisvoji dalis",
+    "extracted_final_answers": [
+      "Jis yra beveik jo laisvoji dalis"
+    ],
+    "exact_answer": "r yra d daliklis",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "Tegu $P(x) = x^3-6x^2+11x-6$. Išskaidykite polynomą $x^3-6x^2+11x-6$ dauginamaisiais.",
+    "generated_answer": "Įdėkime polinomą $P(x)=x^3-6x^2+11x-6$. Po prisijungus dauginamaisius, gausim:\n  \\[ P(x) = (x - 1)(x - 2)(x - 3) \\]\nExplanation: Factorization is achieved by finding roots and expressing the polynomial as a product of linear factors.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\[ P(x) = (x - 1)(x - 2)(x - 3) \\] Explanation: Factorization is achieved by finding roots and expressing the polynomial as a product of linear factors",
+    "extracted_final_answers": [
+      "\\[ P(x) = (x - 1)(x - 2)(x - 3) \\] Explanation: Factorization is achieved by finding roots and expressing the polynomial as a product of linear factors"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "**Išskaidyti dauginamaisiais:** $18x^3+15x^2-x-2$",
+    "generated_answer": "9x² + 20x - 18\n\n<final>9x² + 20x - 18</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9x² + 20x - 18",
+    "extracted_final_answers": [
+      "9x² + 20x - 18"
+    ],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "Išskaidykite dauginamaisiais $a^3(b-c)+b^3(c-a)+c^3(a-b)$.",
+    "generated_answer": "Įmanomos rezultatas: $(a + b - c)(a^2 + b^2 + c^2 - ab - bc - ac)$\n\n<final>$(a + b - c)(a^2 + b^2 + c^2 - ab - bc - ac)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a + b - c)(a^2 + b^2 + c^2 - ab - bc - ac)",
+    "extracted_final_answers": [
+      "(a + b - c)(a^2 + b^2 + c^2 - ab - bc - ac)"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "Išskaidykite dauginamaisiais $(b+c)(c+a)(a+b)+abc$",
+    "generated_answer": "Įdėkingumas: $b+c, c+a, a+b$\n\n<final>$abc + (b+c)(c+a)(a+b)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "abc + (b+c)(c+a)(a+b)",
+    "extracted_final_answers": [
+      "abc + (b+c)(c+a)(a+b)"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "Lithuanian",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "Išreikškite $\\dfrac{x}{(x-1)(x^2+4)}$ kaip dalinių trupmenų sumą.",
+    "generated_answer": "∵ $\\dfrac{x}{(x-1)(x^2+4)} = \\dfrac{A}{x-1} + \\dfrac{Bx+C}{x^2+4}$\n<final>$\\dfrac{1}{5}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1}{5}",
+    "extracted_final_answers": [
+      "\\dfrac{1}{5}"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "Lithuanian",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "Tegu $\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ yra begalinė geometrinė eilutė.\na) Jei $x=1$, tai nustatykite šios eilutės vardiklį.",
+    "generated_answer": "1. Jei $x=1$, tai turime šią eilutę:\n$$\\dfrac{1}{2*1+1}+\\dfrac{1}{(2*1+1)^2}+\\dfrac{1}{(2*1+1)^3}+ \\ldots$$\n2. Ji yra begalinė geometrinė eilutė su antryniu bendrojo vardiklio $q=\\dfrac{1}{3}$ ir pirmo nariu $a_1=\\dfrac{1}{3}$.\n3. Vardiklis šios eilutės yra:\n$$\\dfrac{\\dfrac{1}{3}}{1-\\dfrac{1}{3}} = \\boxed{\\dfrac{1}{2}}$$\n4. 'Explanation:' Eilutė yra begalina, todėl ji turi būti sandauga iš viskurio mažesnio, bet tai neatsakymai, kad vardiklis yra $0$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{\\dfrac{1}{3}}{1-\\dfrac{1}{3}} =\\dfrac{1{2}}$$ 4. 'Explanation:' Eilutė yra begalina, todėl ji turi būti sandauga iš viskurio mažesnio, bet tai neatsakymai, kad vardiklis yra $0$",
+    "extracted_final_answers": [
+      "\\dfrac{\\dfrac{1}{3}}{1-\\dfrac{1}{3}} =\\dfrac{1{2}}$$ 4. 'Explanation:' Eilutė yra begalina, todėl ji turi būti sandauga iš viskurio mažesnio, bet tai neatsakymai, kad vardiklis yra $0$"
+    ],
+    "exact_answer": "\\dfrac{1}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "Lithuanian",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "Trikampio trijų kampų didumai yra santykiu $3:4:5$. Raskite kampų laipsninius didumus.",
+    "generated_answer": "Įmanies yra santykiu $3:4:5$. Kiek yra kampų laipsninių didumų?\n<final>72, 90, 108</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "72, 90, 108",
+    "extracted_final_answers": [
+      "72, 90, 108"
+    ],
+    "exact_answer": "\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3} ir \\dfrac{5\\pi}{12}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "Lithuanian",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": "Apskaičiuokite kampo, atremto į apskritimo centrą, kai lanko ilgis yra $11$ cm, o apskritimo spindulys – $7$ cm, apskritiminę išraišką (radianais).",
+    "generated_answer": "Įdėkos kampas yra $ \\frac{3}{7} $.\n\n<final>$ \\frac{3}{7} $</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(3)/(7)",
+    "extracted_final_answers": [
+      "(3)/(7)"
+    ],
+    "exact_answer": "1,57 radi_no",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "Lithuanian",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "Jei $7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$, įrodykite, kad $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$.",
+    "generated_answer": "Įrodymas: Naudodama trigonometrinius faktus ir patogų keitimo, galima rodyti, jog $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$.\n\n<final>$\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{tan} \\theta= \\pm \\dfrac{1}{√(3)}",
+    "extracted_final_answers": [
+      "\\text{tan} \\theta= \\pm \\dfrac{1}{√(3)}"
+    ],
+    "exact_answer": "$\\tan \\theta = \\pm \\dfrac{1}{\\sqrt{3}}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "Lithuanian",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "Raskite $\\text{sin} (10\\pi+\\theta)$ reikšmes.",
+    "generated_answer": "$\\text{sin} (10\\pi+\\theta)=\\text{sin}\\theta$ <final>\\boxed{\\text{sin}\\theta}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{sin\\theta}",
+    "extracted_final_answers": [
+      "\\text{sin\\theta}"
+    ],
+    "exact_answer": "sin(θ)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "Lithuanian",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "Raskite $\\text{cot} \\left(\\theta-\\dfrac{9\\pi}{2}\\right)$ reikšmes.",
+    "generated_answer": "1 + cot $\\theta$ <final>1 + \\operatorname{cot} \\theta</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 + \\operatorname{cot} \\theta",
+    "extracted_final_answers": [
+      "1 + \\operatorname{cot} \\theta"
+    ],
+    "exact_answer": "-\\tan\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "Lithuanian",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "Here's the Lithuanian translation of the mathematical question, adhering to your guidelines:\n\nĮrodykite, kad $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.",
+    "generated_answer": "Įrodykite, kad $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "Lithuanian",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": "Tegu $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$. Parodykite, kad $a^xb^yc^z=1$.",
+    "generated_answer": "1=1, paryba: Kvadratines proporcijos taisyklis. <final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1=1, paryba: Kvadratines proporcijos taisyklis. <final></final>",
+    "extracted_final_answers": [
+      "1=1, paryba: Kvadratines proporcijos taisyklis. <final></final>"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "**Išplėskite $ (1-3x)^5$**",
+    "generated_answer": "riedėjime, atlikti kintamųjų vertas <final>1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5",
+    "extracted_final_answers": [
+      "1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "Raskite $x^3$ ir $x^6$ koeficientus išraiškos $ (1-\\dfrac{x^2}{4})^8$ plėtinyje.",
+    "generated_answer": "126\n<final>126</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "126",
+    "extracted_final_answers": [
+      "126"
+    ],
+    "exact_answer": "koeficientas prie $x^3$ yra 0, o koeficientas prie $x^6$ yra $-\\dfrac{7}{8}$.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "Lithuanian",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "Išplėskite $ \\left(x-\\dfrac{1}{x^2}\\right)^5$.",
+    "generated_answer": "150x^5 - 750x + 1875x^3 - 937.5x^2 - 4687.5/x + 2812.5/x^2\n\n<final>150x^5 - 750x + 1875x^3 - 937.5x^2 - 4687.5/x + 2812.5/x^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "150x^5 - 750x + 1875x^3 - 937.5x^2 - 4687.5/x + 2812.5/x^2",
+    "extracted_final_answers": [
+      "150x^5 - 750x + 1875x^3 - 937.5x^2 - 4687.5/x + 2812.5/x^2"
+    ],
+    "exact_answer": "x⁵ - 5x² + \\dfrac{10}{x} - \\dfrac{10}{x⁴} + \\dfrac{5}{x⁷} - \\dfrac{1}{x¹⁰}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "Lithuanian",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "Atsižvelgiant į vektorius, įrodykite, kad trikampio dviejų kraštinių vidurinių taškų jungiamoji atkarpa yra lygi pusei trečiosios kraštinės ir lygiagreti jai.",
+    "generated_answer": "Įrodyta, kad trikampio dviejų kraštinių vidurinių taškų jungiamoji atkarpa yra lygi pusei trečiosios kraštinės ir lygiagreti jai.\n\n<final>Įrodyta, kad trikampio dviejų kraštinių vidurinių taškų jungiamoji atkarpa yra lygi pusei trečiosios kraštinės ir lygiagreti jai.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Įrodyta, kad trikampio dviejų kraštinių vidurinių taškų jungiamoji atkarpa yra lygi pusei trečiosios kraštinės ir lygiagreti jai",
+    "extracted_final_answers": [
+      "Įrodyta, kad trikampio dviejų kraštinių vidurinių taškų jungiamoji atkarpa yra lygi pusei trečiosios kraštinės ir lygiagreti jai"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "Lithuanian",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "Įrodykite vektoriniais metodais, kad lygiagretainio įstrižainės susikirsdamos dalijasi pusiau.",
+    "generated_answer": "Įrodykite vektoriniais metodais, kad lygiagretainio įstrižainės susikirsdamos dalijasi pusiau.\n\nIšvada: Skaičiavimai rodą, kad lygiagretainio įstrižainės susikirsdamos dalijasi pusiau bei yra matematiškai tikslaus.\n\n<final>Lygiagretainio įstrižainės susikirsdamos dalijasi pusiau.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Lygiagretainio įstrižainės susikirsdamos dalijasi pusiau",
+    "extracted_final_answers": [
+      "Lygiagretainio įstrižainės susikirsdamos dalijasi pusiau"
+    ],
+    "exact_answer": "Paralelogramo įstrižainės susikerta vienas kitą pusiau.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "Lithuanian",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "Štai klausimo vertimas į lietuvių kalbą, atitinkantis pateiktus reikalavimus:\n\nStačiakampio gretasienio kraštinių ilgių, pločio ir aukščio santykis yra $4:3:2$. Viso paviršiaus plotas yra $468$ kvadratiniai metrai. Raskite jo įstrižainės ilgį ir tūrį.",
+    "generated_answer": "Įstrižainės ilgis yra 24 metrai, o tūris yra 72 kubikiniai metrai.\n\n<final>24 metrai, 72 kubikiniai metrai</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "24 metrai, 72 kubikiniai metrai",
+    "extracted_final_answers": [
+      "24 metrai, 72 kubikiniai metrai"
+    ],
+    "exact_answer": "16,16 metro, 648 kubiniai metrai",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "Lithuanian",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "Atsižvelgiant į meteorologinius įrašus, praėjusių metų liepos mėnesį lijo $21$ dieną. Kokia tikimybė, kad šių metų liepos ketvirtąją lis?",
+    "generated_answer": "Įgy, kad šių metų liepos ketvirtąją lis tikimybė yra 25%.\n<final>25%</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "25%",
+    "extracted_final_answers": [
+      "25%"
+    ],
+    "exact_answer": "\\dfrac{21}{31}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]

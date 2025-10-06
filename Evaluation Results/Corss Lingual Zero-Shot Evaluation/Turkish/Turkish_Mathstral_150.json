@@ -1,0 +1,2702 @@
+[
+  {
+    "problem_index": 0,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "Turkish Translation:\n\n$\\frac{1}{\\sqrt{2}}$ ve $\\sqrt{2}$ arasında rasyonel ve irrasyonel bir sayı bulunuz.",
+    "generated_answer": "1 ve $\\sqrt{2}$ arasında rasyonel sayılara örnek vermek istersem birkaç tanesi var. Bu durumda yine $\\frac{1}{2}$ veya $0,5$ gibi değerler geliyor. Explanation: 1'den az, $\\sqrt{2}$'den de az rasyonel sayıları aramak yeterlidir. <final>$\\frac{1}{2}, 0,5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1)/(2), 0,5",
+    "extracted_final_answers": [
+      "(1)/(2), 0,5"
+    ],
+    "exact_answer": "$a=1,2$ ve $b=1,020020002$ istenen iki sayıdır; $a$ rasyonel ve $b$ irrasyoneldir.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "Aşağıdaki sayının rasyonel mi yoksa irrasyonel mi olduğunu yazınız: $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "İşareti verilen ifade rasyoneldir. <final>Rasyonel sayı</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Rasyonel sayı",
+    "extracted_final_answers": [
+      "Rasyonel sayı"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ rasyonel bir sayıdır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "Aşağıdaki sayının rasyonel mi yoksa irrasyonel mi olduğunu yazınız: $5.\\dot{6}3\\dot{9}$",
+    "generated_answer": "İrrasyonel <final>İrra</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İrra",
+    "extracted_final_answers": [
+      "İrra"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ rasyonel bir sayıdır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "$\\sqrt{5}$ ve $4$ iki gerçel sayıdır.\n$\\sqrt{5}$ ile $4$ arasında iki irrasyonel sayı bulunuz.",
+    "generated_answer": "İki irrasyonel sayı: $\\sqrt{2}$ ve $5\\sqrt{3}$.\n\n<final>$\\sqrt{2}$ ve $5\\sqrt{3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(2)$ ve $5√(3)",
+    "extracted_final_answers": [
+      "√(2)$ ve $5√(3)"
+    ],
+    "exact_answer": "$a=2,4040040004$ ve $b=2,5050050005$ her ikisi de irrasyonel sayılardır",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "$\\sqrt{5}$ ve $4$ iki gerçel sayıdır.\n$\\sqrt{5}$'in irrasyonel bir sayı olduğunu ispatlayınız.",
+    "generated_answer": "İspat Ediyorum ve Sonuç: $\\sqrt{5}$ irrasyonel bir sayıdır.\n<final>$\\sqrt{5}$ irrasyonel bir sayıdır.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(5)$ irrasyonel bir sayıdır",
+    "extracted_final_answers": [
+      "√(5)$ irrasyonel bir sayıdır"
+    ],
+    "exact_answer": "$\\sqrt{5}$ irrasyonel bir sayıdır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "Turkish",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "{x ∈ Z: x²>5 ve x³ ≤ 36} kümesini **küme belirleyici gösterimle yazınız.**",
+    "generated_answer": "İşte sizin sorunuzun cevabı:\n\nFinal Answer (in Turkish):\n\n<final>x ∈ {-3, -2, 1, 2, 3}</final>\nExplanation:\n\nBu sözcükleri yazın ve sonrasında \"<final>\" etiketine içine koyun.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x ∈ {-3, -2, 1, 2, 3}",
+    "extracted_final_answers": [
+      "x ∈ {-3, -2, 1, 2, 3}"
+    ],
+    "exact_answer": "{..., -4, -3, 3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "Turkish",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "İngilizce Soru: Şu kümeleri **yapı (küme belirleme)** gösterimiyle ifade ediniz: {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}\n\nTürkçe Çeviri:\nŞu kümeleri **yapı (küme belirleme)** gösterimiyle ifade ediniz: {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}",
+    "generated_answer": "İngilizce Soru: Bu aralıkları içeren bir dizi kümedir. Her sayı serisine, ardışık çiftleri ve sonraki sayının yarısını ortadan kaldırdıktan sonra geri kalanları içermektedir.\nExplanation: This series of numbers is an arithmetic sequence. Each number in the sequence, when divided by its neighboring even number and then halved, results in a sequence of consecutive integers.\n<final>Bu dizi bir aritmetik seridir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Bu dizi bir aritmetik seridir",
+    "extracted_final_answers": [
+      "Bu dizi bir aritmetik seridir"
+    ],
+    "exact_answer": "{x ∈ N : x, 4'ün katı ve x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "Turkish",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "İngilizce Soru: If $f(x) = \\frac{2x+1}{2x-1}$, then determine the value of $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$.\n\nTürkçe Çeviri:\n$f(x) = \\frac{2x+1}{2x-1}$ ise, $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$ ifadesinin değerini belirleyiniz.",
+    "generated_answer": "İşte cevap:\n$$\\boxed{\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1} = -\\frac{x}{x-1}}$$\n<final>$-\\frac{x}{x-1}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-(x)/(x-1)",
+    "extracted_final_answers": [
+      "-(x)/(x-1)"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "Turkish",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "The provided translation has a significant mathematical inaccuracy. The original English asks to \"Find the square with the help of the formulae: $ax - by - cz$\". This implies an operation or formula related to squaring an expression. However, the expression $ax - by - cz$ is simply a linear combination of variables, not a formula for finding a square. The Turkish translation also translates this as \"Formülleri kullanarak kareyi bulunuz: $ax - by - cz$\". This directly translates the problematic statement.\n\nTo provide an accurate correction, I need to understand what the original English was *intended* to convey. Without further context or clarification on what \"Find the square with the help of the formulae: $ax - by - cz$\" means mathematically, a direct translation of this grammatically awkward and mathematically unclear English statement will also be unclear in Turkish.\n\nHowever, if we assume the English *meant* to ask for the *square of an expression*, and that $ax - by - cz$ is the expression to be squared, then a more appropriate phrasing would be needed. But as it stands, the original English is flawed.\n\nGiven the instruction to provide only the corrected translation if any corrections are needed, and since the original English is problematic, a direct translation that reflects the flawed original is not a good solution.\n\nHowever, if we are to *strictly* translate the given English phrase, acknowledging its mathematical ambiguity, the Turkish translation is a direct and accurate, albeit equally ambiguous, translation of that phrase. The ambiguity lies in the original English.\n\nSince the instruction is to correct if *any* corrections are needed, and the English itself is mathematically unclear (\"Find the square with the help of the formulae: $ax - by - cz$\" is not a standard mathematical instruction, it's likely missing context), it's hard to provide a *mathematically* correct Turkish version without guessing the intent.\n\nIf the intent was to ask for the *square of the expression $ax - by - cz$*, then a better phrasing in English would be \"Find the square of the expression: $ax - by - cz$\". In Turkish, this would be \"İfadeyi karekökünü bulunuz: $ax - by - cz$\". However, the original uses \"square\", not \"square root\". So, \"İfadeyi kare alınız: $ax - by - cz$\" or \"İfadenin karesini bulunuz: $ax - by - cz$\".\n\nLet's re-evaluate based on the strict interpretation that the English is as it is, and we need to translate it as accurately as possible, while flagging any issues.\n\n1.  **Mathematical Accuracy**: The expression itself ($ax - by - cz$) is preserved. However, the phrase \"Find the square with the help of the formulae\" is mathematically nonsensical as stated with that expression. It's not a formula to *find* a square; it *is* an expression. The Turkish translation preserves this ambiguity/inaccuracy. The problem difficulty is not unchanged because the original problem statement is unclear.\n2.  **Terminology**: \"Formülleri kullanarak\" (using the formulae) and \"kareyi bulunuz\" (find the square) are standard terms. The expression $ax - by - cz$ is correctly represented.\n3.  **Clarity**: The Turkish translation is as clear as the original, which is to say, not very clear mathematically.\n4.  **Completeness**: All information is present.\n5.  **Conventions**: Standard mathematical notation is used.\n\nThe core issue is the English original's mathematical vagueness. The Turkish translation accurately reflects that vagueness. If the instruction is to correct *any* errors, and the mathematical interpretation of the English is an error, then a correction is needed.\n\nGiven the constraints, and assuming the English intended to ask to *square* the expression:\n\n**Corrected Translation:**\n\nİfadenin karesini bulunuz:\n$ax - by - cz$",
+    "generated_answer": "İfadenin karesini bulunuz:\n$ax - by - cz$\n\n<final>İfadeyi kare alınız: $ax - by - cz$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İfadeyi kare alınız: $ax - by - cz",
+    "extracted_final_answers": [
+      "İfadeyi kare alınız: $ax - by - cz"
+    ],
+    "exact_answer": "a^2x^2 + b^2y^2 + c^2z^2 - 2abxy + 2bcyz - 2cazx",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "Turkish",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "$x - \\frac{1}{x} = 4$ ise, $x^4 + \\frac{1}{x^4} = 322$ olduğunu ispatlayınız.",
+    "generated_answer": "169. <final>169</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "169",
+    "extracted_final_answers": [
+      "169"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "Turkish",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "$a + b + c = 6$ ve $a^2 + b^2 + c^2 = 14$ ise, $(a-b)^2 + (b-c)^2 + (c-a)^2$ değerini hesaplayınız.",
+    "generated_answer": "12\n\n<final>12</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12",
+    "extracted_final_answers": [
+      "12"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "Turkish",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "Türkçe Çeviri:\n\nSadeleştiriniz: $(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2)$\n$+ (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "Çözüm:\n\n$\\boxed{(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)}$\n\n<final>$(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)",
+    "extracted_final_answers": [
+      "(x + y)(x^2 - xy + y^2) + (y + z)(y^2 - yz + z^2) + (z + x)(z^2 - zx + x^2)"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "$(a^2-b^2)(x^2-y^2) + 4abxy$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "Çözüm: $(a-b)(a+b)(x-y)(x+y) + 4abxy$ <final>(a-b)(a+b)(x-y)(x+y) + 4abxy</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-b)(a+b)(x-y)(x+y) + 4abxy",
+    "extracted_final_answers": [
+      "(a-b)(a+b)(x-y)(x+y) + 4abxy"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "$a^2 + 6a + 8 - y^2 + 2y$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "İfadenin ayrılmasına gerek yok. Çünkü çarpanları bulmaya kimsenin ihtiyaç duymadığı zaman, yani ifade direkt çözülürse, sadece \"-1\" olmalıdır.\n\n<final>-1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-1",
+    "extracted_final_answers": [
+      "-1"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "$16x^2 - 25y^2 - 8xz + 10yz$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "16x^2 - 25y^2 - 8xz + 10yz ifadesini çarpanlarına ayırmak için önce ifadeyi gruplara bölenlerine ayırın. Bu durumda, ifadeyi dört faktörden oluşan bir ürün haline getirmek mümkün. Çarpanlar:\n<final>8x(2x-z) - 5y(4y+2z)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8x(2x-z) - 5y(4y+2z)",
+    "extracted_final_answers": [
+      "8x(2x-z) - 5y(4y+2z)"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "$2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "İşlemi gerçekleştirerek sonuç, $0$ olur. Bu, yalnızca faktörleri ayırmaya dayanır. <final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "İngilizce Soru: $x^3 + 3x^2 + 3x + 2$ ifadesini çarpanlarına ayırınız.\n\nTürkçe Çeviri: $x^3 + 3x^2 + 3x + 2$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "İşlemin tümörlerini buldum. Bu durumda, $x^3 + 3x^2 + 3x + 2$ ifadesi $(x+1)^3$ ile bölünür. Bunun sebebi, $x^3 + 3x^2 + 3x + 2$'nin tamamen küplerden oluşması ve bu küplerdeki toplam öğelerin sadece birden oluşmasıdır.\n\n<final>$(x+1)^3$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+1)^3",
+    "extracted_final_answers": [
+      "(x+1)^3"
+    ],
+    "exact_answer": "(x+2)(x²+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "$a^3 - 6a^2 + 12a - 9$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "İşlemi yapabilmek için ilk olarak ifadeyi sabit bir noktaya kadar ayrıştırmanız gerekmektedir. $a^3 - 6a^2 + 12a - 9$ ifadesini $(a-3)^3$ çekeriz.\nExplanation: Fakat burada 3 değil, 9 sabit olduğundan ilgili ayrıştırma işleminde farklı yöntemler kullanmamız gerekmektedir. Bu noktaya gelmek için araştırmalarınız gerekmektedir.\nFinal Answer: $a^3 - 6a^2 + 12a - 9 = (a-1)^3 + (a-2)^3$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Explanation: Fakat burada 3 değil, 9 sabit olduğundan ilgili ayrıştırma işleminde farklı yöntemler kullanmamız gerekmektedir. Bu noktaya gelmek için araştırmalarınız gerekmektedir. Final Answer: $a^3 - 6a^2 + 12a - 9 = (a-1)^3 + (a-2)^3",
+    "extracted_final_answers": [
+      "Explanation: Fakat burada 3 değil, 9 sabit olduğundan ilgili ayrıştırma işleminde farklı yöntemler kullanmamız gerekmektedir. Bu noktaya gelmek için araştırmalarınız gerekmektedir. Final Answer: $a^3 - 6a^2 + 12a - 9 = (a-1)^3 + (a-2)^3"
+    ],
+    "exact_answer": "(a-3)(a^2-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "$8x^3 + 12x^2 + 6x - 63$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "8x^3 + 12x^2 + 6x - 63'yi çarpanlarına ayırın veya tam bölenlerine bulunduğunu belirt. Bu ifade asgari bir noktada düzenlendikten sonra sonucunda <final>...</final> etiketini kullanarak cevap verebilirsiniz.\n\n<final>8, x^3 + 12/8x^2 + 6/8x - 63</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8, x^3 + 12/8x^2 + 6/8x - 63",
+    "extracted_final_answers": [
+      "8, x^3 + 12/8x^2 + 6/8x - 63"
+    ],
+    "exact_answer": "(2x-3)(4x^2+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "Turkish",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "İngilizce Soru: $(x + 2)(x + 3)(x + 4)(x + 5) - 48$ ifadesini çarpanlarına ayırınız.\n\nTürkçe Çeviri: $(x + 2)(x + 3)(x + 4)(x + 5) - 48$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "İçinden 20 tane veya daha az şey vardır.\n\n<final>Ve daha az 10 şey var.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ve daha az 10 şey var",
+    "extracted_final_answers": [
+      "Ve daha az 10 şey var"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "Turkish",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "İfadeyi çarpanlarına ayırınız: $(a+1) (3a^2-3a + 5)$",
+    "generated_answer": "İfadeyi çarpanlarına ayıran sonucunuz: $(a+1)(3a^2-3a+5)$\n\n<final>$(a+1)(3a^2-3a+5)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a+1)(3a^2-3a+5)",
+    "extracted_final_answers": [
+      "(a+1)(3a^2-3a+5)"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "Turkish",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "Turkish Translation:\n\n$x^3 - 7xy^2 - 6y^3$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "Şıkla çarpanların özelliklerine bakarak ifadeyi yarıya böledim. Bu durumda her iki ifade de asal sayılır. Explanation: Ayrıştırma sonucu dört elemanlı bir grup ve her birine ait bir şifre elde edildi. <final>Her iki ifade de asal</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Her iki ifade de asal",
+    "extracted_final_answers": [
+      "Her iki ifade de asal"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "Turkish",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "İngilizce Soru: Factorize: $2x^4-3x^3-3x-2$\n\nTürkçe Çevirisi: Çarpanlarına ayırınız: $2x^4-3x^3-3x-2$",
+    "generated_answer": "Çözüm: $(2x^4-3x^3)-(3x+2)$\n= $x^3(2x-3)-1(3x+2)$\n= $(2x-3)(x^3-1)$\n= $(2x-3)(x-1)(x^2+x+1)$\nExplanation: Çarpanların ayırılması ve kullanılan formülü ilgili bölümleri kullanılabilir.\n<final>$(2x-3)(x-1)(x^2+x+1)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(2x-3)(x-1)(x^2+x+1)",
+    "extracted_final_answers": [
+      "(2x-3)(x-1)(x^2+x+1)"
+    ],
+    "exact_answer": "(x-2)(x^2+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "Turkish",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "Bir gezi için kiralanan otobüsün maliyeti 5700 TL idi ve her yolcunun eşit ücret ödeyeceği şart koşulmuştu. Ancak 5 yolcu gelmediği için kişi başı ücret 3 TL arttı. Otobüsü kaç yolcu kullandı?",
+    "generated_answer": "35 yolcu kullandı. <final>35</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "35",
+    "extracted_final_answers": [
+      "35"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "Turkish",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "Bir derneğin üyelerinin her biri, üye sayısının $100$ katı kadar katkıda bulunmaya karar verdi. Ancak $7$ üye katkıda bulunmadı. Sonuç olarak, katkıda bulunan her üyenin payı bir öncekinden Tk. $500$ arttı.\nÜye sayısı $x$ ve toplam katkı tutarı Tk. $A$ ise, aralarındaki ilişkiyi bulunuz.",
+    "generated_answer": "İşte sonucunuz: Bir dernek üyesi katkıda bulunan herkesten önceki üyeye göre Tk. $500$ fazla pay aldı. Ancak $7$ üye katkıda bulunmadı. Sonuç olarak, katkıda bulunan her üyenin payı bir öncekinden Tk. $500$ arttı ve böylelikle toplam paylar Tk. $A = x^2 + (x - 7) \\cdot 500$.\n<final>Tk. A = x^2 + (x - 7) \\cdot 500</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tk. A = x^2 + (x - 7) \\cdot 500",
+    "extracted_final_answers": [
+      "Tk. A = x^2 + (x - 7) \\cdot 500"
+    ],
+    "exact_answer": "$A = 100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "Turkish",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "Derneğin her üyesi, üye sayısının $100$ katı kadar katkıda bulunmaya karar verdi. Ancak $7$ üye katkıda bulunmadı. Sonuç olarak, kalan her üyeden alınan katkı miktarı öncekine göre Tk. $500$ arttı.\n\nDerneğin üye sayısını ve toplam katkı miktarını bulunuz.",
+    "generated_answer": "23 üye ve Toplam Katkı Miktarı Tk. 48.050<final>23, 48.050</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "23, 48.050",
+    "extracted_final_answers": [
+      "23, 48.050"
+    ],
+    "exact_answer": "20,40.000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "Turkish",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "Çözünüz: $(3^{m+1} / (3^m)^{m-1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "3 <final>3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3",
+    "extracted_final_answers": [
+      "3"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "Turkish",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "İspatlayınız ki: $4^n - 1 / 2^n - 1 = 2^n + 1$",
+    "generated_answer": "İspatlanamaz, çünkü $4^n - 1 / 2^n - 1 \\neq 2^n + 1$ <final>İspatlanamaz</final>.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İspatlanamaz",
+    "extracted_final_answers": [
+      "İspatlanamaz"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "Turkish",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "Türkçe Çeviri:\n\nAşağıdakini ispatlayınız: $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$",
+    "generated_answer": "İspatlama başlatıldı ve sonuç 1'e eşit olduğunu gösterdi. <final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "Turkish",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "Verilenler: $P = x^a$, $Q = x^b$ ve $R = x^c$ olsun.\n\nAşağıdaki ifadenin değerini bulunuz:\n$(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$",
+    "generated_answer": "İfadeyi hesaplayın: $(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$\n<final>$x^{a^2 - b^2 + b^2 - c^2 + ac - 2ac}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^{a^2 - b^2 + b^2 - c^2 + ac - 2ac}",
+    "extracted_final_answers": [
+      "x^{a^2 - b^2 + b^2 - c^2 + ac - 2ac}"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "Turkish",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "Verilenler:\n$X = (2a^{-1} + 3b^{-1})^{-1}$\n$Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$; burada $x > 0$ ve $p, q, r > 0$\n$Z = (5^{(m+1)} + 25^{(m+1)}) / ((5^{(m)} + (5^{-1})^{m+1}) $\n$Y + \\sqrt[3]{64} = 5$ olduğunu gösteriniz.",
+    "generated_answer": "İşte yanıtınız:\n$X = \\frac{ab}{6a + 9b}$\n$Y = x^{(\\frac{1}{r} - \\frac{1}{p})(\\frac{1}{q} - \\frac{1}{r})} = x^{\\frac{1}{r} - \\frac{1}{p} - \\frac{1}{q} + 1}$\n$Z = \\frac{5^{2m}}{5^m + 1}$\n$\\sqrt[3]{64} = 4$\n$Y + \\sqrt[3]{64} = x^{\\frac{1}{r} - \\frac{1}{p} - \\frac{1}{q} + 1} + 4 = 5$\n$x^{\\frac{1}{r} - \\frac{1}{p} - \\frac{1}{q} + 1} = 1$\n$Explanation:$ Her sabitlerin aynı değerleri paylaştığından, ikinci ve üçüncü karekökleri toplu olarak kaçarak bir tam sayı elde edebiliriz.\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$Y + 4 = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "Turkish",
+    "chapter_number": "4.2",
+    "example_number": "233",
+    "question": "Aşağıdaki İngilizce matematiksel sorunun en yüksek profesyonel standartlarda Türkçe çevirisi:\n\n**SORU:**\n\nx'in değerini bulun: $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "1'e kıyasla x, sonucunda bulduğumuz x değeri için $\\log_x \\frac{1}{16} = -2$ denir.\nExplanation:\nBu denkleme göre x'in 4. köklerinden biridir ve işte bu sonucun 3.125 dir.\n<final>3,125</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3,125",
+    "extracted_final_answers": [
+      "3,125"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "Turkish",
+    "chapter_number": "4.2",
+    "example_number": "235",
+    "question": "Turkish Translation:\n\n$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$ olduğunu gösteriniz.",
+    "generated_answer": "İlgili logaritmaların özelliklerine göre, $\\log_{10} \\frac{50}{147}$ için verilen ifade düzgün. Bu doğrultuda hesaplanmıştır ve ifadenin ayrıntılarını içermez.\n\n<final>$\\log_{10} \\frac{50}{147}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\log_{10} (50)/(147)",
+    "extracted_final_answers": [
+      "\\log_{10} (50)/(147)"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "Turkish",
+    "chapter_number": "4.2",
+    "example_number": "242",
+    "question": "$x=2, y=3, z=5, w=7$ olsun. Aşağıdaki eşitliği gösteriniz:\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$",
+    "generated_answer": "İşte sıralanmış cevap:\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$\n\n<final>İşte sonuç:</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İşte",
+    "extracted_final_answers": [
+      "İşte"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "Turkish",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": "Beş ondalık basamağa kadar yaklaşık değerini bulunuz (çarpımın/bölümün doğal logaritması): $\\log(22,2642 \\div 3,42)$",
+    "generated_answer": "İşte başarılı bulunan sonuç:\n\n<final>5.3097</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5.3097",
+    "extracted_final_answers": [
+      "5.3097"
+    ],
+    "exact_answer": "0,81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "Turkish",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "Türkçe Çevirisi:\n\nÇözünüz:\n$\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$",
+    "generated_answer": "Çözüm:\n$x = \\frac{2ab}{a + b}$\n\n<final>$x = \\frac{2ab}{a + b}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = (2ab)/(a + b)",
+    "extracted_final_answers": [
+      "x = (2ab)/(a + b)"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "Turkish",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$ denklemini çözünüz.",
+    "generated_answer": "İçecek:\n\n\\[ \\boxed{x_1 = -\\sqrt{6}, x_2 = \\frac{2\\sqrt{3}}{3}} \\]\n\n<final> \\( \\boxed{x_1 = -\\sqrt{6}, x_2 = \\frac{2\\sqrt{3}}{3}} \\) </final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(x_1 = -√(6, x_2 = \\frac{2\\sqrt{3)}{3}} \\)",
+    "extracted_final_answers": [
+      "\\(x_1 = -√(6, x_2 = \\frac{2\\sqrt{3)}{3}} \\)"
+    ],
+    "exact_answer": "$x=-\\frac{3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "Gösteriniz ki: $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$",
+    "generated_answer": "1'e bölenleri göstererek: $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$\n\nExplanation: Tüm ifadelerden birini sadece $\\cos(A)$ ve $\\sin(A)$ ile ifade ediyoruz.\n\nFinal Answer (in Turkish):\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1/\\sec^2 A + 1/\\text{cosec}^2 A = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "İspatlayınız ki: $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$",
+    "generated_answer": "İspat edilmiştir ki, $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$. <final>Evet</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Evet",
+    "extracted_final_answers": [
+      "Evet"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "$\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$ olduğunu ispatlayınız.",
+    "generated_answer": "İspatı yapabilmek için, $\\operatorname{cosec} A - 1$ ve $\\operatorname{cosec} A + 1$ için tersine dönüştürülerek daha basit frazyonlara dönüşebilir. Böylece biraz daha rahat görüşen frazyonlar elde edilebilir. <final>2\\tan^2 A</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2\\tan^2 A",
+    "extracted_final_answers": [
+      "2\\tan^2 A"
+    ],
+    "exact_answer": "$1 / (\\text{cosec} A - 1) - 1 / (\\text{cosec} A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "Eğer $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$ ise, $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$ olduğunu gösteriniz.",
+    "generated_answer": "İspat özeti: Doğru. <final>Doğru.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Doğru",
+    "extracted_final_answers": [
+      "Doğru"
+    ],
+    "exact_answer": "$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "Turkish",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$ özdeşliğinin $A = 30^\\circ$ için doğru olduğunu gösteriniz.",
+    "generated_answer": "İşte sonuç:\n$\\cos 3A = \\frac{1}{2}$ doğru olduğunu gösteriyoruz.\n\n<final>\\boxed{\\frac{1}{2}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{1{2}}",
+    "extracted_final_answers": [
+      "\\frac{1{2}}"
+    ],
+    "exact_answer": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "Ağacın tepesinin, yerdeki herhangi bir noktadan ağacın tabanına olan uzaklığı $20$ metre ve bu noktadan ağacın tepesine olan yükseliş açısı $60^\\circ$ ise, ağacın yüksekliğini bulunuz.",
+    "generated_answer": "İçeriği kaç metre yüksektir? <final>10 \\sqrt{3} metre</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10 √(3) metre",
+    "extracted_final_answers": [
+      "10 √(3) metre"
+    ],
+    "exact_answer": "34,641 metre",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "Yere $45^\\circ$ açı yapan $18$ metre uzunluğundaki bir merdiven, duvarın tepesine değmektedir. Duvarın yüksekliğini bulunuz.",
+    "generated_answer": "İlk olarak, merdivenin 45 derecelik açısı kullanılarak yere düşmesi bir işaretidir. Bu durumda, merdiveni düzlemdeki duvara doğru bir sırt yaptırmak veya tamamen duvara eğerek temas edecektir. Merdivenin 18 metre uzunluğu verildiğinde, bu durumda merdiveni kendine özgü bir duvarla ayrı tutabiliriz. Dört köşelidir, yani düzlemdeki bir dikdörtgen. Bu dikdörtgenin bir tarafı duvara doğrudir ve merdiveni kapsayan tarafına 45 derecelik bir açını işaretler.\n\nAslında, bu bir önceden bilinen problem değildi ve biraz daha az verilen durumlarda çözülebilirdi. Ancak, merdiveni kendine özgü bir duvarla ayrı tutarken ve onu yere doğru sürdükten sonra yapabileceğiniz işlemlerden biri, bu durumda dikdörtgen önüne gelen yükseklik hesabını yapmaktır. Bu durumda merdivenin yüksekliğine ve duvarın yüksekliğine dair bilgi verilmemişti. Yani, merdiveni kendisine özgü bir duvarla ayrı tutarken bu işlemlerden biri olabilirdi. Ancak sonunda merdiveni kendisine özgü bir duvarla ayrı tutmaktan ve yükseklik hesabına gitmektense, 45 derecelik bir açını işaretleyerek bunu kendine özgü düzenlemeyi tercih etmiş olduk. Ayrıca merdiveni hem duvara doğru hem de yere doğru tutabilirdiniz, ancak bu durumda çözüm bulunamayacaktır.\n\n<final>45 derecelik bir açını işaretleyerek merdiveni kendine özgü düzenlemeyi tercih etmiş olduk.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "45 derecelik bir açını işaretleyerek merdiveni kendine özgü düzenlemeyi tercih etmiş olduk",
+    "extracted_final_answers": [
+      "45 derecelik bir açını işaretleyerek merdiveni kendine özgü düzenlemeyi tercih etmiş olduk"
+    ],
+    "exact_answer": "12,728 metre",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "Dere kenarında herhangi bir yerde duran bir adam, karşı yakada tam olarak kendisine doğru uzanan $150$ metre uzunluğundaki bir ağacın yükseliş açısının $30^\\circ$ olduğunu gözlemledi. Adam bir tekneyle ağaca doğru yola çıktı. Ancak akıntı nedeniyle ağacın $10$ metre uzağına ulaştı.\nBaşlangıç noktası ile varış noktası arasındaki mesafeyi bulunuz.",
+    "generated_answer": "30 metre <final>30 metre</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "30 metre",
+    "extracted_final_answers": [
+      "30 metre"
+    ],
+    "exact_answer": "260 metre",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "Turkish",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "Eğer $a:b=b:c$ ise, şunu ispatlayınız:\n $\\frac{a}{c}=\\frac{a^2+b^2}{b^2+c^2}$",
+    "generated_answer": "İspat başarılı olur ve sonuç doğrudur.\n\n<final>Tüm düzgün.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tüm düzgün",
+    "extracted_final_answers": [
+      "Tüm düzgün"
+    ],
+    "exact_answer": "$\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "Turkish",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "Türkçe Çevirisi:\n\nÇözünüz:\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$",
+    "generated_answer": "İşte yanıtın Türkçe karşılığı:\n\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$\n\n<final>${x=\\frac{27}{16}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{x=(27)/(16)}",
+    "extracted_final_answers": [
+      "{x=(27)/(16)}"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "Turkish",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "İşte çevirisi:\n\nAşağıdaki basit denklem sistemlerinin tutarlı/tutarsız, birbirine bağlı/bağımsız olup olmadığını argümanlarla belirtiniz ve çözüm sayısını gösteriniz:\n2. $2x + y = 3$\n   $4x + 2y = 6$",
+    "generated_answer": "2x + y = 3 ve 4x + 2y = 6 denklemleri tutarlı ve birbirine bağlıdır. Çözüm sayısı 1'dir.\n\n<final>Denklemler tutarlı ve birbirine bağlı, çözüm sayısı 1.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Denklemler tutarlı ve birbirine bağlı, çözüm sayısı 1",
+    "extracted_final_answers": [
+      "Denklemler tutarlı ve birbirine bağlı, çözüm sayısı 1"
+    ],
+    "exact_answer": "Bu nedenle, denklem sistemi tutarlıdır ve denklemler karşılıklı olarak bağımlıdır. Denklem sisteminin sonsuz sayıda çözümü vardır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "Turkish",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "Aşağıdaki basit denklem sistemlerinin tutarlı/tutarsız, birbirine bağlı/bağımsız olup olmadığını argümanlarla belirtiniz ve çözüm sayısını gösteriniz.\n\n5. $3x + 2y = 0$\n   $9x - 6y = 0$",
+    "generated_answer": "5. Denklemin tutarsız olduğunu söyleyebilirim ve çözüm sayısını gösterebilirim.\n\n<final>Denklemler tutarsızdır, bu yüzden bir çözüm olmaz.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Denklemler tutarsızdır, bu yüzden bir çözüm olmaz",
+    "extracted_final_answers": [
+      "Denklemler tutarsızdır, bu yüzden bir çözüm olmaz"
+    ],
+    "exact_answer": "$\\frac{3}{9} \\ne \\frac{2}{-6}$\nBu nedenle, denklem sistemi tutarlıdır ve denklemler karşılıklı olarak bağımsızdır. Denklem sisteminin yalnızca bir (tek) çözümü vardır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "Turkish",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "Yer değiştirme yöntemiyle aşağıdaki denklemleri çözünüz:\n$ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "İlk denkleme birden biraz yer değiştirerek, ikinci denklemindeki karelerinden zararlıyanak alabilirsiniz. Sonucunuz aynen yerde değişmiş olacaktır.\n<final>Yeterli yer değiştirme ve kareleme ile ikinci denklemindeki köklerinizi bulabilirsiniz.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Yeterli yer değiştirme ve kareleme ile ikinci denklemindeki köklerinizi bulabilirsiniz",
+    "extracted_final_answers": [
+      "Yeterli yer değiştirme ve kareleme ile ikinci denklemindeki köklerinizi bulabilirsiniz"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "Turkish",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "Çarpraz çarpma yöntemiyle aşağıdaki denklemleri çözünüz:\n\n$y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$",
+    "generated_answer": "İki denklemi çözerek $x=4$, $y=2$ bulduktan sonra, yeni denklemlerimiz şu şekilde değişir:\n\n$13(3 + x) = 8(6 + y)$\n$5(3 + x) = 7(y - 1)$\n<final>x=4, y=2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=4, y=2",
+    "extracted_final_answers": [
+      "x=4, y=2"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "Turkish",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "Cebirsel denklemler kurarak çözünüz: Bir kesrin payına ve paydasına $1$ eklenirse kesir $\\frac{4}{5}$ olur. Yine, payından ve paydasından $5$ çıkarılırsa kesir $\\frac{1}{2}$ olur. Kesri bulunuz.",
+    "generated_answer": "İşte problemi çözen formül ve sonuç:\n\nKesirden payı alarak payını azaltmak, paydasını da artırmak eşdeğerdir. Sonra da payını azaltmak ve paydasını azaltmak birbirine tam eşittir. Şimdi bu durumda pay ve payda iki tam sayıdır, ancak paydanı azaltmamız gerektiği için 4'ünün yarısını almalıyız. Sonunda kesirin ölçüsü 4/8 veya basitlaştırıldığında 1/2 olmuştu.\n<final>$\\frac{1}{2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1)/(2)",
+    "extracted_final_answers": [
+      "(1)/(2)"
+    ],
+    "exact_answer": "\\frac{7}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "Turkish",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "Basit bir denklem sistemi şöyledir:\n$x + y = 10$\n$3x - 2y = 0$\nDenklem sistemini çözerek $(x,y)$'yi bulunuz.",
+    "generated_answer": "Çözüm: $x = 4, y = 6$\nExplanation: Bu denklemleri iki tane sistemi birbirine eşit ederek çözebiliriz. Birinci denklemin ikisiyle ikincisini kerektikten sonra $x$'e ait değerler tekrar elde edilmiş olur. Bu iki değerden biri negatifdir, bu yüzden sistem çözümlenebilir ve bu durumda $x=4,y=6$ cevapları alınabilir.\n\n<final>4 veya 6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4 veya 6",
+    "extracted_final_answers": [
+      "4 veya 6"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "Bir aritmetik dizinin $12$. terimi $77$ ise, bu dizinin ilk $23$ teriminin toplamı kaçtır?",
+    "generated_answer": "1305\n<final>1305</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1305",
+    "extracted_final_answers": [
+      "1305"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "Bir aritmetik dizinin $16.$ terimi $-20$ ise, ilk $31$ teriminin toplamı kaç olur?",
+    "generated_answer": "İlk 31 terimin toplamı -575'tir.\n<final>-575</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-575",
+    "extracted_final_answers": [
+      "-575"
+    ],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "Bir aritmetik dizinin ilk $12$ teriminin toplamı $144$ ve ilk $20$ teriminin toplamı $560$ ise, ilk $6$ teriminin toplamını bulunuz.",
+    "generated_answer": "İlk $6$ terimin toplamı, ilk $12$ terimin toplamının yarısıdır.\n\n<final>36</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "36",
+    "extracted_final_answers": [
+      "36"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "Bir aritmetik dizinin $l$. terimi $l^2$ ve $k$. terimi $k^2$'dir.\nDizinin birinci terimini $a$ ve ortak farkını $d$ olarak alarak, verilen bilgileri göz önünde bulundurarak iki denklem oluşturunuz.",
+    "generated_answer": "İlk denklem: $a + (l-1)d = l^2$\nİkinci denklem: $a + (k-1)d = k^2$\n\n<final>$a + (l-1)d = l^2$, $a + (k-1)d = k^2$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a + (l-1)d = l^2$, $a + (k-1)d = k^2",
+    "extracted_final_answers": [
+      "a + (l-1)d = l^2$, $a + (k-1)d = k^2"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ .... (i)\n$a + (k-1)d = k^2$ .... (ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "Bir aritmetik dizinin $l$. terimi $l^2$ ve $k$. terimi $k^2$'dir.\n$(l+k)$. terimi bulunuz.",
+    "generated_answer": "Şükran, fakat bu sorunun yanıtını veremeyeceğim. Lütfen daha detaylı bir problem vererek yardım istediğinizde tekrar ulaşın. Explanation: Yanıtlar için daha fazla bilgi gerekiyor. <final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Şükran, fakat bu sorunun yanıtını veremeyeceğim. Lütfen daha detaylı bir problem vererek yardım istediğinizde tekrar ulaşın. Explanation: Yanıtlar için daha fazla bilgi gerekiyor. <final></final>",
+    "extracted_final_answers": [
+      "Şükran, fakat bu sorunun yanıtını veremeyeceğim. Lütfen daha detaylı bir problem vererek yardım istediğinizde tekrar ulaşın. Explanation: Yanıtlar için daha fazla bilgi gerekiyor. <final></final>"
+    ],
+    "exact_answer": "l^2+kl+k^2",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "Turkish",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "Bir aritmetik dizinin $l$. terimi $l^2$ ve $k$. terimi $k^2$'dir. Dizinin ilk $(l+k)$ teriminin toplamının $\\frac{(l+k)(l^2+k^2+lk)}{2}$ olduğunu ispatlayınız.",
+    "generated_answer": "İspat sonucu: Bir aritmetik dizinin ilk $(l+k)$ teriminin toplamı $\\frac{(l+k)(l^2+k^2+lk)}{2}$'dir.\n\n<final>Bir aritmetik dizinin ilk $(l+k)$ teriminin toplamı $\\frac{(l+k)(l^2+k^2+lk)}{2}$'dir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Bir aritmetik dizinin ilk $(l+k)$ teriminin toplamı $((l+k)(l^2+k^2+lk))/(2)$'dir",
+    "extracted_final_answers": [
+      "Bir aritmetik dizinin ilk $(l+k)$ teriminin toplamı $((l+k)(l^2+k^2+lk))/(2)$'dir"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "Turkish",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "$\\log 2 + \\log 16 + \\log 512 + \\ldots \\ldots$ serisinin ilk 12 teriminin toplamı kaçtır?",
+    "generated_answer": "69.8754\n<final>69.8754</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "69.8754",
+    "extracted_final_answers": [
+      "69.8754"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "Turkish",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "$2 - 2 + 2 - 2 + \\ldots \\ldots \\ldots \\ldots$ serisinin $(2n+2)$ teriminin toplamı nedir?",
+    "generated_answer": "İşlemin sonucu, serinin toplamı $0$'dır. Bu durum, her cift terim toplu olarak $(2 - 2)$ eşittir ve bu da sürekli $0$ sonucunu verir.\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "Turkish",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "İşte İngilizce sorunun Türkçe çevirisi:\n\n1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2 olduğunu gösteriniz.",
+    "generated_answer": "İşte İngilizce sorunun Türkçe çevirisi:\n\n1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2 olduğunu gösteriniz.\n\nFinal Answer (in Turkish):\n\n<final>5842867</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5842867",
+    "extracted_final_answers": [
+      "5842867"
+    ],
+    "exact_answer": "1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "Turkish",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "Bir kare bölgenin çevresi, bir dikdörtgen bölgenin çevresine eşittir. Dikdörtgen bölgenin uzunluğu, genişliğinin üç katıdır ve alanı $768$ m²'dir. $40$ cm kenar uzunluğundaki kare taşlarla kare bölgenin tamamını kaplamak için kaç adet taş gereklidir?",
+    "generated_answer": "32 taşlar gereklidir.\n\n<final>32</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "32",
+    "extracted_final_answers": [
+      "32"
+    ],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "Turkish",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "Bir dikdörtgensel bölgenin alanı $160$ metrekaredir. Uzunluğu $6$ metre azaltılırsa, bir kare bölge elde edilir. Dikdörtgenin uzunluğunu ve genişliğini belirleyiniz.",
+    "generated_answer": "Şekilde dikdörtgenin uzunluğu $10$ metre ve genişliği $16$ metredir.\n<final>10, 16</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10, 16",
+    "extracted_final_answers": [
+      "10, 16"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "Turkish",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "Bir paralelkenarın alanı, bir karenin alanına eşittir. Paralelkenarın tabanı $125$ metre ve yüksekliği $5$ metre ise, karenin köşegeninin uzunluğunu bulunuz.",
+    "generated_answer": "50 metre <final>50</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "50",
+    "extracted_final_answers": [
+      "50"
+    ],
+    "exact_answer": "35,35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "Turkish",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "Bir dairesel yayın merkezde oluşturduğu açı $30^\\circ$'dir. Çemberin çapı $126$ cm ise, yayın uzunluğunu belirleyiniz.",
+    "generated_answer": "39,6 cm\n<final>39,6 cm</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "39,6 cm",
+    "extracted_final_answers": [
+      "39,6 cm"
+    ],
+    "exact_answer": "32,987 cm. (yaklaşık)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "Turkish",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "Bir dikdörtgen ahşap kutunun dış boyutları sırasıyla $8$ cm, $6$ cm ve $4$ cm'dir ve tüm iç yüzey alanının $88$ cm$^2$ olduğu verilmiştir. Ahşap kalınlığını bulunuz.",
+    "generated_answer": "3 cm'dir.\nExplanation: Bu sonuç, kutunun dış boyutlarını ve iç yüzey alanını kullanarak hesaplanmıştır. Kutunun kapalı alan formülünü uyguladık ve kalınlığa ait değişkeni bulduk.<final>3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3",
+    "extracted_final_answers": [
+      "3"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "$\\sqrt{3}$ ve $4$ arasında bir irrasyonel sayı bulunuz.",
+    "generated_answer": "İlk kesirsel sayı, $\\sqrt{3} = 1.73205...$'tir ve $4$'ün bir arkasında. Sonuç: Bir tane var.\n\n<final>Bir tane var.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Bir tane var",
+    "extracted_final_answers": [
+      "Bir tane var"
+    ],
+    "exact_answer": "a ve b istenen sayılardır.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "Kesin değerleri ve $4,4623845\\dots$ sayısının $1, 2, 3, 4$ ve $5$ ondalık basamağına kadar yuvarlanmış yaklaşık değerlerini hesaplayınız?",
+    "generated_answer": "4,5\n<final>4,5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4,5",
+    "extracted_final_answers": [
+      "4,5"
+    ],
+    "exact_answer": "4,4, 4,5, 4,46, 4,462, 4,4624, 4,46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "Türkçe Çeviri:\n\n$311$ ve $419$ sayılarını böldüğünde $23$ kalanını veren doğal sayıların kümesini belirleyiniz.",
+    "generated_answer": "311 ve 419 sayılarını böldüğünde kalan 23 olan doğal sayılar kümesi ise, <final>57</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "57",
+    "extracted_final_answers": [
+      "57"
+    ],
+    "exact_answer": "36",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "$100$ öğrencinin $88$'i Bengalce'den, $80$'i Matematik'ten ve $70$'i her iki dersten de geçmişti. Bu bilgiyi bir Venn şemasında gösteriniz ve her iki dersten de kalan öğrenci sayısını bulunuz.",
+    "generated_answer": "60 öğrenci 100 öğrencinin her iki dersten de kalan öğrenci sayısıdır.\n<final>60</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "60",
+    "extracted_final_answers": [
+      "60"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "$A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$ olsun ve $A$ ile $B$'nin elemanları arasındaki ilişki $x = y - 1$ ise, bu ilişkileri bulunuz.",
+    "generated_answer": "İşlemin sonucu 3 elemanlı bir listedir.\n\n<final>1, 2 ve 3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1, 2 ve 3",
+    "extracted_final_answers": [
+      "1, 2 ve 3"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "Evrensel küme $U=\\{x:x \\in N$ ve $x \\le 6\\}$ olsun,\n$A=\\{x:x$ asal ve $x \\le 5\\},$\n$B=\\{x: x$ çift sayı ve $x \\le 6\\}$ ve\n$C=A \\setminus B$ olarak tanımlanıyor.\n$(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$ olduğunu ispatlayınız.",
+    "generated_answer": "İspat özeti: $A \\cap C = A$ ve $A \\times B = C \\times B$ olduğundan $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$ doğru sonuca varır.\n\n<final>$(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)",
+    "extracted_final_answers": [
+      "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)"
+    ],
+    "exact_answer": "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "Turkish",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "$a+b+c=15$ ve $a^{2}+b^{2}+c^{2}=83$ olduğuna göre, $ab+bc+ac$ ifadesinin değeri kaçtır?",
+    "generated_answer": "21 <final>21</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "21",
+    "extracted_final_answers": [
+      "21"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "Turkish",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "Bir kitabın fiyatı 24 Tk'dir. Bu fiyat, gerçek fiyatın %80'idir. Devlet, eksik kısım için sübvansiyon yapmaktadır. Devlet, her kitap için ne kadar para sübvansiyon yapmaktadır?",
+    "generated_answer": "8 Tk'dir.\n\n<final>8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8",
+    "extracted_final_answers": [
+      "8"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "Turkish",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "İfadeyi sadeleştiriniz: $(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$",
+    "generated_answer": "İşareti sadeleştirerek $(-3)^3 \\times \\left(-\\dfrac{1}{2}\\right)^2 = -8.75$ veriyoruz.\n\n<final>-8.75</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-8.75",
+    "extracted_final_answers": [
+      "-8.75"
+    ],
+    "exact_answer": "$-\\dfrac{27}{4}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "Turkish",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "$400$'ün logaritması $4$ ise logaritmanın tabanı kaçtır?",
+    "generated_answer": "9 veya <final>9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9",
+    "extracted_final_answers": [
+      "9"
+    ],
+    "exact_answer": "$2\\sqrt{5}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "Turkish",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "Türkçe Çeviri:\n\n$3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$ denkleminin doğru olduğunu ispatlayınız.",
+    "generated_answer": "İşlemin doğru olduğunu ispatladım. <final>Dogru</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Dogru",
+    "extracted_final_answers": [
+      "Dogru"
+    ],
+    "exact_answer": "$\\log_{10} 40$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "Turkish",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "Çözünüz: $(y-1)(y+2)= (y+4)(y-2)$",
+    "generated_answer": "Çözünüz: $(y-1)(y+2)= (y+4)(y-2)$\n\nExplanation: Çiftçe kullanırken.\nFinal Answer: $<final>y = \\boxed{-3}</final>$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "y =-3",
+    "extracted_final_answers": [
+      "y =-3"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "Turkish",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "Çözün ve çözüm kümesini yazınız: $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$",
+    "generated_answer": "Çözüm: $x=\\dfrac{13}{6}$\n<final>$x=\\dfrac{13}{6}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=\\dfrac{13}{6}",
+    "extracted_final_answers": [
+      "x=\\dfrac{13}{6}"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "Turkish",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "İngilizce Soru: If $\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$, find the value of $A$.\n\nTürkçe Çevirisi: $\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$ ise $A$'nın değerini bulunuz.",
+    "generated_answer": "50 derece veya $\\boxed{50^\\circ}$\nExplanation: Trigonometrik eşitlikleri kullanarak hesaplama yapıldı.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "50 derece veya 50^\\circ Explanation: Trigonometrik eşitlikleri kullanarak hesaplama yapıldı",
+    "extracted_final_answers": [
+      "50 derece veya 50^\\circ Explanation: Trigonometrik eşitlikleri kullanarak hesaplama yapıldı"
+    ],
+    "exact_answer": "A=60°",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "Turkish",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "Türkçe Çeviri:\n\nEğer $A=45\\degree$ ise, $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$ olduğunu ispatlayınız.",
+    "generated_answer": "İspatlanmıştır, çünkü <final>\\(\\boxed{True}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(True\\)",
+    "extracted_final_answers": [
+      "\\(True\\)"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "Palash Sarker, Ocak $2005$'te yıllık $120000$ TL maaşla işe başladı. Yıllık maaş artışı $5000$ TL'dir. Maaşının $\\%10$'u her yıl sosyal güvenlik (ya da sandık) için kesilir. Yıl sonunda, yıllık $\\%12$ bileşik faizle bir bankaya $12000$ TL yatırır. $31$ Aralık $2030$'da emekli olacaktır.\n\n$31$ Aralık $2031$'e kadar bankaya yatırılan toplam para miktarı ne kadardır?",
+    "generated_answer": "351.6088 milyar TL'dir.\n\n<final>351.6088 milyar TL</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "351.6088 milyar TL",
+    "extracted_final_answers": [
+      "351.6088 milyar TL"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "Turkish",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "Bir kare tarlanın etrafında 4 metre genişliğinde bir yol bulunmaktadır. Eğer yolun alanı 1 hektar ise, tarlanın yol hariç alanını belirleyiniz.",
+    "generated_answer": "1 hektarın alanına sahip bir kare tarlanın etrafında 4 metre genişliğinde bir yol bulunmaktadır. Yolun alanı, yola göre hesaplanır ve bu durumda 1 hektar olarak verildi. Tarlanın yol hariç alanı tarlanın toplam alanından yolun alanını çıkarmadır, çünkü yolun alanı tarla içinde bulunmaktadır. Bu nedenle, tarlanın yol hariç alanı toplam alan yoktur ve yalnızca 1 hektar değerini korumuştur.\n\n<final>Tarla için yol hariç alan 1 hektardır.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Tarla için yol hariç alan 1 hektardır",
+    "extracted_final_answers": [
+      "Tarla için yol hariç alan 1 hektardır"
+    ],
+    "exact_answer": "38,56 hektar",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "Turkish",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "$S = \\{x : x$ bir tam kare sayıdır ve $100$'den büyük değildir$\\}$. $S$'yi başka bir şekilde ifade ediniz.",
+    "generated_answer": "İlk olarak $S$'yi açıklayalım. $S$ tam kare sayıları içerir ve bunlar 100'den büyük değildir. Tam kare sayılar 1, 4, 9, 16, vb.dir. Bu sayıların en büyüğü $10^2 = 100$'dür. Dolayısıyla $S$ düzgün tam kare sayıları içerir ve bu sayılar $9^2, 10^2 - 1, 10^2 - 4, 10^2 - 9, vb.dir$.\n\n<final>$S = \\{81, 96, 99\\}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S = \\{81, 96, 99\\}",
+    "extracted_final_answers": [
+      "S = \\{81, 96, 99\\}"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "Turkish",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "İngilizce Soru: If $A$ and $B$ are any sets, then $A \\cap B \\subseteq A$ and $A \\cap B \\subseteq B$.\n\nTürkçe Çeviri: Eğer $A$ ve $B$ herhangi iki küme ise, o zaman $A \\cap B \\subseteq A$ ve $A \\cap B \\subseteq B$ olur.",
+    "generated_answer": "İngilizce Soru: If $A$ and $B$ are any sets, then $A \\cap B \\subseteq A$ ve $A \\cap B \\subseteq B$.\n\nTürkçe Çeviri: Eğer $A$ ve $B$ herhangi iki küme ise, o zaman $A \\cap B \\subseteq A$ ve $A \\cap B \\subseteq B$ olur.\n\nFinal Answer (in Turkish):\nHerhangi iki setler $A$ ve $B$ için, $A \texttextcap B \textsubseteq A$ ve $A \texttextcap B \textsubseteq B$.\n\n<final>Herhangi iki setler $A$ ve $B$ için, $A \texttextcap B \textsubseteq A$ ve $A \texttextcap B \textsubseteq B$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Herhangi iki setler $A$ ve $B$ için, $A exttextcap B extsubseteq A$ ve $A exttextcap B extsubseteq B$",
+    "extracted_final_answers": [
+      "Herhangi iki setler $A$ ve $B$ için, $A exttextcap B extsubseteq A$ ve $A exttextcap B extsubseteq B$"
+    ],
+    "exact_answer": "A ∩ B ⊆ A ve A ∩ B ⊆ B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "Turkish",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "İspatlayınız, $A \\subset B$ ancak ve ancak aşağıdaki koşullardan herhangi biri sağlanırsa:\n$A \\cap B = A$",
+    "generated_answer": "İspatlayınız, $A \\subset B$ ancak ve ancak aşağıdaki koşullardan herhangi biri sağlanırsa: $A \\cap B = A$.\n\n<final>Eğer $A \\subset B$ ise $A \\cap B = A$ değerlendirilmiş ve köklü sonuç elde edilmiştir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Eğer $A \\subset B$ ise $A \\cap B = A$ değerlendirilmiş ve köklü sonuç elde edilmiştir",
+    "extracted_final_answers": [
+      "Eğer $A \\subset B$ ise $A \\cap B = A$ değerlendirilmiş ve köklü sonuç elde edilmiştir"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "Turkish",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "İspatlayınız ki,\nEğer $A \\subset B$ ise, o zaman $A \\cup (B \\setminus A) = B$",
+    "generated_answer": "İspatlanınca, $A \\subset B$ ise, $A \\cup (B \\setminus A) = B$. Sonuç: $A \\cup (B \\setminus A) = B$.\n\n<final>$A \\cup (B \\setminus A) = B$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A \\cup (B \\setminus A) = B",
+    "extracted_final_answers": [
+      "A \\cup (B \\setminus A) = B"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "Turkish",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "$U = \\{x: x \\text{ çift bir tam sayıdır}\\}$, $A = \\{x: 3x \\ge 25\\} \\subset U$ ve $B = \\{x: 5x < 12\\} \\subset U$ olsun. Bu durumda $n(A \\cap B)$ ve $n(A' \\cap B')$ değerlerini bulunuz.",
+    "generated_answer": "İlk olarak $A$ ve $B$ kümelerinin sınırlamaları için çözümlerine göre hesaplamalar yapıyoruz.\n\n$A = \\{x: 3x \\ge 25\\} = \\{x: x \\ge \\frac{25}{3}\\} = \\{x: x \\ge 8.33\\}$,\n$B = \\{x: 5x < 12\\} = \\{x: x < \\frac{12}{5}\\} = \\{x: x < 2.4\\}$\n\nBu durumda $A \\cap B$ boş kümedir, çünkü tam sayılar için $8.33 \\le x < 2.4$ geçerli değildir ve bu aralıktaki tamsayı yoktur.\n\n$A'$ ve $B'$ kümeleri:\n$A' = U - A = \\{x: x \\text{ is an even integer and } x < 8\\} = \\{0, 2, 4, 6\\}$\n$B' = U - B = \\{x: x \\text{ is an even integer and } x \\ge 2.4\\} = \\{2, 4, 6, 8, ...\\}$\n\nBu durumda $n(A' \\cap B') = n(\\{0, 2, 4, 6\\}) = 4$\n\n<final>4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4",
+    "extracted_final_answers": [
+      "4"
+    ],
+    "exact_answer": "n(A ∩ B) = 0 ve n(A' ∩ B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "Verilen $S$ bağıntısının tanım kümesini, görüntü kümesini ve ters bağıntısını bulunuz.\n$S$ veya $S^{-1}$ bağıntılarının fonksiyon olup olmadığını belirleyiniz.\nBu bağıntılar arasındaki fonksiyonlardan birebir olanlar var mıdır?\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "İşleme alanın tanım kümesi $\\{1,2,3,4\\}$, görüntü kümesi $\\{5,10,15,20\\}$ ve ters bağıntısı $\\{(5,1),(10,2),(15,3),(20,4)\\}$. Bu bağıntılar fonksiyonlardır. Birebir fonksiyon bulunmadı.\n\n<final>İşleme alanın tanım kümesi $\\{1,2,3,4\\}$, görüntü kümesi $\\{5,10,15,20\\}$ ve ters bağıntısı $\\{(5,1),(10,2),(15,3),(20,4)\\}$. Bu bağıntılar fonksiyonlardır. Birebir fonksiyon bulunmadı.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İşleme alanın tanım kümesi $\\{1,2,3,4\\}$, görüntü kümesi $\\{5,10,15,20\\}$ ve ters bağıntısı $\\{(5,1),(10,2),(15,3),(20,4)\\}$. Bu bağıntılar fonksiyonlardır. Birebir fonksiyon bulunmadı",
+    "extracted_final_answers": [
+      "İşleme alanın tanım kümesi $\\{1,2,3,4\\}$, görüntü kümesi $\\{5,10,15,20\\}$ ve ters bağıntısı $\\{(5,1),(10,2),(15,3),(20,4)\\}$. Bu bağıntılar fonksiyonlardır. Birebir fonksiyon bulunmadı"
+    ],
+    "exact_answer": "$S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\}$ $\\therefore$ S bir fonksiyondur. $\\therefore$ $S^{-1}$ birebir fonksiyondur.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "Verilen $S$ bağıntısının tanım kümesini, değer kümesini ve ters bağıntısını bulunuz.\n$S$ veya $S^{-1}$ bağıntılarının birer fonksiyon olup olmadığını belirleyiniz.\nBu bağıntılar arasındaki fonksiyonlar birebir midir?\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "İşleme başında tanım kümesi, değer kümesi ve ters bağıntılar bulunur. $S$ veya $S^{-1}$ bağıntılarının birer fonksiyon olmadığı belirtilir. Bu bağıntılar arasındaki fonksiyonlar birebir değildir.\n<final>Başlangıçtan tanım kümesi, değer kümesi ve ters bağıntı bulunur, fonksiyon olmadığı söylenir, birebir fonksiyonların olduğu belirtilmez.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Başlangıçtan tanım kümesi, değer kümesi ve ters bağıntı bulunur, fonksiyon olmadığı söylenir, birebir fonksiyonların olduğu belirtilmez",
+    "extracted_final_answers": [
+      "Başlangıçtan tanım kümesi, değer kümesi ve ters bağıntı bulunur, fonksiyon olmadığı söylenir, birebir fonksiyonların olduğu belirtilmez"
+    ],
+    "exact_answer": "S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S bir fonksiyon değildir. Bu nedenle, S^{-1} birebir fonksiyon değildir.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "Verilen $S$ bağıntısının tanım kümesini, görüntü kümesini ve ters bağıntısını bulunuz.\n$S$ veya $S^{-1}$ bağıntılarının birer fonksiyon olup olmadığını belirleyiniz.\nBu bağıntılar arasındaki fonksiyonlar birebir midir?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "İşlemin tanım kümesi = {2}, görüntü kümesi = {1, 2, 3}, ters bağıntısı = ∅. $S$ veya $S^{-1}$ bağıntılarının fonksiyon olmadıklarına karar verildi. Bu bağıntılar arasındaki fonksiyon birebir değildir.\n\n<final>İşlemin tanım kümesi = {2}, görüntü kümesi = {1, 2, 3}, ters bağıntısı = ∅. $S$ veya $S^{-1}$ bağıntılarının fonksiyon olmadıklarına karar verildi. Bu bağıntılar arasındaki fonksiyon birebir değildir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İşlemin tanım kümesi = {2}, görüntü kümesi = {1, 2, 3}, ters bağıntısı = ∅. $S$ veya $S^{-1}$ bağıntılarının fonksiyon olmadıklarına karar verildi. Bu bağıntılar arasındaki fonksiyon birebir değildir",
+    "extracted_final_answers": [
+      "İşlemin tanım kümesi = {2}, görüntü kümesi = {1, 2, 3}, ters bağıntısı = ∅. $S$ veya $S^{-1}$ bağıntılarının fonksiyon olmadıklarına karar verildi. Bu bağıntılar arasındaki fonksiyon birebir değildir"
+    ],
+    "exact_answer": "Tanım Kümesi = \\{2\\} Görüntü Kümesi = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} Bu nedenle, S bir fonksiyon değildir. Bu nedenle, S^{-1}$ bir fonksiyondur. Bu nedenle, S^{-1}$ birebir bir fonksiyon değildir.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "$\\mathbb{R} \\to \\mathbb{R}$ fonksiyonu $F(x)=x^3$ için,\n$F$'nin tanım kümesini (dom F) ve görüntü kümesini (range F) bulunuz.",
+    "generated_answer": "1. Tanım kümesi (\\( \\text{Dom } F \\)):\n   - $F(x)=x^3$ fonksiyonu, $\\mathbb{R}$'nin tüm elemanları için tanımlıdır.\n   - Bu nedenle, \\( \\text{Dom } F = \\mathbb{R} \\).\n\n2. Görüntü kümesi (\\( \\text{Range } F \\)):\n   - $F(x)=x^3$ fonksiyonu, $\\mathbb{R}$'deki her elemanın küplerine yol açar.\n   - Bu nedenle, \\( \\text{Range } F = \\mathbb{R} \\).\n\nFinal Answer (in Turkish):\nTanım kümesi (\\( \\text{Dom } F \\)) ve görüntü kümesi (\\( \\text{Range } F \\)):\n$$\\boxed{\\text{Dom } F = \\mathbb{R}, \\text{ Range } F = \\mathbb{R}}$$\n\n<final>$$ \\boxed{\\text{Dom } F = \\mathbb{R}, \\text{ Range } F = \\mathbb{R}} $$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{Dom F = \\mathbb{R}, \\text{ Range } F = \\mathbb{R}}",
+    "extracted_final_answers": [
+      "\\text{Dom F = \\mathbb{R}, \\text{ Range } F = \\mathbb{R}}"
+    ],
+    "exact_answer": "tanım F = \\mathbb{R} ve değer kümesi F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "İki fonksiyon $f: \\mathbb{R} \\to \\mathbb{R}$ ve $g: \\mathbb{R} \\to \\mathbb{R}$, sırasıyla $f(x)=3x+3$ ve $g(x)=\\frac{x-3}{3}$ ile tanımlanıyor.\n\n$f(x)$ fonksiyonunun örten olup olmadığını belirleyiniz.",
+    "generated_answer": "İki fonksiyon $f(x)=3x+3$ ve $g(x)=\\frac{x-3}{3}$ verilmiştir.\n\nSıradaki işlemlerle $f(x)$ fonksiyonunun alçaklığını bulabiliriz:\n\n1. İlk olarak, $f(0)$ hesabı yapalım:\n   \\[\n   f(0) = 3(0) + 3 = 3\n   \\]\n2. Sonrasında, $g(3)$ hesabı yapalım:\n   \\[\n   g(3) = \\frac{3 - 3}{3} = 0\n   \\]\n3. Ardından, $f(g(3))$ hesabı yapalım:\n   \\[\n   f(g(3)) = f(0) = 3\n   \\]\n4. Bu sonuçlardan dolayı $f(x)$ fonksiyonunun alçaklıkta olmadığı sonucuna varırız.\n\n<final>$f(x)$ fonksiyonu alçaklıktadır.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "f(x)$ fonksiyonu alçaklıktadır",
+    "extracted_final_answers": [
+      "f(x)$ fonksiyonu alçaklıktadır"
+    ],
+    "exact_answer": "f(x) birebir ve örten bir fonksiyondur",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "Turkish",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "Verilenlere göre, $f(x)=\\sqrt{x-4}$\n$f(x)$ fonksiyonunun birebir olup olmadığını belirleyiniz.",
+    "generated_answer": "İşte cevap, birebir fonksiyon değildir. <final>İşte cevap, birebir fonksiyon değildir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İşte cevap, birebir fonksiyon değildir",
+    "extracted_final_answers": [
+      "İşte cevap, birebir fonksiyon değildir"
+    ],
+    "exact_answer": "f(x) birebir bir fonksiyondur",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "Kesirlere ayırarak ifade ediniz: $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$",
+    "generated_answer": "İfadeyi kesirlere ayırdım: $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)} = \\frac{x - 3}{x + 1} + \\frac{-5x}{x^2 + 4}$.\n<final>$\\frac{x - 3}{x + 1} + \\frac{-5x}{x^2 + 4}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x - 3)/(x + 1) + (-5x)/(x^2 + 4)",
+    "extracted_final_answers": [
+      "(x - 3)/(x + 1) + (-5x)/(x^2 + 4)"
+    ],
+    "exact_answer": "\\frac{1}{5} \\left( \\frac{7x-27}{x^2+4} - \\frac{2}{x+1} \\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "Paydalara ayırarak ifade ediniz: $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "İspat özeti: Verilen ifadeyi basitlaştırmak için paydalara ayırın. Sonuç: <final>$1/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/3",
+    "extracted_final_answers": [
+      "1/3"
+    ],
+    "exact_answer": "\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "Turkish",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "Çözünüz: $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "15\n\n<final>15</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "15",
+    "extracted_final_answers": [
+      "15"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "Turkish",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "Çözünüz: $x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$",
+    "generated_answer": "Çözüm:\n$x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$\n\nExplanation:\nBu denklemler birbirine bağlıdır ve iki sayının ilişkisini temsil ediyor.\n\n<final>1 ve 25</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 ve 25",
+    "extracted_final_answers": [
+      "1 ve 25"
+    ],
+    "exact_answer": "(x, y) = \\left(\\frac{4}{5}, 20\\right), \\left(\\frac{1}{5}, 5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "Turkish",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "$8 \\geq 2-2x$ denklemini çözünüz.",
+    "generated_answer": "8 <br> Explanation: 2-2x denklemini çözünüz.\n\n<final>8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8",
+    "extracted_final_answers": [
+      "8"
+    ],
+    "exact_answer": "x \\geq -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "Turkish",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "Bir çocuk $x$ km/saat hızla $3$ saat yürüdü ve $(x+2)$ km/saat hızla $\\frac{1}{2}$ saat koştu. Kat ettiği mesafe $29$ km'den azdır. $x$'in olası değerlerini bulunuz.",
+    "generated_answer": "18 km/saat < 20 km/saat\n\nExplanation: The walking speed is $x$ km/h and the running speed is $(x+2)$ km/h. The total distance covered in 3 hours of walking and $\\frac{1}{2}$ hour of running is less than 29 km. Solving this inequality gives us the possible values for $x$.\n\n<final>$18 < x < 20$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "18 < x < 20",
+    "extracted_final_answers": [
+      "18 < x < 20"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "Turkish",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": "Bay Sohrab, kilogramı 70 TL'den $x$ kg mango aldı. Satıcıya 500 TL'lik bir banknot verdi. Satıcı, kalan parayı $x$ adet 20 TL'lik banknot ile birlikte geri verdi. $x$'in olası değerlerini bulunuz.",
+    "generated_answer": "17,5 or 35\n\nExplanation: The cost of the mangoes is $x$ kg multiplied by the price per kilogram, which is $70TL / x$. Sohrab pays with a 500 TL bill and receives change in the form of $x$ number of 20 TL bills. Therefore, we have the equation:\n\n$500 - 70x = 20x$\n\nSolving for $x$, we get:\n\n$x = \\frac{500}{90}$ or $x = \\frac{1000}{90} / 2$\n\nTherefore, the possible values of $x$ are $17.5$ or $35$.\n\n<final>17.5 or 35</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "17.5 or 35",
+    "extracted_final_answers": [
+      "17.5 or 35"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "Turkish",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": "Singapur'un Dakka'ya olan hava mesafesi 2900 km'dir. Bir jet uçağının maksimum hızı 900 km/saat'tir. Ancak Dakka'dan Singapur'a giderken, zıt yönde 100 km/saat esen bir hava akımıyla karşılaşır. Dakka'dan Singapur'a kesintisiz uçuş için gereken süreyi bir eşitsizlik olarak ifade ediniz.",
+    "generated_answer": "İşte sonucunuz:\n\\[ t = \\frac{2900}{900 - 100} \\]\nExplanation: Bu hesaplamanın amacı, Dakka'dan Singapur'a yönelik uçuş süresini bulmaktır. Esansiyonun etkisinde olduğundan ve geride kalan hızın hesabına izin verilmelidir.\n<final>2900 / 800</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2900 / 800",
+    "extracted_final_answers": [
+      "2900 / 800"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "Turkish",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "Türkçe Çevirisi:\n\n$x$'e, sonsuz terimden oluşan $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ serisinin bir toplamı (sonsuza kadar) olmasını sağlayan bir koşul getirin ve bu toplamı bulunuz.",
+    "generated_answer": "İlk, biraz kesimizdeki terimi gözden geçirmek istiyoruz. Biraz kesimizdeki toplamın sonsuza kadar tutulan bir serisini temsil eder.\n\n<final>$x=-1$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=-1",
+    "extracted_final_answers": [
+      "x=-1"
+    ],
+    "exact_answer": "x < -2, x > 0, \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "Turkish",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "Bir üçgenin açıları aritmetik bir dizilimdedir ve en büyük açı en küçük açının iki katıdır. Açılarının radyan cinsinden ölçüleri nedir?",
+    "generated_answer": "16/3 radyan\n\n<final>16/3 radyan</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "16/3 radyan",
+    "extracted_final_answers": [
+      "16/3 radyan"
+    ],
+    "exact_answer": "$\\frac{2\\pi^c}{9}, \\frac{\\pi^c}{3}, \\frac{4\\pi^c}{9}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "Turkish",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "İfadeyi sadeleştiriniz:  $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$",
+    "generated_answer": "İfadeyi sadeleştirmeniz gereken özellikler:\n$\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$\n\nÖnceden bilinen geometrik faktlara dayanarak, bu özellikler hem değişmezlik hem de sabitlik özelliğine sahiptir. Bu özellikler, her iki kısma da aynı şekilde paylaştıkları için her bir kısımda ayrı tutulamaz. Sonuç:\n\n<final>Bu ifade 0'a eşittir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Bu ifade 0'a eşittir",
+    "extracted_final_answers": [
+      "Bu ifade 0'a eşittir"
+    ],
+    "exact_answer": "\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "Turkish",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "Türkçe Çeviri:\n\nSadeleştiriniz: $\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$",
+    "generated_answer": "İspat özeti: Birim kareye dönüştürülerek ifadeyi sarmalı kalkülüs yoluyla değerlendirmek mümkün.\n<final>12/7</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12/7",
+    "extracted_final_answers": [
+      "12/7"
+    ],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "Turkish",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "İfadeyi sadeleştiriniz: $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$",
+    "generated_answer": "İfadeyi sadeleştiriniz: $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$\n\n<final>-1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-1",
+    "extracted_final_answers": [
+      "-1"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "Turkish",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "Verilen koşulları sağlayan $\\alpha$ değerini bulunuz:\n$\\cot \\alpha = -\\sqrt{3} \\, ; \\, \\frac{3\\pi}{2} < \\alpha < 2\\pi$",
+    "generated_answer": "α = $\\frac{5\\pi}{3}$\n\nExplanation: This is obtained by directly applying the trigonometric identity for cotangent and considering the given interval.\n\n<final>$\\frac{5\\pi}{3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(5\\pi)/(3)",
+    "extracted_final_answers": [
+      "(5\\pi)/(3)"
+    ],
+    "exact_answer": "$\\frac{11\\pi}{6}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "Turkish",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "İngilizce Soru: Solve: $\\left(\\text{where } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$\n\nTürkçe Çeviri:\n\nÇözünüz: $\\left(\\text{burada } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$",
+    "generated_answer": "θ'nun kayan cevabı yok.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "θ'nun kayan cevabı yok",
+    "extracted_final_answers": [
+      "θ'nun kayan cevabı yok"
+    ],
+    "exact_answer": "$\\frac{\\pi}{3}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "İfadeyi sadeleştiriniz:\n $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$",
+    "generated_answer": "İfadeyi sadeleştirerek $x^n$ sonucunu aldım. Explanation: Her bir kökü yönetirken, onların göreceliklerini içinden aldım ve herhangi bir ürünlerin karesine indirdim. <final>x^n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^n",
+    "extracted_final_answers": [
+      "x^n"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "GÖSTERİNİZ Kİ:\n1) Eğer $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$ ise, o zaman $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$",
+    "generated_answer": "İşte doğru cevapınız. Sizin sorunuzu yanıtlandık ve işlenmiş hale getirdik. İyi çalışmalar! <final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "Turkish",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": "$a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ ve $a \\ge 0$ ise, $3a^3 + 9a = 8$ olduğunu gösteriniz.",
+    "generated_answer": "3a^3 + 9a = 8 doğrulandı.\nExplanation:\nVerilen denklemlerden birine a'yı çözüp diğerine yerleştirdikten sonra düzenli sonuçlar elde edilmiştir.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Explanation: Verilen denklemlerden birine a'yı çözüp diğerine yerleştirdikten sonra düzenli sonuçlar elde edilmiştir",
+    "extracted_final_answers": [
+      "Explanation: Verilen denklemlerden birine a'yı çözüp diğerine yerleştirdikten sonra düzenli sonuçlar elde edilmiştir"
+    ],
+    "exact_answer": "3a^3 + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "Turkish",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "Her bir durumda ters fonksiyonu yazınız: $y = \\log_{10} x$",
+    "generated_answer": "İşte ters fonksiyonunuz: $x = 10^y$ <final>$x = 10^y$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 10^y",
+    "extracted_final_answers": [
+      "x = 10^y"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "Turkish",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "$f(x) = \\ln \\frac{1-x}{1+x}$ fonksiyonunun tanım kümesini ve değer kümesini belirleyiniz.",
+    "generated_answer": "İşlemin tanım kümesi (-1, 1) dışında tanımlanamaz. Değer kümesi R'de tamamlanan (-\\infty, \\infty)'dir.\n<final>(-1, 1), (-\\infty, \\infty)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(-1, 1), (-\\infty, \\infty)",
+    "extracted_final_answers": [
+      "(-1, 1), (-\\infty, \\infty)"
+    ],
+    "exact_answer": "D_f = (-1, 1) ve Görüntü Kümesi G_f = \\mathbb{R}.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "Turkish",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "Aşağıdaki fonksiyonun tanım kümesini (domain) ve değer kümesini (range) belirleyiniz:\n\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{if } x \\ne 0 \\\\ 0, & \\text{if } x=0 \\end{cases}$",
+    "generated_answer": "İşlemsel küme ve değer kümesi için belirtileri tanımlamadır. <final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İşlemsel küme ve değer kümesi için belirtileri tanımlamadır. <final></final>",
+    "extracted_final_answers": [
+      "İşlemsel küme ve değer kümesi için belirtileri tanımlamadır. <final></final>"
+    ],
+    "exact_answer": "D_f = \\mathbb{R} , R_f = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "Turkish",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "$(1 + x^{2})^{8}$ ifadesini ilk dört terimine kadar açınız. Elde ettiğiniz sonucu kullanarak $(1,01)^{8}$'in değerini bulunuz.",
+    "generated_answer": "10824360001\n\n<final>10824360001</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10824360001",
+    "extracted_final_answers": [
+      "10824360001"
+    ],
+    "exact_answer": "1,082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "Turkish",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "Aşağıdaki ifadenin ilk dört terimini [Pascal Üçgeni veya Binom Teoremi kullanarak] bulunuz:\n1) $(1 - 2x^{2})^{7}$",
+    "generated_answer": "İlk dört terimleri hesaplayın.\n\n<final>$1$, $-84x^{2}$, $1715x^{4}$, $-16807x^{6}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1$, $-84x^{2}$, $1715x^{4}$, $-16807x^{6}",
+    "extracted_final_answers": [
+      "1$, $-84x^{2}$, $1715x^{4}$, $-16807x^{6}"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "Turkish",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "Uzman bir Türk matematik eğitimcisi olarak, akademik matematik içeriğini çevirme konusundaki geniş deneyimimle, aşağıdaki matematiksel soruyu en üst düzeyde profesyonellikle İngilizce'den Türkçe'ye çevireceğim.\n\n**ÇEVİRİ KILAVUZLARI:**\n1.  **MATEMATİKSEL UNSURLAR:**\n    *   TÜM matematiksel gösterimleri tam olarak koruyun: sayılar, değişkenler, denklemler, semboller (∑, ∫, ∂, √, vb.)\n    *   Matematiksel ifadeleri varsa orijinal LaTeX/ASCII formatında tutun.\n    *   Matematiksel yapıyı ve ilişkileri tam olarak aynı şekilde muhafaza edin.\n\n2.  **TÜRKÇE MATEMATİKSEL YERLEŞİKLER:**\n    *   Türkçe ondalık gösterimini kullanın (nokta yerine virgül): 3,14 yerine 3.14\n    *   Uygun Türkçe matematiksel terimleri kullanın:\n        *   \"olsun\" için \"let\"\n        *   \"öyle ki\" için \"such that\"\n        *   \"küme\" için \"set\"\n        *   \"fonksiyon\" için \"function\"\n        *   \"denklem\" için \"equation\"\n        *   \"çözmek\" için \"solve\"\n        *   \"hesaplamak\" için \"calculate\"\n        *   \"belirlemek\" için \"determine\"\n        *   \"göstermek\" veya \"gösteriniz\" için \"show that\"\n        *   \"ispatlamak\" veya \"kanıtlamak\" için \"prove\"\n\n3.  **FORMATLAMA VE YAPI:**\n    *   Sorunun tam yapısını koruyun (çoktan seçmeli seçenekler, a), b), c) gibi kısımlar vb.)\n    *   Aynı matematiksel resmiyet seviyesini koruyun.\n    *   Uygun Türkçe ekleri ve sonrası edatları kullanın.\n\n4.  **KALİTE KONTROLÜ:**\n    *   Çevirinin Türkçe akademik yazım standartlarına uygun olduğundan emin olun.\n    *   Matematiksel bilginin kaybolmadığını veya değiştirilmediğini doğrulayın.\n    *   Zorluk seviyesinin aynı kaldığını teyit edin.\n\n**İngilizce Soru:** Find the following expansion upto first four terms [using Pascal's Triangle or binomial theorem]\n3) $(1 - \\frac{1}{2x})^{7}$\n\n**Türkçe Çeviri:**\nİlk dört terime kadar olan aşağıdaki açılımı bulun [Pascal Üçgeni veya binom teoremini kullanarak]\n3) $(1 - \\frac{1}{2x})^{7}$",
+    "generated_answer": "3a - The first four terms of the expansion are: $1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3}$\n<final>$1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - (7)/(2x) + (21)/(4x^2) - (35)/(8x^3)",
+    "extracted_final_answers": [
+      "1 - (7)/(2x) + (21)/(4x^2) - (35)/(8x^3)"
+    ],
+    "exact_answer": "$1-\\frac{7}{2x}+\\frac{21}{4x^2}-\\frac{35}{8x^3}+.....$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "Turkish",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "$(2 + 3x)^6$ ifadesinin ilk dört terimini belirleyiniz.",
+    "generated_answer": "İlk dört terimleri vereceğim.\n\n<final>$2, 18x, 135x^2, 540x^3$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2, 18x, 135x^2, 540x^3",
+    "extracted_final_answers": [
+      "2, 18x, 135x^2, 540x^3"
+    ],
+    "exact_answer": "64 + 576x + 2160x^2 + 4320x^3 + \\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "Turkish",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "Bir matematik eğitimcisi olarak, İngilizce soruyu en yüksek profesyonel standartlarda Türkçe'ye çeviriyorum:\n\n**Türkçe Çeviri:**\n\n$\\underline{a} + \\underline{b} = \\underline{c}$ ise, $\\underline{a} = \\underline{c} - \\underline{b}$ olduğunu gösteriniz.",
+    "generated_answer": "İşlemi gerçekleştirdiğinizden emin misiniz? Bu sorunun zaten bildiğiniz yanıtı var. <final>Evet, doğru bildiğim.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Evet, doğru bildiğim",
+    "extracted_final_answers": [
+      "Evet, doğru bildiğim"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "Uzunluğu $2,5$ metre, genişliği $1,0$ metre ve yüksekliği $0,4$ metre olan dikdörtgen prizma şeklindeki bir tank yere konulmuştur. Hacmini ve iç yüzey alanını bulunuz.",
+    "generated_answer": "İç hacim: $\\boxed{1,0}$ metreküp ve iç yüzey alanı: $\\boxed{8,2}$ metrekare <final>$1,0$<final>, <final>$8,2$<final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İç hacim: 1,0 metreküp ve iç yüzey alanı: 8,2 metrekare <final>$1,0$<final>, <final>$8,2$<final>",
+    "extracted_final_answers": [
+      "İç hacim: 1,0 metreküp ve iç yüzey alanı: 8,2 metrekare <final>$1,0$<final>, <final>$8,2$<final>"
+    ],
+    "exact_answer": "1 , 7,8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "Bir pansiyon, her bir öğrencinin 4,25 metrekare taban alanı ve 13,6 metreküp hacme sahip olacağı şekilde 70 öğrenci için inşa edilecektir. Eğer odanın uzunluğu 34 metre ise, genişliği ve yüksekliği ne olur?",
+    "generated_answer": "3 metre genişlik ve 2,04 metre yükseklik <final>3 metre genişlik ve 2,04 metre yükseklik</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3 metre genişlik ve 2,04 metre yükseklik",
+    "extracted_final_answers": [
+      "3 metre genişlik ve 2,04 metre yükseklik"
+    ],
+    "exact_answer": "8,75, 3,2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "DİK ÜÇGENİN DİK KENARLARININ UZUNLUKLARI $5 \\text{ cm}$ VE $3,5 \\text{ cm}$'dir. BU ÜÇGENİN BÜYÜK KENARI ETRAFINDA DÖNDÜRÜLMESİYLE OLUŞAN CİSMİN HACMİNİ BULUNUZ.",
+    "generated_answer": "Çözüm:\n\nHacim: $\\boxed{10,5 \\text{ cm}^3}$\n\nExplanation: Bu yöntem, birbirinden farklı iki dikkenar uzunluğuna sahip bir dik üçgenin yüzey alanını ve sonra dörtgeni bir kenar etrafına dönerek oluşan şekli hesaplayarak hacimini bulma işleminde kullanılır.\n\n<final>$\\boxed{10,5 \\text{ cm}^3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10,5 \\text{ cm^3}",
+    "extracted_final_answers": [
+      "10,5 \\text{ cm^3}"
+    ],
+    "exact_answer": "64,14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "Here is the Turkish translation of the question, adhering to your guidelines:\n\nİngilizce Soru: A godown of two-part roof is constructed on a land of length 25 metres and width 18 metres. Its height is 5 metres. Each part of the roof is of 14 metres wide. Find the volume of the godown.\n\nTürkçe Çeviri:\n\nİki parçalı çatısı olan bir depo, 25 metre uzunluğunda ve 18 metre genişliğindeki bir arazi üzerine inşa edilmiştir. Deponun yüksekliği 5 metredir. Çatının her bir parçası 14 metre genişliğindedir. Deponun hacmini hesaplayınız.",
+    "generated_answer": "7850 m³\n\n<final>7850 m³</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "7850 m³",
+    "extracted_final_answers": [
+      "7850 m³"
+    ],
+    "exact_answer": "4662,85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "Türkçe Çeviri:\n\n$F: R \\rightarrow R$ olmak üzere, $F(x)=x^2$ fonksiyonunun birebir olmadığını gösteriniz.",
+    "generated_answer": "İşte sorunun, fonksiyonun birebir olmadığını göstermek için kesin sonuç veya bir özet ispatı yoktur. <final>Fonksiyon birebir değildir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Fonksiyon birebir değildir",
+    "extracted_final_answers": [
+      "Fonksiyon birebir değildir"
+    ],
+    "exact_answer": "F birebir değil",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "Turkish",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "Türkçe Çevirisi:\n\n$f(x)=3x+1, 0 \\le x \\le 2$ olsun; $f$'nin görüntü kümesini bulun.",
+    "generated_answer": "İmge kümesi = {3, 6, 9, 10} <final>{3, 6, 9, 10}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{3, 6, 9, 10}",
+    "extracted_final_answers": [
+      "{3, 6, 9, 10}"
+    ],
+    "exact_answer": "{y: 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "if $P(x)=3x^3+2x^2-7x+8$, then find the value of $P(2)$\n\n**Turkish Translation:**\n\n$P(x)=3x^3+2x^2-7x+8$ ise, $P(2)$ değerini bulunuz.",
+    "generated_answer": "29 <final>29</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "29",
+    "extracted_final_answers": [
+      "29"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "$P(x) = ax^3+bx+c$ ise, $P(x)$'in $x-m$'ye bölümünden kalanın $P(m)$'ye eşit olduğunu gösteriniz.",
+    "generated_answer": "İspat özeti: $P(m)$'ye eşit kalan bölüme göre sonuç alabiliriz.\n\n<final>Bölünecek sonucun $P(m)$'ye eşit olduğunu gösterebiliriz.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Bölünecek sonucun $P(m)$'ye eşit olduğunu gösterebiliriz",
+    "extracted_final_answers": [
+      "Bölünecek sonucun $P(m)$'ye eşit olduğunu gösterebiliriz"
+    ],
+    "exact_answer": "Kalan P(m)'ye eşittir",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "Varsayalım ki $P(x)=ax^3+bx^2+cx+d$ tam sayı katsayılı bir polinomdur, $a \\neq 0, \\ d \\neq 0$; ayrıca $x-r$'nin $P(x)$'in bir çarpanı olduğunu varsayalım. Gösteriniz ki, eğer $r$ bir tam sayı ise, $r$ sabit terimin bir çarpanı olacaktır.",
+    "generated_answer": "İspat özeti: Eğer $r$ bir tam sayı ise, $r$ sabit terimin bir çarpanı olacaktır. Sonuç: $r$\n<final>$r$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "r",
+    "extracted_final_answers": [
+      "r"
+    ],
+    "exact_answer": "r, d'nin bir çarpanıdır",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "Türkçe Çeviri:\n\n$P(x)=$ Polinomunu $x^3-6x^2+11x-6$ çarpanlarına ayırınız.",
+    "generated_answer": "Çözüm:\n$x^3-6x^2+11x-6=(x-1)(x-2)(x-3)$\nExplanation:\nDört açılımın her birine sahip olduğunu ve onların toplamının $x^3$ olmasından şüphe etmeden, üçüncül derecede bir polinomun açılımlarına yönelik formüller kullandım.\n<final>$(x-1)(x-2)(x-3)</final>$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-1)(x-2)(x-3)",
+    "extracted_final_answers": [
+      "(x-1)(x-2)(x-3)"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "Çarpanlara ayırınız: $18x^3+15x^2-x-2$",
+    "generated_answer": "Çarpanları bulun: $18x^3+15x^2-x-2$\n\n<final>$6(3x^3+5x^2-x)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6(3x^3+5x^2-x)",
+    "extracted_final_answers": [
+      "6(3x^3+5x^2-x)"
+    ],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "İfadesini çarpanlarına ayırınız: $a^3(b-c)+b^3(c-a)+c^3(a-b)$.",
+    "generated_answer": "İfadesi faktörlerine ayırmak için: $a^3(b-c)+b^3(c-a)+c^3(a-b)$.\n<final>$a^2(b^2-bc+c^2)-ab(a-c)(b-c)+bc(a-b)(a-c)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a^2(b^2-bc+c^2)-ab(a-c)(b-c)+bc(a-b)(a-c)",
+    "extracted_final_answers": [
+      "a^2(b^2-bc+c^2)-ab(a-c)(b-c)+bc(a-b)(a-c)"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "$(b+c)(c+a)(a+b)+abc$ ifadesini çarpanlarına ayırınız.",
+    "generated_answer": "Çarpanların toplamı: $(b+c)(c+a)(a+b)+abc = b^2 + ac + ab + bc$.\n\n<final>$b^2 + ac + ab + bc$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "b^2 + ac + ab + bc",
+    "extracted_final_answers": [
+      "b^2 + ac + ab + bc"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "Turkish",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "$\\dfrac{x}{(x-1)(x^2+4)}$ ifadesini basit kesirlere ayırınız.",
+    "generated_answer": "İşareti basit kesirlere ayırmak için gerekli işlemleri gerçekleştirdikten sonra, final yanıtımız şunadır:\n\nFinal Answer (in Turkish):\n$\\dfrac{1}{x-1} + \\dfrac{-x+1}{(x-1)(x^2+4)}$\n\n<final>$\\dfrac{1}{x-1} + \\dfrac{-x+1}{(x-1)(x^2+4)}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1}{x-1} + \\dfrac{-x+1}{(x-1)(x^2+4)}",
+    "extracted_final_answers": [
+      "\\dfrac{1}{x-1} + \\dfrac{-x+1}{(x-1)(x^2+4)}"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "Turkish",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "$\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ sonsuz bir geometrik dizidir. \\item Eğer $x=1$ ise, dizinin ortak oranını belirleyiniz.",
+    "generated_answer": "ortak oranını bulmak için x=1'i kullanarak $\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ dizisindeki ortak oran.\n\nFinal Answer (in Turkish):\n<final>$\\dfrac{1}{3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1}{3}",
+    "extracted_final_answers": [
+      "\\dfrac{1}{3}"
+    ],
+    "exact_answer": "\\dfrac{1}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "Turkish",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "Bir üçgenin üç açısının ölçüleri $3:4:5$ oranındadır. Açılarının radyan ölçülerini bulunuz.",
+    "generated_answer": "120 derecelik, 90 derecelik ve 60 derecelik açıları vardır.\n\n<final>120 derecelik, 90 derecelik ve 60 derecelik açıları vardır.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "120 derecelik, 90 derecelik ve 60 derecelik açıları vardır",
+    "extracted_final_answers": [
+      "120 derecelik, 90 derecelik ve 60 derecelik açıları vardır"
+    ],
+    "exact_answer": "\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3} ve \\dfrac{5\\pi}{12}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "Turkish",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": "$11$ cm uzunluğundaki bir yayın, $7$ cm yarıçaplı bir çemberin merkezinde oluşturduğu açının radyan cinsinden ölçüsünü bulunuz.",
+    "generated_answer": "3,14 radyan\n<final>3,14</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3,14",
+    "extracted_final_answers": [
+      "3,14"
+    ],
+    "exact_answer": "1,57 radyan",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "Turkish",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "Eğer $7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$ ise, $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$ olduğunu ispatlayınız.",
+    "generated_answer": "İspat edildi ki $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$.\n\n<final>$\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{tan} \\theta= \\pm \\dfrac{1}{√(3)}",
+    "extracted_final_answers": [
+      "\\text{tan} \\theta= \\pm \\dfrac{1}{√(3)}"
+    ],
+    "exact_answer": "$\\text{tan} \\theta=\\pm \\dfrac{1}{\\sqrt{3}}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "Turkish",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "$\\text{sin} (10\\pi+\\theta)$ değerlerini bulunuz.",
+    "generated_answer": "İçin θ'nın değerleri gerekli olsun <sin(10π + θ)> değerlerini bulunuz.\n<final>\\sin(10\\pi + \\theta)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sin(10\\pi + \\theta)",
+    "extracted_final_answers": [
+      "\\sin(10\\pi + \\theta)"
+    ],
+    "exact_answer": "$\\sin\\theta$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "Turkish",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "$\\text{cot} \\left(\\theta-\\dfrac{9\\pi}{2}\\right)$ için değeri bulunuz.",
+    "generated_answer": "1. Bir dizi içindeki her sayının, dizide en büyük veya en küçük olan sayılara göre sıralanması gerekir. Bu sayılar dizinin \"ortalama\" ya da \"medyan\" değerleridir.\n2. Sıralama işlemi, diyelim ki 6 elemanlı bir dizi için yapılmak isteniyorsa:\n   - 1., 2., 5., 6., 3., 4. sırasındaki sayılar.\n   - En küçük (1.) ve en büyük sayı (6.) bulunur. Dizinin medyan değerleri bu iki sayıdır: 1 ve 6.\n   \n<final>Diyelim ki dizi [a_1, a_2, ..., a_n] olarak tanımlansın. Medyan değeri dizinin (n+1)/2. elemanı içinde yer aldığı varsayılabilir, eğer n tekrarlanan ise bu sayıyı ortalama iki elemanın değerine başka bir ortalamaya düşürülmelidir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Diyelim ki dizi [a_1, a_2, ..., a_n] olarak tanımlansın. Medyan değeri dizinin (n+1)/2. elemanı içinde yer aldığı varsayılabilir, eğer n tekrarlanan ise bu sayıyı ortalama iki elemanın değerine başka bir ortalamaya düşürülmelidir",
+    "extracted_final_answers": [
+      "Diyelim ki dizi [a_1, a_2, ..., a_n] olarak tanımlansın. Medyan değeri dizinin (n+1)/2. elemanı içinde yer aldığı varsayılabilir, eğer n tekrarlanan ise bu sayıyı ortalama iki elemanın değerine başka bir ortalamaya düşürülmelidir"
+    ],
+    "exact_answer": "-tanθ",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "Turkish",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "İspatlayınız ki, $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.",
+    "generated_answer": "İspatlayınız ki, $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.\n\n<final> Birler</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Birler",
+    "extracted_final_answers": [
+      "Birler"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "Turkish",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": "Verilen $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$ eşitliği için, $a^xb^yc^z=1$ olduğunu gösteriniz.",
+    "generated_answer": "İşte yanıt:\n\nYeşil öğrenci sayısı: 14\n\nMavi öğrenci sayısı: 26\n\n<final>14-26</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "14-26",
+    "extracted_final_answers": [
+      "14-26"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "$ (1-3x)^5 $ ifadesini açınız.",
+    "generated_answer": "1. $(1-3x)^5$ açma işlemini gerçekleştiriyoruz.\n2. Bu, binomun genel bir uygulamasıdır ve binom teoremine göre ifade edilebilir.\n\n<final>${1-3x}^5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{1-3x}^5",
+    "extracted_final_answers": [
+      "{1-3x}^5"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "$ (1-\\dfrac{x^2}{4})^8 $ açılımında $ x^3 $ ve $ x^6 $ terimlerinin katsayılarını bulunuz.",
+    "generated_answer": "İşlemindeki $x^3$ ve $x^6$ terimlerinin katsayılarını bulunuz.\n\n<final>Katsayıları bulmak için isleyicileri genişleterek hesaplanabilir.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Katsayıları bulmak için isleyicileri genişleterek hesaplanabilir",
+    "extracted_final_answers": [
+      "Katsayıları bulmak için isleyicileri genişleterek hesaplanabilir"
+    ],
+    "exact_answer": "x^3'ün katsayısı 0'dır ve x^6'nın katsayısı -\\dfrac{7}{8}'dir.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "Turkish",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "$ \\left(x-\\dfrac{1}{x^2}\\right)^5 $ ifadesini açınız.",
+    "generated_answer": "The expanded form of the given expression is $ \\boxed{x^5 - 5x^2 + 10x^{-3} - 10x^{-8} + 5x^{-13} - x^{-15}} $.\n\n<final>$ \\boxed{x^5 - 5x^2 + 10x^{-3} - 10x^{-8} + 5x^{-13} - x^{-15}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^5 - 5x^2 + 10x^{-3- 10x^{-8} + 5x^{-13} - x^{-15}}",
+    "extracted_final_answers": [
+      "x^5 - 5x^2 + 10x^{-3- 10x^{-8} + 5x^{-13} - x^{-15}}"
+    ],
+    "exact_answer": "x^5-5x^2+\\dfrac{10}{x}-\\dfrac{10}{x^4}+\\dfrac{5}{x^7}-\\dfrac{1}{x^{10}}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "Turkish",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "Vektörler yardımıyla, bir üçgenin iki kenarının orta noktalarını birleştiren doğru parçasının üçüncü kenara paralel ve onun yarısı uzunluğunda olduğunu ispatlayınız.",
+    "generated_answer": "İspatı tamamladım. <final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "İspatı tamamladım. <final></final>",
+    "extracted_final_answers": [
+      "İspatı tamamladım. <final></final>"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "Turkish",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "Paralelkenarın köşegenlerinin birbirini ortaladığını vektör yöntemleriyle ispatlayınız.",
+    "generated_answer": "İspat sonuçlarını vektörler kullanarak kanıtlandı.\n\n<final>Paralelkenarın köşegenleri birbirini ortaladı.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Paralelkenarın köşegenleri birbirini ortaladı",
+    "extracted_final_answers": [
+      "Paralelkenarın köşegenleri birbirini ortaladı"
+    ],
+    "exact_answer": "Bir paralelkenarın köşegenleri birbirini ortalar.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "Turkish",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "Dikdörtgenler prizmasının uzun kenarı, kısa kenarı ve yüksekliği $4:3:2$ oranındadır ve tüm yüzey alanının ölçüsü $468$ metrekaredir; cisim köşegeninin uzunluğunu ve hacmini bulunuz.",
+    "generated_answer": "İç köşegenin uzunluğu $10$ metredir ve hacmini bulduğunuz değer $24$ kubikmetre.\n\n<final>10 metre, 24 kübikmetre</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10 metre, 24 kübikmetre",
+    "extracted_final_answers": [
+      "10 metre, 24 kübikmetre"
+    ],
+    "exact_answer": "16,16 metre, 648 metreküp",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "Turkish",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "Geçen yıl Temmuz ayında meteoroloji kayıtlarına göre 21 gün yağmur yağmıştır. Bu yıl 4 Temmuz'da yağmur yağma olasılığı nedir?",
+    "generated_answer": "2021 yılı Temmuz ayında yağmur yağan günler oranına dayandırılarak, bu yıl 4 Temmuz'da yağmur yağma olasılığı %38'tir.\n\n<final>38%</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "38%",
+    "extracted_final_answers": [
+      "38%"
+    ],
+    "exact_answer": "\\dfrac{21}{31}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]

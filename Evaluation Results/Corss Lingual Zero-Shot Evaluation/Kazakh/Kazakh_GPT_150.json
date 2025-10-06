@@ -1,0 +1,2688 @@
+[
+  {
+    "problem_index": 0,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "$\\frac{1}{\\sqrt{2}}$ және $\\sqrt{2}$ сандарының арасынан бір рационал санды және бір иррационал санды табыңыз.",
+    "generated_answer": "Explanation: 1 рационал, √3/2 – иррационал, екіі де 1/√2 мен √2 арасында.\n\n<final>1, √3/2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1, √3/2",
+    "extracted_final_answers": [
+      "1, √3/2"
+    ],
+    "exact_answer": "$a=1.2$ және $b=1.020020002$ – екі қажетті сандар, оның ішінде $a$ – бөлшекті, ал $b$ – иррационал сан.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "Келесі санның рационал немесе иррационал екенін жазыңыз: $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "Explanation: $\\frac{14}{9}$ - рационал сан.  \n\n<final>рационал</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "рационал",
+    "extracted_final_answers": [
+      "рационал"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ - бұл **рационал сан**.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "Келесі санның рационал немесе иррационал екенін жазыңыз: $5.\\dot{6}3\\dot{9}$",
+    "generated_answer": "Explanation: Қайталанатын ондық бөлшек болғандықтан рационал.  \n<final>Рационал</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Рационал",
+    "extracted_final_answers": [
+      "Рационал"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ - бұл рационал сан.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "$\\sqrt{5}$ және $4$ екі нақты сан.\n$\\sqrt{5}$ пен $4$ сандарының арасынан екі иррационал санды табыңыз.",
+    "generated_answer": "Мысалы, $\\sqrt{6}$ және $\\pi$  \n\n<final>Мысалы, $\\sqrt{6}$ және $\\pi$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Мысалы, $√(6)$ және $\\pi",
+    "extracted_final_answers": [
+      "Мысалы, $√(6)$ және $\\pi"
+    ],
+    "exact_answer": "$a=2.4040040004$ және $b=2.5050050005$ екеуі де иррационал сандар",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "$\\sqrt{5}$ және $4$ екі нақты сан болсын.\n$\\sqrt{5}$-тің иррационал сан екенін дәлелдеңіз.",
+    "generated_answer": "Explanation: 5 бүтін квадраты жоқ, сондықтан оның квадрат түбірі иррационал.  \n\n<final>√5 иррационал сан.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√5 иррационал сан",
+    "extracted_final_answers": [
+      "√5 иррационал сан"
+    ],
+    "exact_answer": "$\\sqrt{5}$ - иррационал сан.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "Kazakh",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "Келесі жиындарды жиын құру нотациясымен өрнектеңіз: \\{x \\in Z: x^2>5 \\text{ және } x^3 \\leq 36\\}",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "{..., -4, -3, 3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "Kazakh",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "Келесі жиындарды жиын құру нысанында жазыңыз: {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "{x ∈ N : x, 4-ке еселік және x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "Kazakh",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "Егер $f(x) = \\frac{2x+1}{2x-1}$ болса, онда $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$ өрнегінің мәнін анықтаңыз.",
+    "generated_answer": "Explanation: Бұл өрнек 2/x²-ге тең.  \n<final>2/x^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2/x^2",
+    "extracted_final_answers": [
+      "2/x^2"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "Kazakh",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "A $x - b y - c z$ формулаларының көмегімен квадратты табыңыз.",
+    "generated_answer": "$(x - by - cz)^2 = x^2 + b^2y^2 + c^2z^2 - 2bxy - 2cxz + 2bcyz$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x - by - cz)^2 = x^2 + b^2y^2 + c^2z^2 - 2bxy - 2cxz + 2bcyz",
+    "extracted_final_answers": [
+      "(x - by - cz)^2 = x^2 + b^2y^2 + c^2z^2 - 2bxy - 2cxz + 2bcyz"
+    ],
+    "exact_answer": "a^2x^2 + b^2y^2 + c^2z^2 - 2abxy + 2bcyz - 2cazx",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "Kazakh",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "Егер $x - \\frac{1}{x} = 4$ болса, онда $x^4 + \\frac{1}{x^4} = 322$ екенін дәлелдеңіз.",
+    "generated_answer": "Explanation: x - 1/x = 4 болғанда, x^2 + 1/x^2 = 18, одан x^4 + 1/x^4 = 18^2 - 2 = 322. <final>322</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "322",
+    "extracted_final_answers": [
+      "322"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "Kazakh",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "Егер $a + b + c = 6$ және $a^2 + b^2 + c^2 = 14$ болса, онда $(a-b)^2 + (b-c)^2 + (c-a)^2$ өрнегінің мәні қандай болады?",
+    "generated_answer": "6",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "Kazakh",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "**Kazakh Translation:**\n\nМынаны ықшамдаңыз: $(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2) + (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "<final>2(x^3 + y^3 + z^3)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2(x^3 + y^3 + z^3)",
+    "extracted_final_answers": [
+      "2(x^3 + y^3 + z^3)"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "$(a^2-b^2)(x^2-y^2) + 4abxy$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "( (a-b)x + (a+b)y ) ( (a+b)x + (b-a)y )",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "( (a-b)x + (a+b)y ) ( (a+b)x + (b-a)y )",
+    "extracted_final_answers": [
+      "( (a-b)x + (a+b)y ) ( (a+b)x + (b-a)y )"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "Ағылшынша сұрақ: $a^2 + 6a + 8 - y^2 + 2y$ өрнегін көбейткіштерге жіктеңіз.\n\nҚазақша аудармасы: $a^2 + 6a + 8 - y^2 + 2y$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "<final>(a+2)(a+4) - y(y-2)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a+2)(a+4) - y(y-2)",
+    "extracted_final_answers": [
+      "(a+2)(a+4) - y(y-2)"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "Келесіні көбейткіштерге жіктеңіз: $16x^2 - 25y^2 - 8xz + 10yz$",
+    "generated_answer": "(4x - 5y)(4x + 5y - 2z)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(4x - 5y)(4x + 5y - 2z)",
+    "extracted_final_answers": [
+      "(4x - 5y)(4x + 5y - 2z)"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "a^4 + b^4 + c^4 - 2a^2b^2 - 2b^2c^2 - 2c^2a^2 өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "Explanation: Бұл өрнекті айырмашылық квадрат формуласы арқылы факторлаймыз.  \n<final>(a-b-c)(a-b+c)(a+b-c)(a+b+c)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-b-c)(a-b+c)(a+b-c)(a+b+c)",
+    "extracted_final_answers": [
+      "(a-b-c)(a-b+c)(a+b-c)(a+b+c)"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "Көбейткіштерге жіктеңіз: $x^3 + 3x^2 + 3x + 2$",
+    "generated_answer": "<final>(x+2)(x^2+x+1)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+2)(x^2+x+1)",
+    "extracted_final_answers": [
+      "(x+2)(x^2+x+1)"
+    ],
+    "exact_answer": "(x+2)(x^2+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "Көбейткіштерге жіктеңіз $a^3 - 6a^2 + 12a - 9$",
+    "generated_answer": "<(a-3)(a^2-3a+3)></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "<(a-3)(a^2-3a+3)></final>",
+    "extracted_final_answers": [
+      "<(a-3)(a^2-3a+3)></final>"
+    ],
+    "exact_answer": "(a-3)(a^2-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "Көбейткіштерге жіктеңіз $8x^3 + 12x^2 + 6x - 63$",
+    "generated_answer": "$8x^3+12x^2+6x-63=(2x-3)\\bigl(4x^2+12x+21\\bigr).$  \n(Квадраттық коэффициенттерді 2-ге бөліп, $(x-\\tfrac32)$-ді $(2x-3)/2$ деп жазғаннан кейін 2-лер өзара жойылады.)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8x^3+12x^2+6x-63=(2x-3)\\bigl(4x^2+12x+21\\bigr).$ (Квадраттық коэффициенттерді 2-ге бөліп, $(x-\\tfrac32)$-ді $(2x-3)/2$ деп жазғаннан кейін 2-лер өзара жойылады.)",
+    "extracted_final_answers": [
+      "8x^3+12x^2+6x-63=(2x-3)\\bigl(4x^2+12x+21\\bigr).$ (Квадраттық коэффициенттерді 2-ге бөліп, $(x-\\tfrac32)$-ді $(2x-3)/2$ деп жазғаннан кейін 2-лер өзара жойылады.)"
+    ],
+    "exact_answer": "(2x-3)(4x^2+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "Kazakh",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "$(x + 2)(x + 3)(x + 4)(x + 5) - 48$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "extracted_final_answers": [
+      "(x^2+7x+4)(x^2+7x+18)"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "Kazakh",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "$(a+1) (3a^2-3a + 5)$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "(a+1)(3a^2-3a+5)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a+1)(3a^2-3a+5)",
+    "extracted_final_answers": [
+      "(a+1)(3a^2-3a+5)"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "Kazakh",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "Келесі өрнекті жіктеңіз: $x^3 - 7xy^2 - 6y^3$",
+    "generated_answer": "Жіктеу: $(x-3y)(x+y)(x+2y)$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Жіктеу: $(x-3y)(x+y)(x+2y)",
+    "extracted_final_answers": [
+      "Жіктеу: $(x-3y)(x+y)(x+2y)"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "Kazakh",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "\"Factorize\" in English mathematics means to break down an expression into its factors (usually simpler expressions that multiply together to give the original expression).\n\nThe Kazakh word \"Кішірейтіңіз\" translates to \"Make smaller\" or \"Reduce\". This is not the correct mathematical term for factorization.\n\nThe correct Kazakh term for \"Factorize\" is \"Көбейткіштерге жіктеңіз\" or \"Көбейткіштерге бөліңіз\".\n\nTherefore, the translation is not mathematically accurate in terms of the intended operation.\n\nCorrected translation:\nКөбейткіштерге жіктеңіз: $2x^4-3x^3-3x-2$",
+    "generated_answer": "2x^4-3x^3-3x-2 = (x-2)(2x+1)(x^2+1).",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2x^4-3x^3-3x-2 = (x-2)(2x+1)(x^2+1)",
+    "extracted_final_answers": [
+      "2x^4-3x^3-3x-2 = (x-2)(2x+1)(x^2+1)"
+    ],
+    "exact_answer": "(x-2)(x^2+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "Kazakh",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "Автобус пикникке бару үшін 5700 теңгеге жалданды, әр жолаушы бірдей ақы төлейтін шартпен. Бірақ 5 жолаушының келмеуіне байланысты, жолақы әр адамға 3 теңгеге артты. Неше жолаушы автобусты пайдаланды?",
+    "generated_answer": "100",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "100",
+    "extracted_final_answers": [
+      "100"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "Kazakh",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "Егер қауымдастық мүшелерінің әрқайсысы мүшелер санының $100$-еселенген сомасын жазуға шешсе, бірақ $7$ мүше жазылмаса. Нәтижесінде, әр мүшеге жазылу сомасы бұрынғыдан $500$ теңгеге артты.\nЕгер мүшелер саны $x$ болса және жазылудың жалпы сомасы $A$ теңге болса, олардың арасындағы байланысты табыңыз.",
+    "generated_answer": "A = 100x^2 - 200x - 3500.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = 100x^2 - 200x - 3500",
+    "extracted_final_answers": [
+      "A = 100x^2 - 200x - 3500"
+    ],
+    "exact_answer": "$A = 100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "Kazakh",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "Кәсіподақ мүшелерінің әрқайсысы мүшелер санының $100$ есесін жазылуға тиіс еді. Бірақ $7$ мүше жазылмады. Нәтижесінде, әр мүшеге жазылу сомасы бұрынғыдан $500$ теңгеге артты.\nКәсіподақ мүшелерінің санын және жазылудың жалпы сомасын табыңыз.",
+    "generated_answer": "Мүшелер саны мен жазылу сомасы берілген шарттарға сәйкес келетін бүтін сан табу мүмкін емес.  \nШарттар өзара қайшы келеді, сондықтан мұндай мүше саны (және сол арқылы жазылу сомасы) анықталмайды.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Мүшелер саны мен жазылу сомасы берілген шарттарға сәйкес келетін бүтін сан табу мүмкін емес. Шарттар өзара қайшы келеді, сондықтан мұндай мүше саны (және сол арқылы жазылу сомасы) анықталмайды",
+    "extracted_final_answers": [
+      "Мүшелер саны мен жазылу сомасы берілген шарттарға сәйкес келетін бүтін сан табу мүмкін емес. Шарттар өзара қайшы келеді, сондықтан мұндай мүше саны (және сол арқылы жазылу сомасы) анықталмайды"
+    ],
+    "exact_answer": "20, 40 000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "Kazakh",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "Шешіңіз: $(3^{m+1} / (3^m)^{m-1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "1/9",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/9",
+    "extracted_final_answers": [
+      "1/9"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "Kazakh",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "Qazaqşa аударма:\n\nДәлелдеңіз: $4^n - 1 / 2^n - 1 = 2^n + 1$",
+    "generated_answer": "Explanation: 4^n − 1 = (2^n − 1)(2^n + 1) → (4^n − 1)/(2^n − 1) = 2^n + 1.\n\n<final>2^n + 1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2^n + 1",
+    "extracted_final_answers": [
+      "2^n + 1"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "Kazakh",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "Kazakh Translation:\n\nМынаны дәлелдеңіз: $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$",
+    "generated_answer": "1\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "Kazakh",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "$P = x^a$, $Q = x^b$ және $R = x^c$ берілген.\n$(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)} \\div 2(RP)^{(a-c)}$ өрнегінің мәнін табыңыз.",
+    "generated_answer": "Explanation: Нәтиже 1/2. <final>1/2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/2",
+    "extracted_final_answers": [
+      "1/2"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "Kazakh",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "Берілгені:\n$X = (2a^{-1} + 3b^{-1})^{-1}$\n$Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$; мұндағы $x > 0$ және $p, q, r > 0$\n$Z = (5^{(m+1)} + 25^{(m+1)}) / (5^{m} + (5^{-1})^{m+1})$\n$Y + \\sqrt[3]{64} = 5$ екенін көрсетіңіз.",
+    "generated_answer": "Қорытынды: Y + ∛64 = 5. <final>Y + ∛64 = 5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Y + ∛64 = 5",
+    "extracted_final_answers": [
+      "Y + ∛64 = 5"
+    ],
+    "exact_answer": "$Y + \\sqrt[3]{64} = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "Kazakh",
+    "chapter_number": "4.2",
+    "example_number": "233",
+    "question": "$x$-тің мәнін табыңыз: $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "x = 4\n\n<final>4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4",
+    "extracted_final_answers": [
+      "4"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "Kazakh",
+    "chapter_number": "4.2",
+    "example_number": "235",
+    "question": "**Kazakh Translation:**\n\n$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$ теңдігін **көрсетіңіз**.",
+    "generated_answer": "Explanation: Теңдеудің екі жағы бірдей, өйткені 50/147 = 2·5²/(3·7²).  \n<final>Теңдеу логарифм қасиеттерін қолданып дәлелденеді.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Теңдеу логарифм қасиеттерін қолданып дәлелденеді",
+    "extracted_final_answers": [
+      "Теңдеу логарифм қасиеттерін қолданып дәлелденеді"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "Kazakh",
+    "chapter_number": "4.2",
+    "example_number": "242",
+    "question": "Қазақша аудармасы:\n\n$x=2, y=3, z=5, w=7$ берілген, $\\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3}$ екенін көрсетіңіз.",
+    "generated_answer": "Қорытынды: 1.5 = 3/2 = log₃√27, сондықтан берілген теңдеу орындалады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1.5 = 3/2 = log₃√27, сондықтан берілген теңдеу орындалады",
+    "extracted_final_answers": [
+      "1.5 = 3/2 = log₃√27, сондықтан берілген теңдеу орындалады"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "Kazakh",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": "Common logarithm (or simply logarithm to base 10) is usually translated as \"ондық логарифм\" or \"ондық логарифм\". \"Common logarithm\" in Russian is \"десятичный логарифм\". However, in Kazakh, the general term \"логарифм\" is used, and the base is often specified if it's not $e$ or $10$. For base 10, it's often understood as \"ондық логарифм\". Given the context of \"common logarithm\" and the common use in many academic settings, \"ондық логарифм\" is the most appropriate and precise translation.\n\nHere's the translation:\n\n**Есептеңіз (бес ондық белгіге дейінгі жуық мәні бойынша): $22.2642 \\div 3.42$ сандарының ондық логарифмін.**",
+    "generated_answer": "0.8136",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0.8136",
+    "extracted_final_answers": [
+      "0.8136"
+    ],
+    "exact_answer": "0.81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "Kazakh",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "Шешіңіз:\n$\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$",
+    "generated_answer": "x = a + b\n\n<final>x = a + b</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = a + b",
+    "extracted_final_answers": [
+      "x = a + b"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "Kazakh",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$ теңдеуін шешіңіз.",
+    "generated_answer": "x = -\\frac{3}{\\sqrt{2}},\\;\\frac{2}{\\sqrt{3}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = -(3)/(√(2)),\\;(2)/(√(3))",
+    "extracted_final_answers": [
+      "x = -(3)/(√(2)),\\;(2)/(√(3))"
+    ],
+    "exact_answer": "$x=-\\frac{3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "Here is the Kazakh translation of the mathematical question, adhering to your guidelines:\n\n**Zhengdeu:** $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$ екенін дәлелдеңіз.",
+    "generated_answer": "1/(sec²A)+1/(cosec²A)=cos²A+sin²A=1.\n\nExplanation: 1/sec²A = cos²A, 1/cosec²A = sin²A, сондықтан қосындысы 1 болады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/(sec²A)+1/(cosec²A)=cos²A+sin²A=1. Explanation: 1/sec²A = cos²A, 1/cosec²A = sin²A, сондықтан қосындысы 1 болады",
+    "extracted_final_answers": [
+      "1/(sec²A)+1/(cosec²A)=cos²A+sin²A=1. Explanation: 1/sec²A = cos²A, 1/cosec²A = sin²A, сондықтан қосындысы 1 болады"
+    ],
+    "exact_answer": "1/\\sec^2 A + 1/\\text{cosec}^2 A = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "Prove that: $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$\n\nKazakh Translation:\n$\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$ екенін дәлелдеңіз.",
+    "generated_answer": "Explanation: tan²A + 1 = sec²A, cot²A + 1 = csc²A, сондықтан қосынды 1-ге тең.  \n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "Kazakh Translation:\n\nДәлелдеңіз: $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.",
+    "generated_answer": "Explanation: csc A = 1/sin A, және есептеуден кейін 2 tan² A-ге теңдеу келеді.  \n\n<final>1/(csc A - 1) - 1/(csc A + 1) = 2 tan²A</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/(csc A - 1) - 1/(csc A + 1) = 2 tan²A",
+    "extracted_final_answers": [
+      "1/(csc A - 1) - 1/(csc A + 1) = 2 tan²A"
+    ],
+    "exact_answer": "$1 / (\\text{cosec} A - 1) - 1 / (\\text{cosec} A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "Егер $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$ болса, $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$ екенін көрсетіңіз.",
+    "generated_answer": "Қорытынды: $(\\csc A-\\cot A)=\\frac1x$ болса, $\\sec A=\\frac{x^2+1}{x^2-1}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$(\\csc A-\\cot A)=\\frac1x$ болса, $\\sec A=(x^2+1)/(x^2-1)$",
+    "extracted_final_answers": [
+      "$(\\csc A-\\cot A)=\\frac1x$ болса, $\\sec A=(x^2+1)/(x^2-1)$"
+    ],
+    "exact_answer": "$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "Kazakh",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "Дәлелдеңіз, $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$ екенін, мұндағы $A = 30^\\circ$.",
+    "generated_answer": "Explanation: cos 3·30° = cos 90° = 0, ал оң жақ 4(√3/2)^3 – 3(√3/2) = 0.\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "Егер ағаштың ұшар басынан жердегі кез келген нүктеге дейінгі **арақашықтық** 20 метр және **сол нүктеден** көтерілу бұрышы $60^\\circ$ болса, ағаштың биіктігін табыңыз.",
+    "generated_answer": "<final>10√3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10√3",
+    "extracted_final_answers": [
+      "10√3"
+    ],
+    "exact_answer": "34,641 метр",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "Жермен $45^\\circ$ бұрыш жасайтын, ұзындығы $18$ метр болатын саты қабырғаның жоғарғы ұшына тірелген. Қабырғаның биіктігін табыңыз.",
+    "generated_answer": "9√2",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9√2",
+    "extracted_final_answers": [
+      "9√2"
+    ],
+    "exact_answer": "12.728 метр",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "Кез келген өзен жағасында тұрған адам, өзеннің арғы бетінде тура алдындағы ұзындығы $150$ метр болатын ағаштың көтерілу бұрышы $30^\\circ$ екенін байқады. Адам қайықпен ағашқа қарай жолға шықты. Бірақ ағыстың әсерінен ағаштан $10$ метр қашықтықтағы жерге жетті.\nБастапқы нүктеден баратын жерге дейінгі қашықтықты табыңыз.",
+    "generated_answer": "150.3329\n<final>150.3329</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "150.3329",
+    "extracted_final_answers": [
+      "150.3329"
+    ],
+    "exact_answer": "260 метр",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "Kazakh",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "Егер $a:b=b:c$ болса, онда келесіні дәлелдеңіз:\n$\\frac{a}{c}=\\frac{a^2+b^2}{b^2+c^2}$",
+    "generated_answer": "Қорытынды: a:b=b:c → ac=b^2, сондықтан a/c=a^2/b^2 және (a^2+b^2)/(b^2+c^2)=a^2/b^2, демек теңдеу орындалады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a:b=b:c → ac=b^2, сондықтан a/c=a^2/b^2 және (a^2+b^2)/(b^2+c^2)=a^2/b^2, демек теңдеу орындалады",
+    "extracted_final_answers": [
+      "a:b=b:c → ac=b^2, сондықтан a/c=a^2/b^2 және (a^2+b^2)/(b^2+c^2)=a^2/b^2, демек теңдеу орындалады"
+    ],
+    "exact_answer": "\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "Kazakh",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "Мынаны шешіңіз:\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$",
+    "generated_answer": "x = \\tfrac{3}{4}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = \\tfrac{3}{4}",
+    "extracted_final_answers": [
+      "x = \\tfrac{3}{4}"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "Kazakh",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "Келесі қарапайым теңдеулер жүйесінің үйлесімді/үйлесімсіз, өзара тәуелді/тәуелсіз екенін дәлелдермен атап көрсетіңіз және шешімдер санын көрсетіңіз:\n\n2. $2x + y = 3$\n   $4x + 2y = 6$",
+    "generated_answer": "Қорытынды: 2x + y = 3 және 4x + 2y = 6 теңдеулер жүйесі үйлесімді әрі өзара тәуелді, сондықтан шексіз шешімі бар.\n\n<final>Жүйе үйлесімді, өзара тәуелді, шешімдері шексіз.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Жүйе үйлесімді, өзара тәуелді, шешімдері шексіз",
+    "extracted_final_answers": [
+      "Жүйе үйлесімді, өзара тәуелді, шешімдері шексіз"
+    ],
+    "exact_answer": "Слеке, $\\therefore \\frac{2}{4} = \\frac{1}{2} = \\frac{3}{6}$\nСондықтан, теңдеулер жүйесі үйлесімді және теңдеулер өзара тәуелді. Теңдеулер жүйесінің шешімдерінің саны шексіз.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "Kazakh",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "Ары қарай берілген қарапайым теңдеулер жүйесінің үйлесімді/үйлесімсіз, өзара тәуелді/тәуелсіз екенін дәлелдерімен атап көрсетіңіз және шешімдер санын анықтаңыз:\n\n5. $3x + 2y = 0$\n   $9x - 6y = 0$",
+    "generated_answer": "3x + 2y = 0  \n9x - 6y = 0  \n\nБұл жүйе үйлесімді, өзара тәуелсіз, бір ғана шешімі бар: (x, y) = (0, 0).  \n\n<final>Үйлесімді, тәуелсіз, шешім: (0, 0)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Үйлесімді, тәуелсіз, шешім: (0, 0)",
+    "extracted_final_answers": [
+      "Үйлесімді, тәуелсіз, шешім: (0, 0)"
+    ],
+    "exact_answer": "Мұнда, $\\frac{3}{9} \\ne \\frac{2}{-6}$\nСондықтан, теңдеулер жүйесі үйлесімді және теңдеулер өзара тәуелсіз. Теңдеулер жүйесінің тек бір (жалғыз) шешімі бар.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "Kazakh",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "Мынау берілген теңдеулер жүйесін алмастыру әдісімен шешіңіз:\n$ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "\\<final\\>x=\\dfrac{c(b-c)}{a(b-a)},\\qquad y=\\dfrac{c(c-a)}{b(b-a)}\\</final\\>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\<final\\>x=\\dfrac{c(b-c)}{a(b-a)},\\qquad y=\\dfrac{c(c-a)}{b(b-a)}\\</final\\>",
+    "extracted_final_answers": [
+      "\\<final\\>x=\\dfrac{c(b-c)}{a(b-a)},\\qquad y=\\dfrac{c(c-a)}{b(b-a)}\\</final\\>"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "Kazakh",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "Келесі жүйені **қиғаш көбейту әдісімен** шешіңіз:\n$y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$",
+    "generated_answer": "x = 2, y = 4\n\n<final>x = 2, y = 4</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 2, y = 4",
+    "extracted_final_answers": [
+      "x = 2, y = 4"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "Kazakh",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "Шешуі: Бірлес-біріне теңдеулерді құру арқылы: Егер бөлшектің алымы мен бөліміне $1$ қосса, онда бөлшек $\\frac{4}{5}$ болады. Тағы да, егер алымы мен бөлімінен $5$ азайтса, онда бөлшек $\\frac{1}{2}$ болады. Бөлшекті табыңыз.\n\nLet the fraction be $\\frac{x}{y}$.\n\nIf $1$ is added to each of the numerator and denominator, the fraction will be $\\frac{4}{5}$.\n$\\frac{x+1}{y+1} = \\frac{4}{5}$\n$5(x+1) = 4(y+1)$\n$5x + 5 = 4y + 4$\n$5x - 4y = -1$  (Equation 1)\n\nIf $5$ is subtracted from each of the numerator and denominator, the fraction will be $\\frac{1}{2}$.\n$\\frac{x-5}{y-5} = \\frac{1}{2}$\n$2(x-5) = 1(y-5)$\n$2x - 10 = y - 5$\n$2x - y = 5$  (Equation 2)\n\nNow we have a system of two linear equations with two variables:\n1) $5x - 4y = -1$\n2) $2x - y = 5$\n\nFrom Equation 2, we can express $y$ in terms of $x$:\n$y = 2x - 5$\n\nSubstitute this expression for $y$ into Equation 1:\n$5x - 4(2x - 5) = -1$\n$5x - 8x + 20 = -1$\n$-3x = -21$\n$x = \\frac{-21}{-3}$\n$x = 7$\n\nNow substitute the value of $x$ back into the expression for $y$:\n$y = 2(7) - 5$\n$y = 14 - 5$\n$y = 9$\n\nTherefore, the fraction is $\\frac{7}{9}$.\n\n---\n\n**Kazakh Translation:**\n\nБірлес-біріне теңдеулерді құру арқылы шешіңіз: Егер бөлшектің алымы мен бөліміне $1$ қосса, онда бөлшек $\\frac{4}{5}$ болады. Тағы да, егер алымы мен бөлімінен $5$ азайтса, онда бөлшек $\\frac{1}{2}$ болады. Бөлшекті табыңыз.\n\nБөлшекті $\\frac{x}{y}$ болсын.\n\nЕгер бөлшектің алымы мен бөліміне $1$ қосса, онда бөлшек $\\frac{4}{5}$ болады.\n$\\frac{x+1}{y+1} = \\frac{4}{5}$\n$5(x+1) = 4(y+1)$\n$5x + 5 = 4y + 4$\n$5x - 4y = -1$ (1-теңдеу)\n\nЕгер алымы мен бөлімінен $5$ азайтса, онда бөлшек $\\frac{1}{2}$ болады.\n$\\frac{x-5}{y-5} = \\frac{1}{2}$\n$2(x-5) = 1(y-5)$\n$2x - 10 = y - 5$\n$2x - y = 5$ (2-теңдеу)\n\nЕнді екі белгісізі бар екі сызықтық теңдеулер жүйесін аламыз:\n1) $5x - 4y = -1$\n2) $2x - y = 5$\n\n2-теңдеуден $y$-ті $x$-ке қатысты өрнектей аламыз:\n$y = 2x - 5$\n\nБұл $y$-тің өрнегін 1-теңдеуге ауыстырайық:\n$5x - 4(2x - 5) = -1$\n$5x - 8x + 20 = -1$\n$-3x = -21$\n$x = \\frac{-21}{-3}$\n$x = 7$\n\nЕнді $x$-тің мәнін $y$-тің өрнегіне кері қоямыз:\n$y = 2(7) - 5$\n$y = 14 - 5$\n$y = 9$\n\nСонымен, бөлшек $\\frac{7}{9}$ болады.",
+    "generated_answer": "Explanation: Бөлшектің алымы 7, бөлімі 9.\n\n<final>7/9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "7/9",
+    "extracted_final_answers": [
+      "7/9"
+    ],
+    "exact_answer": "\\frac{7}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "Kazakh",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "Жай теңдеулер жүйесі берілген:\n$x + y = 10$\n$3x - 2y = 0$\nТеңдеулер жүйесін шешіп, $(x,y)$ мәнін табыңыз.",
+    "generated_answer": "x = 4, y = 6\n\nExplanation: Жүйені шешіп, 4 және 6 мәндерін аламыз.\n\n<final> x = 4, y = 6 </final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 4, y = 6",
+    "extracted_final_answers": [
+      "x = 4, y = 6"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "Егер арифметикалық прогрессияның $12$-ші мүшесі $77$-ге тең болса, онда сол прогрессияның алғашқы $23$ мүшесінің қосындысын табыңыз.",
+    "generated_answer": "1771",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1771",
+    "extracted_final_answers": [
+      "1771"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "Егер арифметикалық прогрессияның $16$-шы мүшесі $-20$-ға тең болса, онда алғашқы $31$ мүшесінің қосындысы неге тең болады?",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "Егер арифметикалық прогрессияның алғашқы $12$ мүшесінің қосындысы $144$-ке және алғашқы $20$ мүшесінің қосындысы $560$-қа тең болса, онда алғашқы $6$ мүшесінің қосындысын табыңыз.",
+    "generated_answer": "0\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "Арифметикалық тізбектің $l$-ші мүшесі $l^2$ және $k$-шы мүшесі $k^2$ болсын.\nТізбектің бірінші мүшесі $a$ және ортақ айырмасы $d$ екенін ескере отырып, екі теңдеу құрыңыз.",
+    "generated_answer": "Explanation: n-ші мүшені a+(n-1)d ретінде жазамыз.  \n<final>a+(l-1)d = l^2,  a+(k-1)d = k^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a+(l-1)d = l^2, a+(k-1)d = k^2",
+    "extracted_final_answers": [
+      "a+(l-1)d = l^2, a+(k-1)d = k^2"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ .... (i)\n$a + (k-1)d = k^2$ .... (ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "Арифметикалық прогрессияның $l$-ші мүшесі $l^2$ және $k$-шы мүшесі $k^2$ болсын.\n$(l+k)$-шы мүшесін табыңыз.",
+    "generated_answer": "l^2 + lk + k^2",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "l^2 + lk + k^2",
+    "extracted_final_answers": [
+      "l^2 + lk + k^2"
+    ],
+    "exact_answer": "l^2+kl+k^2",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "Kazakh",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "Арифметикалық тізбектің $l$-ші мүшесі $l^2$ және $k$-шы мүшесі $k^2$ болсын.\nТізбектің алғашқы $(l+k)$ мүшелерінің қосындысы $\\frac{l+k}{2} (l^2 + k^2 + l + k)$ болатынын дәлелдеңіз.",
+    "generated_answer": "Қорытынды: Арифметикалық тізбектің алғашқы (l+k) мүшелерінің қосындысы \\(\\frac{l+k}{2}\\,(l^2+k^2+l+k)\\) тең.  \nExplanation: \\(a=l+k-lk,\\ d=l+k\\) болғанда, \\(S_{l+k}=\\frac{l+k}{2}\\,(2a+(l+k-1)d)=\\frac{l+k}{2}(l^2+k^2+l+k)\\).",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Арифметикалық тізбектің алғашқы (l+k) мүшелерінің қосындысы \\((l+k)/(2)\\,(l^2+k^2+l+k)\\) тең. Explanation: \\(a=l+k-lk,\\ d=l+k\\) болғанда, \\(S_{l+k}=(l+k)/(2)\\,(2a+(l+k-1)d)=(l+k)/(2)(l^2+k^2+l+k)\\)",
+    "extracted_final_answers": [
+      "Арифметикалық тізбектің алғашқы (l+k) мүшелерінің қосындысы \\((l+k)/(2)\\,(l^2+k^2+l+k)\\) тең. Explanation: \\(a=l+k-lk,\\ d=l+k\\) болғанда, \\(S_{l+k}=(l+k)/(2)\\,(2a+(l+k-1)d)=(l+k)/(2)(l^2+k^2+l+k)\\)"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "Kazakh",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "$\\log 2 + \\log 16 + \\log 512 + \\ldots \\ldots$ қатарының алғашқы 12 мүшесінің қосындысы неге тең?",
+    "generated_answer": "195.6695\n\n<final>195.6695</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "195.6695",
+    "extracted_final_answers": [
+      "195.6695"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "Kazakh",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "$2 - 2 + 2 - 2 + \\ldots \\ldots \\ldots \\ldots$ қатарының $(2n+2)$ мүшесінің қосындысы қандай?",
+    "generated_answer": "0\n\n<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "Kazakh",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "**Kazakh Translation:**\n\n$1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2$ теңдігінің орындалатынын **көрсетіңіз**.",
+    "generated_answer": "Explanation: 1³ + 2³ + … + 10³ = (10·11/2)² = 55² = 3025.  \n<final>3025</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3025",
+    "extracted_final_answers": [
+      "3025"
+    ],
+    "exact_answer": "1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "Kazakh",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "Шаршы аймақтың периметрі тікбұрышты аймақтың периметріне тең. Тікбұрышты аймақтың ұзындығы оның енінен үш есе артық және ауданы $768$ м² құрайды. Шаршы аймақты қабырғасы $40$ см болатын шаршы тастармен жабу үшін қанша тас қажет болады?",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "Kazakh",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "Тікбұрышты аймақтың ауданы $160$ шаршы метр. Егер ұзындығы $6$ метрге азайтылса, онда ол квадрат аймаққа айналады. Тікбұрыштың ұзындығы мен енін анықтаңыз.",
+    "generated_answer": "Жолын ұзындығы 16 метр, енін 10 метр.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Жолын ұзындығы 16 метр, енін 10 метр",
+    "extracted_final_answers": [
+      "Жолын ұзындығы 16 метр, енін 10 метр"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "Kazakh",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "Мысалы, егер параллелограммның ауданы шаршының ауданына тең болса, параллелограммның табаны $125$ метр және биіктігі $5$ метр болса, шаршының диагоналінің ұзындығын табыңыз.",
+    "generated_answer": "Explanation: Параллелограммның ауданы 125×5=625 м², шаршының ауданы да 625 м², сондықтан диагональ ұзындығы 25√2≈35.3553 м.\n\n<final>35.3553</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "35.3553",
+    "extracted_final_answers": [
+      "35.3553"
+    ],
+    "exact_answer": "35.35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "Kazakh",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "Дөңгелек сегментінің центріндегі бұрышы $30^\\circ$. Егер дөңгелектің диаметрі $126$ см болса, доғаның ұзындығын анықтаңыз.",
+    "generated_answer": "32.6109\n\n<final>32.6109</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "32.6109",
+    "extracted_final_answers": [
+      "32.6109"
+    ],
+    "exact_answer": "32,987 см (шамамен).",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "Kazakh",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "Тікбұрышты ағаш қораптың сыртқы өлшемдері сәйкесінше $8$ см, $6$ см және $4$ см, ал ішкі бетінің жалпы ауданы $88$ см$^2$. Қорап ағашының қалыңдығын табыңыз.",
+    "generated_answer": "Толықтықты 1 см. <final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "$\\sqrt{3}$ пен $4$ арасындағы иррационал санды табыңыз.",
+    "generated_answer": "Explanation: \\(\\sqrt{7/2}\\) ≈ 1.87, сондықтан \\(\\sqrt{3}\\) ≈ 1.732 нен үлкен, 4‑тен кіші және иррационал.\n\n<final>√(7/2)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(7/2)",
+    "extracted_final_answers": [
+      "√(7/2)"
+    ],
+    "exact_answer": "a және b қажетті сандар.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "$4.4623845\\dots$ санын $1,2,3,4$ және $5$ ондық таңбаға дейінгі нақты және жуық мәндерін есептеңіз.",
+    "generated_answer": "Нақты мән: 4.4623845…  \n1 ондық: 4.5  \n2 ондық: 4.46  \n3 ондық: 4.462  \n4 ондық: 4.4624  \n5 ондық: 4.46238",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4 ондық: 4.4624 5 ондық: 4.46238",
+    "extracted_final_answers": [
+      "4 ондық: 4.4624 5 ондық: 4.46238"
+    ],
+    "exact_answer": "4.4, 4.5, 4.46, 4.462, 4.4624, 4.46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "**Kazakh Translation:**\n\nТабиғи сандардың $311$ және $419$ сандарын бөлгенде $23$ қалдық беретін жиынын анықтаңыз.",
+    "generated_answer": "23 + 130309k (k ∈ ℕ₀)",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "23 + 130309k (k ∈ ℕ₀)",
+    "extracted_final_answers": [
+      "23 + 130309k (k ∈ ℕ₀)"
+    ],
+    "exact_answer": "36",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "100 студенттің ішінен 88-і Бенгал тілінен, 80-і математикадан өтті, ал 70-і екі пәннен де өтті. Ақпаратты Веен диаграммасында көрсетіңіз және екі пәннен де қанша студент өтпегенін табыңыз.",
+    "generated_answer": "Explanation: 2 студент ешбір пәнді өтпеген.  \n\n<final>2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2",
+    "extracted_final_answers": [
+      "2"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "Егер $A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$ болса және $A$ мен $B$ элементтері $x = y - 1$ қатынасында болса, онда қатынастарды табыңыз.",
+    "generated_answer": "Қатынастар: {(1, 2), (3, 4)}  \nExplanation: x = y – 1 теңдеуін қанағаттандыратын (x ∈ A, y ∈ B) жұптар тек 1 – 2 және 3 – 4 болып табылады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Қатынастар: {(1, 2), (3, 4)} Explanation: x = y – 1 теңдеуін қанағаттандыратын (x ∈ A, y ∈ B) жұптар тек 1 – 2 және 3 – 4 болып табылады",
+    "extracted_final_answers": [
+      "Қатынастар: {(1, 2), (3, 4)} Explanation: x = y – 1 теңдеуін қанағаттандыратын (x ∈ A, y ∈ B) жұптар тек 1 – 2 және 3 – 4 болып табылады"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "Дербес жиын $U=\\{x:x \\in N$ және  $x \\le 6\\},$\n$A=\\{x:x$ - жай сан және $x\\le 5\\},$\n$B=\\{x: x$ - жұп сан және  $x\\le 6\\}$ және\n$C=A \\setminus B$ болсын.\n$(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$ екенін дәлелдеңіз.",
+    "generated_answer": "Қорытынды: $(A \\cap C) \\times B = (A \\times B) \\cap (C \\times B)$.<final>Қорытынды: $(A \\cap C) \\times B = (A \\times B) \\cap (C \\times B)$. Explanation: $(x,y)$ left side iff $x\\in A\\cap C$, $y\\in B$, бұл дәл $(x,y)$-ның $A\\times B$ және $C\\times B$-ға екеуіне де тиесілі болуын білдіреді.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$(A \\cap C) \\times B = (A \\times B) \\cap (C \\times B)$. Explanation: $(x,y)$ left side iff $x\\in A\\cap C$, $y\\in B$, бұл дәл $(x,y)$-ның $A\\times B$ және $C\\times B$-ға екеуіне де тиесілі болуын білдіреді",
+    "extracted_final_answers": [
+      "$(A \\cap C) \\times B = (A \\times B) \\cap (C \\times B)$. Explanation: $(x,y)$ left side iff $x\\in A\\cap C$, $y\\in B$, бұл дәл $(x,y)$-ның $A\\times B$ және $C\\times B$-ға екеуіне де тиесілі болуын білдіреді"
+    ],
+    "exact_answer": "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "Kazakh",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "Егер $a+b+c=15$ және $a^{2}+b^{2}+c^{2}=83$ болса, $ab+bc+ac$ мәні неге тең?",
+    "generated_answer": "71\n\n<final>71</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "71",
+    "extracted_final_answers": [
+      "71"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "Kazakh",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "Мектеп кітабының бағасы 24 теңге. Бұл баға нақты бағаның 80%-ына тең. Үкімет қалған сомаға субсидия бөледі. Үкімет әр кітапқа қанша ақша субсидиялайды?",
+    "generated_answer": "6 теңге\n\n<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "Kazakh",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "**Kazakh Translation:**\n\nЫқшамдаңыз: $(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "-\\dfrac{27}{4}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "Kazakh",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "Егер $400$-тің логарифмі $4$-ке тең болса, онда логарифмнің негізі қандай?",
+    "generated_answer": "2√5",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2√5",
+    "extracted_final_answers": [
+      "2√5"
+    ],
+    "exact_answer": "2\\sqrt{5}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "Kazakh",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "English Question: Prove that, $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$\n\nKazakh Translation:\n\n$3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$ теңдігін дәлелдеңіз.",
+    "generated_answer": "3 log₁₀ 2 + log₁₀ 5 = log₁₀ 40. Explanation: log₁₀(2³)+log₁₀ 5=log₁₀ 8+log₁₀ 5=log₁₀ 40.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3 log₁₀ 2 + log₁₀ 5 = log₁₀ 40. Explanation: log₁₀(2³)+log₁₀ 5=log₁₀ 8+log₁₀ 5=log₁₀ 40",
+    "extracted_final_answers": [
+      "3 log₁₀ 2 + log₁₀ 5 = log₁₀ 40. Explanation: log₁₀(2³)+log₁₀ 5=log₁₀ 8+log₁₀ 5=log₁₀ 40"
+    ],
+    "exact_answer": "10-базалы логарифм 40",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "Kazakh",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "Kazakh Translation:\n\nШешіңіз: $(y-1)(y+2) = (y+4)(y-2)$",
+    "generated_answer": "<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "Kazakh",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "Шешіңіз және шешімдер жиынын жазыңыз: $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$",
+    "generated_answer": "28\n\n<final>28</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "28",
+    "extracted_final_answers": [
+      "28"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "Kazakh",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "Егер $\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$ болса, $A$-ның мәнін табыңыз.",
+    "generated_answer": "A = \\dfrac{\\pi}{3} + k\\pi,\\; k\\in\\mathbb{Z}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = \\dfrac{\\pi}{3} + k\\pi,\\; k\\in\\mathbb{Z}",
+    "extracted_final_answers": [
+      "A = \\dfrac{\\pi}{3} + k\\pi,\\; k\\in\\mathbb{Z}"
+    ],
+    "exact_answer": "A=60°",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "Kazakh",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "Егер $A=45\\degree$ болса, онда $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$ екенін дәлелдеңіз.",
+    "generated_answer": "cos 2A = (1 − tan²A)/(1 + tan²A)  \n\nExplanation: Тангенстің анықтамасын қолданғанда, cos 2A = cos²A − sin²A = (1 − tan²A)/(1 + tan²A) болады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "cos 2A = (1 − tan²A)/(1 + tan²A) Explanation: Тангенстің анықтамасын қолданғанда, cos 2A = cos²A − sin²A = (1 − tan²A)/(1 + tan²A) болады",
+    "extracted_final_answers": [
+      "cos 2A = (1 − tan²A)/(1 + tan²A) Explanation: Тангенстің анықтамасын қолданғанда, cos 2A = cos²A − sin²A = (1 − tan²A)/(1 + tan²A) болады"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "Палаш Саркер жұмысын 2005 жылдың қаңтарында жылына 120000 теңге жалақымен бастады. Оның жылдық жалақысы 5000 теңгеге артады. Жыл сайын жалақысының 10% зейнетақы қорына ұсталады. Жыл соңында ол банктік депозитке 12000 теңге салады, онда жылдық күрделі пайыз мөлшерлемесі 12% болады. Ол 2030 жылдың 31 желтоқсанында зейнетке шығады.\n\n2031 жылдың 31 желтоқсанына дейін банкке салынған жалпы ақшаның мөлшері қанша болады?",
+    "generated_answer": "2031 жылдың 31 желтоқсанына дейін банкке салынған жалпы ақша мөлшері 2 025 777,6000 теңге.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2031 жылдың 31 желтоқсанына дейін банкке салынған жалпы ақша мөлшері 2 025 777,6000 теңге",
+    "extracted_final_answers": [
+      "2031 жылдың 31 желтоқсанына дейін банкке салынған жалпы ақша мөлшері 2 025 777,6000 теңге"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "Kazakh",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "Шаршы алаңның ішімен айнала өтетін ені $4$ метрлік жол бар. Егер жолдың ауданы $1$ гектар болса, жолсыз алаңның ауданын анықтаңыз.",
+    "generated_answer": "385641 м²",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "385641 м²",
+    "extracted_final_answers": [
+      "385641 м²"
+    ],
+    "exact_answer": "38.56 гектар",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "Kazakh",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "$S = \\{x : x$ - 100-ден аспайтын квадрат сан$\\}$. $S$-ті басқаша өрнектеңіз.",
+    "generated_answer": "S = \\{k^2 \\mid k = 1,2,\\dots ,10\\}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S = \\{k^2 \\mid k = 1,2,\\dots ,10\\}",
+    "extracted_final_answers": [
+      "S = \\{k^2 \\mid k = 1,2,\\dots ,10\\}"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "Kazakh",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "Егер $A$ және $B$ кез келген жиындар болса, онда $A \\cap B \\subseteq A$ және $A \\cap B \\subseteq B$.",
+    "generated_answer": "Қорытынды: A∩B ⊆ A және A∩B ⊆ B.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A∩B ⊆ A және A∩B ⊆ B",
+    "extracted_final_answers": [
+      "A∩B ⊆ A және A∩B ⊆ B"
+    ],
+    "exact_answer": "A \\cap B \\subseteq A және A \\cap B \\subseteq B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "Kazakh",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "Дәлелдеңіз, $A \\subset B$ шарты мынадай жағдайлардың кез келгені орындалса ғана тең болады:\n$A \\cap B = A$",
+    "generated_answer": "Қорытынды: $A \\subseteq B$ болу үшін және тек сол кезде $A \\cap B = A$.\n\nExplanation: $A \\cap B$ – $A$-ның $B$ ішіндегі бөлігі, сондықтан $A \\subseteq B$ болғанда олар бірдей.\n\n<final>Қорытынды: $A \\subseteq B$ болу үшін және тек сол кезде $A \\cap B = A$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$A \\subseteq B$ болу үшін және тек сол кезде $A \\cap B = A$",
+    "extracted_final_answers": [
+      "$A \\subseteq B$ болу үшін және тек сол кезде $A \\cap B = A$"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "Kazakh",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "Көрсетіңіз,\nЕгер $A \\subset B$ болса, онда $A \\cup (B \\setminus A) = B$",
+    "generated_answer": "Explanation: $A \\cup (B \\setminus A)$ $B$-нің барлық элементтерін қамтиды, сондықтан ол $B$-ге тең.  \n<final>$A \\cup (B \\setminus A) = B$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A \\cup (B \\setminus A) = B",
+    "extracted_final_answers": [
+      "A \\cup (B \\setminus A) = B"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "Kazakh",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "Егер $U = \\{x: x \\text{ жұп бүтін сан}\\}$, $A = \\{x: 3x \\ge 25\\} \\subset U$ және $B = \\{x: 5x < 12\\} \\subset U$ болса, онда $n(A \\cap B)$ және $n(A' \\cap B')$ мәндерін табыңыз.",
+    "generated_answer": "Explanation: A∩B бос, сондықтан 0, ал A'∩B' тек 4,6,8 элементтерінен тұрады, сондықтан 3. <final>0 және 3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0 және 3",
+    "extracted_final_answers": [
+      "0 және 3"
+    ],
+    "exact_answer": "n(A ∩ B) = 0 және n(A' ∩ B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "Берілген $S$ қатынасының анықталу облысын, мәндер жиынын және кері қатынасын табыңыз.\n$S$ немесе $S^{-1}$ қатынастарының функция болатынын анықтаңыз.\nОсы қатынастар арасындағы функциялар бір-бірден бола ма?\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "Біріншіден, $S$ қатынасының анықталу облысы $D(S)=\\{1,2,3,4\\}$, мәндер жиыны $R(S)=\\{5,10,15,20\\}$.  \nКері қатынас $S^{-1}=\\{(5,1),(10,2),(15,3),(20,4)\\}$, оның анықталу облысы $D(S^{-1})=\\{5,10,15,20\\}$, мәндер жиыны $R(S^{-1})=\\{1,2,3,4\\}$.  \n\n$S$ және $S^{-1}$ екі елі де функция болып табылады (әр домендік элементке бір ғана мән сәйкес келеді).  \nБұл функциялар бір-біріне кері функция болып табылады.  \n\nExplanation: Қатынас әр кіріс үшін бір ғана шыққан мәнді беретіндіктен функция.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Бұл функциялар бір-біріне кері функция болып табылады. Explanation: Қатынас әр кіріс үшін бір ғана шыққан мәнді беретіндіктен функция",
+    "extracted_final_answers": [
+      "Бұл функциялар бір-біріне кері функция болып табылады. Explanation: Қатынас әр кіріс үшін бір ғана шыққан мәнді беретіндіктен функция"
+    ],
+    "exact_answer": "S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\therefore S \\text{ функция болып табылады.} \\therefore S^{-1} \\text{ бір-бірге сәйкес келетін функция.}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "$S$ қатынасы берілген. Оның анықталу облысын, мәндер жиынын және кері қатынасын табыңыз.\n$S$ немесе $S^{-1}$ қатынастары функция бола ма, анықтаңыз.\nОсы қатынастардың ішіндегі функциялар арасында өзара бірмәнді функциялар бар ма?\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "**Домен:**  \\(\\{\\,\\tfrac12,\\;1,\\;\\tfrac52\\,\\}\\)  \n**Мәндер жиыны:**  \\(\\{\\,0,\\;1,\\;-1,\\;2,\\;-2\\,\\}\\)  \n**Кері қатынас:**  \\(\\{(0,\\tfrac12),(1,1),(-1,1),(2,\\tfrac52),(-2,\\tfrac52)\\}\\)  \n\n**S** функция емес (бір \\(x\\) үшін бірнеше \\(y\\)).  \n**S⁻¹** функция, бірақ бірмәнді емес (\\(1\\) және \\(\\tfrac52\\) бірден көп \\(y\\) береді).  \n\n**Explanation:** С-те бірдей \\(x\\)-ке екі түрлі \\(y\\) бар, ал S⁻¹-те бір \\(y\\)-ге екі \\(x\\) келеді.  \n\n<final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Explanation: С-те бірдей \\(x\\)-ке екі түрлі \\(y\\) бар, ал S⁻¹-те бір \\(y\\)-ге екі \\(x\\) келеді. <final></final>",
+    "extracted_final_answers": [
+      "Explanation: С-те бірдей \\(x\\)-ке екі түрлі \\(y\\) бар, ал S⁻¹-те бір \\(y\\)-ге екі \\(x\\) келеді. <final></final>"
+    ],
+    "exact_answer": "S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S функция емес. Сондықтан, S^{-1} инъективті функция емес.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "Берілген $S$ қатынасының анықталу облысын, мәндер жиынын және кері қатынасын табыңыз.\n$S$ немесе $S^{-1}$ қатынастарының функция болатынын анықтаңыз.\nОсы қатынастар арасындағы функциялар инъективті (әрбірге-бір) функциялар ма?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "Анықталу облысы: {2}  \nМәндер жиыны: {1, 2, 3}  \nКері қатынас: {(1, 2), (2, 2), (3, 2)}  \nS функция емес.  \nS⁻¹ функция, бірақ инъективті емес.  \n\nExplanation: S⁻¹-де әртүрлі кіріс мәндері бірдей шығыс мәніне ие.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S⁻¹ функция, бірақ инъективті емес. Explanation: S⁻¹-де әртүрлі кіріс мәндері бірдей шығыс мәніне ие",
+    "extracted_final_answers": [
+      "S⁻¹ функция, бірақ инъективті емес. Explanation: S⁻¹-де әртүрлі кіріс мәндері бірдей шығыс мәніне ие"
+    ],
+    "exact_answer": "English Answer: Dom = \\{2\\} Range = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} So, S is not a function. So, S^{-1}$ is a function. So, S^{-1}$ is not a one-one function.\n\nKazakh Answer: Dom = \\{2\\} Range = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} Демек, S функция емес. Сондықтан, S^{-1}$ функция болып табылады. Демек, S^{-1}$ бір-бірге сәйкес келетін функция емес.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "Mатематикалық білім берудегі сарапшы ретінде, мен сіздің сұранысыңыз бойынша берілген математикалық мәтінді қазақ тіліне жоғары кәсіби деңгейде аударамын.\n\n**Аударма ережелері:**\n\n1.  **Математикалық элементтер:**\n    *   Барлық математикалық белгілеулерді (сандар, айнымалылар, теңдеулер, символдар ∑, ∫, ∂, √ және т.б.) дәлме-дәл сақтаңыз.\n    *   Математикалық өрнектерді LaTeX/ASCII форматында сақталса, сол күйінде қалдырыңыз.\n    *   Математикалық құрылым мен қарым-қатынастарды дәлме-дәл сақтаңыз.\n\n2.  **Қазақ математикалық конвенциялары:**\n    *   Қазақ тіліндегі тиісті математикалық терминологияны қолданыңыз:\n        *   \"болсын\" - \"let\"\n        *   \"функция\" - \"function\"\n        *   \"теңдеу\" - \"equation\"\n        *   \"шешу\" - \"solve\"\n        *   \"есептеу\" - \"calculate\"\n        *   \"анықтау\" - \"determine\"\n        *   \"дәлелдеу\" - \"prove\"\n        *   \"көрсету\" - \"show\"\n        *   \"жиын\" - \"set\"\n        *   \"сан\" - \"number\"\n\n3.  **Форматтау және құрылым:**\n    *   Сұрақтың дәл құрылымын сақтаңыз (нұсқалары, a), b), c) бөлімдері және т.б.).\n    *   Математикалық ресмиліктің бірдей деңгейін сақтаңыз.\n    *   Нақтылықты сақтай отырып, тиісті қазақша сөйлем құрылымын қолданыңыз.\n\n4.  **Сапаны тексеру:**\n    *   Аударманың стандартты академиялық қазақ тілінде екеніне көз жеткізіңіз.\n    *   Математикалық ақпараттың жоғалмағанына немесе өзгертілмегеніне көз жеткізіңіз.\n    *   Сұрақтың қиындық деңгейінің өзгермегеніне көз жеткізіңіз.\n\n---\n\n**Ағылшынша сұрақ:** For the function $F: \\mathbb{R} \\to \\mathbb{R}$, $F(x)=x^3$\nFind dom. F and range F.\n\n**Қазақша аудармасы:**\n\n$F: \\mathbb{R} \\to \\mathbb{R}$, $F(x)=x^3$ функциясы берілген.\n$F$-тің анықталу облысын (dom F) және мәндер жиынын (range F) табыңыз.",
+    "generated_answer": "dom F = ℝ, range F = ℝ",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "dom F = ℝ, range F = ℝ",
+    "extracted_final_answers": [
+      "dom F = ℝ, range F = ℝ"
+    ],
+    "exact_answer": "dom F = \\mathbb{R} және range F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "Екі функция $f: \\mathbb{R} \\to \\mathbb{R}$ және $g: \\mathbb{R} \\to \\mathbb{R}$ сәйкесінше $f(x)=3x+3$ және $g(x)=\\frac{x-3}{3}$ деп берілген.\n\n$f(x)$ функциясының сюръективті функция екенін анықтаңыз.",
+    "generated_answer": "Иә, \\(f(x)=3x+3\\) функциясы сюръективті. <final>Иә, \\(f(x)=3x+3\\) функциясы сюръективті.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Иә, \\(f(x)=3x+3\\) функциясы сюръективті",
+    "extracted_final_answers": [
+      "Иә, \\(f(x)=3x+3\\) функциясы сюръективті"
+    ],
+    "exact_answer": "f(x) - бұл сюръективті функция",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "Kazakh",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "$f(x)=\\sqrt{x-4}$ берілгені бойынша,\n$f(x)$ функциясының біріншілік (инъективті) функция екенін анықтаңыз.",
+    "generated_answer": "Иә, \\(f(x)=\\sqrt{x-4}\\) функциясы инъективті.  \nExplanation: Себебі квадрат түбір функциясы \\([4,\\infty)\\) интервалында бірқалыпты өседі.  \n\n<final>Иә, f(x)=√(x−4) инъективті.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Иә, f(x)=√(x−4) инъективті",
+    "extracted_final_answers": [
+      "Иә, f(x)=√(x−4) инъективті"
+    ],
+    "exact_answer": "f(x) - бұл бір-бірден функция",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "Бөлшектерге жіктеңіз: $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$",
+    "generated_answer": "Бөлшектерге жіктеу:  \n\\[\n\\frac{x^2-4x-7}{(x+1)(x^2+4)}=\\frac{-2}{5(x+1)}+\\frac{7x-27}{5(x^2+4)}.\n\\]  \nExplanation: A = -2/5, B = 7/5, C = -27/5.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\] Explanation: A = -2/5, B = 7/5, C = -27/5",
+    "extracted_final_answers": [
+      "\\] Explanation: A = -2/5, B = 7/5, C = -27/5"
+    ],
+    "exact_answer": "\\frac{1}{5} \\left( \\frac{7x-27}{x^2+4} - \\frac{2}{x+1} \\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "Kazakh Translation:\n\nБөлшектерге жіктеңіз: $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "Explanation: A, B, C мәндерін теңдеу жүйесін шешу арқылы табдық.  \n\n<final>Бөлшектерге бөлінген түрі: \\(\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}\\).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Бөлшектерге бөлінген түрі: \\((1)/(25(2x+1)) + (12)/(25(x+3)) - (9)/(5(x+3)^2)\\)",
+    "extracted_final_answers": [
+      "Бөлшектерге бөлінген түрі: \\((1)/(25(2x+1)) + (12)/(25(x+3)) - (9)/(5(x+3)^2)\\)"
+    ],
+    "exact_answer": "\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "Kazakh",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "Шешіңіз: $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "Explanation: Тексеру нәтижесінде теңдеу тек x = 9 үшін орындалады.  \n<final>9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9",
+    "extracted_final_answers": [
+      "9"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "Kazakh",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "**Шешіңіз:** $ x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$",
+    "generated_answer": "x = 4/5, y = 20; немесе x = 1/5, y = 5",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 4/5, y = 20; немесе x = 1/5, y = 5",
+    "extracted_final_answers": [
+      "x = 4/5, y = 20; немесе x = 1/5, y = 5"
+    ],
+    "exact_answer": "(x, y) = \\left(\\frac{4}{5}, 20\\right), \\left(\\frac{1}{5}, 5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "Kazakh",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "$8 \\geq 2-2x$ теңдеуін шешіңіз.",
+    "generated_answer": "x ≥ -3\n\n<final>x ≥ -3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x ≥ -3",
+    "extracted_final_answers": [
+      "x ≥ -3"
+    ],
+    "exact_answer": "x \\geq -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "Kazakh",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "Here is the Kazakh translation of the mathematical question, adhering to your guidelines:\n\n**Ағылшынша сұрақ:** A boy walked $3$ hours at the rate of $x$ km/hour and ran $\\frac{1}{2}$ hour at the rate of $(x+2)$ km/hour, and the distance covered by him was less than $29$ km. find the possible values of $x$\n\n**Қазақша аудармасы:**\n\nБала $3$ сағат бойы $x$ км/сағ жылдамдықпен жүріп, $\\frac{1}{2}$ сағат бойы $(x+2)$ км/сағ жылдамдықпен жүгірді. Ол жүріп өткен қашықтық $29$ км-ден аз болды. $x$-тің мүмкін болатын мәндерін табыңыз.",
+    "generated_answer": "x > 0 және x < 8  \n<final>0 < x < 8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0 < x < 8",
+    "extracted_final_answers": [
+      "0 < x < 8"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "Kazakh",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": "Аға Сәураб әр килограмы 70 теңгеден $x$ кг манго сатып алды. Сатушыға 500 теңге берді. Сатушы оған қалған ақшаны 20 теңгелік $x$ банкнотпен қайтарды. $x$-тің мүмкін болатын мәндерін табыңыз.",
+    "generated_answer": "Шартты қанағаттандыратын x мәні жоқ.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Шартты қанағаттандыратын x мәні жоқ",
+    "extracted_final_answers": [
+      "Шартты қанағаттандыратын x мәні жоқ"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "Kazakh",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": "Мысалы, Сингапур мен Дакка арасындағы ауадағы қашықтық 2900 км. Жет-ұшақтың максималды жылдамдығы 900 км/сағ. Бірақ Даккадан Сингапурға бара жатқанда, ол қарама-қарсы бағытта 100 км/сағ жылдамдықпен соғатын ауаны кездестіреді. Даккадан Сингапурға дейінгі тоқтаусыз ұшу уақытын теңсіздік түрінде өрнектеңіз.",
+    "generated_answer": "<final>\\(t \\;\\ge\\; \\dfrac{2900}{800}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(t \\;\\ge\\; \\dfrac{2900}{800}\\)",
+    "extracted_final_answers": [
+      "\\(t \\;\\ge\\; \\dfrac{2900}{800}\\)"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "Kazakh",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "$x$-ке қандай шарт қойылғанда, $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ шексіз қатарының қосындысы болады және сол қосындыны табыңыз.",
+    "generated_answer": "Explanation: Құрама |x+1|>1 болғанда геометриялық қатар қосылады, қосындысы 1/x.  \n<final>Құрама |x+1|>1 кезінде қосынды 1/x.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Құрама |x+1|>1 кезінде қосынды 1/x",
+    "extracted_final_answers": [
+      "Құрама |x+1|>1 кезінде қосынды 1/x"
+    ],
+    "exact_answer": "x < -2, x > 0, \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "Kazakh",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "Үшбұрыштың бұрыштары арифметикалық прогрессияда тұр және ең үлкен бұрыш ең кіші бұрыштан екі есе үлкен. Бұрыштардың радиандық шамаларын анықтаңыз.",
+    "generated_answer": "2π/9, π/3, 4π/9\n\n<final>2π/9, π/3, 4π/9</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2π/9, π/3, 4π/9",
+    "extracted_final_answers": [
+      "2π/9, π/3, 4π/9"
+    ],
+    "exact_answer": "$\\frac{2\\pi^c}{9}, \\frac{\\pi^c}{3}, \\frac{4\\pi^c}{9}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "Kazakh",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "English Question: Simplify: $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$\n\nKazakh Translation:\n\n**Оңайлатыңыз:** $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$",
+    "generated_answer": "<final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "Kazakh",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "Төмендегіні ықшамдаңыз: $\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "Kazakh",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "**Kazakh Translation:**\n\nЫқшамдаңыз: $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$",
+    "generated_answer": "0",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "Kazakh",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "Берілген шарттарды қанағаттандыратын $\\alpha$ мәнін табыңыз:\n$\\cot \\alpha = -\\sqrt{3} \\, ; \\, \\frac{3\\pi}{2} < \\alpha < 2\\pi$",
+    "generated_answer": "Explanation: α = 11π/6 - бұл 3π/2 мен 2π аралығындағы бір ғана шешім.  \n<final>11π/6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "11π/6",
+    "extracted_final_answers": [
+      "11π/6"
+    ],
+    "exact_answer": "\\frac{11\\pi}{6}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "Kazakh",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "Шешіңіз: $\\left(\\text{мұнда } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$",
+    "generated_answer": "π/3\n\n<final>π/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "π/3",
+    "extracted_final_answers": [
+      "π/3"
+    ],
+    "exact_answer": "\\frac{\\pi}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "Let's break down the translation process to ensure accuracy and adherence to Kazakh mathematical conventions.\n\n**Analysis of the English Question:**\n\nThe question is a simplification problem involving algebraic expressions with fractional exponents and square roots. The core operations are multiplication and division of powers with the same base.\n\n**Applying Translation Guidelines:**\n\n1.  **Mathematical Elements:** All symbols ($bc$, $\\sqrt{}$, $x$, $b/c$, etc.) and the structure of the expression must be preserved exactly.\n\n2.  **Kazakh Mathematical Conventions:**\n    *   \"Simplify\" translates to \"ықшамдаңыз\" or \"оңайлатыңыз\". \"Ықшамдаңыз\" is more common for simplifying algebraic expressions.\n    *   The expression itself does not require direct Kazakh term replacements as it's symbolic.\n\n3.  **Formatting and Structure:** The question is a single expression to be simplified. No multiple-choice options or sub-parts are present.\n\n4.  **Quality Checks:** The aim is to retain the exact mathematical meaning and complexity.\n\n**Step-by-step Translation:**\n\n*   **\"Simplify:\"** This is the instruction. In Kazakh academic context for algebra, \"Ықшамдаңыз:\" is the standard and most appropriate translation.\n\n*   **The Mathematical Expression:** $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$\n    This part is pure mathematical notation. It should be reproduced *exactly* as it is. There is no need to translate the variables $a, b, c, x$ or the operators $\\times, /, \\sqrt{}$.\n\n**Constructing the Kazakh Translation:**\n\nCombining the translated instruction with the preserved mathematical expression, we get:\n\n**Ықшамдаңыз:**\n $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$\n\nThis translation adheres to all the provided guidelines:\n*   Mathematical notation is preserved exactly.\n*   The structure is identical.\n*   The instruction uses appropriate Kazakh mathematical terminology.\n*   No mathematical information is lost or altered.\n\nTherefore, the professional Kazakh translation is:\n\n**Ықшамдаңыз:**\n $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$",
+    "generated_answer": "$(abc)^2 \\, x^{\\frac{(a-b)(b-c)(c-a)}{2abc}}$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(abc)^2 \\, x^{((a-b)(b-c)(c-a))/(2abc)}",
+    "extracted_final_answers": [
+      "(abc)^2 \\, x^{((a-b)(b-c)(c-a))/(2abc)}"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "Көрсетіңіз:\n1) Егер $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$ болса, онда $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$",
+    "generated_answer": "Explanation: Барлық a және b экспоненттері бір-бірін жояды, сондықтан нәтиже 1.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "Kazakh",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": "Егер $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ және $a \\ge 0$ болса, онда $3a^3 + 9a = 8$ екенін көрсетіңіз.",
+    "generated_answer": "3a^3 + 9a = 8. <final>3a^3 + 9a = 8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3a^3 + 9a = 8",
+    "extracted_final_answers": [
+      "3a^3 + 9a = 8"
+    ],
+    "exact_answer": "3a³ + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "Kazakh",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "Әр жағдайда кері функцияны жазыңыз: $y = \\log_{10} x$",
+    "generated_answer": "$f^{-1}(x)=10^x$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "f^{-1}(x)=10^x",
+    "extracted_final_answers": [
+      "f^{-1}(x)=10^x"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "Kazakh",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "$f(x) = \\ln \\frac{1-x}{1+x}$ функциясының анықталу облысын және мәндер жиынын анықтаңыз.",
+    "generated_answer": "Анықталу облысы: \\((-1,1)\\).  \nМәндер жиыны: \\(\\mathbb{R}\\).  \n\nExplanation: Құрылғының аргументі 0-дан үлкен болғандықтан, \\(x\\in(-1,1)\\) және логарифм барлық нақты мәндерді қамтиды.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Мәндер жиыны: \\(\\mathbb{R}\\). Explanation: Құрылғының аргументі 0-дан үлкен болғандықтан, \\(x\\in(-1,1)\\) және логарифм барлық нақты мәндерді қамтиды",
+    "extracted_final_answers": [
+      "Мәндер жиыны: \\(\\mathbb{R}\\). Explanation: Құрылғының аргументі 0-дан үлкен болғандықтан, \\(x\\in(-1,1)\\) және логарифм барлық нақты мәндерді қамтиды"
+    ],
+    "exact_answer": "D_f = (-1, 1) және R_f = \\mathbb{R}.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "Kazakh",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "Берілген функцияның анықталу облысын және мәндер жиынын анықтаңыз:\n\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{егер } x \\ne 0 \\\\ 0, & \\text{егер } x=0 \\end{cases}$",
+    "generated_answer": "Дерек жиыны:  \\(\\mathbb{R}\\).  \nМәндер жиыны:  \\(\\{-1,\\;0,\\;1\\}\\).  \n\nExplanation: Функция барлық нақты сандар үшін анықталған, және ол x>0 үшін 1, x<0 үшін -1, x=0 үшін 0 мәнін қабылдайды.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Мәндер жиыны: \\(\\{-1,\\;0,\\;1\\}\\). Explanation: Функция барлық нақты сандар үшін анықталған, және ол x>0 үшін 1, x<0 үшін -1, x=0 үшін 0 мәнін қабылдайды",
+    "extracted_final_answers": [
+      "Мәндер жиыны: \\(\\{-1,\\;0,\\;1\\}\\). Explanation: Функция барлық нақты сандар үшін анықталған, және ол x>0 үшін 1, x<0 үшін -1, x=0 үшін 0 мәнін қабылдайды"
+    ],
+    "exact_answer": "D_f = \\mathbb{R} , R_f = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "Kazakh",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "\"$(1 + x^{2})^{8}$ өрнегін алғашқы төрт мүшесіне дейін жіктеңіз. Осы нәтижені пайдаланып $(1.01)^{8}$ мәнін табыңыз.\"",
+    "generated_answer": "1 + 8x² + 28x⁴ + 56x⁶; (1.01)⁸ ≈ 1.0829  \nExplanation: Тәжірибелік есепте төртінші мүшені дейін есептеу жеткілікті.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 + 8x² + 28x⁴ + 56x⁶; (1.01)⁸ ≈ 1.0829 Explanation: Тәжірибелік есепте төртінші мүшені дейін есептеу жеткілікті",
+    "extracted_final_answers": [
+      "1 + 8x² + 28x⁴ + 56x⁶; (1.01)⁸ ≈ 1.0829 Explanation: Тәжірибелік есепте төртінші мүшені дейін есептеу жеткілікті"
+    ],
+    "exact_answer": "1.082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "Kazakh",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "Келесі теңбе-теңдікті алғашқы төрт мүшеге дейін тап [Паскаль үшбұрышын немесе бином теоремасын пайдаланып]:\n1) $(1 - 2x^{2})^{7}$",
+    "generated_answer": "1 - 14x² + 84x⁴ - 280x⁶",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - 14x² + 84x⁴ - 280x⁶",
+    "extracted_final_answers": [
+      "1 - 14x² + 84x⁴ - 280x⁶"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "Kazakh",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "$(1 - \\frac{1}{2x})^{7}$ үшін Паскаль трибұрышын немесе биномдық теореманы қолданып, алғашқы төрт мүшесін табыңыз.",
+    "generated_answer": "1 - \\frac{7}{2x} + \\frac{21}{4x^{2}} - \\frac{35}{8x^{3}}",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - (7)/(2x) + (21)/(4x^{2)} - (35)/(8x^{3)}",
+    "extracted_final_answers": [
+      "1 - (7)/(2x) + (21)/(4x^{2)} - (35)/(8x^{3)}"
+    ],
+    "exact_answer": "1-\\frac{7}{2x}+\\frac{21}{4x^2}-\\frac{35}{8x^3}+.....",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "Kazakh",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "$(2 + 3x)^6$ биномының алғашқы төрт мүшесін анықтаңыз.",
+    "generated_answer": "64 + 576x + 2160x² + 4320x³  \n<final>64 + 576x + 2160x² + 4320x³</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "64 + 576x + 2160x² + 4320x³",
+    "extracted_final_answers": [
+      "64 + 576x + 2160x² + 4320x³"
+    ],
+    "exact_answer": "64 + 576x + 2160x^2 + 4320x^3 + \\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "Kazakh",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "Көрсетіңіз, егер } \\underline{a} + \\underline{b} = \\underline{c}, \\text{ онда } \\underline{a} = \\underline{c} - \\underline{b}.",
+    "generated_answer": "Explanation: c = a + b болғанда, екі жақты -b қосу арқылы a = c - b шығады.  \n<final>Берілген a + b = c теңдеуінде a = c - b.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Берілген a + b = c теңдеуінде a = c - b",
+    "extracted_final_answers": [
+      "Берілген a + b = c теңдеуінде a = c - b"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "Қазақша аудармасы:\n\nҰзындығы $2.5$ метр, ені $1.0$ метр болатын тікбұрышты резервуар жерге орналастырылған. Егер оның биіктігі $0.4$ метр болса, оның көлемін және ішкі бетінің ауданын табыңыз.",
+    "generated_answer": "Explanation: Көлдің көлемі 1.0 м³, ішкі бетінің ауданы 5.3 м².  \n<final>1.0, 5.3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1.0, 5.3",
+    "extracted_final_answers": [
+      "1.0, 5.3"
+    ],
+    "exact_answer": "1, 7.8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "Мектеп жатақханасы 70 студентке арналған, әр студентке 4.25 м² еден алаңы және 13.6 м³ кеңістік қажет. Егер бөлменің ұзындығы 34 м болса, оның ені мен биіктігі қандай болады?",
+    "generated_answer": "<final>Ені 8.75 м, биіктігі 3.2 м</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Ені 8.75 м, биіктігі 3.2 м",
+    "extracted_final_answers": [
+      "Ені 8.75 м, биіктігі 3.2 м"
+    ],
+    "exact_answer": "8.75, 3.2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "Тікбұрышты үшбұрыштың тік бұрышына жанасқан екі қабырғасының ұзындығы $5 \\text{ cm}$ және $3.5 \\text{ cm}$. Оны үлкен қабырғасы бойынша айналдырғанда пайда болатын дененің көлемін табыңыз.",
+    "generated_answer": "52.5462\n\n<final>52.5462</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "52.5462",
+    "extracted_final_answers": [
+      "52.5462"
+    ],
+    "exact_answer": "64.14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "Ұзындығы 25 метр, ені 18 метр жерге екі бөліктен тұратын шатыры бар қойма салынған. Оның биіктігі 5 метр. Шатырдың әр бөлігінің ені 14 метр. Қойманың көлемін табыңыз.",
+    "generated_answer": "2250\n\n<final>2250</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2250",
+    "extracted_final_answers": [
+      "2250"
+    ],
+    "exact_answer": "4662.85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "$F: R \\rightarrow R$, $F(x) = x^2$ функциясының бір-бірден **болмайтынын** көрсетіңіз.",
+    "generated_answer": "F(x)=x^2 бір-бірден емес, өйткені F(1)=F(-1)=1.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "F(x)=x^2 бір-бірден емес, өйткені F(1)=F(-1)=1",
+    "extracted_final_answers": [
+      "F(x)=x^2 бір-бірден емес, өйткені F(1)=F(-1)=1"
+    ],
+    "exact_answer": "F бір-бірге емес",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "Kazakh",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "$f(x)=3x+1, 0 \\le x \\le 2$; $f$-тің мәндер жиынын табыңыз.",
+    "generated_answer": "[1, 7]",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[1, 7]",
+    "extracted_final_answers": [
+      "[1, 7]"
+    ],
+    "exact_answer": "{y: 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "Егер $P(x)=3x^3+2x^2-7x+8$ болса, онда $P(2)$ мәнін табыңыз.",
+    "generated_answer": "26\n\n<final>26</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "26",
+    "extracted_final_answers": [
+      "26"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "Егер $P(x) = ax^3+bx+c$ болса, онда $P(x)$-ті $x-m$-ге бөлгендегі қалдық $P(m)$-ге тең екенін көрсетіңіз.",
+    "generated_answer": "Explanation: П(x) = (x-m)Q(x)+P(m), сондықтан қалдық P(m).\n\n<final>Қорытынды: x-m-ге бөлгендегі қалдық P(m)-ге тең.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x-m-ге бөлгендегі қалдық P(m)-ге тең",
+    "extracted_final_answers": [
+      "x-m-ге бөлгендегі қалдық P(m)-ге тең"
+    ],
+    "exact_answer": "Қалдық P(m) тең",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "Егер $P(x)=ax^3+bx^2+cx+d$ бүтін коэффициентті көпмүшелік болса, мұндағы $a \\neq 0, \\ d \\neq 0$; және $x-r$ көпмүшесі $P(x)$-тің бөлінгіші болса, онда $r$ бүтін сан болған жағдайда, $r$ тұрақты мүшесінің бөлгіші болатынын көрсетіңіз.",
+    "generated_answer": "r бүтін сан болғанда, r d-ні бөлетін.  \nExplanation: P(r)=0 → d = –r(ar²+br+c), сондықтан r | d.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "r бүтін сан болғанда, r d-ні бөлетін. Explanation: P(r)=0 → d = –r(ar²+br+c), сондықтан r | d",
+    "extracted_final_answers": [
+      "r бүтін сан болғанда, r d-ні бөлетін. Explanation: P(r)=0 → d = –r(ar²+br+c), сондықтан r | d"
+    ],
+    "exact_answer": "d-нің көбейткіші r",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "$P(x)=x^3-6x^2+11x-6$ көпмүшесін көбейткіштерге жіктеңіз.",
+    "generated_answer": "Explanation: Көпмүшенің түбірлері 1, 2, 3 болғандықтан, көбейткіштерге жіктеу \\((x-1)(x-2)(x-3)\\).  \n<final>(x-1)(x-2)(x-3)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-1)(x-2)(x-3)",
+    "extracted_final_answers": [
+      "(x-1)(x-2)(x-3)"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "Кез келген математикалық мәтінді жоғары кәсіби деңгейде аудару тәжірибесі бар, білікті қазақ математик-педагогі ретінде сіздің тапсырмаңыз - келесі математикалық сұрақты ағылшын тілінен қазақ тіліне ең жоғары кәсіби стандарттармен аудару.\n\nАУДАРМА НҰСҚАУЛАРЫ:\n1. МАТЕМАТИКАЛЫҚ ЭЛЕМЕНТТЕР:\n   - БАРЛЫҚ математикалық белгілеулерді дәл сақтаңыз: сандар, айнымалылар, теңдеулер, символдар (∑, ∫, ∂, √, т.б.)\n   - Егер бар болса, математикалық өрнектерді бастапқы LaTeX/ASCII форматта сақтаңыз\n   - Дәл сондай математикалық құрылым мен байланыстарды сақтаңыз\n\n2. ҚАЗАҚ МАТЕМАТИКАЛЫҚ КОНВЕНЦИЯЛАРЫ:\n   - Тиісті қазақ математикалық терминологиясын қолданыңыз:\n     • \"болсын\" - \"let\" үшін\n     • \"функция\" - \"function\" үшін\n     • \"теңдеу\" - \"equation\" үшін\n     • \"шешу\" - \"solve\" үшін\n     • \"есептеу\" - \"calculate\" үшін\n     • \"анықтау\" - \"determine\" үшін\n     • \"дәлелдеу\" - \"prove\" үшін\n     • \"көрсету\" - \"show\" үшін\n     • \"жиын\" - \"set\" үшін\n     • \"сан\" - \"number\" үшін\n\n3. ФОРМАТТАУ ЖӘНЕ ҚҰРЫЛЫМ:\n   - Сұрақтың дәл құрылымын сақтаңыз (көп таңдаулы нұсқалар, а), б), в) бөлімдері, т.б.)\n   - Математикалық ресмиліктің бірдей деңгейін сақтаңыз\n   - Нақтылықты сақтай отырып, тиісті қазақ сөйлем құрылымын қолданыңыз\n\n4. САПАНЫ ТЕКСЕРУ:\n   - Аудармада стандартты академиялық қазақ тілі қолданылғанына көз жеткізіңіз\n   - Ешқандай математикалық ақпараттың жоғалмағанына немесе өзгертілмегеніне тексеріңіз\n   - Қиындық деңгейінің бірдей қалғанына көз жеткізіңіз\n\nАғылшынша сұрақ: Resolve into factors: \t$18x^3+15x^2-x-2$\n\n\nҚазақша аудармасы: $18x^3+15x^2-x-2$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "",
+    "extracted_final_answers": [],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "$a^3(b-c)+b^3(c-a)+c^3(a-b)$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "$(a-b)(b-c)(c-a)(a^2+b^2+c^2+ab+bc+ca)$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-b)(b-c)(c-a)(a^2+b^2+c^2+ab+bc+ca)",
+    "extracted_final_answers": [
+      "(a-b)(b-c)(c-a)(a^2+b^2+c^2+ab+bc+ca)"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "$(b+c)(c+a)(a+b)+abc$ өрнегін көбейткіштерге жіктеңіз.",
+    "generated_answer": "<final>(a+b+c)(ab+bc+ca)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a+b+c)(ab+bc+ca)",
+    "extracted_final_answers": [
+      "(a+b+c)(ab+bc+ca)"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "Kazakh",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "$\\dfrac{x}{(x-1)(x^2+4)}$ өрнегін айырым бөлшектерге жіктеңіз.",
+    "generated_answer": "<final>(1/5)/(x-1)+(-x+4)/(5(x²+4))</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1/5)/(x-1)+(-x+4)/(5(x²+4))",
+    "extracted_final_answers": [
+      "(1/5)/(x-1)+(-x+4)/(5(x²+4))"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "Kazakh",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "$\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ – бұл шексіз геометриялық қатар.\n\\item Егер $x=1$ болса, онда қатардың **алғашқы мүшесін** және **еселігін** анықтаңыз.",
+    "generated_answer": "Алғашқы мүше: 1/3, еселе: 1/2.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Алғашқы мүше: 1/3, еселе: 1/2",
+    "extracted_final_answers": [
+      "Алғашқы мүше: 1/3, еселе: 1/2"
+    ],
+    "exact_answer": "\\dfrac{1}{3}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "Kazakh",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "Үшбұрыштың үш бұрышының шамалары $3:4:5$ қатынасында берілген. Бұрыштардың радиандық шамаларын табыңыз.",
+    "generated_answer": "Бұрыштардың радиандық шамалары: $\\displaystyle \\frac{\\pi}{4},\\;\\frac{\\pi}{3},\\;\\frac{5\\pi}{12}$.\n\n<final>Бұрыштардың радиандық шамалары: $\\displaystyle \\frac{\\pi}{4},\\;\\frac{\\pi}{3},\\;\\frac{5\\pi}{12}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Бұрыштардың радиандық шамалары: $\\displaystyle (\\pi)/(4),\\;(\\pi)/(3),\\;(5\\pi)/(12)",
+    "extracted_final_answers": [
+      "Бұрыштардың радиандық шамалары: $\\displaystyle (\\pi)/(4),\\;(\\pi)/(3),\\;(5\\pi)/(12)"
+    ],
+    "exact_answer": "\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3} және \\dfrac{5\\pi}{12}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "Kazakh",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": "Дөңгелек радиусы $7$ см болатын шеңбердің центрінде ұзындығы $11$ см доғаға сүйенетін бұрыштың **радиандық шамасын** табыңыз.",
+    "generated_answer": "Explanation: Радиандық мән дуга ұзындығы мен радиусының қатынасы.\n\n<final>11/7</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "11/7",
+    "extracted_final_answers": [
+      "11/7"
+    ],
+    "exact_answer": "1,57 радиан",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "Kazakh",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "Егер $7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$ болса, онда $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$ екенін дәлелдеңіз.",
+    "generated_answer": "tan θ = ± 1/√3\n\n<final>tan θ = ± 1/√3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "tan θ = ± 1/√3",
+    "extracted_final_answers": [
+      "tan θ = ± 1/√3"
+    ],
+    "exact_answer": "$\\tan \\theta=\\pm \\dfrac{1}{\\sqrt{3}}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "Kazakh",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "$\\text{sin} (10\\pi+\\theta)$ мәндерін табыңыз.",
+    "generated_answer": "<final>\\sin\\theta</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sin\\theta",
+    "extracted_final_answers": [
+      "\\sin\\theta"
+    ],
+    "exact_answer": "\\sin\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "Kazakh",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "$\\theta-\\dfrac{9\\pi}{2}$ бұрышының котангенс мәнін табыңыз.",
+    "generated_answer": "<final>-\\,\\tan\\theta</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-\\,\\tan\\theta",
+    "extracted_final_answers": [
+      "-\\,\\tan\\theta"
+    ],
+    "exact_answer": "-\\tan\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "Kazakh",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "**Kazakh Translation:**\n\n$ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times  \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$ теңдігінің ақиқаттығын дәлелдеңіз.",
+    "generated_answer": "Explanation: Экспоненттердің қосындысы нөл болғандықтан, нәтиже 1.  \n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "Kazakh",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": "Егер $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$ болса, онда $a^xb^yc^z=1$ екенін көрсетіңіз.",
+    "generated_answer": "a^x b^y c^z = 1.\n\nExplanation: Common ratio k gives a = e^{k(y-z)}, b = e^{k(z-x)}, c = e^{k(x-y)}; the exponent of e in a^x b^y c^z cancels to zero. <final>a^x b^y c^z = 1.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a^x b^y c^z = 1",
+    "extracted_final_answers": [
+      "a^x b^y c^z = 1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "**$ (1-3x)^5$ өрнегін жіктеңіз.**",
+    "generated_answer": "Explanation: Бұл өрнекті биномиалдық кеңейту арқылы табамыз.  \n<final>1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5",
+    "extracted_final_answers": [
+      "1 - 15x + 90x^2 - 270x^3 + 405x^4 - 243x^5"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "$ (1-\\dfrac{x^2}{4})^8$ өрнегінің $ x^3$ және $ x^6$ коэффициенттерін табыңыз.",
+    "generated_answer": "x³ коэффициенті 0, x⁶ коэффициенті -7/8.  \n<final>x³ коэффициенті 0, x⁶ коэффициенті -7/8</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x³ коэффициенті 0, x⁶ коэффициенті -7/8",
+    "extracted_final_answers": [
+      "x³ коэффициенті 0, x⁶ коэффициенті -7/8"
+    ],
+    "exact_answer": "x^3 коэффициенті 0, ал x^6 коэффициенті -\\dfrac{7}{8}.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "Kazakh",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "$ \\left(x-\\dfrac{1}{x^2}\\right)^5$ өрнегін жіктеңіз.",
+    "generated_answer": "Explanation: Биномиалды кеңейту арқылы.  \n<final>x^5 - 5x^2 + \\frac{10}{x} - \\frac{10}{x^4} + \\frac{5}{x^7} - \\frac{1}{x^{10}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x^5 - 5x^2 + (10)/(x) - (10)/(x^4) + (5)/(x^7) - (1)/(x^{10)}",
+    "extracted_final_answers": [
+      "x^5 - 5x^2 + (10)/(x) - (10)/(x^4) + (5)/(x^7) - (1)/(x^{10)}"
+    ],
+    "exact_answer": "x^5-5x^2+\\dfrac{10}{x}-\\dfrac{10}{x^4}+\\dfrac{5}{x^7}-\\dfrac{1}{x^{10}}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "Kazakh",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "Векторлардың көмегімен, үшбұрыштың екі қабырғасының ортан нүктелерін қосатын кесіндінің үшінші қабырғаға параллель болатынын және оның ұзындығының жартысына тең екенін дәлелдеңіз.",
+    "generated_answer": "Мұны дәлелдеу үшін \\(A,B,C\\) үшбұрыштың бұрыштарын, \\(M_1\\) және \\(M_2\\) — \\(AB\\) және \\(AC\\) қабырғаларының ортан нүктелерін, \\(\\vec{u}\\) және \\(\\vec{v}\\) — сәйкес қабырғаларға тең векторларды алайық.  \nТөмендегі теңдік қолданылады:  \n\\[\n\\vec{M_1M_2}= \\frac{1}{2}\\vec{AB}+\\frac{1}{2}\\vec{AC}-\\frac{1}{2}\\vec{AB}-\\frac{1}{2}\\vec{AC}=\\frac{1}{2}\\vec{BC}.\n\\]  \nСонымен, \\(M_1M_2\\) векторы \\(BC\\) векторының жартысы, яғни кесіндік \\(BC\\)-ге параллель және оның ұзындығы \\(BC\\) ұзындығының жартысына тең.  \n\nExplanation: Қорытынды ретінде \\(\\vec{M_1M_2} = \\frac{1}{2}\\vec{BC}\\) анықталады.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Сонымен, \\(M_1M_2\\) векторы \\(BC\\) векторының жартысы, яғни кесіндік \\(BC\\)-ге параллель және оның ұзындығы \\(BC\\) ұзындығының жартысына тең. Explanation: Қорытынды ретінде \\(\\vec{M_1M_2} = (1)/(2)\\vec{BC}\\) анықталады",
+    "extracted_final_answers": [
+      "Сонымен, \\(M_1M_2\\) векторы \\(BC\\) векторының жартысы, яғни кесіндік \\(BC\\)-ге параллель және оның ұзындығы \\(BC\\) ұзындығының жартысына тең. Explanation: Қорытынды ретінде \\(\\vec{M_1M_2} = (1)/(2)\\vec{BC}\\) анықталады"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "Kazakh",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "Векторлық әдістерді қолданып, параллелограммның диагоналдары бір-бірін қиып өтетінін дәлелдеңіз.",
+    "generated_answer": "Параллелограммның екі жақтары тең, олардың қосындысы нөлге тең, сондықтан диагоналдар орталығында қиылып өтеді.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Параллелограммның екі жақтары тең, олардың қосындысы нөлге тең, сондықтан диагоналдар орталығында қиылып өтеді",
+    "extracted_final_answers": [
+      "Параллелограммның екі жақтары тең, олардың қосындысы нөлге тең, сондықтан диагоналдар орталығында қиылып өтеді"
+    ],
+    "exact_answer": "Параллелограммның диагональдары қиылысқан жерінде тең екіге бөлінеді.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "Kazakh",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "Тікбұрышты параллелепипедтің ұзындығы, ені және биіктігі $4:3:2$ қатынасында болады және оның толық бетінің ауданы $468$ шаршы метрді құрайды; оның диагоналін және көлемін табыңыз.\n\n**Түсініктеме:**\n\n*   **Тікбұрышты параллелепипед:** Ағылшын тіліндегі \"rectangular parallelepiped\" сөзінің қазақша математикалық термині.\n*   ** ұзындығы, ені және биіктігі:** Бұл компоненттердің қазақша сәйкес аудармалары.\n*   **қатынасында болады:** Ағылшын тіліндегі \"in the ratio\" сөзінің мағынасын береді.\n*   **толық бетінің ауданы:** Ағылшын тіліндегі \"area of its whole surface\" тіркесінің сәйкес аудармасы.\n*   **$468$ шаршы метрді құрайды:** Сан және өлшем бірлігі сақталады, \"square metres\" \"шаршы метр\" деп аударылады.\n*   **диагоналін және көлемін табыңыз:** Ағылшын тіліндегі \"find the diagonal and the volume of it\" сөйлемінің мағынасын береді. \"Find\" сөзі \"табыңыз\" деп аударылады, бұл математикалық есептерде қолданылатын стандартты термин.\n\nБарлық математикалық таңбалар мен сандар дәлме-дәл сақталды. Формат пен құрылым өзгеріссіз қалдырылды.",
+    "generated_answer": "Диагоналы: \\(3\\sqrt{29}\\) м, көлемі: 648 м³.  \n<final>Диагонал: 3√29 м, көлем: 648 м³</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Диагонал: 3√29 м, көлем: 648 м³",
+    "extracted_final_answers": [
+      "Диагонал: 3√29 м, көлем: 648 м³"
+    ],
+    "exact_answer": "16.16 метр, 648 текше метр",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "Kazakh",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "Өткен жылы шілде айында метеорологиялық жазбалар бойынша 21 күн жаңбыр жауған. Биыл шілде айының төртінші күні жаңбыр жауу ықтималдығы қандай?",
+    "generated_answer": "Explanation: Өткен жылғы деректер бойынша кез келген күнде жаңбыр жау ықтималдығы 21/31.  \n<final>21/31</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "21/31",
+    "extracted_final_answers": [
+      "21/31"
+    ],
+    "exact_answer": "\\dfrac{21}{31}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]

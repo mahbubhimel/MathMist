@@ -1,0 +1,2703 @@
+[
+  {
+    "problem_index": 0,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "5",
+    "question": "Trouver un nombre rationnel et un nombre irrationnel entre $\\frac{1}{\\sqrt{2}}$ et $\\sqrt{2}$.",
+    "generated_answer": "Un nombre rationnel entre $\\frac{1}{\\sqrt{2}}$ et $\\sqrt{2}$ est $\\frac{3}{2}$ et un nombre irrationnel est $\\pi$. <final>\\(\\frac{3}{2}\\), \\(\\pi\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\((3)/(2)\\), \\(\\pi\\)",
+    "extracted_final_answers": [
+      "\\((3)/(2)\\), \\(\\pi\\)"
+    ],
+    "exact_answer": "$a=1,2 et b= 1,020020002 sont les deux nombres désirés dont $a$ est rationnel et $b$ est irrationnel.$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 1,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "31",
+    "question": "Voici la traduction professionnelle de la question mathématique en français, en respectant scrupuleusement vos directives :\n\nÉcrivez si le nombre suivant est rationnel ou irrationnel : $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$",
+    "generated_answer": "Le nombre $\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ est rationnel.\n\n<final>Le nombre est rationnel.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le nombre est rationnel",
+    "extracted_final_answers": [
+      "Le nombre est rationnel"
+    ],
+    "exact_answer": "$\\frac{\\frac{2}{3}}{\\frac{3}{7}}$ est un nombre rationnel.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 2,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "32",
+    "question": "Voici la traduction en français de la question, en respectant les directives :\n\n**Écrire si le nombre suivant est rationnel ou irrationnel : $5.\\dot{6}3\\dot{9}$**",
+    "generated_answer": "Le nombre $5.\\dot{6}3\\dot{9}$ est irrationnel. <final>Le nombre $5.\\dot{6}3\\dot{9}$ est irrationnel.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le nombre $5.\\dot{6}3\\dot{9}$ est irrationnel",
+    "extracted_final_answers": [
+      "Le nombre $5.\\dot{6}3\\dot{9}$ est irrationnel"
+    ],
+    "exact_answer": "$5.\\dot{6}3\\dot{9}$ est un nombre rationnel.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 3,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "34",
+    "question": "Voici la traduction professionnelle de la question mathématique en français, en respectant scrupuleusement les directives :\n\n$\\sqrt{5}$ et $4$ sont deux nombres réels.\nTrouvez deux nombres irrationnels compris entre $\\sqrt{5}$ et $4$.",
+    "generated_answer": "2 nombres irrationnels possibles entre $\\sqrt{5}$ et $4$ sont $\\sqrt{3}$ et $\\sqrt{6}$.\n\nExplication : On peut prendre par exemple les racines carrées de nombre entiers proches de celles données dans l'énoncé pour obtenir des nombres irrationnels compris entre elles.\n<final>$\\sqrt{3}, \\sqrt{6}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√(3), √(6)",
+    "extracted_final_answers": [
+      "√(3), √(6)"
+    ],
+    "exact_answer": "$a=2,4040040004$ et $b=2,5050050005$ sont tous deux des nombres irrationnels",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 4,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "35",
+    "question": "Soient $\\sqrt{5}$ et $4$ deux nombres réels.\nDémontrer que $\\sqrt{5}$ est un nombre irrationnel.",
+    "generated_answer": "√5 est un nombre irrationnel.\n\n<final>√5 est un nombre irrationnel.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√5 est un nombre irrationnel",
+    "extracted_final_answers": [
+      "√5 est un nombre irrationnel"
+    ],
+    "exact_answer": "$\\sqrt{5}$ est un nombre irrationnel.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 5,
+    "language": "French",
+    "chapter_number": "2.1",
+    "example_number": "37",
+    "question": "Voici la traduction en français, respectant scrupuleusement les conventions mathématiques françaises et les consignes fournies :\n\n**Exprimer les ensembles suivants en notation par compréhension :**\n\n$\\{x \\in \\mathbb{Z} : x^2 > 5 \\text{ et } x^3 \\leq 36\\}$",
+    "generated_answer": "1. L'ensemble des entiers \\( x \\) tels que \\( x^2 > 5 \\) et \\( x^3 \\leq 36 \\).\n\nPremièrement, nous devons trouver les valeurs de \\( x \\) pour lesquelles \\( x^2 > 5 \\). Les solutions à cette inégalité sont les entiers \\( x \\) qui satisfont \\( |x| > \\sqrt{5} \\), soit \\( |x| > 2.236 \\). En conséquence, nous avons \\( x < -2.236 \\) ou \\( x > 2.236 \\).\n\nEnsuite, nous devons également satisfaire l'inégalité \\( x^3 \\leq 36 \\), qui donne \\( |x| \\leq \\sqrt[3]{36} \\), soit \\( |x| \\leq 3.162 \\).\n\nLes valeurs entières de \\( x \\) qui satisfont les deux conditions sont donc celles qui sont inférieures à -3 ou supérieures à 3.\n\nConclusion : Les entiers \\( x \\) tels que \\( x^2 > 5 \\) et \\( x^3 \\leq 36 \\) sont \\( \\{..., -4, -3\\} \\cup \\{3, 4, ...\\} \\).\n\n<final>{..., -4, -3} \\cup {3, 4, ...}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{..., -4, -3} \\cup {3, 4, ...}",
+    "extracted_final_answers": [
+      "{..., -4, -3} \\cup {3, 4, ...}"
+    ],
+    "exact_answer": "{..., -4, -3, 3}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 6,
+    "language": "French",
+    "chapter_number": "2.1",
+    "example_number": "41",
+    "question": "Voici la traduction professionnelle de la question en français :\n\nExprimer les ensembles suivants en notation par compréhension : {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}",
+    "generated_answer": "1. L'ensemble donné est {4, 8, 12, 16, 20, 24, 28, 32, 36, 40}.\n2. Nous pouvons représenter cet ensemble en notation par compréhension comme suit:\n   $\\{x \\in \\mathbb{N} : 4 \\leq x \\leq 40, x \\equiv 0 (\\text{mod } 4)\\}$\n3. Explanation: Cette notation décrit tous les entiers naturels ($x$) qui sont multiples de 4 et compris entre 4 et 40 inclus.\n\n<final>{x ∈ N : 4 ≤ x ≤ 40, x ≡ 0 (mod 4)}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{x ∈ N : 4 ≤ x ≤ 40, x ≡ 0 (mod 4)}",
+    "extracted_final_answers": [
+      "{x ∈ N : 4 ≤ x ≤ 40, x ≡ 0 (mod 4)}"
+    ],
+    "exact_answer": "{x ∈ N : x, multiple of 4 and x ≤ 40}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 7,
+    "language": "French",
+    "chapter_number": "2.2",
+    "example_number": "69",
+    "question": "Si $f(x) = \\frac{2x+1}{2x-1}$, alors déterminez la valeur de $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1}$.",
+    "generated_answer": "2. $f(\\frac{1}{x^2}) = \\frac{2\\left(\\frac{1}{x^2}\\right)+1}{2\\left(\\frac{1}{x^2}\\right)-1} = \\frac{\\frac{2+x^2}{x^2}}{\\frac{2-x^2}{x^2}} = \\frac{2+x^2}{2-x^2}$\n3. $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1} = \\frac{\\frac{2+x^2}{2-x^2}+1}{\\frac{2+x^2}{2-x^2}-1}$\n4. Simplify the expression:\n   - $\\frac{2+x^2}{2-x^2}+1 = \\frac{(2+x^2)+(2-x^2)}{2-x^2} = \\frac{4}{2-x^2}$\n   - $\\frac{2+x^2}{2-x^2}-1 = \\frac{(2+x^2)-(2-x^2)}{2-x^2} = \\frac{2x^2}{2-x^2}$\n5. Thus, $\\frac{f\\left(\\frac{1}{x^2}\\right)+1}{f\\left(\\frac{1}{x^2}\\right)-1} = \\frac{\\frac{4}{2-x^2}}{\\frac{2x^2}{2-x^2}} = \\frac{4}{2x^2}$\n6. Simplify further: $\\frac{4}{2x^2} = \\frac{2}{x^2}$\n\n<final>$\\boxed{\\frac{2}{x^2}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{2{x^2}}",
+    "extracted_final_answers": [
+      "\\frac{2{x^2}}"
+    ],
+    "exact_answer": "$\\frac{2}{x^2}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 8,
+    "language": "French",
+    "chapter_number": "3.1",
+    "example_number": "81",
+    "question": "Trouver le carré à l'aide de la formule :\n$ax - by - cz$",
+    "generated_answer": "1. Identify the formula given as $ax - by - cz$.\n2. The goal is to find the square using this formula.\n3. Without specific values for $a, b,$ and $c$, we can't directly compute a numerical result. However, the formula itself represents a mathematical expression that could be evaluated with appropriate substitutions for $x, y,$ and $z$.\n4. For the sake of providing an example, let's assume $a=1, b=2, c=3$, and $x=y=z=0$.\n5. Substitute these values into the formula: $1(0) - 2(0) - 3(0) = 0$.\n6. Thus, with these specific values, the square evaluated using the given formula is zero.\n7. Note that this example is arbitrary and doesn't cover all possible scenarios, but it illustrates how the formula can be used.\n\n<final>L'expression évaluée avec les valeurs spécifiques est zéro (0).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "L'expression évaluée avec les valeurs spécifiques est zéro (0)",
+    "extracted_final_answers": [
+      "L'expression évaluée avec les valeurs spécifiques est zéro (0)"
+    ],
+    "exact_answer": "a²x² + b²y² + c²z² - 2abxy + 2bcyz - 2cazx",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 9,
+    "language": "French",
+    "chapter_number": "3.1",
+    "example_number": "90",
+    "question": "Si $x - \\frac{1}{x} = 4$, démontrez que $x^4 + \\frac{1}{x^4} = 322$.",
+    "generated_answer": "1) $x^4 + \\frac{1}{x^4} = \\left(x - \\frac{1}{x}\\right)^2\\left(\\left(x - \\frac{1}{x}\\right)^2 + 3\\right)$ <final>322</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "322",
+    "extracted_final_answers": [
+      "322"
+    ],
+    "exact_answer": "322",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 10,
+    "language": "French",
+    "chapter_number": "3.1",
+    "example_number": "96",
+    "question": "Voici la traduction professionnelle de la question en français, en respectant toutes les consignes :\n\nSi $a + b + c = 6$ et $a^2 + b^2 + c^2 = 14$, quelle est la valeur de $(a-b)^2 + (b-c)^2 + (c-a)^2$ ?",
+    "generated_answer": "18\n\n<final>18</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "18",
+    "extracted_final_answers": [
+      "18"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 11,
+    "language": "French",
+    "chapter_number": "3.2",
+    "example_number": "108",
+    "question": "Simplifier : $(x + y) (x^2 - xy + y^2) + (y + z) (y^2 - yz + z^2)$\n$+ (z + x) (z^2 - zx + x^2)$",
+    "generated_answer": "0 <final></final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0 <final></final>",
+    "extracted_final_answers": [
+      "0 <final></final>"
+    ],
+    "exact_answer": "$2(x^3 + y^3 + z^3)$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 12,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "134",
+    "question": "Here is the French translation of the mathematical question, adhering to your guidelines:\n\nDécomposer en facteurs $(a^2-b^2)(x^2-y^2) + 4abxy$",
+    "generated_answer": "1. Appliquer l'identité remarquable à chaque paire de termes :\n   \\[\n   a^2 - b^2 = (a+b)(a-b), \\quad x^2 - y^2 = (x+y)(x-y)\n   \\]\n   et pour le produit $4abxy$, on peut écrire ceci comme un terme de produit distinct.\n   \n2. Ensuite, multiplier les résultats obtenus :\n   \\[\n   (a^2-b^2)(x^2-y^2) + 4abxy = ((a+b)(a-b))((x+y)(x-y)) + 4abxy\n   \\]\n\n3. Simplifier le produit en utilisant la propriété distributive :\n   \\[\n   ((a+b)(a-b))((x+y)(x-y)) = (a^2 - b^2)(x^2 - y^2) = a^2x^2 + a^2y^2 - b^2x^2 - b^2y^2\n   \\]\n   et\n   \\[\n   4abxy = 4abxy\n   \\]\n\n4. Enfin, additionner les termes :\n   \\[\n   a^2x^2 + a^2y^2 - b^2x^2 - b^2y^2 + 4abxy\n   \\]\n\n<final>$(a^2-b^2)(x^2-y^2) + 4abxy = a^2x^2 + a^2y^2 - b^2x^2 - b^2y^2 + 4abxy$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a^2-b^2)(x^2-y^2) + 4abxy = a^2x^2 + a^2y^2 - b^2x^2 - b^2y^2 + 4abxy",
+    "extracted_final_answers": [
+      "(a^2-b^2)(x^2-y^2) + 4abxy = a^2x^2 + a^2y^2 - b^2x^2 - b^2y^2 + 4abxy"
+    ],
+    "exact_answer": "(ax+by+ay-bx)(ax+by-ay+bx)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 13,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "136",
+    "question": "Décomposer en facteurs $a^2 + 6a + 8 - y^2 + 2y$",
+    "generated_answer": "1. Identify the given expression as a difference of squares: $a^2 + 6a + 8 - y^2 + 2y = (a+3)^2 - (y-1)^2$.\n2. Apply the difference of squares formula: $(a+3-y+1)(a+3+y-1) = (a+4-y)(a+2+y)$.\n3. The factored form is $\\boxed{(a+4-y)(a+2+y)}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2. Apply the difference of squares formula: $(a+3-y+1)(a+3+y-1) = (a+4-y)(a+2+y)$. 3. The factored form is (a+4-y)(a+2+y)",
+    "extracted_final_answers": [
+      "2. Apply the difference of squares formula: $(a+3-y+1)(a+3+y-1) = (a+4-y)(a+2+y)$. 3. The factored form is (a+4-y)(a+2+y)"
+    ],
+    "exact_answer": "(a+y+2)(a-y+4)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 14,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "137",
+    "question": "Décomposer en facteurs le polynôme $16x^2 - 25y^2 - 8xz + 10yz$",
+    "generated_answer": "16x² - 25y² - 8xz + 10yz\n\nExplanation: We can factor out the common factor of $-4$, leading to $(-4)(4x^2 - 6.25y^2 + 2xz - 2.5yz)$. Further factoring is needed to complete the solution, but it shows the decomposition's start with $-4$.\n\n<final>$-4(4x^2 - 6.25y^2 + 2xz - 2.5yz)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-4(4x^2 - 6.25y^2 + 2xz - 2.5yz)",
+    "extracted_final_answers": [
+      "-4(4x^2 - 6.25y^2 + 2xz - 2.5yz)"
+    ],
+    "exact_answer": "(4x-5y)(4x+5y-2z)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 15,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "138",
+    "question": "Voici la traduction de la question en français, en respectant les normes académiques et mathématiques :\n\n**Décomposer en facteurs l'expression $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$.**",
+    "generated_answer": "1. $2b^2c^2 + 2c^2a^2 + 2a^2b^2 - a^4 - b^4 - c^4$ <br>\n   = $(a^2 + b^2 + c^2)^2 - (a^2 + b^2 + c^2)(a^2) - (a^2 + b^2 + c^2)(b^2) - (a^2 + b^2 + c^2)(c^2)$ <br>\n   = $(a^2 + b^2 + c^2)[(a^2 + b^2 + c^2) - a^2] - b^2c^2 - a^2b^2$ <br>\n   = $(a^2 + b^2 + c^2)(b^2 + c^2) - (ab)^2 - (bc)^2$ <br>\n   = $a^2(b^2 + c^2) + b^2c^2 - (ab)^2 - (bc)^2$ <br>\n   = $(ab + bc)(ab - bc)$ <br>\n\n<final>(ab + bc)(ac - bc)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(ab + bc)(ac - bc)",
+    "extracted_final_answers": [
+      "(ab + bc)(ac - bc)"
+    ],
+    "exact_answer": "(a+b+c)(b+c-a)(c+a-b)(a+b-c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 16,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "150",
+    "question": "Décomposer en facteurs le polynôme $x^3 + 3x^2 + 3x + 2$",
+    "generated_answer": "1. Factorize the given polynomial $x^3 + 3x^2 + 3x + 2$.\n2. Notice that the polynomial can be rewritten as $(x+1)(x^2+2x+2)$.\n3. Factorize further by noticing that the quadratic term is a perfect square: $(x+1)(x+1)^2$.\n4. Combine like terms to get the final factorization: $x^3 + 3x^2 + 3x + 2 = (x+1)^3$.\nExplanation: The polynomial was factorized by recognizing it as a perfect cube and applying the binomial theorem in reverse. <final>(x+1)^3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x+1)^3",
+    "extracted_final_answers": [
+      "(x+1)^3"
+    ],
+    "exact_answer": "(x+2)(x²+x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 17,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "151",
+    "question": "Décomposer en facteurs le polynôme $a^3 - 6a^2 + 12a - 9$",
+    "generated_answer": "1. $a^3 - 6a^2 + 12a - 9 = (a-3)^3$\n\nExplanation: This follows directly from the identity $(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$. Setting $b=3$, we get $(a-3)^3 = a^3 - 9a^2 + 27a - 27$, which simplifies to the given polynomial.\n<final>(a-3)^3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-3)^3",
+    "extracted_final_answers": [
+      "(a-3)^3"
+    ],
+    "exact_answer": "(a-3)(a^2-3a+3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 18,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "153",
+    "question": "Résolvez en facteurs le polynôme $8x^3 + 12x^2 + 6x - 63$.",
+    "generated_answer": "8x^3 + 12x^2 + 6x - 63 peut être résolu en facteurs comme suit : $(x+3)(4x^2+6)$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8x^3 + 12x^2 + 6x - 63 peut être résolu en facteurs comme suit : $(x+3)(4x^2+6)$",
+    "extracted_final_answers": [
+      "8x^3 + 12x^2 + 6x - 63 peut être résolu en facteurs comme suit : $(x+3)(4x^2+6)$"
+    ],
+    "exact_answer": "(2x-3)(4x^2+12x+21)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 19,
+    "language": "French",
+    "chapter_number": "3.3",
+    "example_number": "158",
+    "question": "Décomposer en facteurs $(x + 2)(x + 3)(x + 4)(x + 5) - 48$.",
+    "generated_answer": "Explication : Le problème consiste à factoriser l'expression donnée. Cela peut être fait en utilisant la différence de carrés et les identités remarquables.\n\nFinal Answer (in French):\n$(x^2 + 7x + 12)(x^2 + 7x + 10) - 48$\n<final>$(x^2 + 7x + 12)(x^2 + 7x + 10) - 48$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x^2 + 7x + 12)(x^2 + 7x + 10) - 48",
+    "extracted_final_answers": [
+      "(x^2 + 7x + 12)(x^2 + 7x + 10) - 48"
+    ],
+    "exact_answer": "(x^2+7x+4)(x^2+7x+18)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 20,
+    "language": "French",
+    "chapter_number": "3.4",
+    "example_number": "161",
+    "question": "Voici la traduction de la question en français, en respectant scrupuleusement les consignes :\n\n**Factoriser :** $(a+1) (3a^2-3a + 5)$",
+    "generated_answer": "1. La factorisation du produit $(a+1)(3a^2-3a + 5)$ est :\n   $$ (a+1)(3a^2-3a + 5) = a(3a^2-3a + 5) + 1(3a^2-3a + 5) $$\n   $$ = 3a^3 - 3a^2 + 5a + 3a^2 - 3a + 5 $$\n   $$ = 3a^3 + 2a + 5 $$\n\nExplanation: Je suis venu à cette conclusion en distribuant $(a+1)$ sur chaque terme du trinôme $(3a^2-3a + 5)$.<final>$3a^3 + 2a + 5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3a^3 + 2a + 5",
+    "extracted_final_answers": [
+      "3a^3 + 2a + 5"
+    ],
+    "exact_answer": "(a+1)(3a^2-3a+5)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 21,
+    "language": "French",
+    "chapter_number": "3.4",
+    "example_number": "162",
+    "question": "Voici la traduction française de la question, en respectant les normes professionnelles pour l'enseignement des mathématiques :\n\n**Factoriser :** $x^3 - 7xy^2 - 6y^3$",
+    "generated_answer": "1° Factoriser le polynôme $x^3 - 7xy^2 - 6y^3$. On commence par rechercher des facteurs communs évidents. Ici, on peut remarquer que toutes les termes ont un facteur commun $y$ :\n\\[ x^3 - 7xy^2 - 6y^3 = y(x^3 - 7x - 6y^2) \\]\nEnsuite, nous devons factoriser $x^3 - 7x - 6y^2$. Pour cela, nous cherchons des racines rationnelles potentielles. En essayant les racines évidentes telles que ±1, on trouve que $x = 3$ est une racine :\n\\[ 3^3 - 7 \\cdot 3 - 6y^2 = 0 \\]\nEn utilisant cette racine, nous pouvons factoriser complètement le polynôme restant en utilisant la méthode de décomposition des facteurs. Nous trouvons :\n\\[ x^3 - 7xy^2 - 6y^3 = y(x-3)(x^2 + 3x + 2y^2) \\]\nPour vérifier que cette factorisation est correcte, nous pouvons développer $(x-3)(x^2 + 3x + 2y^2)$ pour obtenir de nouveau le polynôme original.\n<final>$y(x-3)(x^2 + 3x + 2y^2)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "y(x-3)(x^2 + 3x + 2y^2)",
+    "extracted_final_answers": [
+      "y(x-3)(x^2 + 3x + 2y^2)"
+    ],
+    "exact_answer": "(x+y)(x-3y)(x+2y)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 22,
+    "language": "French",
+    "chapter_number": "3.4",
+    "example_number": "172",
+    "question": "Here is the French translation of the mathematical question, adhering to your guidelines:\n\n**Factoriser :** $2x^4-3x^3-3x-2$",
+    "generated_answer": "1. **Factoriser** $2x^4-3x^3-3x-2$ peut être simplifié par l'identification de facteurs communs ou la méthode de groupement des termes. 2. On observe que $(2x^3 - 2) + (-3x^3 - 3x)$ peut être factorisé comme $(2x+1)(x^3-1)$. 3. Avec $a=2$ et $b=-3$, nous trouvons $ab = -6$. 4. En utilisant la méthode de groupement des termes, on obtient $(2x^4 - 3x^3) + (-3x-2)$ peut être simplifié en $(2x^3 - 2) + (-3x^3 - 3x)$.\n<final>(2x+1)(x^3-1)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(2x+1)(x^3-1)",
+    "extracted_final_answers": [
+      "(2x+1)(x^3-1)"
+    ],
+    "exact_answer": "(x-2)(x²+1)(2x+1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 23,
+    "language": "French",
+    "chapter_number": "3.5",
+    "example_number": "178",
+    "question": "Un bus a été loué pour Tk. $5700$ pour une excursion, sous la condition que chaque passager paierait une somme égale. Cependant, en raison de l'absence de $5$ passagers, le prix par personne a été augmenté de Tk. $3$. Combien de passagers ont utilisé le bus ?",
+    "generated_answer": "31 passagers ont utilisé le bus.\n<final>31</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "31",
+    "extracted_final_answers": [
+      "31"
+    ],
+    "exact_answer": "95",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 24,
+    "language": "French",
+    "chapter_number": "3.5",
+    "example_number": "194",
+    "question": "Chacun des membres d'une association a décidé de souscrire une somme égale à 100 fois le nombre de membres. Cependant, 7 membres n'ont pas souscrit. Par conséquent, le montant de la souscription pour chaque membre a été augmenté de 500 Tk par rapport à la précédente.\nSi le nombre de membres est $x$ et le montant total de la souscription est $A$ Tk, trouvez la relation entre eux.",
+    "generated_answer": "1. Si le nombre de membres est $x$, alors initialement chaque membre devait payer $\\frac{A}{x}$ Tk.\n2. Cependant, 7 membres n'ont pas souscrit, donc le montant restant doit être réparti entre les autres membres.\n3. Le montant payé par chaque membre maintenant est donc $\\frac{A}{x-7}$.\n4. Ce montant a été augmenté de 500 Tk par rapport à la précédente, ce qui nous donne l'équation:\n   $$\\frac{A}{x-7} - \\frac{A}{x} = 500$$\n5. Simplifiant et résolvant pour $A$, on obtient:\n   $$A\\left(\\frac{1}{x-7} - \\frac{1}{x}\\right) = 500$$\n   $$A\\left(\\frac{x - (x-7)}{x(x-7)}\\right) = 500$$\n   $$A\\left(\\frac{7}{x^2 - 7x}\\right) = 500$$\n   $$A = \\frac{500(x^2 - 7x)}{7}$$\n6. <final>$A = \\frac{500(x^2 - 7x)}{7}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "A = (500(x^2 - 7x))/(7)",
+    "extracted_final_answers": [
+      "A = (500(x^2 - 7x))/(7)"
+    ],
+    "exact_answer": "$A = 100x^2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 25,
+    "language": "French",
+    "chapter_number": "3.5",
+    "example_number": "195",
+    "question": "Les membres d'une association ont décidé de souscrire chacun une somme égale à 100 fois le nombre de membres. Cependant, 7 membres n'ont pas souscrit. En conséquence, le montant de la souscription pour chaque membre a été augmenté de 500 Tk par rapport au montant prévu initialement.\n\nTrouvez le nombre de membres de l'association et le montant total de la souscription.",
+    "generated_answer": "1. Le nombre de membres de l'association est 25 et le montant total de la souscription est de 24000 Tk.\nExplication : Si on note N le nombre initial de membres, alors le montant prévu initialement pour chaque membre est 100/N. Puisque 7 membres n'ont pas souscrit, il reste (N-7) membres, et le nouveau montant pour chaque membre est donc 100/(N-7). Selon l'énoncé, ce montant a été augmenté de 500 Tk par rapport au montant prévu initialement. Donc on a :\n\n$$\n\\frac{100}{N - 7} = \\frac{100}{N} + 500\n$$\n\nRésolvant cette équation, nous obtenons N = 25. Le montant total de la souscription est donc 25 * 100 = 2500 Tk. Cependant, puisque 7 membres n'ont pas souscrit, le montant réellement versé est de 24000 Tk.\n<final>24000</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "24000",
+    "extracted_final_answers": [
+      "24000"
+    ],
+    "exact_answer": "20 400 000",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 26,
+    "language": "French",
+    "chapter_number": "4.1",
+    "example_number": "207",
+    "question": "Voici la traduction de la question mathématique en français, en respectant scrupuleusement les consignes :\n\n**Résoudre :** $(3^{m+1} / (3^m)^{m-1}) \\div (9^{m+1} / (3^{m-1})^{m+1})$",
+    "generated_answer": "2/3 <final>2/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2/3",
+    "extracted_final_answers": [
+      "2/3"
+    ],
+    "exact_answer": "1/9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 27,
+    "language": "French",
+    "chapter_number": "4.1",
+    "example_number": "208",
+    "question": "Démontrer que : $\\frac{4^n - 1}{2^n - 1} = 2^n + 1$",
+    "generated_answer": "1) Montrer que : $\\frac{4^n - 1}{2^n - 1} = 2^n + 1$\n2) Factoriser le numérateur : $4^n - 1 = (2^2)^n - 1^n = (2^n - 1)(2^n + 1)$\n3) Simplifier l'expression : $\\frac{(2^n - 1)(2^n + 1)}{2^n - 1}$\n4) Annuler le $(2^n - 1)$ du numérateur et du dénominateur : $2^n + 1$\n\n<final>$2^n + 1$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2^n + 1",
+    "extracted_final_answers": [
+      "2^n + 1"
+    ],
+    "exact_answer": "$(4^n - 1) / (2^n - 1) = 2^n + 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 28,
+    "language": "French",
+    "chapter_number": "4.1",
+    "example_number": "213",
+    "question": "Démontrer que : $(\\frac{x^a}{x^b})^{a+b} (\\frac{x^b}{x^c})^{b+c} (\\frac{x^c}{x^a})^{c+a} = 1$",
+    "generated_answer": "1 = 1 <final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$((x^a) / (x^b))^{a+b} \\cdot ((x^b) / (x^c))^{b+c} \\cdot ((x^c) / (x^a))^{c+a} = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 29,
+    "language": "French",
+    "chapter_number": "4.1",
+    "example_number": "221",
+    "question": "Soient $P = x^a$, $Q = x^b$ et $R = x^c$.\nTrouver la valeur de $\\frac{(P/Q)^{(a+b)} \\times (Q/R)^{(b+c)}}{2(RP)^{(a-c)}}$",
+    "generated_answer": "1. $\\frac{(P/Q)^{a+b} \\times (Q/R)^{b+c}}{2(RP)^{a-c}} = \\frac{x^{(a-b)(a+b)} \\times x^{(b-c)(b+c)}}{2x^{(a+c)(a-c)}} = \\frac{x^{a^2 - b^2 + b^2 - c^2}}{2x^{a^2 - c^2}}$\n2. Simplifying, we get $\\frac{x^{a^2 - c^2}}{2x^{a^2 - c^2}} = \\frac{1}{2}$\n3. Therefore, the final answer is $\\boxed{\\frac{1}{2}}$.\n\n<final>$\\frac{1}{2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(1)/(2)",
+    "extracted_final_answers": [
+      "(1)/(2)"
+    ],
+    "exact_answer": "1/2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 30,
+    "language": "French",
+    "chapter_number": "4.1",
+    "example_number": "224",
+    "question": "Voici la traduction professionnelle en français de la question mathématique :\n\n**Étant donné :**\n$X = (2a^{-1} + 3b^{-1})^{-1}$\n$Y = \\sqrt[pq]{(x^p / x^q)} \\times \\sqrt[qr]{(x^q / x^r)} \\times \\sqrt[rp]{(x^r / x^p)}$ ; où $x > 0$ et $p, q, r > 0$\n$Z = (5^{(m+1)} + 25^{(m+1)}) / ((5^{(m)} + (5^{-1})^{m+1}) $\n**Montrer que** $Y + \\sqrt[3]{64} = 5$.",
+    "generated_answer": "1. Résoudre pour $X$:\n   \\[ X = \\left(2a^{-1} + 3b^{-1}\\right)^{-1} \\]\n   Cette expression peut être réécrite en utilisant les propriétés des puissances négatives.\n\n2. Simplifier pour $Y$:\n   \\[ Y = \\sqrt[pq]{x^p / x^q} \\times \\sqrt[qr]{x^q / x^r} \\times \\sqrt[rp]{x^r / x^p} \\]\n   Utiliser les propriétés des racines et de la division pour simplifier cette expression.\n\n3. Résoudre pour $Z$:\n   \\[ Z = \\frac{5^{(m+1)} + 25^{(m+1)}}{5^{m} + (5^{-1})^{m+1}} \\]\n   Cette fraction peut être simplifiée en utilisant les propriétés des puissances.\n\n4. Montrer que $Y + \\sqrt[3]{64} = 5$:\n   Calculer chaque terme séparément et additionner pour vérifier l'égalité.\n\nConclusion:\n\\[ \\boxed{Y + \\sqrt[3]{64} = 5} \\] <final>$Y + \\sqrt[3]{64} = 5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Y + \\sqrt[3]{64} = 5",
+    "extracted_final_answers": [
+      "Y + \\sqrt[3]{64} = 5"
+    ],
+    "exact_answer": "$Y + \\sqrt[3]{64} = 5$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 31,
+    "language": "French",
+    "chapter_number": "4.2",
+    "example_number": "233",
+    "question": "Trouver la valeur de x : $\\log_x \\frac{1}{16} = -2$",
+    "generated_answer": "1. $x^{(-2)} = \\frac{1}{16}$\n2. $\\sqrt{\\frac{1}{16}} = x^1$\n3. $x = \\frac{1}{4}$\n\n<final>$\\boxed{\\frac{1}{4}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{1{4}}",
+    "extracted_final_answers": [
+      "\\frac{1{4}}"
+    ],
+    "exact_answer": "4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 32,
+    "language": "French",
+    "chapter_number": "4.2",
+    "example_number": "235",
+    "question": "Montrer que $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$.",
+    "generated_answer": "1. Utiliser les propriétés des logarithmes pour transformer l'expression donnée :\n   \\[\n   \\log_{10} \\frac{50}{147} = \\log_{10} (2 \\times 5^2) - \\log_{10} (3 \\times 7^2)\n   \\]\n2. Appliquer les propriétés des logarithmes pour séparer chaque terme :\n   \\[\n   = \\log_{10} 2 + 2 \\log_{10} 5 - (\\log_{10} 3 + 2 \\log_{10} 7)\n   \\]\n3. Simplifier l'expression finale en regroupant les termes :\n   \\[\n   = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7\n   \\]\n\nConclusion: Nous avons prouvé que $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$ en utilisant les propriétés des logarithmes.\n\n<final>Nous avons prouvé que $\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Nous avons prouvé que $\\log_{10} (50)/(147) = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "extracted_final_answers": [
+      "Nous avons prouvé que $\\log_{10} (50)/(147) = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$"
+    ],
+    "exact_answer": "$\\log_{10} \\frac{50}{147} = \\log_{10} 2 + 2 \\log_{10} 5 - \\log_{10} 3 - 2 \\log_{10} 7$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 33,
+    "language": "French",
+    "chapter_number": "4.2",
+    "example_number": "242",
+    "question": "Voici la traduction de la question en français, en respectant les normes académiques et les conventions mathématiques françaises :\n\nSoient $x=2, y=3, z=5, w=7$. Montrer que :\n\n$$ \\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z} = \\log\\sqrt{y^3} $$",
+    "generated_answer": "1. Calculons d'abord la partie numérateur du logarithme :\n   \\begin{align*}\n   &\\frac{\\log\\sqrt{y^3} + y\\log x - \\frac{y}{x}\\log(xz)}{\\log(xy) - \\log z}\\\\\n   &= \\frac{\\frac{1}{2} \\log y^3 + y\\log x - \\frac{y}{x} (\\log x + \\log z)}{\\log(xy) - \\log z} \\\\\n   &= \\frac{\\frac{3}{2}\\log y + y\\log x - \\frac{y}{x}\\log x - \\frac{y}{x}\\log z}{\\log x + \\log y - \\log z}\n   \\end{align*}\n   \n2. Simplifions maintenant l'expression :\n   \\begin{align*}\n   &= \\frac{\\left(\\frac{3}{2} - \\frac{y}{x}\\right)\\log y + (y - \\frac{y}{x})\\log x - \\frac{y}{x}\\log z}{\\log(xy) - \\log z}\\\\\n   &= \\frac{\\left(\\frac{3}{2} - \\frac{3}{2}\\right)\\log y + 0\\log x - \\frac{3}{2}\\log z}{\\log x + \\log y - \\log z}\\\\\n   &= \\frac{-\\frac{3}{2}(\\log y + \\log z)}{\\log(xy) - \\log z} \\\\\n   &= \\frac{-\\frac{3}{2}\\log (yz)}{\\log(xy) - \\log z}\n   \\end{align*}\n   \n3. Maintenant, simplifions le dénominateur :\n   \\begin{align*}\n   &= \\frac{-\\frac{3}{2}\\log (yz)}{\\log x + \\log y - \\log z}\\\\\n   &= -\\frac{\\frac{3}{2}\\log (yz)}{\\log (x) + \\log (y/z)}\\\\\n   &= -\\frac{\\frac{3}{2}\\log (yz)}{\\log \\left(xy \\cdot \\frac{y}{zx}\\right)} \\\\\n   &= -\\frac{\\frac{3}{2}\\log (yz)}{\\log \\left(\\sqrt{y^3}\\right)}\\\\\n   &= -\\frac{1}{2}\\log y^3\\\\\n   &= -\\log\\sqrt{y^3}\n   \\end{align*}\n   \n4. Finalement, nous obtenons :\n   \\[\n   <final>\\boxed{-\\log\\sqrt{y^3}}</final>\n   \\]\n\nConclusion: Nous avons montré que le résultat est $-\\log\\sqrt{y^3}$.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-\\log√(y^3)",
+    "extracted_final_answers": [
+      "-\\log√(y^3)"
+    ],
+    "exact_answer": "$\\frac{\\log \\sqrt{y^3} + y\\log x - \\frac{y}{x} \\log (xz)}{\\log(xy) - \\log z} = \\log \\sqrt{y^3}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 34,
+    "language": "French",
+    "chapter_number": "4.3",
+    "example_number": "260",
+    "question": "Trouvez le logarithme décimal du quotient (valeur approximative à cinq décimales près) : $22,2642 \\div 3,42$",
+    "generated_answer": "1,87542 <final>1,87542</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1,87542",
+    "extracted_final_answers": [
+      "1,87542"
+    ],
+    "exact_answer": "0,81358",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 35,
+    "language": "French",
+    "chapter_number": "5.1",
+    "example_number": "273",
+    "question": "Here is the professional French translation of the mathematical question:\n\nRésoudre l'équation :\n$\\frac{x-a}{b} + \\frac{x-b}{a} + \\frac{x-3a-3b}{a+b} = 0$",
+    "generated_answer": "Explication : Cette équation linéaire peut être résolue en utilisant la méthode du pivot de Gauss. \n\nFinal Answer (in French):\n<final>$x = \\frac{2ab + ab}{a+b}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = (2ab + ab)/(a+b)",
+    "extracted_final_answers": [
+      "x = (2ab + ab)/(a+b)"
+    ],
+    "exact_answer": "x=a+b",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 36,
+    "language": "French",
+    "chapter_number": "5.2",
+    "example_number": "289",
+    "question": "$(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$",
+    "generated_answer": "1. Pour résoudre l'équation $(\\sqrt{2}x+3)(\\sqrt{3}x-2)=0$, nous devons d'abord trouver les valeurs de $x$ qui annulent chaque facteur séparément.\n\n2. Posons chaque facteur égal à zéro :\n   - $\\sqrt{2}x + 3 = 0$\n   - $\\sqrt{3}x - 2 = 0$\n\n3. Résolvons chaque équation pour $x$ :\n   - Pour la première équation, isolez $x$ en soustrayant 3 des deux côtés :\n     \\[\n     \\sqrt{2}x = -3 \\implies x = -\\frac{3}{\\sqrt{2}}\n     \\]\n   - Pour la deuxième équation, isolez $x$ en ajoutant 2 des deux côtés :\n     \\[\n     \\sqrt{3}x = 2 \\implies x = \\frac{2}{\\sqrt{3}}\n     \\]\n\n4. Simplifiez les expressions pour $x$ en utilisant la règle de simplification des fractions (rationalisation du dénominateur) :\n   - Pour $-\\frac{3}{\\sqrt{2}}$, multipliez le numérateur et le dénominateur par $\\sqrt{2}$ :\n     \\[\n     x = -\\frac{3\\sqrt{2}}{2}\n     \\]\n   - Pour $\\frac{2}{\\sqrt{3}}$, multipliez le numérateur et le dénominateur par $\\sqrt{3}$ :\n     \\[\n     x = \\frac{2\\sqrt{3}}{3}\n     \\]\n\n5. Vous obtenez donc les solutions suivantes :\n   - $x_1 = -\\frac{3}{\\sqrt{2}}$\n   - $x_2 = \\frac{2}{\\sqrt{3}}$\n\nFinal Answer:\n\\[\n\\boxed{-\\frac{3}{\\sqrt{2}} \\text{ et } \\frac{2}{\\sqrt{3}}}\n\\]\n\n<final>$x_{1}=-\the{\\frac{3}{\\sqrt{2}}, x_{2}=\the{\\frac{2}{\\sqrt{3}}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x_{1}=- he{(3)/(√(2)), x_{2}= he{(2)/(√(3))}",
+    "extracted_final_answers": [
+      "x_{1}=- he{(3)/(√(2)), x_{2}= he{(2)/(√(3))}"
+    ],
+    "exact_answer": "$x=-\\frac{3\\sqrt{2}}{2}$, $x=\\frac{2\\sqrt{3}}{3}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 37,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "319",
+    "question": "Démontrer que : $\\frac{1}{\\sec^2 A} + \\frac{1}{\\operatorname{cosec}^2 A} = 1$",
+    "generated_answer": "1. Utilisons les relations trigonométriques fondamentales : $\\sec^2 A = 1 + \\tan^2 A$ et $\\cosec^2 A = 1 + \\cot^2 A$.\n2. Substituons ces expressions dans l'équation à démontrer : $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A}$.\n3. Simplifions en utilisant la réciproque des fonctions : $\\frac{1}{1 + \\tan^2 A} = \\cos^2 A$ et $\\frac{1}{1 + \\cot^2 A} = \\sin^2 A$.\n4. Additionnons les deux termes simplifiés : $\\cos^2 A + \\sin^2 A = 1$.\n5. Par conséquent, nous avons démontré que : $\\frac{1}{\\sec^2 A} + \\frac{1}{\\cosec^2 A} = 1$.\n<final>$\\boxed{\\frac{1}{\\sec^2 A} + \\frac{1}{\\cosec^2 A} = 1}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{1{\\sec^2 A} + (1)/(\\cosec^2 A) = 1}",
+    "extracted_final_answers": [
+      "\\frac{1{\\sec^2 A} + (1)/(\\cosec^2 A) = 1}"
+    ],
+    "exact_answer": "1/\\sec^2 A + 1/\\text{cosec}^2 A = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 38,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "324",
+    "question": "Démontrer que : $\\frac{1}{1 + \\tan^2 A} + \\frac{1}{1 + \\cot^2 A} = 1$",
+    "generated_answer": "1 + \\cot^2 A = 1\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "$1 / 1 + \\tan^2 A + 1 / 1 + \\cot^2 A = 1$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 39,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "330",
+    "question": "Démontrer que : $\\frac{1}{\\operatorname{cosec} A - 1} - \\frac{1}{\\operatorname{cosec} A + 1} = 2\\tan^2 A$.",
+    "generated_answer": "La démonstration est basée sur l'utilisation des identités trigonométriques. En particulier, on utilise les relations entre les fonctions trigonométriques de même angle et les valeurs remarquables des fonctions dans les angles spécifiques.\n\n<final>La formule est vérifiée.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La formule est vérifiée",
+    "extracted_final_answers": [
+      "La formule est vérifiée"
+    ],
+    "exact_answer": "$1 / (\\text{cosec} A - 1) - 1 / (\\text{cosec} A + 1) = 2\\tan^2 A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 40,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "342",
+    "question": "Voici la traduction de la question en français, en respectant les normes professionnelles :\n\nSi $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$, montrer que $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$.",
+    "generated_answer": "1. On commence par réécrire l'équation donnée : $\\operatorname{cosec} A - \\cot A = \\frac{1}{x}$.\n2. En utilisant les définitions de cosecante et cotangente, on a : $\\frac{1}{\\sin A} - \\frac{\\cos A}{\\sin A} = \\frac{1}{x}$.\n3. Simplifiant l'expression obtenue : $\\frac{1 - \\cos A}{\\sin A} = \\frac{1}{x}$.\n4. En multipliant les deux côtés par $x \\sin A$ : $x(1 - \\cos A) = \\sin A$.\n5. En réarrangeant l'équation : $x = \\frac{\\sin A}{1 - \\cos A}$.\n6. Puisque $\\sec A = \\frac{1}{\\cos A}$, on a : $\\sec A = \\frac{1}{1/x^2} = x^2$.\n7. Substituant la valeur de $x$ trouvée précédemment : $\\sec A = \\left(\\frac{\\sin A}{1 - \\cos A}\\right)^2$.\n8. Simplifiant l'expression obtenue en utilisant les identités trigonométriques : $\\sec A = \\frac{1 + \\cos^2 A}{(1 - \\cos A)^2}$.\n9. En utilisant la valeur de $x$ trouvée précédemment, on obtient finalement : $\\sec A = \\frac{x^2 + 1}{x^2 - 1}$.\n\n<final>$\\boxed{\\sec A = \\frac{x^2 + 1}{x^2 - 1}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\sec A = \\frac{x^2 + 1{x^2 - 1}}",
+    "extracted_final_answers": [
+      "\\sec A = \\frac{x^2 + 1{x^2 - 1}}"
+    ],
+    "exact_answer": "$\\sec A = \\frac{x^2 + 1}{x^2 - 1}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 41,
+    "language": "French",
+    "chapter_number": "9.2",
+    "example_number": "358",
+    "question": "Voici la traduction de la question, respectant les normes académiques et mathématiques françaises :\n\nMontrer que, $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$ quand $A = 30^\\circ$.",
+    "generated_answer": "1. Utilisons la formule de trigonométrie pour le triple angle : $\\cos 3A = 4 \\cos^3 A - 3 \\cos A$.\n2. Substituons $A = 30^\\circ$ dans l'expression, où $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$.\n3. Calculons $\\cos 90^\\circ = 4 (\\frac{\\sqrt{3}}{2})^3 - 3 (\\frac{\\sqrt{3}}{2})$.\n4. Simplifions pour obtenir $\\frac{\\sqrt{3}}{2} = \\sqrt{3}/2$.\nExplanation: Nous avons utilisé une formule de trigonométrie et substitué la valeur spécifique de $A$ pour trouver la réponse.\nFinal Answer (in French): $\\boxed{\\frac{\\sqrt{3}}{2}}$ <final>$\\frac{\\sqrt{3}}{2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{√(3)}{2}",
+    "extracted_final_answers": [
+      "\\frac{√(3)}{2}"
+    ],
+    "exact_answer": "$\\cos 3A = 4 \\cos^3 A - 3 \\cos A$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 42,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "371",
+    "question": "Si la distance du sommet d'un arbre à un point quelconque **au sol** est de $20$ mètres et que l'angle d'élévation **depuis ce point** est de $60^\\circ$, trouvez la hauteur de l'arbre.",
+    "generated_answer": "20 mètre\n\n<final>20</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "20",
+    "extracted_final_answers": [
+      "20"
+    ],
+    "exact_answer": "34,641 mètres",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 43,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "372",
+    "question": "Une échelle de $18$ mètres de long, formant un angle de $45^\\circ$ avec le sol, touche le sommet d'un mur. Quelle est la hauteur du mur ?",
+    "generated_answer": "12 mètres\n\nExplication: En utilisant le théorème de Pythagore, nous pouvons trouver la hauteur du mur. <final>12 mètres</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12 mètres",
+    "extracted_final_answers": [
+      "12 mètres"
+    ],
+    "exact_answer": "12,728 mètre",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 44,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "381",
+    "question": "Se tenant n'importe où sur la rive d'une rivière, un homme a observé que l'angle d'élévation d'un arbre de $150$ mètres de haut, situé exactement en face de lui sur l'autre rive, est de $30^\\circ$. L'homme s'est dirigé vers l'arbre en bateau. Cependant, il a atteint une position à $10$ mètres de l'arbre à cause du courant.\nTrouver la distance entre le point de départ et la destination.",
+    "generated_answer": "1. L'homme observe un angle d'élévation de $30^\\circ$ pour l'arbre, ce qui indique un triangle rectangle avec les angles $30-60-90$.\n2. La hauteur de l'arbre est de $150$ mètres, correspondant à la longueur du côté opposé à l'angle de $60^\\circ$.\n3. Dans un triangle rectangle avec ces proportions, le côté adjacent (la distance de l'homme à l'arbre sur la rive opposée) est $\\frac{150}{\\sqrt{3}}$ mètres.\n4. Cependant, le courant a fait que l'homme s'est arrêté à $10$ mètres de l'arbre à la place.\n5. La distance entre le point de départ et la destination est donc $\\frac{150}{\\sqrt{3}} - 10$ mètres.\n\n<final>$\\boxed{\\frac{150\\sqrt{3}-10}{3}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(150√(3-10)/(3))",
+    "extracted_final_answers": [
+      "(150√(3-10)/(3))"
+    ],
+    "exact_answer": "260 mètres",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 45,
+    "language": "French",
+    "chapter_number": "11.1",
+    "example_number": "394",
+    "question": "Si $a:b=b:c$, démontrez que\n $\\frac{a}{c}=\\frac{a^2+b^2}{b^2+c^2}$",
+    "generated_answer": "1. Given that $a:b=b:c$, it can be written as $\\frac{a}{b}=\\frac{b}{c}$. <br>\n2. Cross-multiplying the fractions, we get $ac=b^2$. <br>\n3. Now we need to prove that $\\frac{a}{c}=\\frac{a^2+b^2}{b^2+c^2}$. <br>\n4. Substitute the value of $ac$ from step 2 into the equation, it becomes $\\frac{a}{\\frac{b^2}{a}}=\\frac{a^2+b^2}{b^2+c^2}$. <br>\n5. Simplifying this equation gives us $\\frac{a^2}{b^2}=\\frac{a^2+b^2}{b^2+c^2}$, which is true because both sides of the equation are equal when $ac=b^2$. <br>\n\n<final>$\\boxed{\\text{La preuve est vraie.}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{La preuve est vraie.}",
+    "extracted_final_answers": [
+      "\\text{La preuve est vraie.}"
+    ],
+    "exact_answer": "$\\frac{a}{c}=\\frac{a^2 + b^2}{b^2 + c^2}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 46,
+    "language": "French",
+    "chapter_number": "11.1",
+    "example_number": "397",
+    "question": "Here is the French translation of your mathematical question, adhering to the specified guidelines:\n\nRésoudre :\n$\\frac{1-\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{1}{3}$",
+    "generated_answer": "1 - $\\frac{2}{5}$\nExplication : On a résolu pour $x$ réel. <final>\\boxed{\\frac{3}{5}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{3{5}}",
+    "extracted_final_answers": [
+      "\\frac{3{5}}"
+    ],
+    "exact_answer": "$x=\\frac{3}{4}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 47,
+    "language": "French",
+    "chapter_number": "12.1",
+    "example_number": "430",
+    "question": "Voici la traduction de la question mathématique en français, respectant les consignes :\n\nMentionnez, avec arguments, si le système d'équations linéaires simple suivant est compatible/incompatible, et si les équations sont dépendantes/indépendantes, et indiquez le nombre de solutions :\n\n2. $2x + y = 3$\n   $4x + 2y = 6$",
+    "generated_answer": "1. L'équation donnée est :\n\n$2x + y = 3$ et $4x + 2y = 6$.\n\nLes équations sont multiples, donc dépendantes.\n  2. Divisons la deuxième équation par deux pour simplifier :\n\n$4x + 2y = 6$ devient $2x + y = 3$.\n\nCela montre que les équations sont identiques.\n   3. Puisque les équations sont dépendantes, elles ont une infinité de solutions.\n\n<final>Les équations sont multiples et identiques, donc dépendantes avec une infinité de solutions.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Les équations sont multiples et identiques, donc dépendantes avec une infinité de solutions",
+    "extracted_final_answers": [
+      "Les équations sont multiples et identiques, donc dépendantes avec une infinité de solutions"
+    ],
+    "exact_answer": "$\\therefore \\frac{2}{4} = \\frac{1}{2} = \\frac{3}{6}$\nPar conséquent, le système d'équations est cohérent et les équations sont mutuellement dépendantes. Le système d'équations admet une infinité de solutions.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 48,
+    "language": "French",
+    "chapter_number": "12.1",
+    "example_number": "433",
+    "question": "Voici la traduction professionnelle de la question en français, en respectant toutes les consignes :\n\nMentionnez, avec des arguments, si les équations simultanées simples suivantes sont cohérentes/incohérentes, mutuellement dépendantes/indépendantes, et indiquez le nombre de solutions :\n\n5. $3x + 2y = 0$\n   $9x - 6y = 0$",
+    "generated_answer": "1. $3x + 2y = 0$\n   $9x - 6y = 0$\n\nExplication : On voit que les coefficients des variables et des constantes sont proportionnels. On a en particulier, $9x-6y=3(3x+2y)$. Par conséquent, ces équations sont mutuellement dépendantes et cohérentes et admettent une infinité de solutions.\n\n<final>Cohérentes, mutuellement dépendantes, avec une infinité de solutions.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Cohérentes, mutuellement dépendantes, avec une infinité de solutions",
+    "extracted_final_answers": [
+      "Cohérentes, mutuellement dépendantes, avec une infinité de solutions"
+    ],
+    "exact_answer": "Nous obtenons, $\\frac{3}{9} \\ne \\frac{2}{-6}$\nPar conséquent, le système d'équations est cohérent et les équations sont mutuellement indépendantes. Le système d'équations a une seule solution (unique).",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 49,
+    "language": "French",
+    "chapter_number": "12.2",
+    "example_number": "444",
+    "question": "Voici la traduction de votre question mathématique, en respectant les normes académiques françaises :\n\nRésolvez par la méthode de substitution le système d'équations suivant :\n$ax + by = c$\n$a^2x + b^2y = c^2$",
+    "generated_answer": "1. Résolvez le système d'équations linéaires en utilisant la méthode de substitution :\n   \\[ ax + by = c \\]\n   \\[ a^2x + b^2y = c^2 \\]\n   \n   Pour utiliser la méthode de substitution, on résout la première équation pour l'une des variables. Supposons que nous résolvons pour $x$:\n   \\[ ax = c - by \\]\n   \\[ x = \\frac{c - by}{a} \\]\n   \n2. Substituez cette expression de $x$ dans la deuxième équation:\n   \\[ a^2 \\left( \\frac{c - by}{a} \\right) + b^2y = c^2 \\]\n   Simplifions :\n   \\[ ac - aby + b^2y = c^2 \\]\n   Rassemblons les termes contenant $y$ :\n   \\[ y(b^2 - ab) = c^2 - ac \\]\n   Donc:\n   \\[ y = \\frac{c^2 - ac}{b^2 - ab} \\]\n   \n3. Substituez cette expression de $y$ dans l'expression de $x$:\n   \\[ x = \\frac{c - b \\left( \\frac{c^2 - ac}{b^2 - ab} \\right)}{a} \\]\n   Simplifions :\n   \\[ x = \\frac{c(b^2 - ab) - b(c^2 - ac)}{a(b^2 - ab)} \\]\n   \\[ x = \\frac{bc^2 - abc - bc^2 + abc}{ab^2 - a^2b} \\]\n   Simplifions davantage :\n   \\[ x = \\frac{-abc}{ab^2 - a^2b} \\]\n   \\[ x = \\frac{c}{b(a - b)} \\]\n   \n4. Conclusion:\n   Nous avons trouvé les valeurs de $x$ et $y$ en utilisant la méthode de substitution :\n   \\[ x = \\frac{c}{b(a - b)}, y = \\frac{c^2 - ac}{b^2 - ab} \\]\n   \n<final>$x = \\frac{c}{b(a - b)}$ et $y = \\frac{c^2 - ac}{b^2 - ab}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = (c)/(b(a - b))$ et $y = (c^2 - ac)/(b^2 - ab)",
+    "extracted_final_answers": [
+      "x = (c)/(b(a - b))$ et $y = (c^2 - ac)/(b^2 - ab)"
+    ],
+    "exact_answer": "$x=\\frac{c(b - c)}{a(b - a)}$,$y= \\frac{c(c - a)}{b(b - a)}$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 50,
+    "language": "French",
+    "chapter_number": "12.2",
+    "example_number": "452",
+    "question": "RÉSOLVEZ par la méthode du produit en croix les équations suivantes :\n$y(3 + x) = x(6 + y)$\n$3(3 + x) = 5(y - 1)$",
+    "generated_answer": "1. Pour la première équation, en utilisant la méthode du produit en croix, nous obtenons :\n   $3x + xy = 6x + xy$\n   En simplifiant, on obtient :\n   $2x = 0$, ce qui donne $x = 0$.\n   Par substitution dans l'équation initiale, nous trouvons $y = 0$.\n\n2. Pour la deuxième équation, en utilisant à nouveau la méthode du produit en croix, nous obtenons :\n   $9 + 3x = 5y - 5$\n   En simplifiant et réarrangeant les termes, on obtient :\n   $14 = 5y - 3x$.\n   En substituant $x = 0$ et en résolvant pour $y$, nous trouvons $y = \\frac{14}{5}$.\n\n<final>Les solutions sont $x = 0, y = 0$ pour la première équation et $x = 0, y = \\frac{14}{5}$ pour la deuxième équation.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Les solutions sont $x = 0, y = 0$ pour la première équation et $x = 0, y = (14)/(5)$ pour la deuxième équation",
+    "extracted_final_answers": [
+      "Les solutions sont $x = 0, y = 0$ pour la première équation et $x = 0, y = (14)/(5)$ pour la deuxième équation"
+    ],
+    "exact_answer": "x = 2, y = 4",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 51,
+    "language": "French",
+    "chapter_number": "12.4",
+    "example_number": "454",
+    "question": "Résoudre en formant un système d'équations : Si l'on ajoute $1$ au numérateur et au dénominateur d'une fraction, celle-ci devient $\\frac{4}{5}$. De plus, si l'on soustrait $5$ du numérateur et du dénominateur, la fraction devient $\\frac{1}{2}$. Trouver la fraction.",
+    "generated_answer": "1. La fraction initiale est $\\frac{x}{y}$.\n2. Après ajouter $1$ à numérateur et dénominateur, la fraction devient $\\frac{4}{5}$.\n   \\[\n   \\frac{x+1}{y+1} = \\frac{4}{5}\n   \\]\n3. Après soustraire $5$ du numérateur et du dénominateur, la fraction devient $\\frac{1}{2}$.\n   \\[\n   \\frac{x-5}{y-5} = \\frac{1}{2}\n   \\]\n4. Résolvons ces équations pour trouver $x$ et $y$.\n\n<final>$\\frac{6}{7}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(6)/(7)",
+    "extracted_final_answers": [
+      "(6)/(7)"
+    ],
+    "exact_answer": "\\frac{7}{9}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 52,
+    "language": "French",
+    "chapter_number": "12.4",
+    "example_number": "463",
+    "question": "Voici la traduction de la question en français, respectant scrupuleusement les consignes :\n\nUn système d'équations simples est donné par :\n$x + y = 10$\n$3x - 2y = 0$\nEn résolvant le système d'équations, trouver $(x,y)$.",
+    "generated_answer": "1. Résolvons le système d'équations :\n   \\[\n   x + y = 10 \\quad \\text{(équation 1)}\n   \\]\n   \\[\n   3x - 2y = 0 \\quad \\text{(équation 2)}\n   \\]\n   \n2. De l'équation 2, on peut isoler \\( x \\) en termes de \\( y \\):\n   \\[\n   3x = 2y \\implies x = \\frac{2y}{3}\n   \\]\n   \n3. En substituant \\( x \\) dans l'équation 1:\n   \\[\n   \\frac{2y}{3} + y = 10 \\implies \\frac{5y}{3} = 10 \\implies y = 6\n   \\]\n   \n4. En substituant \\( y = 6 \\) dans \\( x = \\frac{2y}{3} \\):\n   \\[\n   x = \\frac{2 \\times 6}{3} = 4\n   \\]\n   \n5. Ainsi, la solution du système d'équations est :\n   \\[\n   (x, y) = (4, 6)\n   \\]\n\nExplication:\nNous avons utilisé une substitution directe pour résoudre le système.\n<final>$(x,y)=(4 ; 6)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x,y)=(4 ; 6)",
+    "extracted_final_answers": [
+      "(x,y)=(4 ; 6)"
+    ],
+    "exact_answer": "x=4, y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 53,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "474",
+    "question": "Si le $12^{\\text{e}}$ terme d'une suite arithmétique est $77$, quelle est la somme des $23$ premiers termes de cette suite ?",
+    "generated_answer": "923\n<final>923</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "923",
+    "extracted_final_answers": [
+      "923"
+    ],
+    "exact_answer": "1771",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 54,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "475",
+    "question": "Si le $16^{\\text{ème}}$ terme d'une suite arithmétique est $-20$, quelle sera la somme des $31$ premiers termes ?",
+    "generated_answer": "1580 <final>1580</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1580",
+    "extracted_final_answers": [
+      "1580"
+    ],
+    "exact_answer": "-620",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 55,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "480",
+    "question": "Si la somme des $12$ premiers termes d'une suite arithmétique est $144$ et que la somme des $20$ premiers termes est $560$, trouvez la somme des $6$ premiers termes.",
+    "generated_answer": "36\n\n<final>36</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "36",
+    "extracted_final_answers": [
+      "36"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 56,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "485",
+    "question": "Le $l^{\\text{ième}}$ terme d'une suite arithmétique est $l^2$ et le $k^{\\text{ième}}$ terme est $k^2$. Construire deux équations selon les informations de l'énoncé en considérant $a$ comme le premier terme de la suite et $d$ comme la raison.",
+    "generated_answer": "1. La formule pour le $l^{\\text{ième}}$ terme d'une suite arithmétique est donnée par :\n   \\[\n   a + (l-1)d = l^2\n   \\]\n   \n2. De même, pour le $k^{\\text{ième}}$ terme, nous avons :\n   \\[\n   a + (k-1)d = k^2\n   \\]\n   \nExplication: Ces équations sont basées sur la formule générale d'un terme dans une suite arithmétique.\n\nFinal Answer:\n\\[\n\\begin{aligned}\na + (l-1)d &= l^2 \\\\\na + (k-1)d &= k^2\n\\end{aligned}\n\\]\n<final>\n\\[\n\\boxed{\\text{Nous obtenons deux équations en } a \\text{ et } d.}\n\\]\n</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\[\\text{Nous obtenons deux équations en a \\text{ et } d.} \\]",
+    "extracted_final_answers": [
+      "\\[\\text{Nous obtenons deux équations en a \\text{ et } d.} \\]"
+    ],
+    "exact_answer": "$a + (l-1)d = l^2$ .... (i)\n$a + (k-1)d = k^2$ .... (ii)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 57,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "486",
+    "question": "Here is the French translation, adhering to your guidelines:\n\nLe $l^{\\text{ième}}$ terme d'une suite arithmétique est $l^2$ et le $k^{\\text{ième}}$ terme est $k^2$.\nTrouver le $(l+k)^{\\text{ième}}$ terme.",
+    "generated_answer": "1. The $l^{\\text{ième}}$ term of an arithmétique series is given by the formula $a_l = a + (l-1)d$, where $a$ is the first term and $d$ is the common difference. Similarly, the $k^{\\text{ième}}$ term is given by $a_k = a + (k-1)d$.\n\n2. We are given that the $l^{\\text{ième}}$ term is $l^2$, so we can substitute this into our formula for $a_l$ to find $a$:\n\n   $$l^2 = a + (l-1)d$$\n\n3. Similarly, we are given that the $k^{\\text{ième}}$ term is $k^2$, so we can substitute this into our formula for $a_k$ to find another expression for $a$:\n\n   $$k^2 = a + (k-1)d$$\n\n4. Subtracting these two equations, we get:\n\n   $$l^2 - k^2 = (l-1)d - (k-1)d$$\n\n5. Simplifying this equation gives us:\n\n   $$(l-k)(l+k) = d$$\n\n6. We want to find the $(l+k)^{\\text{ième}}$ term, which is given by $a_{l+k} = a + (l+k-1)d$. Substituting our expression for $d$ from step 5, we get:\n\n   $$a_{l+k} = a + (l+k-1)(l+k)$$\n\n7. Substituting our expression for $a$ from step 2, we get:\n\n   $$a_{l+k} = l^2 - (l-1)d + (l+k-1)(l+k)$$\n\n8. Substituting our expression for $d$ from step 5, we get:\n\n   $$a_{l+k} = l^2 - (l-1)(l-k) + (l+k-1)(l+k)$$\n\n9. Simplifying this expression gives us the final answer:\n\n   $$\\boxed{a_{l+k} = k^2}$$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "9. Simplifying this expression gives us the final answer: $a_{l+k= k^2}",
+    "extracted_final_answers": [
+      "9. Simplifying this expression gives us the final answer: $a_{l+k= k^2}"
+    ],
+    "exact_answer": "l²+kl+k²",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 58,
+    "language": "French",
+    "chapter_number": "13.1",
+    "example_number": "487",
+    "question": "Voici la traduction de votre question mathématique en français, en respectant les normes professionnelles :\n\nLe $l^{\\text{ième}}$ terme d'une suite arithmétique est $l^2$ et le $k^{\\text{ième}}$ terme est $k^2$.\nDémontrez que la somme des $(l+k)$ premiers termes de la suite est $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.",
+    "generated_answer": "1. Montrons d'abord que la somme des $l$ premiers termes de la suite est $\\frac{l}{2} (2l^2 + l)$. En effet, la somme des $l$ premiers entiers vaut $\\frac{l(l+1)}{2}$, ce qui peut être écrit comme $\\frac{l}{2}(l+1)$. Remplaçons donc $l+1$ par $2l^2 + l$, on obtient bien la somme des $l$ premiers termes de la suite.\n2. De même, montrons que la somme des $k$ premiers termes est $\\frac{k}{2} (2k^2 + k)$. En utilisant le même raisonnement, en remplaçant $k+1$ par $2k^2 + k$, on obtient bien la somme des $k$ premiers termes de la suite.\n3. La somme des $(l+k)$ premiers termes de la suite est donc la somme des $l$ premiers termes plus la somme des $k$ derniers termes, ce qui peut être écrit comme $\\frac{l}{2} (2l^2 + l) + \\frac{k}{2} (2k^2 + k)$.\n4. Simplifions cette expression en utilisant le fait que $(l+k)(l+1)=l^2 + 2l + 1 + l + k$, ce qui peut être écrit comme $l^2 + k^2 + l + k$. On obtient alors $\\frac{l+k}{2} (l^2 + k^2 + l + k)$, qui est la somme cherchée.\n\nConclusion: La somme des $(l+k)$ premiers termes de la suite est donc bien $\\frac{l+k}{2} (l^2 + k^2 + l + k)$.\n\n<final>$\\frac{l+k}{2} (l^2 + k^2 + l + k)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(l+k)/(2) (l^2 + k^2 + l + k)",
+    "extracted_final_answers": [
+      "(l+k)/(2) (l^2 + k^2 + l + k)"
+    ],
+    "exact_answer": "$\\frac{l+k}{2} (l^2 + k^2 + l + k)$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 59,
+    "language": "French",
+    "chapter_number": "13.2",
+    "example_number": "497",
+    "question": "Voici la traduction de la question :\n\nQuelle est la somme des 12 premiers termes de la série $\\log 2 + \\log 16 + \\log 512 + \\ldots \\ldots$?",
+    "generated_answer": "1. La somme des 12 premiers termes de la série est : $\\log 2 + \\log 16 + \\log 512$.\n2. Appliquer la règle du logarithme pour additionner les logarithmes en multipliant leurs arguments respectifs.\n3. Calculons : $\\log (2 \\times 16 \\times 512)$.\n4. Simplifions l'expression : $\\log 2^7$.\n5. Utilisons la propriété du logarithme : $7 \\log 2$.\n6. Calculons la valeur numérique : $7 \\times \\log 2 \\approx 7 \\times 0.3010 = 2.107$.\n<final>2.107</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2.107",
+    "extracted_final_answers": [
+      "2.107"
+    ],
+    "exact_answer": "$650 \\log 2$",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 60,
+    "language": "French",
+    "chapter_number": "13.2",
+    "example_number": "499",
+    "question": "Quelle est la somme des $(2n+2)$ termes de la série $2 - 2 + 2 - 2 + \\ldots \\ldots \\ldots \\ldots$?",
+    "generated_answer": "0",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 61,
+    "language": "French",
+    "chapter_number": "13.2",
+    "example_number": "502",
+    "question": "Démontrer que $1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2$.",
+    "generated_answer": "1^3 + 2^3 + 3^3 + ... + 10^3 = (1 + 2 + 3 + ... + 10)^2.\n<final>55^2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "55^2",
+    "extracted_final_answers": [
+      "55^2"
+    ],
+    "exact_answer": "1^3 + 2^3 + 3^3 + \\dots\\dots\\dots + 10^3 = (1 + 2 + 3 + \\dots\\dots\\dots + 10)^2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 62,
+    "language": "French",
+    "chapter_number": "16.2",
+    "example_number": "525",
+    "question": "Le périmètre d'une région carrée est égal au périmètre d'une région rectangulaire. La longueur de la région rectangulaire est triple de sa largeur et son aire est de $768$ m². Combien de pierres seront nécessaires pour couvrir la région carrée avec des pierres carrées de $40$ cm chacune ?",
+    "generated_answer": "1008 pierres seront nécessaires pour couvrir la région carrée.\n\n<final>1008</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1008",
+    "extracted_final_answers": [
+      "1008"
+    ],
+    "exact_answer": "6400",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 63,
+    "language": "French",
+    "chapter_number": "16.2",
+    "example_number": "526",
+    "question": "Voici la traduction de la question en français, respectant les normes académiques et les conventions mathématiques françaises :\n\nL'aire d'une région rectangulaire est de $160$ m$^2$. Si la longueur est réduite de $6$ mètres, elle devient une région carrée. Déterminer la longueur et la largeur du rectangle.",
+    "generated_answer": "1. La formule de l'aire d'un rectangle est donnée par $L \\times l$ où $L$ est la longueur et $l$ est la largeur. Ainsi, nous avons que $160 = L \\times l$.\n2. Après réduction de $6$ mètres de la longueur du rectangle pour former un carré, nous avons une nouvelle forme avec côté $L-6$.\n3. En formant un carré, tous les côtés sont égaux et l'aire est donc $(L-6)^2 = 160$.\n4. Résolvons pour $L$ en prenant la racine carrée des deux côtés de $(L-6)^2 = 160$, nous obtenons $L - 6 = \\sqrt{160}$, ce qui donne $L = 6 + \\sqrt{160}$.\n5. Pour la largeur, puisqu'il est donné que l'aire initiale est $160$ et que $L \\times l = 160$, donc nous avons $l = \\frac{160}{L} = \\frac{160}{6 + \\sqrt{160}}$.\n6. Donc, la longueur du rectangle est de $\\boxed{6 + \\sqrt{160}}$ mètres et la largeur est de $\\boxed{\\frac{160}{6 + \\sqrt{160}}}$ mètres.\n\n<final>6 + √160</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6 + √160",
+    "extracted_final_answers": [
+      "6 + √160"
+    ],
+    "exact_answer": "16, 10",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 64,
+    "language": "French",
+    "chapter_number": "16.2",
+    "example_number": "528",
+    "question": "L'aire d'un parallélogramme est égale à l'aire d'un carré. Si la base du parallélogramme est de $125$ mètres et sa hauteur est de $5$ mètres, trouvez la longueur de la diagonale du carré.",
+    "generated_answer": "150 mètres <final>150</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "150",
+    "extracted_final_answers": [
+      "150"
+    ],
+    "exact_answer": "35,35",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 65,
+    "language": "French",
+    "chapter_number": "16.3",
+    "example_number": "536",
+    "question": "L'angle au centre intercepté par un arc de cercle est de $30^\\circ$. Si le diamètre du cercle est de $126$ cm, déterminez la longueur de l'arc.",
+    "generated_answer": "3 cm\n<final>3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "3",
+    "extracted_final_answers": [
+      "3"
+    ],
+    "exact_answer": "32,987 cm (environ).",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 66,
+    "language": "French",
+    "chapter_number": "16.4",
+    "example_number": "548",
+    "question": "Here is the professional French translation of the mathematical question, adhering to all guidelines:\n\nLes dimensions extérieures d'une boîte rectangulaire en bois sont respectivement de $8$ cm, $6$ cm et $4$ cm, et l'aire de toute la surface intérieure est de $88$ cm$^2$. Trouver l'épaisseur du bois de la boîte.",
+    "generated_answer": "1 cm\n\n<final>1 cm</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 cm",
+    "extracted_final_answers": [
+      "1 cm"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 67,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "558",
+    "question": "Trouver un nombre irrationnel entre $\\sqrt{3}$ et $4$.",
+    "generated_answer": "√3 < √5 < 4. <final>√5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "√5",
+    "extracted_final_answers": [
+      "√5"
+    ],
+    "exact_answer": "a et b sont les nombres souhaités.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 68,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "578",
+    "question": "Calculez les valeurs exactes et approchées de $4,4623845\\dots$ à $1, 2, 3, 4$ et $5$ décimales ?",
+    "generated_answer": "1,23456789876543210000000 <final>4.4623845</final>\nExplication: Arrondi des décimales à 1, 2, 3, 4 et 5 chiffres après la virgule respectivement.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "4.4623845",
+    "extracted_final_answers": [
+      "4.4623845"
+    ],
+    "exact_answer": "4,4, 4,5, 4,46, 4,462, 4,4624, 4,46238",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 69,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "591",
+    "question": "Déterminer l'ensemble des nombres naturels qui, lorsqu'ils divisent $311$ et $419$, donnent le même reste $23$.",
+    "generated_answer": "1. Trouver un nombre naturel \\( x \\) tel que \\( 311 = 419q + x \\).\n2. Puisque les deux entiers donnent le même reste 23, on a \\( x = 419 - 311 = 108 \\).\n3. On vérifie que \\( 311 - 108 = 203 \\) et \\( 419 - 108 = 311 \\), donc 108 est un diviseur commun des deux entiers.\n4. En divisant chaque nombre par 108, on obtient les mêmes restes de 23.\n5. Donc, l'ensemble des nombres naturels cherchés est \\( \\{108\\} \\).\nExplication: Les étapes sont simples et directes.\n\nFinal Answer (in French):\n<final> {108} </final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "{108}",
+    "extracted_final_answers": [
+      "{108}"
+    ],
+    "exact_answer": "36",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 70,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "592",
+    "question": "Voici la traduction de la question en français, respectant les normes académiques et mathématiques :\n\n**Question :**\n\nSur $100$ étudiants, $88$ ont réussi en bengali, $80$ en mathématiques et $70$ dans les deux matières. Représentez ces informations dans un diagramme de Venn et déterminez combien d'étudiants ont échoué dans les deux matières.",
+    "generated_answer": "15 étudiants ont échoué dans les deux matières.\n\nExplanation: En utilisant le principe de l'inclusion-exclusion, nous trouvons que 70 étudiants sont dans l'intersection des deux matières. Donc, il y a \\(100 - (88 + 80 - 70) = 15\\) étudiants qui ont échoué dans les deux matières.\n\n<final>15</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "15",
+    "extracted_final_answers": [
+      "15"
+    ],
+    "exact_answer": "2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 71,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "594",
+    "question": "Si $A = \\{1, 2, 3\\}$, $B = \\{0, 2, 4\\}$ et la relation entre les éléments de $A$ et $B$ est $x = y - 1$, trouver les paires d'éléments satisfaisant cette relation.",
+    "generated_answer": "1. Identify pairs from sets $A$ and $B$:\n   - For $x = 1$, the corresponding $y$ is not in set $B$.\n   - For $x = 2$, the corresponding $y$ is $3$.\n   - For $x = 3$, the corresponding $y$ is $4$.\n\n2. The pairs of elements from sets $A$ and $B$ that satisfy the relation $x = y - 1$ are: $(2, 3)$ et $(3, 4)$.\n\n<final>Les paires d'éléments satisfaisant la relation sont $(2, 3)$ et $(3, 4)$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Les paires d'éléments satisfaisant la relation sont $(2, 3)$ et $(3, 4)$",
+    "extracted_final_answers": [
+      "Les paires d'éléments satisfaisant la relation sont $(2, 3)$ et $(3, 4)$"
+    ],
+    "exact_answer": "R = \\{(1, 2), (3, 4)\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 72,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "600",
+    "question": "Soit l'ensemble universel $U=\\{x:x \\in N$ et  $x \\le 6\\},$ \n$A=\\{x:x$ est un nombre premier et $x\\le 5\\},$ \n$B=\\{x: x$ est un nombre pair et $x\\le 6\\},$ et \n$C=A \\setminus B$. Démontrer que $(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)$.",
+    "generated_answer": "1. **Définition des ensembles:**\n   - $U=\\{0,1,2,3,4,5,6\\}$\n   - $A=\\{2,3,5\\}$ car les nombres premiers inférieurs ou égaux à 5 sont 2, 3 et 5.\n   - $B=\\{0,2,4,6\\}$ car les nombres pairs inférieurs ou égaux à 6 sont 0, 2, 4 et 6.\n   - $C=A \\setminus B=\\{3,5\\}$ car enlevant les éléments de $B$ de $A$.\n\n2. **Calcul des intersections et produits cartésiens:**\n   - $A \\cap C=\\{3,5\\}$ car c'est l'intersection de $A$ et $C$.\n   - $(A \\cap C) \\times B=\\{(3,0),(3,2),(3,4),(3,6),(5,0),(5,2),(5,4),(5,6)\\}$.\n   - $A \\times B=\\{(2,0),(2,2),(2,4),(2,6),(3,0),(3,2),(3,4),(3,6),(5,0),(5,2),(5,4),(5,6)\\}$.\n   - $C \\times B=\\{(3,0),(3,2),(3,4),(3,6),(5,0),(5,2),(5,4),(5,6)\\}$.\n   - $(C \\times B) \\cap (A \\times B)=\\{(3,0),(3,2),(3,4),(3,6),(5,0),(5,2),(5,4),(5,6)\\}$.\n\n3. **Vérification de l'égalité:**\n   - $(A \\cap C) \\times B = (C \\times B) \\cap (A \\times B)$.\n\n<final>Les deux ensembles sont égaux.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Les deux ensembles sont égaux",
+    "extracted_final_answers": [
+      "Les deux ensembles sont égaux"
+    ],
+    "exact_answer": "(A \\cap C) \\times B=(A \\times B) \\cap (C \\times B)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 73,
+    "language": "French",
+    "chapter_number": "3",
+    "example_number": "611",
+    "question": "Voici la traduction de la question en français, en respectant les normes académiques et les conventions mathématiques françaises :\n\nSi $a+b+c=15$ et $a^{2}+b^{2}+c^{2}=83$, quelle est la valeur de $ab+bc+ac$ ?",
+    "generated_answer": "13\n<final>13</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "13",
+    "extracted_final_answers": [
+      "13"
+    ],
+    "exact_answer": "71",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 74,
+    "language": "French",
+    "chapter_number": "3",
+    "example_number": "643",
+    "question": "Le prix d'un livre est de 24 Tk. Ce prix représente 80 % du prix réel. Le gouvernement subventionne le prix restant. Quelle est la somme d'argent que le gouvernement subventionne pour chaque livre ?",
+    "generated_answer": "24 Tk représente 80 % du prix réel, donc le prix réel est de 30 Tk. La subvention du gouvernement pour chaque livre est donc de 6 Tk.\n<final>6</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "6",
+    "extracted_final_answers": [
+      "6"
+    ],
+    "exact_answer": "6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 75,
+    "language": "French",
+    "chapter_number": "4",
+    "example_number": "654",
+    "question": "Simplifier : $(-3)^3\\times \\left(-\\dfrac{1}{2}\\right)^2$",
+    "generated_answer": "127.5\n\n<final>127.5</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "127.5",
+    "extracted_final_answers": [
+      "127.5"
+    ],
+    "exact_answer": "$-\\dfrac{27}{4}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 76,
+    "language": "French",
+    "chapter_number": "4",
+    "example_number": "660",
+    "question": "Si le logarithme de $400$ est $4$, quelle est la base du logarithme ?",
+    "generated_answer": "La base du logarithme est $\\boxed{10}$. <final>10</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "10",
+    "extracted_final_answers": [
+      "10"
+    ],
+    "exact_answer": "2\\sqrt{5}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 77,
+    "language": "French",
+    "chapter_number": "4",
+    "example_number": "663",
+    "question": "Démontrer que $3\\log_{10} 2+\\log_{10} 5=\\log_{10} 40$.",
+    "generated_answer": "3log_{10}2 + log_{10}5 = log_{10}40\nExplication : Utilisation des propriétés des logarithmes.\n\nFinal Answer: <final>log_{10}40</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "log_{10}40",
+    "extracted_final_answers": [
+      "log_{10}40"
+    ],
+    "exact_answer": "log₁₀ 40",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 78,
+    "language": "French",
+    "chapter_number": "5",
+    "example_number": "670",
+    "question": "Résoudre : $(y-1)(y+2)= (y+4)(y-2)$",
+    "generated_answer": "1. **Expansion and simplification**: Expand both sides of the equation: $(y-1)(y+2)=(y+4)(y-2)$. This gives $y^2 + y - 2 = y^2 - 4$.\n2. **Simplify further**: Subtract $y^2$ from both sides to get $y - 2 = -4$.\n3. **Solve for y**: Add 4 to both sides to find $y = 2$.\n\nFinal Answer (in French):\nY = 2\n<final>2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2",
+    "extracted_final_answers": [
+      "2"
+    ],
+    "exact_answer": "y=6",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 79,
+    "language": "French",
+    "chapter_number": "5",
+    "example_number": "671",
+    "question": "Voici la traduction de la question mathématique en français, en respectant scrupuleusement les consignes :\n\nRésoudre et écrire l'ensemble solution : $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$",
+    "generated_answer": "1. Solution to the equation $\\dfrac{6x+1}{15}-\\dfrac{2x-4}{7x-1}=\\dfrac{2x-1}{5}$ is given by $x=\\boxed{\\dfrac{439}{670}}$.\n\n<final>$x=\\dfrac{439}{670}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x=\\dfrac{439}{670}",
+    "extracted_final_answers": [
+      "x=\\dfrac{439}{670}"
+    ],
+    "exact_answer": "S=\\{28\\}",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 80,
+    "language": "French",
+    "chapter_number": "9",
+    "example_number": "701",
+    "question": "Si $\\dfrac{\\text{cos} A-\\text{sin} A}{\\text{cos} A+\\text{sin} A}=\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}$, déterminez la valeur de $A$.",
+    "generated_answer": "1. Résoudre l'équation donnée en utilisant la trigonométrie et les angles spécifiques.\n2. Identifier que $\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}} = \\dfrac{\\sqrt{6}-\\sqrt{2}}{\\sqrt{6}+\\sqrt{2}}$ peut être simplifié en utilisant la formule de l'inverse d'un nombre en fraction.\n3. Reconnaître que $\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}} = \\tan(75^\\circ)$ grâce à la table des tangentes ou par calcul direct.\n4. Puisque $A$ doit être une solution de l'équation trigonométrique et que les angles dans un cercle sont co-terminaux, déterminer $A$ en utilisant la valeur trouvée pour $\\tan(75^\\circ)$.\n   - Explication: Utiliser la formule $\\tan(x) = \\dfrac{\\text{opposé}}{\\text{adjacent}}$ et les valeurs spécifiques des fonctions trigonométriques pour les angles de référence.\nFinal Answer (in French): $A = 75^\\circ$\n<final>75</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "75",
+    "extracted_final_answers": [
+      "75"
+    ],
+    "exact_answer": "A=60°",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 81,
+    "language": "French",
+    "chapter_number": "9",
+    "example_number": "702",
+    "question": "Si $A=45\\degree$, prouvez que $\\text{cos} 2A=\\dfrac{1-\\text{tan}^{2}A}{1+\\text{tan}^{2}A}$.",
+    "generated_answer": "1. **Preuve**: On commence par l'expression de $\\text{cos} 2A$ en utilisant la formule trigonométrique classique :\n   \\[ \\text{cos} 2A = \\text{cos}^2 A - \\text{sin}^2 A \\]\n   \n2. **Substitution des tan et cot**: On utilise les relations de base entre $\\text{tan}$ et $\\text{cot}$, et $\\text{sin}$ et $\\text{cos}$ :\n   \\[ \\text{tan} A = \\frac{\\text{sin} A}{\\text{cos} A} \\quad \\text{et} \\quad \\text{cot} A = \\frac{\\text{cos} A}{\\text{sin} A} \\]\n   \n3. **Substitution dans l'expression**: En substituant ces valeurs dans l'expression initiale, on obtient :\n   \\[ \\text{cos} 2A = \\left(\\frac{1 - \\text{tan}^2 A}{1 + \\text{tan}^2 A}\\right) \\]\n   \n4. **Validation**: Cette expression est valide pour tout $A$ où $\\text{tan} A$ est défini, ce qui n'inclut pas les multiples impairs de $\\frac{\\pi}{2}$. \n\n<final>Prouvé pour tous les angles sauf les multiples impairs de $\\frac{\\pi}{2}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Prouvé pour tous les angles sauf les multiples impairs de $(\\pi)/(2)",
+    "extracted_final_answers": [
+      "Prouvé pour tous les angles sauf les multiples impairs de $(\\pi)/(2)"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 82,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "761",
+    "question": "Palash Sarker a commencé son emploi en janvier $2005$ avec un salaire annuel de $120000$ Tk.\nSon augmentation annuelle est de $5000$ Tk. $10\\%$ de son salaire est déduit chaque année pour la caisse de prévoyance.\nÀ la fin de chaque année, il dépose $12000$ Tk. dans une banque avec un intérêt composé de $12\\%$. Il prendra sa retraite le $31$ décembre $2030$.\n\nQuel est le montant total déposé à la banque au $31$ décembre $2031$?",
+    "generated_answer": "1. Calculons d'abord le montant total déposé à la banque en décembre 2031, qui est composé de deux parties : les dépôts initiaux annuels et l'intérêt composé accumulé sur ces dépôts.\n\n2. Le montant total déposé chaque année est de $12000$ Tk., ce qui s'accumule à un taux d'intérêt de $12\\%$ par an. Le montant des intérêts cumulés après $n$ ans est donné par la formule:\n\n\\[ A = P \\times (1 + r)^t \\]\n   où \\( A \\) est le montant total accumulé, \\( P \\) est le montant initial déposé chaque année ($12000$ Tk.), \\( r \\) est le taux d'intérêt ($12\\%$ ou $0.12$), et \\( t \\) est le nombre d'années (de 2005 à 2031, soit 26 ans).\n\n3. Calculons maintenant :\n   \\[ A = 12000 \\times (1 + 0.12)^{26} \\]\n\n4. Après avoir effectué le calcul et arrondi au nombre entier le plus proche, on obtient $A \\approx 1178392$ Tk.\n\n<final>1178392</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1178392",
+    "extracted_final_answers": [
+      "1178392"
+    ],
+    "exact_answer": "2020488",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 83,
+    "language": "French",
+    "chapter_number": "16",
+    "example_number": "770",
+    "question": "Il y a une route de $4$ mètres de largeur à l'intérieur et autour d'un champ carré. Si l'aire de la route est de $1$ hectare, déterminez l'aire du champ sans la route.",
+    "generated_answer": "120 m²\n\nExplication : L'aire de la route est égale à l'aire du carré moins l'aire de la pelouse. La longueur d'un côté du carré est déterminée par la largeur de la route et l'aire de la route. Avec cette longueur, nous pouvons calculer l'aire de la pelouse. <final>120 m²</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "120 m²",
+    "extracted_final_answers": [
+      "120 m²"
+    ],
+    "exact_answer": "38,56 hectares",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 84,
+    "language": "French",
+    "chapter_number": "1.1",
+    "example_number": "792",
+    "question": "Voici la traduction professionnelle de la question mathématique en français :\n\n$S = \\{x : x$ est un carré parfait inférieur ou égal à $100\\}.$ Exprimer $S$ d'une autre manière.",
+    "generated_answer": "1. $S = \\{x : x$ est un carré parfait inférieur ou égal à $100\\}$\n2. Donc, les éléments de $S$ sont les carrés des nombres entiers allant de $-10$ à $10$.\n3. Exprimer $S$ d'une autre manière:\n\n$S = \\{n^2 : n \\in \\mathbb{Z}, -10 \\leq n \\leq 10\\}$\n\n<final>$S = \\{n^2 : n \\in \\mathbb{Z}, -10 \\leq n \\leq 10\\}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "S = \\{n^2 : n \\in \\mathbb{Z}, -10 \\leq n \\leq 10\\}",
+    "extracted_final_answers": [
+      "S = \\{n^2 : n \\in \\mathbb{Z}, -10 \\leq n \\leq 10\\}"
+    ],
+    "exact_answer": "S = \\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 85,
+    "language": "French",
+    "chapter_number": "1.1",
+    "example_number": "809",
+    "question": "Si $A$ et $B$ sont des ensembles quelconques, alors $A \\cap B \\subseteq A$ et $A \\cap B \\subseteq B$.",
+    "generated_answer": "1. Si $A$ et $B$ sont des ensembles quelconques, alors par définition de l'intersection, les éléments de $A \\cap B$ appartiennent à la fois à $A$ et à $B$.\n2. Donc, $A \\cap B \\subseteq A$ et $A \\cap B \\subseteq B$, car chaque élément de $A \\cap B$ est dans $A$ et dans $B$.\n3. Conclusion: Cela prouve que l'intersection de deux ensembles quelconques est incluse dans chacun des deux ensembles. <final>Donc, $A  \\cap B \\subseteq A$ et $A  \\cap B \\subseteq B$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "$A \\cap B \\subseteq A$ et $A \\cap B \\subseteq B$",
+    "extracted_final_answers": [
+      "$A \\cap B \\subseteq A$ et $A \\cap B \\subseteq B$"
+    ],
+    "exact_answer": "A ∩ B ⊆ A et A ∩ B ⊆ B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 86,
+    "language": "French",
+    "chapter_number": "1.1",
+    "example_number": "811",
+    "question": "Démontrer que $A \\subset B$ si et seulement si l'une des conditions suivantes est remplie :\n$A \\cap B = A$",
+    "generated_answer": "1. Vrai, car $A \\cap B = A$ implique que tous les éléments de $A$ sont dans $B$, donc $A \\subset B$.\n2. Faux, parce qu'on peut avoir $A \\subset B$ sans que $A \\cap B = A$.\nConclusion: La condition $A \\cap B = A$ implique $A \\subset B$, mais la réciproque n'est pas vraie en général.\n<final>La condition \"$A \texttext { et } B$\" implique \"$A \texttext { est un sous-ensemble de } B$\", mais la réciproque n'est pas vraie en général.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La condition \"$A exttext { et } B$\" implique \"$A exttext { est un sous-ensemble de } B$\", mais la réciproque n'est pas vraie en général",
+    "extracted_final_answers": [
+      "La condition \"$A exttext { et } B$\" implique \"$A exttext { est un sous-ensemble de } B$\", mais la réciproque n'est pas vraie en général"
+    ],
+    "exact_answer": "A \\cap B = A",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 87,
+    "language": "French",
+    "chapter_number": "1.1",
+    "example_number": "819",
+    "question": "Voici la traduction française de la question, en respectant scrupuleusement les consignes :\n\nDémontrer que,\nSi $A \\subset B$, alors $A \\cup (B \\setminus A) = B$",
+    "generated_answer": "1. Étant donné que $A \\subset B$, cela implique que tous les éléments de $A$ sont également des éléments de $B$.\n2. Le complémentaire de $A$ dans $B$, noté $B \\setminus A$, est l'ensemble des éléments de $B$ qui ne font pas partie de $A$.\n3. La réunion entre $A$ et $B \\setminus A$ couvre tous les éléments de $B$ car $A$ contient toutes ses parties dans $B$ et $B \\setminus A$ contient les parties de $B$ qui ne sont pas en $A$.\n4. Donc, $A \\cup (B \\setminus A) = B$.\n\n<final>\nAinsi, nous avons démontré que si $A \\subset B$, alors $A \\cup (B \\setminus A) = B$ <final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "<final> Ainsi, nous avons démontré que si $A \\subset B$, alors $A \\cup (B \\setminus A) = B$ <final>",
+    "extracted_final_answers": [
+      "<final> Ainsi, nous avons démontré que si $A \\subset B$, alors $A \\cup (B \\setminus A) = B$ <final>"
+    ],
+    "exact_answer": "A \\cup (B \\setminus A) = B",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 88,
+    "language": "French",
+    "chapter_number": "1.1",
+    "example_number": "835",
+    "question": "Si $U = \\{x: x \\text{ est un entier pair}\\}$, $A = \\{x: 3x \\ge 25\\} \\subset U$ et $B = \\{x: 5x < 12\\} \\subset U$, alors trouver les valeurs de $n(A \\cap B)$ et $n(A' \\cap B')$.",
+    "generated_answer": "1. $A \\cap B = \\{x : x \\text{ is even}, x \\ge \\frac{25}{3} \\text{ and } x < \\frac{12}{5}\\}$, which simplifies to $A \\cap B = \\{8, 10\\}$.\n2. $n(A \\cap B) = 2$.\n3. Since $A$ and $B$ are subsets of even integers, their complements in the universe $U$ will be sets of odd integers. Hence, $A' \\cap B'$ is a set of odd integers not satisfying the conditions for $A$ or $B$. However, without additional information about the bounds for these complements, we cannot determine exact values for $n(A' \\cap B')$ directly.\n\n<final>2</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2",
+    "extracted_final_answers": [
+      "2"
+    ],
+    "exact_answer": "n(A ∩ B) = 0 et n(A' ∩ B') = 3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 89,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "867",
+    "question": "Trouver le domaine, l'image et la relation inverse de la relation donnée $S$.\nVérifier si les relations $S$ ou $S^{-1}$ sont des fonctions.\nLes fonctions parmi ces relations sont-elles injectives ?\n$S = \\{(1, 5), (2, 10), (3, 15), (4, 20)\\}$",
+    "generated_answer": "1. Le domaine de la relation $S$ est $\\{1,2,3,4\\}$.\n2. L'image de la relation $S$ est $\\{5,10,15,20\\}$.\n3. La relation inverse $S^{-1}$ est $\\{(5,1),(10,2),(15,3),(20,4)\\}$.\n4. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions car elles n'ont pas un seul élément pour chaque élément de l'ensemble de départ.\n5. La relation $S$ est injective car chaque élément de l'ensemble de départ est associé à un unique élément dans l'ensemble d'arrivée.\n\n<final>La relation $S$ est injective.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La relation $S$ est injective",
+    "extracted_final_answers": [
+      "La relation $S$ est injective"
+    ],
+    "exact_answer": "$S^{-1} = \\{(5, 1), (10, 2), (15, 3), (20, 4)\\} \\text{ donc } S \\text{ est une fonction.} \\text{ donc } S^{-1} \\text{ est une fonction bijective.}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 90,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "869",
+    "question": "Trouver le domaine, l'image et la relation inverse de la relation donnée $S$.\nVérifier si les relations $S$ ou $S^{-1}$ sont des fonctions.\nLes fonctions parmi ces relations sont-elles injectives ?\n$S = \\{(\\frac{1}{2}, 0), (1, 1), (1, -1), (\\frac{5}{2}, 2), (\\frac{5}{2}, -2)\\}$",
+    "generated_answer": "1. Le domaine de $S$ est $\\{0, 1, -1, 2, -2\\}$. L'image de $S$ est $\\{\\frac{1}{2}, 1, \\frac{5}{2}\\}$. La relation inverse $S^{-1}$ est $\\{0 \\to (\\frac{1}{2}), 1 \\to (1), -1 \\to (1), 2 \\to (\\frac{5}{2}), -2 \\to (\\frac{5}{2})\\}$.\n2. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions car il y a des éléments dans le domaine de $S$ qui n'ont pas une image unique.\n3. $S$ est une fonction mais pas injective car il existe deux paires avec la même image. $S^{-1}$ n'est pas une fonction donc elle ne peut être ni injective.\n<final>Le domaine est $\\{0, 1, -1, 2, -2\\}$, l'image est $\\{\\frac{1}{2}, 1, \\frac{5}{2}\\}$. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions. $S$ est une fonction mais pas injective. $S^{-1}$ n'est pas une fonction.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le domaine est $\\{0, 1, -1, 2, -2\\}$, l'image est $\\{(1)/(2), 1, (5)/(2)\\}$. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions. $S$ est une fonction mais pas injective. $S^{-1}$ n'est pas une fonction",
+    "extracted_final_answers": [
+      "Le domaine est $\\{0, 1, -1, 2, -2\\}$, l'image est $\\{(1)/(2), 1, (5)/(2)\\}$. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions. $S$ est une fonction mais pas injective. $S^{-1}$ n'est pas une fonction"
+    ],
+    "exact_answer": "S^{-1} = \\left\\{\\left(0, \\frac{1}{2}\\right), (1, 1), (-1, 1), \\left(2, \\frac{5}{2}\\right), \\left(-2, \\frac{5}{2}\\right)\\right\\} \\therefore S n'est pas une fonction. Donc, S^{-1} n'est pas une fonction injective.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 91,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "871",
+    "question": "Trouvez le domaine, l'image et la relation réciproque de la relation donnée $S$.\nVérifiez si les relations $S$ ou $S^{-1}$ sont des fonctions.\nLes fonctions parmi ces relations sont-elles injectives ?\n$S = \\{(2, 1), (2, 2), (2, 3)\\}$",
+    "generated_answer": "1. Le domaine de la relation $S$ est l'ensemble des première composantes des paires de $S$, soit $\\{2\\}$.\n2. L'image de la relation $S$ est l'ensemble des deuxième composantes des paires de $S$, soit $\\{1, 2, 3\\}$.\n3. La relation réciproque $S^{-1}$ est $\\{(1, 2), (2, 2), (3, 2)\\}$.\n4. Les relations $S$ et $S^{-1}$ ne sont pas des fonctions car chaque élément de leur domaine n'a qu'une image mais ont plusieurs antécédents.\n5. La relation $S$ n'est pas injective puisqu'elle a des entrées différentes avec la même sortie (par exemple, $(2, 1)$ et $(2, 2)$).\n6. La relation réciproque $S^{-1}$ est une fonction mais elle n'est pas injective car il y a plusieurs éléments du domaine qui ont la même image (par exemple, $1$ et $2$).\n\n<final>Le domaine de $S$ est $\\{2\\}$, l'image de $S$ est $\\{1, 2, 3\\}$, $S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\}$, ni $S$ ni $S^{-1}$ ne sont des fonctions et aucune n'est injective.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le domaine de $S$ est $\\{2\\}$, l'image de $S$ est $\\{1, 2, 3\\}$, $S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\}$, ni $S$ ni $S^{-1}$ ne sont des fonctions et aucune n'est injective",
+    "extracted_final_answers": [
+      "Le domaine de $S$ est $\\{2\\}$, l'image de $S$ est $\\{1, 2, 3\\}$, $S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\}$, ni $S$ ni $S^{-1}$ ne sont des fonctions et aucune n'est injective"
+    ],
+    "exact_answer": "Dom = \\{2\\} Range = \\{1, 2, 3\\}S^{-1} = \\{(1, 2), (2, 2), (3, 2)\\} Donc, S n'est pas une fonction. Donc, S^{-1}$ est une fonction. Donc, S^{-1} n'est pas une fonction bijective.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 92,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "876",
+    "question": "Pour la fonction $F: \\mathbb{R} \\to \\mathbb{R}$, définie par $F(x)=x^3$, trouver le domaine de $F$ et l'image de $F$.",
+    "generated_answer": "1. Le domaine de $F$ est $\\mathbb{R}$ car la fonction $F(x)=x^3$ est définie pour tout réel $x$.\n2. L'image de $F$ est $\\mathbb{R}$, car pour tout réel $y$, il existe un réel $x$ tel que $x^3 = y$.\n\n<final>Le domaine de $F$ est $\\boxed{\\mathbb{R}}$ et l'image de $F$ est $\\boxed{\\mathbb{R}}$.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le domaine de $F$ est \\mathbb{R}$ et l'image de $F$ est \\mathbb{R}$",
+    "extracted_final_answers": [
+      "Le domaine de $F$ est \\mathbb{R}$ et l'image de $F$ est \\mathbb{R}$"
+    ],
+    "exact_answer": "dom F = \\mathbb{R} et Image F = \\mathbb{R}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 93,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "888",
+    "question": "Deux fonctions $f: \\mathbb{R} \\to \\mathbb{R}$ et $g: \\mathbb{R} \\to \\mathbb{R}$ sont définies par $f(x)=3x+3$ et $g(x)=\\frac{x-3}{3}$ respectivement.\nDéterminer si $f(x)$ est une fonction surjective.",
+    "generated_answer": "1. La fonction $f(x)=3x+3$ est définie pour tout $x \\in \\mathbb{R}$ et valeurs possibles incluent toutes les valeurs réelles car le coefficient devant $x$ est non-nul.\n2. Pour tout $y \\in \\mathbb{R}$, nous pouvons trouver un $x$ tel que $f(x)=y$. Résolvons pour $x$: \n   \\[\n   3x+3 = y \\implies x = \\frac{y-3}{3}\n   \\]\n   Cela prouve que pour chaque valeur de $y$, il existe une valeur correspondante de $x$ telle que $f(x)=y$.\n\n<final>La fonction $f(x)$ est surjective.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La fonction $f(x)$ est surjective",
+    "extracted_final_answers": [
+      "La fonction $f(x)$ est surjective"
+    ],
+    "exact_answer": "f(x) est une fonction surjective",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 94,
+    "language": "French",
+    "chapter_number": "1.2",
+    "example_number": "891",
+    "question": "Étant donné que, $f(x)=\\sqrt{x-4}$\nDéterminez si $f(x)$ est une fonction injective.",
+    "generated_answer": "OUI, $f(x)$ est une fonction injective. <final>OUI</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "OUI",
+    "extracted_final_answers": [
+      "OUI"
+    ],
+    "exact_answer": "f(x) est une fonction injective",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 95,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "911",
+    "question": "Exprimer en décomposition en éléments simples : $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$",
+    "generated_answer": "1. Trouver les pôles de la fraction $\\frac{x^2 - 4x - 7}{(x+1)(x^2+4)}$; ils sont en $x=-1$ et $x=2i$.\n2. Utiliser le Décomposition des éléments simples pour résoudre :\n   \\[\n   \\frac{x^2 - 4x - 7}{(x+1)(x^2+4)} = \\frac{A}{x+1} + \\frac{Bx + C}{x^2 + 4}\n   \\]\n3. Trouver $A$ en évaluant la fonction en $x=-1$, et $B$ et $C$ en évaluant en $x=2i$. \n   \n   En évaluant la fonction en $x=-1$, on obtient:\n   \\[\n   A = \\frac{(-1)^2 - 4(-1) - 7}{0} = 1\n   \\]\n   \n   En évaluant la fonction en $x=2i$, on obtient:\n   \\[\n   3 = B(2i)(2i + 1) + C(4 - 4)\n   \\]\n   Résolvons pour $B$ et $C$:\n   \\[\n   B = \\frac{1}{5}, \\quad C = -\\frac{6}{5}\n   \\]\n\n<final>La décomposition en éléments simples est $\\frac{1}{x+1} + \\frac{\\frac{1}{5}x - \\frac{6}{5}}{x^2+4}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La décomposition en éléments simples est $(1)/(x+1) + (\\frac{1)/(5)x - (6)/(5)}{x^2+4}",
+    "extracted_final_answers": [
+      "La décomposition en éléments simples est $(1)/(x+1) + (\\frac{1)/(5)x - (6)/(5)}{x^2+4}"
+    ],
+    "exact_answer": "\\frac{1}{5} \\left( \\frac{7x-27}{x^2+4} - \\frac{2}{x+1} \\right)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 96,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "912",
+    "question": "Décomposer en éléments simples : $\\frac{x^2}{(2x+1)(x+3)^2}$",
+    "generated_answer": "1. $\\frac{x^2}{(2x+1)(x+3)^2} = \\frac{(2x+1)}{(2x+1)(x+3)} + \\frac{-x-3}{(2x+1)(x+3)}$ <final>$\\frac{2x+1}{(2x+1)(x+3)} - \\frac{x+3}{(2x+1)(x+3)}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(2x+1)/((2x+1)(x+3)) - (x+3)/((2x+1)(x+3))",
+    "extracted_final_answers": [
+      "(2x+1)/((2x+1)(x+3)) - (x+3)/((2x+1)(x+3))"
+    ],
+    "exact_answer": "$\\frac{1}{25(2x+1)} + \\frac{12}{25(x+3)} - \\frac{9}{5(x+3)^2}$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 97,
+    "language": "French",
+    "chapter_number": "5.2",
+    "example_number": "936",
+    "question": "Voici la traduction professionnelle de votre question mathématique en français, en respectant scrupuleusement les directives :\n\n**Résoudre l'équation :** $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$",
+    "generated_answer": "1. L'équation est : $\\sqrt{2x+7}+\\sqrt{3x-18}=\\sqrt{7x+1}$\n2. En élevant les deux côtés de l'égalité au carré, nous obtenons:\n   \\[( \\sqrt{2x+7} + \\sqrt{3x-18})^2 = (\\sqrt{7x+1})^2 \\]\n3. Ce qui donne:\n   \\[ 2x + 7 + 2\\sqrt{(2x+7)(3x-18)} + 3x - 18 = 7x + 1\\]\n4. Simplifions :\n   \\[ 5x - 11 + 2\\sqrt{6x^2 - 39x + 126} = 7x + 1\\]\n5. Isolons la racine carrée :\n   \\[2\\sqrt{6x^2 - 39x + 126} = 2x + 12 \\]\n6. Divisons par 2 :\n   \\[\\sqrt{6x^2 - 39x + 126} = x + 6\\]\n7. Et enfin, au carré à nouveau pour résoudre pour $x$ :\n   \\[6x^2 - 39x + 126 = x^2 + 12x + 36 \\]\n8. Simplifions et réarrangeons les termes :\n   \\[5x^2 - 51x + 90 = 0\\]\n9. Divisons toute l'équation par 5 :\n   \\[x^2 - 10.2x + 18 = 0\\]\n10. Utilisons la formule quadratique pour trouver $x$ :\n    \\[x = \\frac{10.2 \\pm \\sqrt{(10.2)^2 - 4*1*18}}{2*1} \\]\n11. Calculons les valeurs possibles de $x$ :\n    \\[x_1 = \\frac{10.2 + \\sqrt{104.04 - 72}}{2} \\]\n    \\[x_1 = \\frac{10.2 + \\sqrt{32.04}}{2} \\]\n    \\[x_1 = \\frac{10.2 + 5.66}{2} \\]\n    \\[x_1 = 7.93\\]\n    \\[x_2 = \\frac{10.2 - \\sqrt{32.04}}{2} \\]\n    \\[x_2 = \\frac{10.2 - 5.66}{2} \\]\n    \\[x_2 = 2.27\\]\n\nConclusion:\nLes solutions possibles pour l'équation sont $x_1 = 7.93$ et $x_2 = 2.27$. Cependant, nous devons vérifier si ces valeurs satisfont l'équation originale. <final>7.93</final> ou <final>2.27</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[\"7.93\", \"2.27\"]",
+    "extracted_final_answers": [
+      "7.93",
+      "2.27"
+    ],
+    "exact_answer": "9",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 98,
+    "language": "French",
+    "chapter_number": "5.4",
+    "example_number": "960",
+    "question": "Résoudre : $ x + \\frac{4}{y} = 1, y + \\frac{4}{x} = 25$",
+    "generated_answer": "1. **Résoudre le système d'équations** :\n   \\[\n   \\left\\{\n   \\begin{array}{l}\n   x + \\frac{4}{y} = 1 \\\\\n   y + \\frac{4}{x} = 25\n   \\end{array}\n   \\right.\n   \\]\n\n2. **Multiplier les termes correspondants par $xy$** :\n   \\[\n   \\left\\{\n   \\begin{array}{l}\n   xy \\cdot x + 4xy \\cdot y = xy \\\\\n   xy \\cdot y + 4xy \\cdot x = 25xy\n   \\end{array}\n   \\right.\n   \\]\n\n3. **Simplifier** :\n   \\[\n   \\left\\{\n   \\begin{array}{l}\n   x^2y + 4y^2 = xy \\\\\n   y^2x + 4x^2 = 25xy\n   \\end{array}\n   \\right.\n   \\]\n\n4. **Réorganiser** :\n   \\[\n   \\left\\{\n   \\begin{array}{l}\n   x^2y + 4y^2 - xy = 0 \\\\\n   y^2x + 4x^2 - 25xy = 0\n   \\end{array}\n   \\right.\n   \\]\n\n5. **Résoudre pour $x$ et $y$** :\n   Utilisant les formules quadratiques, nous trouvons que :\n   \\[\n   x = -4 + \\sqrt{16 + 4xy}, \\quad y = -4 + \\sqrt{16 + 25xy}\n   \\]\n\n<final>$x = -4 + \\sqrt{16 + 4xy}$ et $y = -4 + \\sqrt{16 + 25xy}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = -4 + √(16 + 4xy)$ et $y = -4 + √(16 + 25xy)",
+    "extracted_final_answers": [
+      "x = -4 + √(16 + 4xy)$ et $y = -4 + √(16 + 25xy)"
+    ],
+    "exact_answer": "(x, y) = \\left(\\frac{4}{5}, 20\\right), \\left(\\frac{1}{5}, 5\\right)",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 99,
+    "language": "French",
+    "chapter_number": "6.1",
+    "example_number": "983",
+    "question": "Résoudre $8 \\geq 2-2x$",
+    "generated_answer": "8 >= 2-2x\n\nSolution:\n$x \\leq 3$\n\n<final>$x \\leq 3$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x \\leq 3",
+    "extracted_final_answers": [
+      "x \\leq 3"
+    ],
+    "exact_answer": "x \\geq -3",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 100,
+    "language": "French",
+    "chapter_number": "6.2",
+    "example_number": "987",
+    "question": "Un garçon a marché pendant $3$ heures à la vitesse de $x$ km/h et a couru pendant $\\frac{1}{2}$ heure à la vitesse de $(x+2)$ km/h. La distance parcourue était inférieure à $29$ km. Trouvez les valeurs possibles de $x$.",
+    "generated_answer": "1. The boy walked for $3$ hours at a speed of $x$ km/h and ran for $\\frac{1}{2}$ hour at a speed of $(x+2)$ km/h.\n\n2. Using the formula $d = rt$, where $d$ is distance, $r$ is rate (or speed), and $t$ is time, we can set up two equations to represent the distances covered by walking and running:\n   - Distance walked = $3x$ km\n   - Distance run = $\\frac{1}{2}(x+2)$ km\n\n3. The total distance covered by both walking and running should be less than $29$ km, so we set up the inequality:\n   $$3x + \\frac{1}{2}(x+2) < 29$$\n\n4. Simplifying the inequality:\n   $$\\begin{align*}\n   3x + \\frac{1}{2}x + 1 &< 29 \\\\\n   \\frac{7}{2}x &< 28 \\\\\n   x &< \\frac{56}{7} \\\\\n   x &< 8\n   \\end{align*}$$\n\n5. However, we also know that the boy must have been running at a speed greater than $0$, so:\n   $$x + 2 > 0$$\n   $$x > -2$$\n\n6. Combining both conditions, we get:\n   $$-2 < x < 8$$\n\n7. Therefore, the possible values for $x$ are any real numbers strictly between $-2$ and $8$.\n\nExplication: Les valeurs possibles pour $x$ sont des nombres réels strictement compris entre $-2$ et $8$.\n<final>$-2 < x < 8$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-2 < x < 8",
+    "extracted_final_answers": [
+      "-2 < x < 8"
+    ],
+    "exact_answer": "3x + \\frac{x+2}{2} < 29, 0 < x < 8",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 101,
+    "language": "French",
+    "chapter_number": "6.2",
+    "example_number": "989",
+    "question": "Monsieur Sohrab a acheté $x$ kg de mangues au prix de 70 Tk par kg. Il a donné un billet de 500 Tk au vendeur. Le vendeur lui a rendu le reste de l'argent sous forme de $x$ billets de 20 Tk. Trouver les valeurs possibles de $x$.",
+    "generated_answer": "1. Soit $x$ la quantité de mangue achetée. Le prix unitaire est de 70 Tk/kg, donc le prix total pour $x$ kg est $70x$ Tk.\n2. Monsieur Sohrab paye avec un billet de 500 Tk et reçoit $x$ billets de 20 Tk en retour. Ainsi, la somme donnée à l'argentier est $500 - 20x$ Tk.\n3. Pour que les prix soient corrects, il faut que $70x = 500 - 20x$. Résolvons cette équation :\n   \\[\n   70x + 20x = 500 \\implies 90x = 500 \\implies x = \\frac{500}{90} = \\frac{50}{9} \\approx 5.56\n   \\]\n4. Cependant, $x$ doit être un nombre entier car il s'agit de billets entiers et d'un nombre entier de kilogrammes de mangue. Donc, nous devons arrondir à l'entier le plus proche. Ici, $\\frac{50}{9}$ est proche de 6.\n5. Vérifions : Si $x = 6$, alors le prix total est $70 \\times 6 = 420$ Tk et le reste serait $500 - 420 = 80$ Tk, ce qui ne peut pas être rendu en billets de 20 Tk.\n\nFinalement, la seule valeur possible de $x$ est 5 :\n\\[\n\\boxed{5}\n\\]\n\n<final>$5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "5",
+    "extracted_final_answers": [
+      "5"
+    ],
+    "exact_answer": "70x + 20x < 500, 0 < x \\le 5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 102,
+    "language": "French",
+    "chapter_number": "6.2",
+    "example_number": "995",
+    "question": "La distance aérienne entre Dhaka et Singapour est de 2900 km. La vitesse maximale d'un avion à réaction est de 900 km/heure. Cependant, sur le trajet de Dhaka à Singapour, il rencontre un vent soufflant à 100 km/heure dans la direction opposée. Exprimez le temps requis pour le vol sans escale de Dhaka à Singapour sous forme d'une inégalité.",
+    "generated_answer": "1. Si $t$ est le temps en heures pour le trajet de Dhaka à Singapour sans escale, alors la relation suivante s'applique : $2900 < 900t$ car la vitesse du vent ralentit l'avion.\n2. Simplifions cette inégalité pour obtenir une relation claire entre le temps et la distance : $t > \\frac{2900}{900}$\n3. Calculons la valeur exacte de $\\frac{2900}{900}$, ce qui nous donne approximativement 3,222 heures.\n4. Donc l'inégalité finale est $t > 3,222$\n5. Explication : Cette inégalité reflète le fait que la vitesse effective de l'avion est réduite par le vent dans la direction opposée, rallongeant ainsi le trajet.\n\n<final>$t > \\frac{2900}{900} \\approx 3,222$ heures</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "t > (2900)/(900) \\approx 3,222$ heures",
+    "extracted_final_answers": [
+      "t > (2900)/(900) \\approx 3,222$ heures"
+    ],
+    "exact_answer": "t \\ge 3\\frac{5}{8}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 103,
+    "language": "French",
+    "chapter_number": "7",
+    "example_number": "1014",
+    "question": "Imposer une condition sur $x$ pour que la série infinie $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ ait une somme et trouver cette somme.",
+    "generated_answer": "1. La série infinie $\\frac{1}{x+1} + \\frac{1}{(x+1)^2} + \\frac{1}{(x+1)^3} + \\ldots$ converge si $|x+1| > 1$.\n2. La somme de cette série est donnée par la formule $\\frac{1}{x}$.\nExplication: Cela découle directement du critère d'espérance géométrique pour les séries infinies et de la somme des termes d'une série géométrique. <final>$\\boxed{\\frac{1}{x}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{1{x}}",
+    "extracted_final_answers": [
+      "\\frac{1{x}}"
+    ],
+    "exact_answer": "x < -2, x > 0, \\frac{1}{x}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 104,
+    "language": "French",
+    "chapter_number": "8.1",
+    "example_number": "1038",
+    "question": "Here is the French translation of the question, adhering to your guidelines:\n\nLes angles d'un triangle sont en progression arithmétique et le plus grand angle est le double du plus petit angle. Quelles sont les mesures des angles en radians ?",
+    "generated_answer": "Les angles du triangle sont de $\\frac{\\pi}{6}$, $\\frac{5\\pi}{12}$ et $\\frac{7\\pi}{12}$ radians.\n<final>$\\boxed{\\frac{\\pi}{6},\\frac{5\\pi}{12},\\frac{7\\pi}{12}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\frac{\\pi{6},(5\\pi)/(12),(7\\pi)/(12)}",
+    "extracted_final_answers": [
+      "\\frac{\\pi{6},(5\\pi)/(12),(7\\pi)/(12)}"
+    ],
+    "exact_answer": "$\\frac{2\\pi^c}{9}, \\frac{\\pi^c}{3}, \\frac{4\\pi^c}{9}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 105,
+    "language": "French",
+    "chapter_number": "8.3",
+    "example_number": "1076",
+    "question": "Simplifier : $\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10} = 0$",
+    "generated_answer": "1. Simplifions d'abord les angles : \\[\\cos \\frac{17\\pi}{10} + \\cos \\frac{13\\pi}{10} + \\cos \\frac{9\\pi}{10} + \\cos \\frac{\\pi}{10}\\]\n2. En utilisant la propriété des angles complémentaires : \\[\\cos \\left(\\frac{\\pi}{10}\\right) + \\cos \\left(\\pi - \\frac{\\pi}{10}\\right) + \\cos \\left(\\frac{\\pi}{2} - \\frac{\\pi}{10}\\right) + \\cos \\left(\\frac{\\pi}{2} + \\frac{\\pi}{10}\\right)\\]\n3. Nous savons que : \\[\\cos (\\pi - x) = -\\cos(x)\\] et \\[\\cos \\left(\\frac{\\pi}{2} \\pm x\\right) = \\sin(x)\\] ce qui donne : \\[-\\cos \\left(\\frac{9\\pi}{10}\\right) + \\cos \\left(\\frac{\\pi}{10}\\right) - \\sin \\left(\\frac{\\pi}{10}\\right) + \\sin \\left(\\frac{\\pi}{10}\\right)\\]\n4. Simplifions davantage : \\[-\\cos \\left(\\frac{9\\pi}{10}\\right) + \\cos \\left(\\frac{\\pi}{10}\\right) = 0\\]\n   <final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "$\\cos\\frac{17\\pi}{10} + \\cos\\frac{13\\pi}{10} + \\cos\\frac{9\\pi}{10} + \\cos\\frac{\\pi}{10} = 0$",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 106,
+    "language": "French",
+    "chapter_number": "8.3",
+    "example_number": "1078",
+    "question": "Simplifier : $\\sin^2 \\frac{2\\pi}{7} + \\sin^2 \\frac{5\\pi}{14} + \\sin^2 \\frac{8\\pi}{7} + \\sin^2 \\frac{9\\pi}{14} = 2$",
+    "generated_answer": "1,5\nExplication : Les angles sont formés par la division de l'angle complet en parties égales.\n\n<final>$1,5$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1,5",
+    "extracted_final_answers": [
+      "1,5"
+    ],
+    "exact_answer": "\\sin^2\\frac{\\pi}{7} + \\sin^2\\frac{5\\pi}{14} + \\sin^2\\frac{8\\pi}{7} + \\sin^2\\frac{9\\pi}{14} = 2",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 107,
+    "language": "French",
+    "chapter_number": "8.3",
+    "example_number": "1082",
+    "question": "Simplifier : $\\cos \\frac{9\\pi}{4} + \\cos \\frac{5\\pi}{4} + \\sin \\frac{31\\pi}{36} - \\sin \\frac{5\\pi}{36}$",
+    "generated_answer": "0 <final>0</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "0",
+    "extracted_final_answers": [
+      "0"
+    ],
+    "exact_answer": "0",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 108,
+    "language": "French",
+    "chapter_number": "8.3",
+    "example_number": "1090",
+    "question": "Voici la traduction de la question mathématique en français, en respectant scrupuleusement les directives :\n\nTrouver la valeur de $\\alpha$ satisfaisant les conditions données :\n$\\cot \\alpha = -\\sqrt{3} \\, ; \\, \\frac{3\\pi}{2} < \\alpha < 2\\pi$",
+    "generated_answer": "α = $\\boxed{\\frac{11\\pi}{6}}$ <final>$\\frac{11\\pi}{6}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(11\\pi)/(6)",
+    "extracted_final_answers": [
+      "(11\\pi)/(6)"
+    ],
+    "exact_answer": "$\\frac{11\\pi}{6}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 109,
+    "language": "French",
+    "chapter_number": "8.3",
+    "example_number": "1098",
+    "question": "Résoudre : $\\left(\\text{où } 0 < \\theta < \\frac{\\pi}{2}\\right)$ $2\\sin^2 \\theta + 3 \\cos \\theta = 3$",
+    "generated_answer": "θ = arccos(1/2) ou arctan(√3/3) <final>θ = \\frac{\\pi}{3} ou \\frac{\\pi}{6}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "θ = (\\pi)/(3) ou (\\pi)/(6)",
+    "extracted_final_answers": [
+      "θ = (\\pi)/(3) ou (\\pi)/(6)"
+    ],
+    "exact_answer": "$\\frac{\\pi}{3}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 110,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "1121",
+    "question": "Simplifier :\n $bc\\sqrt{\\frac{x^{b/c}}{x^{c/b}}} \\times ca\\sqrt{\\frac{x^{c/a}}{x^{a/c}}} \\times ab\\sqrt{\\frac{x^{a/b}}{x^{b/a}}}$",
+    "generated_answer": "1. Simplifiez chaque radical en utilisant les règles du quotient de puissances. Pour cela, soustrayez le exposant du dénominateur à celui du numérateur et multipliez par la variable x.\n2. Annulez les termes dans l'exposant pour chaque radical en utilisant les mêmes règles de quotient de puissances. Cela donnera une valeur de 1 pour chaque terme, sauf pour ceux où le dénominateur est plus grand que le numérateur.\n3. Multipliez tous les termes restants ensemble. Étant donné que nous avons annulé les termes dans l'exposant, nous ne devons que multiplier les coefficients.\n\n<final>x</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x",
+    "extracted_final_answers": [
+      "x"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 111,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "1123",
+    "question": "Voici la traduction professionnelle de la question mathématique en français, en respectant scrupuleusement les directives :\n\nMontrer que\n1) Si $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$, alors $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$",
+    "generated_answer": "1) Si $x=a^{q+r}b^p$, $y=a^{r+p}b^q$, $z=a^{p+q}b^r$, alors $x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q}=1$\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "x^{q-r} \\cdot y^{r-p} \\cdot z^{p-q} = 1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 112,
+    "language": "French",
+    "chapter_number": "9.1",
+    "example_number": "1129",
+    "question": "Voici la traduction de la question en français, en respectant les normes académiques et les conventions mathématiques françaises :\n\n**Traduction :**\n\nSi $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$ et $a \\ge 0$, alors montrer que $3a^3 + 9a = 8$.",
+    "generated_answer": "1. Montrons que $3a^3 + 9a = 8$.\n2. Puisque $a^2 + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$, on peut écrire $(a^2 + 2)(a+1) = a^3 + a^2 + 2a + 2$.\n3. Ensuite, réarrangeons pour obtenir $a^3 + a^2 + 2a + 2 = 8$, ce qui implique que $a^3 + a^2 + 2a + 2 = 3^{\\frac{2}{3}} + 3^{-\\frac{2}{3}}$.\n4. Simplifions cette équation pour obtenir directement $3a^3 + 9a = 8$.\n5. Explication: Cette simplification est possible en utilisant les propriétés des puissances et la substitution appropriée pour démontrer que les deux côtés de l'équation sont égaux. <final>$8$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "8",
+    "extracted_final_answers": [
+      "8"
+    ],
+    "exact_answer": "3a³ + 9a = 8",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 113,
+    "language": "French",
+    "chapter_number": "9.2",
+    "example_number": "1153",
+    "question": "Voici la traduction de la question en français, en respectant les directives :\n\n**Écrire la fonction réciproque dans chaque cas : $y = \\log_{10} x$**",
+    "generated_answer": "La fonction réciproque de $y = \\log_{10} x$ est $x = 10^y$.\n\nExplication : Utilisant les propriétés des fonctions logarithmiques, nous pouvons trouver la réciproque en élevant 10 à la puissance de l'inverse de la variable.\n\n<final>$x = 10^y$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "x = 10^y",
+    "extracted_final_answers": [
+      "x = 10^y"
+    ],
+    "exact_answer": "f^{-1}(x) = 10^x",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 114,
+    "language": "French",
+    "chapter_number": "9.2",
+    "example_number": "1156",
+    "question": "Déterminer le domaine et l'image de la fonction $f(x) = \\ln \\frac{1-x}{1+x}$.",
+    "generated_answer": "1. Le domaine de la fonction $f(x) = \\ln \\frac{1-x}{1+x}$ est déterminé par l'ensemble des valeurs pour lesquelles le quotient $\\frac{1-x}{1+x}$ est positif. Cela arrive lorsque $-1 < x < 1$.\n2. L'image de la fonction est déterminée en examinant les valeurs possibles du logarithme naturel d'un nombre compris entre 0 et l'infini, soit $(-\\infty, +\\infty)$.\n\n<final>Domaine: $]-1, 1[$, Image: $\\mathbb{R}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Domaine: $]-1, 1[$, Image: $\\mathbb{R}",
+    "extracted_final_answers": [
+      "Domaine: $]-1, 1[$, Image: $\\mathbb{R}"
+    ],
+    "exact_answer": "D_f = (-1, 1) et R_f = \\mathbb{R}.",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 115,
+    "language": "French",
+    "chapter_number": "9.2",
+    "example_number": "1159",
+    "question": "Soit la fonction définie par :\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{lorsque } x \\ne 0 \\\\ 0, & \\text{lorsque } x=0 \\end{cases}$\n\nmentionnant le domaine et l'image",
+    "generated_answer": "1. La fonction $f(x)$ est définie comme suit :\n$f(x) = \\begin{cases} \\frac{|x|}{x}, & \\text{lorsque } x \\ne 0 \\\\ 0, & \\text{lorsque } x=0 \\end{cases}$\n   - Le domaine de la fonction est $\\mathbb{R}$, c'est-à-dire tous les nombres réels.\n   - L'image de la fonction est $\\{-1, 1\\}$.\n\n<final>Le domaine est $\\mathbb{R}$ et l'image est $\\{-1, 1\\}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le domaine est $\\mathbb{R}$ et l'image est $\\{-1, 1\\}",
+    "extracted_final_answers": [
+      "Le domaine est $\\mathbb{R}$ et l'image est $\\{-1, 1\\}"
+    ],
+    "exact_answer": "D_f = \\mathbb{R} , R_f = \\{-1, 0, 1\\}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 116,
+    "language": "French",
+    "chapter_number": "10.1",
+    "example_number": "1171",
+    "question": "Développez $(1 + x^{2})^{8}$ jusqu'aux quatre premiers termes. Trouvez la valeur de $(1,01)^{8}$ en utilisant ce résultat.",
+    "generated_answer": "121,008,175,094 <final>121.008175094</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "121.008175094",
+    "extracted_final_answers": [
+      "121.008175094"
+    ],
+    "exact_answer": "1,082856",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 117,
+    "language": "French",
+    "chapter_number": "10.1",
+    "example_number": "1174",
+    "question": "Voici la traduction de la question en français, en respectant scrupuleusement les consignes :\n\n**Trouver le développement suivant jusqu'aux quatre premiers termes [en utilisant le Triangle de Pascal ou le théorème binomial]**\n\n1) $(1 - 2x^{2})^{7}$",
+    "generated_answer": "1) $(1 - 2x^{2})^{7}$\n\nUtilisant le Triangle de Pascal ou le théorème binomial, nous trouvons les quatre premiers termes comme suit :\n\n$$\\boxed{1 - 14x^2 + 84x^4 - 280x^6 + 560x^8}$$",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Utilisant le Triangle de Pascal ou le théorème binomial, nous trouvons les quatre premiers termes comme suit : $1 - 14x^2 + 84x^4 - 280x^6 + 560x^8",
+    "extracted_final_answers": [
+      "Utilisant le Triangle de Pascal ou le théorème binomial, nous trouvons les quatre premiers termes comme suit : $1 - 14x^2 + 84x^4 - 280x^6 + 560x^8"
+    ],
+    "exact_answer": "1 - 14x^2 + 84x^4 - 280x^6 + \\dots\\dots\\dots",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 118,
+    "language": "French",
+    "chapter_number": "10.1",
+    "example_number": "1176",
+    "question": "Voici la traduction de la question mathématique en français, en respectant scrupuleusement les consignes :\n\n**Trouvez le développement suivant jusqu'aux quatre premiers termes [en utilisant le triangle de Pascal ou le théorème binomial]**\n**3) $(1 - \\frac{1}{2x})^{7}$**",
+    "generated_answer": "1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3} <final>\\boxed{1 - \\frac{7}{2x} + \\frac{21}{4x^2} - \\frac{35}{8x^3}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1 - \\frac{7{2x} + (21)/(4x^2) - (35)/(8x^3)}",
+    "extracted_final_answers": [
+      "1 - \\frac{7{2x} + (21)/(4x^2) - (35)/(8x^3)}"
+    ],
+    "exact_answer": "1-\\frac{7}{2x}+\\frac{21}{4x^2}-\\frac{35}{8x^3}+.....",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 119,
+    "language": "French",
+    "chapter_number": "10.2",
+    "example_number": "1181",
+    "question": "Déterminer les quatre premiers termes de $(2 + 3x)^6$",
+    "generated_answer": "1. The four premiers termes of $(2 + 3x)^6$ sont $2^6$, $6 \\cdot 2^5 \\cdot 3x$, $15 \\cdot 2^4 \\cdot (3x)^2$, et $20 \\cdot 2^3 \\cdot (3x)^3$.\n\n<final>$2^6, 6 \\cdot 2^5 \\cdot 3x, 15 \\cdot 2^4 \\cdot (3x)^2, 20 \\cdot 2^3 \\cdot (3x)^3$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "2^6, 6 \\cdot 2^5 \\cdot 3x, 15 \\cdot 2^4 \\cdot (3x)^2, 20 \\cdot 2^3 \\cdot (3x)^3",
+    "extracted_final_answers": [
+      "2^6, 6 \\cdot 2^5 \\cdot 3x, 15 \\cdot 2^4 \\cdot (3x)^2, 20 \\cdot 2^3 \\cdot (3x)^3"
+    ],
+    "exact_answer": "64 + 576x + 2160x² + 4320x³ + ...",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 120,
+    "language": "French",
+    "chapter_number": "12",
+    "example_number": "1200",
+    "question": "Montrer que si $\\underline{a} + \\underline{b} = \\underline{c}$, alors $\\underline{a} = \\underline{c} - \\underline{b}$.",
+    "generated_answer": "1. On commence avec l'équation donnée: $\\underline{a} + \\underline{b} = \\underline{c}$.\n2. Pour isoler $\\underline{a}$, nous devons soustraire $\\underline{b}$ des deux côtés de l'équation : $\\underline{a} + \\underline{b} - \\underline{b} = \\underline{c} - \\underline{b}$.\n3. Cela simplifie à: $\\underline{a} = \\underline{c} - \\underline{b}$.\n<final>$\\boxed{\\underline{a} = \\underline{c} - \\underline{b}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\underline{a= \\underline{c} - \\underline{b}}",
+    "extracted_final_answers": [
+      "\\underline{a= \\underline{c} - \\underline{b}}"
+    ],
+    "exact_answer": "c-b",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 121,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "1218",
+    "question": "Un réservoir rectangulaire de longueur $2,5$ mètres, de largeur $1,0$ mètre repose sur le sol. Si sa hauteur est de $0,4$ mètre, trouvez son volume et l'aire de sa surface intérieure.",
+    "generated_answer": "1. Le volume du réservoir rectangulaire est calculé par la formule: \\( Volume = Longueur \\times Largeur \\times Hauteur \\). Substituons les valeurs données pour obtenir le volume.\n2. L'aire de la surface intérieure du réservoir peut être trouvée en calculant l'aire de toutes ses faces visibles: \\( Aire = 2 \\times (Longueur \\times Hauteur + Largeur \\times Hauteur) \\).\n3. Calculons les valeurs exactes: \\( Volume = 2,5 \\, m \\times 1,0 \\, m \\times 0,4 \\, m = 1,0 \\, m^3 \\). L'aire de la surface intérieure est \\( Aire = 2 \\times (2,5 \\, m \\times 0,4 \\, m + 1,0 \\, m \\times 0,4 \\, m) = 2 \\times (1,0 \\, m^2 + 0,4 \\, m^2) = 2,8 \\, m^2 \\).\nExplication: Calcul direct en utilisant les formules de base pour le volume et l'aire.\nFinal Answer:\n<final>Le volume est \\(1,0 \\, m^3\\) et l'aire de la surface intérieure est \\(2,8 \\, m^2\\).</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le volume est \\(1,0 \\, m^3\\) et l'aire de la surface intérieure est \\(2,8 \\, m^2\\)",
+    "extracted_final_answers": [
+      "Le volume est \\(1,0 \\, m^3\\) et l'aire de la surface intérieure est \\(2,8 \\, m^2\\)"
+    ],
+    "exact_answer": "1 , 7,8",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 122,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "1220",
+    "question": "Un foyer doit être construit pour 70 étudiants, de telle sorte que chaque étudiant dispose de 4,25 mètres carrés d'espace au sol et de 13,6 mètres cubes d'espace. Si la pièce mesure 34 mètres de long, quelles sont sa largeur et sa hauteur ?",
+    "generated_answer": "1. Calculer le nombre total de mètres cubes nécessaires pour les étudiants : $70 \\times 13,6 = 952 \\, \\text{m}^3$ <final>952</final>.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "952",
+    "extracted_final_answers": [
+      "952"
+    ],
+    "exact_answer": "8,75 ; 3,2",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 123,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "1223",
+    "question": "La longueur des deux côtés adjacents à l'angle droit d'un triangle rectangle est de $5 \\text{ cm}$ et $3,5 \\text{ cm}$. Calculer le volume du solide de révolution obtenu en faisant tourner ce triangle autour de son côté le plus long.",
+    "generated_answer": "1. Le côté le plus long est l'hypoténuse du triangle rectangle, dont la longueur est calculée par le théorème de Pythagore : $\\sqrt{5^2 + 3.5^2} = \\sqrt{25 + 12.25} = \\sqrt{37.25} \\approx 6.1$ cm.\n2. Le volume du solide obtenu par la rotation est donné par la formule $V = \\frac{1}{3}\\pi r^2 h$, où $r$ est le rayon et $h$ l'hauteur (ici l'hypoténuse).\n3. Calculons le volume : $V = \\frac{1}{3} \\pi (5)^2 (6.1) \\approx 334.9$ cm<sup>3</sup>.\n\n<final>Le volume du solide est approximativement 334.9 cm³.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le volume du solide est approximativement 334.9 cm³",
+    "extracted_final_answers": [
+      "Le volume du solide est approximativement 334.9 cm³"
+    ],
+    "exact_answer": "64,14",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 124,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "1237",
+    "question": "Un entrepôt avec un toit en deux parties est construit sur un terrain de longueur 25 mètres et de largeur 18 mètres. Sa hauteur est de 5 mètres. Chaque partie du toit a une largeur de 14 mètres. Trouver le volume de l'entrepôt.",
+    "generated_answer": "1250 m³.\n\n<final>1250 m³</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1250 m³",
+    "extracted_final_answers": [
+      "1250 m³"
+    ],
+    "exact_answer": "4662,85",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 125,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "1269",
+    "question": "Démontrer que la fonction, $F: \\mathbb{R} \\rightarrow \\mathbb{R}, \\ F(x)=x^2$ n'est pas injective.",
+    "generated_answer": "1. Pour démontrer que la fonction $F: \\mathbb{R} \\rightarrow \\mathbb{R}, \\ F(x)=x^2$ n'est pas injective, nous devons montrer qu'il existe au moins deux éléments distincts $a$ et $b$ de $\\mathbb{R}$ tels que $F(a) = F(b)$.\n2. Considérons les valeurs $a=1$ et $b=-1$. On a alors :\n   \\[\n   F(1) = 1^2 = 1 \\quad \\text{et} \\quad F(-1) = (-1)^2 = 1.\n   \\]\n3. Comme $F(1) = F(-1)$ et $1 \\neq -1$, cela montre que $F$ n'est pas injective.\n4. Conclusion: La fonction $F$ n'est donc pas injective, car il existe des éléments distincts de $\\mathbb{R}$ ayant la même image par cette fonction.\n\n<final>La fonction F n'est pas injective.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "La fonction F n'est pas injective",
+    "extracted_final_answers": [
+      "La fonction F n'est pas injective"
+    ],
+    "exact_answer": "F n'est pas injective",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 126,
+    "language": "French",
+    "chapter_number": "1",
+    "example_number": "1272",
+    "question": "$f(x) = 3x + 1$, avec $0 \\le x \\le 2$; trouver l'image de $f$.",
+    "generated_answer": "1. Pour trouver l'image de $f$, nous devons appliquer la fonction à chaque valeur de $x$ dans l'intervalle donné.\n2. Calculons pour $x=0$, $x=1$ et $x=2$:\n   - $f(0) = 3*0 + 1 = 1$\n   - $f(1) = 3*1 + 1 = 4$\n   - $f(2) = 3*2 + 1 = 7$\n3. L'image de $f$ sur l'intervalle $[0, 2]$ est donc $\\{1, 4, 7\\}$.\n<final>1, 4, 7</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1, 4, 7",
+    "extracted_final_answers": [
+      "1, 4, 7"
+    ],
+    "exact_answer": "{y : 1 \\le y \\le 7}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 127,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1278",
+    "question": "Si $P(x)=3x^3+2x^2-7x+8$, alors calculer la valeur de $P(2)$.",
+    "generated_answer": "27 <final>27</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "27",
+    "extracted_final_answers": [
+      "27"
+    ],
+    "exact_answer": "26",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 128,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1284",
+    "question": "Voici la traduction en français, respectant les normes académiques et mathématiques :\n\n**Si $P(x) = ax^3+bx+c$, alors montrez que le reste de la division de $P(x)$ par $x-m$ est égal à $P(m)$.**",
+    "generated_answer": "1. Utiliser le Théorème de la Division Euclidienne pour expliquer que si on divise un polynôme $P(x)$ par $(x-m)$, on peut l'écrire comme $P(x) = (x-m)Q(x) + R$ où $R$ est le reste.\n2. Pour montrer que le reste est égal à $P(m)$, substituer directement $m$ dans la formule de division: $P(m) = (m-m)Q(m) + R$.\n3. Simplifier pour obtenir $R = P(m)$.\n\n<final>Le reste de la division est bien égal à $P(m)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Le reste de la division est bien égal à $P(m)",
+    "extracted_final_answers": [
+      "Le reste de la division est bien égal à $P(m)"
+    ],
+    "exact_answer": "Le reste est égal à P(m)",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 129,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1290",
+    "question": "Voici la traduction professionnelle de votre question mathématique en français, en respectant scrupuleusement les directives :\n\nSupposons que $P(x)=ax^3+bx^2+cx+d$ est un polynôme à coefficients entiers, avec $a \\neq 0$ et $d \\neq 0$. Supposons que $x-r$ soit un facteur de $P(x)$. Montrer que, si $r$ est un entier, alors $r$ sera un diviseur du terme constant.",
+    "generated_answer": "Si $x - r$ est un facteur de $P(x)$, alors en substituant $x = r$, nous obtenons $P(r) = a r^3 + b r^2 + c r + d = 0$. Puisque $r$ et $d$ sont des entiers, il s'ensuit que $r$ divise $a r^3 + b r^2 + c r$, donc $r$ divise aussi $d$.\n\n<final>Donc, si $x - r$ est un facteur de $P(x)$, alors $r$ sera un diviseur du terme constant.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "si $x - r$ est un facteur de $P(x)$, alors $r$ sera un diviseur du terme constant",
+    "extracted_final_answers": [
+      "si $x - r$ est un facteur de $P(x)$, alors $r$ sera un diviseur du terme constant"
+    ],
+    "exact_answer": "r est un diviseur de d",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 130,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1292",
+    "question": "$P(x)=$ Décomposer le polynôme $x^3-6x^2+11x-6$ en facteurs.",
+    "generated_answer": "1. Factorisation de $P(x)$ : $(x-1)(x-2)(x-3)$\nExplanation : On a utilisé la méthode de Newton pour trouver les racines et ainsi factoriser le polynôme.\nFinal Answer (in French):\n<final>(x-1)(x-2)(x-3)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(x-1)(x-2)(x-3)",
+    "extracted_final_answers": [
+      "(x-1)(x-2)(x-3)"
+    ],
+    "exact_answer": "P(x)=(x-1)(x-2)(x-3)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 131,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1293",
+    "question": "**Décomposer en facteurs :** $18x^3+15x^2-x-2$",
+    "generated_answer": "18x^3+15x^2-x-2 peut être factorisé en <final>(6x² + 5)(3x - 1)</final>.",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(6x² + 5)(3x - 1)",
+    "extracted_final_answers": [
+      "(6x² + 5)(3x - 1)"
+    ],
+    "exact_answer": "P(x)=(2x+1)(3x+2)(3x-1)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 132,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1296",
+    "question": "Factoriser $a^3(b-c)+b^3(c-a)+c^3(a-b)$.",
+    "generated_answer": "1. Le problème consiste à factoriser l'expression donnée : $a^3(b-c)+b^3(c-a)+c^3(a-b)$.<br>\n2. Cette expression peut être réécrite comme : $a^3b - a^3c + b^3c - ab^3 + c^3a - bc^3$.<br>\n3. En regroupant les termes similaires, nous obtenons : $(a^3b - ab^3) + (b^3c - bc^3) + (c^3a - a^3c)$.<br>\n4. Chaque paire de termes peut être factorisée en utilisant la différence des cubes : $(a-b)(ab(a+b))$, $(b-c)(bc(b+c))$, et $(c-a)(ac(c+a))$.<br>\n5. Ainsi, l'expression devient : $(a-b)(ab(a+b)) + (b-c)(bc(b+c)) + (c-a)(ac(c+a))$.<br>\n6. Cette expression peut être simplifiée en utilisant les propriétés des cubes et les sommes de façon à révéler une factorisation plus simple : $(a-b)(b-c)(c-a)(a+b+c)$.<br>\n7. La réécriture finale est donc : $\\boxed{(a-b)(b-c)(c-a)(a+b+c)}$.<final>(a-b)(b-c)(c-a)(a+b+c)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(a-b)(b-c)(c-a)(a+b+c)",
+    "extracted_final_answers": [
+      "(a-b)(b-c)(c-a)(a+b+c)"
+    ],
+    "exact_answer": "-(a-b)(b-c)(c-a)(a+b+c)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 133,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1297",
+    "question": "Factoriser $(b+c)(c+a)(a+b)+abc$",
+    "generated_answer": "1. Factoriser $(b+c)(c+a)(a+b)+abc$\n   Explication : On utilise le théorème de factorisation des polynômes symétriques.\n\n<final>$(b+c)(c+a)(a+b)+abc = (a^2 + ab + ac + bc)^2$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "(b+c)(c+a)(a+b)+abc = (a^2 + ab + ac + bc)^2",
+    "extracted_final_answers": [
+      "(b+c)(c+a)(a+b)+abc = (a^2 + ab + ac + bc)^2"
+    ],
+    "exact_answer": "(a+b+c)(bc+ca+ab)",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 134,
+    "language": "French",
+    "chapter_number": "2",
+    "example_number": "1308",
+    "question": "Exprimer $\\dfrac{x}{(x-1)(x^2+4)}$ en décomposition en éléments simples.",
+    "generated_answer": "La décomposition en éléments simples de $\\dfrac{x}{(x-1)(x^2+4)}$ est donnée par :\n\n$$\\dfrac{x}{(x-1)(x^2+4)} = \\dfrac{1}{5(x-1)} - \\dfrac{x}{5(x^2+4)}.$$\n\n<final>$$\\boxed{\\dfrac{1}{5(x-1)} - \\dfrac{x}{5(x^2+4)}}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\dfrac{1{5(x-1)} - \\dfrac{x}{5(x^2+4)}}",
+    "extracted_final_answers": [
+      "\\dfrac{1{5(x-1)} - \\dfrac{x}{5(x^2+4)}}"
+    ],
+    "exact_answer": "\\dfrac{x}{(x-1)(x^2+4)} \\equiv \\dfrac{\\dfrac{1}{5}}{x-1}+\\dfrac{-\\dfrac{x}{5}+\\dfrac{4}{5}}{x^2+4}=\\dfrac{1}{5(x-1)}-\\dfrac{x-4}{5(x^2+4)}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 135,
+    "language": "French",
+    "chapter_number": "7",
+    "example_number": "1348",
+    "question": "$\\dfrac{1}{2x+1}+\\dfrac{1}{(2x+1)^2}+\\dfrac{1}{(2x+1)^3}+ \\ldots$ est une série géométrique infinie.\n\\item Si $x=1$, alors déterminer la raison commune de la série.",
+    "generated_answer": "1/3\n<final>1/3</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1/3",
+    "extracted_final_answers": [
+      "1/3"
+    ],
+    "exact_answer": "$\\dfrac{1}{3}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 136,
+    "language": "French",
+    "chapter_number": "8",
+    "example_number": "1353",
+    "question": "Voici la traduction professionnelle de la question en français :\n\nLes mesures des trois angles d'un triangle sont dans le rapport $3:4:5$. Trouver les mesures circulaires des angles.",
+    "generated_answer": "1er angle : $54^\\circ$\n2ème angle : $72^\\circ$\n3ème angle : $90^\\circ$\n<final>54, 72 et 90</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "54, 72 et 90",
+    "extracted_final_answers": [
+      "54, 72 et 90"
+    ],
+    "exact_answer": "$\\dfrac{\\pi}{4}, \\dfrac{\\pi}{3}$ et $\\dfrac{5\\pi}{12}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 137,
+    "language": "French",
+    "chapter_number": "8",
+    "example_number": "1356",
+    "question": "Trouver la mesure en radians de l'angle sous-tendu par un arc de longueur $11$ cm au centre d'un cercle de rayon $7$ cm.",
+    "generated_answer": "12 radians <final>12</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "12",
+    "extracted_final_answers": [
+      "12"
+    ],
+    "exact_answer": "1,57 radian",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 138,
+    "language": "French",
+    "chapter_number": "8",
+    "example_number": "1363",
+    "question": "Si $7\\text{sin}^2 \\theta+ 3\\text{cos}^2 \\theta= 4$, démontrez que $\\text{tan} \\theta= \\pm \\dfrac{1}{\\sqrt{3}}$.",
+    "generated_answer": "1. $\\text{tan} \\theta = \\pm \\dfrac{1}{\\sqrt{3}}$ <final>\\boxed{\\pm \\dfrac{1}{\\sqrt{3}}}</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\pm \\dfrac{1{√(3)}}",
+    "extracted_final_answers": [
+      "\\pm \\dfrac{1{√(3)}}"
+    ],
+    "exact_answer": "\\text{tan} \\theta=\\pm \\dfrac{1}{\\sqrt{3}}",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 139,
+    "language": "French",
+    "chapter_number": "8",
+    "example_number": "1368",
+    "question": "Trouvez les valeurs de $\\sin(10\\pi + \\theta)$.",
+    "generated_answer": "1. $\\sin(10\\pi + \\theta)$ can be simplified using the periodicity of sine function. Since $\\sin(\\theta)$ has a period of $2\\pi$, $\\sin(10\\pi + \\theta) = \\sin(\\theta)$.\n\n<final>\\(\\boxed{\\sin(\\theta)}\\)</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\(\\sin(\\theta)\\)",
+    "extracted_final_answers": [
+      "\\(\\sin(\\theta)\\)"
+    ],
+    "exact_answer": "sin θ",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 140,
+    "language": "French",
+    "chapter_number": "8",
+    "example_number": "1371",
+    "question": "Trouvez les valeurs de $\\text{cot} \\left(\\theta - \\dfrac{9\\pi}{2}\\right)$.",
+    "generated_answer": "1. Cotangent of $\\theta - \\dfrac{9\\pi}{2}$ can be evaluated by recognizing periodic properties of cotangent function.\n2. Since the cotangent function has a period of $\\pi$, and given that $\\dfrac{9\\pi}{2} = 4\\pi + \\frac{\\pi}{2}$, we know that $\\cot\\left(\\theta - \\frac{9\\pi}{2}\\right) = \\cot\\left(\\theta + \\frac{\\pi}{2}\\right)$.\n3. Using the cotangent co-function identity, which states that $\\cot(x+\\frac{\\pi}{2})=-\\tan(x)$, we deduce that $\\cot\\left(\\theta - \\frac{9\\pi}{2}\\right) = -\\tan(\\theta)$.\n\n<final>$-\\tan(\\theta)$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "-\\tan(\\theta)",
+    "extracted_final_answers": [
+      "-\\tan(\\theta)"
+    ],
+    "exact_answer": "-\\tan\\theta",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "symbolic",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 141,
+    "language": "French",
+    "chapter_number": "9",
+    "example_number": "1388",
+    "question": "Démontrer que, $ \\left (\\dfrac{x^b}{x^c} \\right )^{b+c} \\times  \\left (\\dfrac{x^c}{x^a} \\right )^{c+a} \\times \\left (\\dfrac{x^a}{x^b} \\right )^{a+b} = 1$.",
+    "generated_answer": "1. To demonstrate the equation $\\left(\\dfrac{x^b}{x^c}\\right)^{b+c} \\times \\left(\\dfrac{x^c}{x^a}\\right)^{c+a} \\times \\left(\\dfrac{x^a}{x^b}\\right)^{a+b} = 1$, we can apply the laws of exponents.\n2. Each term in the product simplifies to 1 because $\\left(\\dfrac{x^i}{x^j}\\right)^k$ simplifies to $x^{ik-jk} = x^0 = 1$.\n3. Therefore, multiplying all terms results in $1 \\times 1 \\times 1 = 1$.\n\n<final>1</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1",
+    "extracted_final_answers": [
+      "1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 142,
+    "language": "French",
+    "chapter_number": "9",
+    "example_number": "1400",
+    "question": "Absolument ! Voici la traduction de la question mathématique en français, en respectant scrupuleusement les consignes :\n\nSi $\\dfrac{\\text{log} a}{y-z}=\\dfrac{\\text{log} b}{z-x}=\\dfrac{\\text{log} c}{x-y}$, alors montrer que $a^xb^yc^z=1$.",
+    "generated_answer": "1- On utilise la propriété des logarithmes qui affirme que si $\\log_b a = \\log_b c$, alors $a=c$. En utilisant cette propriété, nous obtenons que :\n\n$\\frac{\\log a}{y-z}=\\frac{\\log b}{z-x}=\\frac{\\log c}{x-y}$ implique que $\\log a^{x-z} = \\log b^{y-x} = \\log c^{z-y}$. Ainsi, nous avons $a^{x-z}=b^{y-x}=c^{z-y}$.\n\n2- On utilise la propriété des puissances qui affirme que si $m=n$, alors $m^p=n^p$. En utilisant cette propriété, nous obtenons que :\n\n$a^{x-z} = b^{y-x}$ implique que $(a^{x-z})^{b^{y-x}} = 1$. De même, on peut montrer que $(b^{y-x})^{c^{z-y}}=1$ et $(c^{z-y})^{a^{x-z}}=1$.\n\n3- En combinant les résultats obtenus à l'étape 2, nous avons :\n\n$(a^{x-z})^{b^{y-x}} = (b^{y-x})^{c^{z-y}} = (c^{z-y})^{a^{x-z}} = 1$.\n\n4- Finalement, en utilisant la propriété des puissances à l'inverse, nous obtenons que :\n\n$a^xb^yc^z = \\left(a^xb^yc^z\\right)^1 = \\left((a^{x-z})^{b^{y-x}}\\right)\\cdot\\left((b^{y-x})^{c^{z-y}}\\right)\\cdot\\left((c^{z-y})^{a^{x-z}}\\right) = 1$.\n<final>$a^xb^yc^z=1$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "a^xb^yc^z=1",
+    "extracted_final_answers": [
+      "a^xb^yc^z=1"
+    ],
+    "exact_answer": "1",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  },
+  {
+    "problem_index": 143,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "1407",
+    "question": "Développez $ (1-3x)^5$",
+    "generated_answer": "1-15x + 90x^2 - 270x^3 + 405x^4 - 243x^5<final>1-15x+90x²-270x³+405x⁴-243x⁵</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1-15x+90x²-270x³+405x⁴-243x⁵",
+    "extracted_final_answers": [
+      "1-15x+90x²-270x³+405x⁴-243x⁵"
+    ],
+    "exact_answer": "1-15x+90x^2-270x^3+405x^4-243x^5",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "String Match"
+  },
+  {
+    "problem_index": 144,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "1409",
+    "question": "Déterminez les coefficients de $x^3$ et $x^6$ dans le développement de $ (1-\\dfrac{x^2}{4})^8$",
+    "generated_answer": "1. Les coefficients de $x^3$ et $x^6$ sont respectivement $\\binom{8}{2} \\cdot (-4)^2 = 1120$ et $\\binom{8}{6} \\cdot (-4)^6 = 11264$.\n<final>1120, 11264</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "1120, 11264",
+    "extracted_final_answers": [
+      "1120, 11264"
+    ],
+    "exact_answer": "le coefficient de x^3 est 0 et le coefficient de x^6 est -\\dfrac{7}{8}.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 145,
+    "language": "French",
+    "chapter_number": "10",
+    "example_number": "1413",
+    "question": "Développer $ \\left(x-\\dfrac{1}{x^2}\\right)^5$",
+    "generated_answer": "1. To develop $\\left(x-\\dfrac{1}{x^2}\\right)^5$, use the binomial theorem, which states $(a+b)^n = \\sum_{k=0}^{n} {n\\choose k} a^{n-k} b^k$.\n2. Set $a=x$ and $b=-\\dfrac{1}{x^2}$, then apply the binomial theorem to expand $\\left(x-\\dfrac{1}{x^2}\\right)^5$.\n3. Calculate each term using the formula ${n\\choose k} a^{n-k} b^k$ and sum them up.\n\nFinal Answer (in French):\n<final>[Sum of calculated terms]</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "[Sum of calculated terms]",
+    "extracted_final_answers": [
+      "[Sum of calculated terms]"
+    ],
+    "exact_answer": "x^5-5x^2+\\dfrac{10}{x}-\\dfrac{10}{x^4}+\\dfrac{5}{x^7}-\\dfrac{1}{x^{10}}",
+    "raw_answer_type": "Symbolic",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 146,
+    "language": "French",
+    "chapter_number": "12",
+    "example_number": "1423",
+    "question": "Voici la traduction professionnelle en français de la question mathématique :\n\nÀ l'aide des vecteurs, démontrez que le segment de droite joignant les milieux de deux côtés d'un triangle est parallèle à et de longueur égale à la moitié du troisième côté.",
+    "generated_answer": "1. Considérons un triangle ABC avec A, B et C comme sommets. Les milieux des côtés AB et AC soient M et N respectivement.\n2. Selon le théorème des milieux (ou le Théorème de la droite des milieux), le segment MN est parallèle à BC et a une longueur égale à la moitié de celle du côté BC.\n3. Par conséquent, MN est parallèle à et de longueur égale à la moitié du troisième côté.\n<final>MN est parallèle à et de longueur égale à la moitié du troisième côté.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "MN est parallèle à et de longueur égale à la moitié du troisième côté",
+    "extracted_final_answers": [
+      "MN est parallèle à et de longueur égale à la moitié du troisième côté"
+    ],
+    "exact_answer": "DE = \\dfrac{1}{2}BC",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 147,
+    "language": "French",
+    "chapter_number": "12",
+    "example_number": "1424",
+    "question": "Démontrer par des méthodes vectorielles que les diagonales d'un parallélogramme se coupent en leur milieu.",
+    "generated_answer": "1. Considérons un parallélogramme avec des diagonales AC et BD.\n2. Appliquons les propriétés des vecteurs pour chaque diagonal : $\\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{AD}$ et $\\overrightarrow{BD} = \\overrightarrow{BC} + \\overrightarrow{CD}$.\n3. En additionnant ces deux expressions, nous obtenons : $\\overrightarrow{AC} + \\overrightarrow{BD} = (\\overrightarrow{AB} + \\overrightarrow{AD}) + (\\overrightarrow{BC} + \\overrightarrow{CD})$.\n4. Simplifions l'expression pour obtenir une relation de colinéarité : $(\\overrightarrow{AB} + \\overrightarrow{BC}) + (\\overrightarrow{AD} + \\overrightarrow{DC}) = \\overrightarrow{0}$.\n5. Ainsi, les diagonales d'un parallélogramme se coupent en leur milieu. <final>Les diagonales d'un parallélogramme sont colinéaires.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Les diagonales d'un parallélogramme sont colinéaires",
+    "extracted_final_answers": [
+      "Les diagonales d'un parallélogramme sont colinéaires"
+    ],
+    "exact_answer": "Les diagonales d'un parallélogramme se coupent en leur milieu.",
+    "raw_answer_type": "Proof",
+    "canonical_answer_type": "proof",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 148,
+    "language": "French",
+    "chapter_number": "13",
+    "example_number": "1426",
+    "question": "Un parallélépipède rectangle a sa longueur, sa largeur et sa hauteur dans le rapport $4:3:2$. L'aire de sa surface totale est de $468$ mètres carrés. Déterminer la longueur de sa diagonale et son volume.",
+    "generated_answer": "1. La formule pour l'aire totale d'un parallélépipède rectangle est $2(lw + wh + hl)$. Étant donné que la longueur, la largeur et la hauteur sont dans le rapport $4:3:2$, nous pouvons dire que $l = 4x$, $w = 3x$ et $h = 2x$.\n2. Substituons ces valeurs dans la formule de l'aire :\n   \\[\n   2(lw + wh + hl) = 2((4x)(3x) + (3x)(2x) + (2x)(4x)) = 2(12x^2 + 6x^2 + 8x^2) = 52x^2\n   \\]\n3. Étant donné que l'aire totale est $468$ mètres carrés, nous avons :\n   \\[\n   52x^2 = 468 \\implies x^2 = \\frac{468}{52} = 9\n   \\]\n4. Cela implique que $x = 3$. Par conséquent, $l = 12$ m, $w = 9$ m et $h = 6$ m.\n5. La diagonale du parallélépipède rectangle peut être trouvée en utilisant la formule de Pythagore trois fois :\n   \\[\n   d = \\sqrt{l^2 + w^2 + h^2} = \\sqrt{12^2 + 9^2 + 6^2} = \\sqrt{144 + 81 + 36} = \\sqrt{261}\n   \\]\n6. Le volume du parallélépipède rectangle est :\n   \\[\n   V = lwh = 12 \\times 9 \\times 6 = 648 \\, \\text{m}^3\n   \\]\n7. Conclusion : La diagonale est $\\sqrt{261}$ et le volume est $648$ mètres cubes.\n\n<final>$\\boxed{\\text{Diagonale: }\\sqrt{261}\\text{ m, Volume: }648\\text{ m}^3}$</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "\\text{Diagonale: √(261)\\text{ m, Volume: }648\\text{ m}^3}",
+    "extracted_final_answers": [
+      "\\text{Diagonale: √(261)\\text{ m, Volume: }648\\text{ m}^3}"
+    ],
+    "exact_answer": "16,16 mètres, 648 mètres cubes",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "LLM as a Judge"
+  },
+  {
+    "problem_index": 149,
+    "language": "French",
+    "chapter_number": "14",
+    "example_number": "1444",
+    "question": "Selon les relevés météorologiques, il a plu 21 jours en juillet l'année dernière. Quelle est la probabilité qu'il pleuve le 4 juillet cette année ?",
+    "generated_answer": "1. Il n'existe pas de données pour prédire la météo avec certitude.\n2. Le problème ne fournit pas suffisamment d'informations pour déterminer une probabilité significative.\n\nFinal Answer (in French):\n<final>Il n'y a pas de données pour établir une probabilité.</final>",
+    "thinking_content": "",
+    "final_tag_output": "",
+    "extracted_final_answer": "Il n'y a pas de données pour établir une probabilité",
+    "extracted_final_answers": [
+      "Il n'y a pas de données pour établir une probabilité"
+    ],
+    "exact_answer": "$\\dfrac{21}{31}$",
+    "raw_answer_type": "Numerical",
+    "canonical_answer_type": "numerical",
+    "evaluation_method": "Numerical Match"
+  }
+]
