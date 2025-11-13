@@ -12,3 +12,20 @@ _**Abstract:** Mathematical reasoning remains one of the most challenging domain
 </p>
 
 Fig: Overview of MathMist data creation and evaluation pipeline. **(Left)** Data Sourcing and corpus creation uses Gemini OCR on textbooks, stores data to JSONL, and applies human verification. **(Center)** Synthetic data generation encompasses Multiple Choice Question (MCQ) generation, Cross-Lingual Translation, and Solution Perturbation. **(Right)** The evaluation process tests various LLMs under different prompt settings.
+
+### 🔖 Tags / Keywords
+
+🧮 **Mathematical Question Answering**  
+📐 **Mathematical Reasoning**  
+🌀 **Perturbed Reasoning**  
+💬 **Code-Switched Reasoning**  
+❓ **Multiple Choice Question**  
+🌐 **Cross-Lingual Reasoning**  
+📚 **National Curriculum and Textbook Board (NCTB) Math Dataset**  
+🚀 **Zero-Shot**  
+🧠 **Chain of Thought (CoT)**  
+🌍 **Multilingual**  
+🔤 **Indo-European Languages**  
+❄️ **Uralic Languages**  
+🧩 **Turkic Languages**  
+📝 **Indo-Aryan Languages**
