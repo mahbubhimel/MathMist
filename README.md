@@ -1,7 +1,7 @@
 # MathMist: A Parallel Multilingual Benchmark Dataset for Mathematical Problem Solving and Reasoning
 
-<!-- [![Paper](https://img.shields.io/badge/Paper-Arxiv-red)]()
-[![MathMist Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-%20Dataset-blue)](https://huggingface.co/datasets/mahbubhimel/MathMist) -->
+[![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2510.14305)
+[![MathMist Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-%20Dataset-blue)](https://huggingface.co/datasets/mahbubhimel/MathMist)
 
 > 🌍 **TL;DR**: MathMist introduces a 21K-sample multilingual benchmark spanning seven languages that enables code-switch CoT and perturbation reasoning analysis in mathematical word problems, revealing how model scale, alignment, and multilingual pretraining jointly shape reasoning performance.
 
