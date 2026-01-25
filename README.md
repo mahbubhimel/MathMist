@@ -23,7 +23,7 @@ Fig: Overview of MathMist data creation and evaluation pipeline. **(Left)** Data
 }
 </pre>
 
-### 🔖 Tags / Keywords
+<!-- ### 🔖 Tags / Keywords
 
 🧮 **Mathematical Question Answering**  
 📐 **Mathematical Reasoning**  
@@ -38,4 +38,4 @@ Fig: Overview of MathMist data creation and evaluation pipeline. **(Left)** Data
 🔤 **Indo-European Languages**  
 ❄️ **Uralic Languages**  
 🧩 **Turkic Languages**  
-📝 **Indo-Aryan Languages**
+📝 **Indo-Aryan Languages** -->
