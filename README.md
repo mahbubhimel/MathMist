@@ -1,5 +1,7 @@
 # MathMist: A Parallel Multilingual Benchmark Dataset for Mathematical Problem Solving and Reasoning
 
+## Accepted for Publication in Findings of EACL 2026 🎉
+
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2510.14305)
 [![MathMist Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-%20Dataset-blue)](https://huggingface.co/datasets/mahbubhimel/MathMist)
 
